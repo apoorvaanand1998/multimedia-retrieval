@@ -2,4 +2,4 @@ Setup Python, [Poetry](https://python-poetry.org/) and check out it's [Basic Usa
 
 1. `cd` to `mr-tool`
 2. Run `poetry shell` and `cd ..`
-3. Run `python mr-tool/src/__init.py__ <filename>` (eg. `python mr-tool/src/__init.py__ "Tree/D00096.obj"`)
+3. Run `python mr-tool/src/__init__.py <filename>` (eg. `python mr-tool/src/__init__.py "Tree/D00096.obj"`)
