@@ -1,5 +1,12 @@
-Setup Python, [Poetry](https://python-poetry.org/) and check out it's [Basic Usage](https://python-poetry.org/docs/basic-usage/). 
+Setup Python, [Poetry](https://python-poetry.org/) and check out it's [Basic Usage](https://python-poetry.org/docs/basic-usage/).
 
-1. `cd` to `mr-tool`
+  To clone the project run `c`
+
+To install dependencies 
+1. `cd multimedia-retrieval/mr-tool`
+2. `poetry install --no-root`
+
+To run 
+1. `cd mr-tool`
 2. Run `poetry shell` and `cd ..`
 3. Run `python mr-tool/src/__init__.py <filename>` (eg. `python mr-tool/src/__init__.py "Tree/D00096.obj"`)
