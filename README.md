@@ -1,6 +1,6 @@
 Setup Python, [Poetry](https://python-poetry.org/) and check out it's [Basic Usage](https://python-poetry.org/docs/basic-usage/).
 
-  To clone the project run `c`
+To clone the project run `git clone --recurse-submodules git@github.com:apoorvaanand1998/multimedia-retrieval.git`
 
 To install dependencies 
 1. `cd multimedia-retrieval/mr-tool`
