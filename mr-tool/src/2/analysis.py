@@ -4,6 +4,7 @@ import numpy as np
 import csv
 from typing import TypeVar
 
+## 2.1
 def output_csv(shape_path: str, csv_path: str, ez_mode: bool=True) -> int:
     objs = concat(list_objs(shape_path, ez_mode))
 
@@ -63,4 +64,4 @@ def concat(xss: list[list[T]]) -> list[T]:
     ## aka flatten
     return [x for xs in xss for x in xs]
 
-print(output_csv("../ShapeDatabase_INFOMR", "../Output/stats.csv"))
+output_csv("../ShapeDatabase_INFOMR", "../Output/stats.csv", False)
