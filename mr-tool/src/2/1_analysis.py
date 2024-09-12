@@ -5,8 +5,8 @@ import csv
 from typing import TypeVar
 
 def output_csv(shape_path: str, csv_path: str, ez_mode: bool=True) -> int:
-    objs = concat(list_objs(shape_path, ez_mode=True))
-    
+    objs = concat(list_objs(shape_path, ez_mode))
+
     with open(csv_path, mode='w') as stat_file:
         stat_writer = csv.writer(stat_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
@@ -62,6 +62,5 @@ T = TypeVar('T')
 def concat(xss: list[list[T]]) -> list[T]: 
     ## aka flatten
     return [x for xs in xss for x in xs]
-
 
 print(output_csv("../ShapeDatabase_INFOMR", "../Output/stats.csv"))
