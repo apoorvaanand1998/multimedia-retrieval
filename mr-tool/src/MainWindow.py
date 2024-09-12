@@ -82,8 +82,11 @@ class MainWindow(QMainWindow):
         # List of all classes
         folders = os.listdir(constants.DB_RELATIVE_PATH)
         ui_class_list = QListWidget()
-        ui_class_list.addItems(folders)
 
+        for folder in folders:
+            if os.path.isdir(os.path.join(constants.DB_RELATIVE_PATH, folder)):
+                ui_class_list.addItem(folder)
+        
         first_class = ui_class_list.item(0)
         ui_class_list.setCurrentItem(first_class)
 
