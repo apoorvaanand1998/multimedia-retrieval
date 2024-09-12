@@ -3,13 +3,13 @@ name = "mr-tool"
 version = "0.1.0"
 description = ""
 authors = ["Apoorva Anand <apoorvaanand.work@gmail.com>",
-           "Nick", "Vlad"] # fill in emails
+           "Nick", "Vlad <vlad.cpuscaru@gmail.com>"] # fill in emails
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 vedo = "^2024.5.2"
-pathlib = "^1.0.1"
+pyqt5 = "^5.15.11"
 
 
 [build-system]

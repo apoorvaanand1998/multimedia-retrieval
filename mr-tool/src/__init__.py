@@ -1,9 +1,15 @@
-from vedo import load, show
-from sys import argv
+import sys
+import MainWindow
+from PyQt5.QtWidgets import QApplication
+
 
 def main():
-    objFile = argv[1]
-    mesh    = load("ShapeDatabase_INFOMR/" + objFile)
-    show(mesh)
+    app = QApplication(sys.argv)
+
+    window = MainWindow.MainWindow()
+    window.show()
+
+    app.exec()
+
 
 main()
