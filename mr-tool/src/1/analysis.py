@@ -1,5 +1,6 @@
 from pathlib import PurePath
-from vedo import load, Mesh
+from vedo import load, Mesh, show
+import numpy as np
 
 def shape_class(file_path: str) -> str:
     return PurePath(file_path).parent.name
@@ -18,4 +19,12 @@ def n_o_triangles_quads(file_path: str) -> tuple[int, int]:
     return (varr[varr == 3].size, varr[varr == 4].size) 
     ## weird sytax for filtering numpy arrays
 
-print(n_o_triangles_quads("../ShapeDatabase_INFOMR/Bed/D00031.obj"))
+def bounding_box(file_path: str, show_box: bool=False) -> np.ndarray:
+    mesh = load(file_path)
+    b    = mesh.box()
+    if show_box: 
+        show(mesh, b)
+        print(b)
+    return b.bounds() ## ((min x, max x), (min y, max y), (min z), (max z))
+
+print(bounding_box("../ShapeDatabase_INFOMR/Bed/D00031.obj", True))
