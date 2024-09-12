@@ -1,5 +1,6 @@
 import os
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter, load
 from util import constants
@@ -48,8 +49,41 @@ class MainWindow(QMainWindow):
         layout_main.addLayout(self.ui_layout_vedo)
 
 
+        # Options
+        self.layout_options = QVBoxLayout()
+        self.layout_options.setAlignment(Qt.AlignTop)
+
+        w_options = self.ui_create_options()
+        for option in w_options:
+            self.layout_options.addWidget(option)
+
+        layout_main.addLayout(self.layout_options)
 
 
+    def show_bbox_clicked(self, s):
+        if self._selected_object != "":
+            # Reset drawing
+            self.ui_vedo_plotter.clear()
+
+            mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
+            to_show = [mesh]
+
+            if s == Qt.Checked:
+                to_show.append(mesh.box())
+
+            self.ui_vedo_plotter.show(to_show)
+
+    def show_wireframe_clicked(self, s):
+        print("wireframe")
+
+    def ui_create_options(self):
+        w_show_bbox = QCheckBox("Show Bounding Box")
+        w_show_bbox.stateChanged.connect(self.show_bbox_clicked)
+
+        w_show_wireframe = QCheckBox("Show Wireframe")
+        w_show_wireframe.stateChanged.connect(self.show_wireframe_clicked)
+
+        return [ w_show_bbox, w_show_wireframe ]
 
     def ui_object_changed(self, list_item):
         # Reset drawing
