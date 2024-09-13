@@ -1,5 +1,6 @@
 import os
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter, load
 from util import constants
@@ -8,10 +9,13 @@ from Mesh import Mesh
 
 
 class MainWindow(QMainWindow):
-    _selected_class = ""  # relative path to the selected object in the database
-    _selected_object = ""  # relative path to the selected object in the database
+    _selected_class = None  # relative path to the selected object in the database
+    _selected_object = None  # relative path to the selected object in the database
 
     _active_mesh: Mesh = None
+    _active_mesh_bbox: bool = False
+    _active_mesh_wireframe: bool = False
+    _active_mesh_shaded_wireframe: bool = False
 
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -48,8 +52,75 @@ class MainWindow(QMainWindow):
         layout_main.addLayout(self.ui_layout_vedo)
 
 
+        # Options
+        self.layout_options = QVBoxLayout()
+        self.layout_options.setAlignment(Qt.AlignTop)
+
+        w_options = self.ui_create_options()
+        for option in w_options:
+            self.layout_options.addWidget(option)
+
+        layout_main.addLayout(self.layout_options)
 
 
+    def show_bbox_clicked(self, s):
+        if s == Qt.Checked:
+            self._active_mesh_bbox = True
+        else:
+            self._active_mesh_bbox = False
+
+        self.show_mesh()
+
+
+    def show_wireframe_clicked(self, s):
+        if s == Qt.Checked:
+            self._active_mesh_wireframe = True
+        else:
+            self._active_mesh_wireframe = False
+
+        self.show_mesh()
+
+    def show_mesh(self):
+        if self._selected_object is not None:
+            # Reset drawing
+            self.ui_vedo_plotter.clear()
+
+            mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
+            to_show = [mesh]
+
+            if self._active_mesh_bbox:
+                to_show.append(mesh.box())
+
+            if self._active_mesh_wireframe:
+                mesh.lighting("plastic").wireframe(True)
+
+            if self._active_mesh_shaded_wireframe:
+                wireframe = mesh.copy()
+                wireframe.lighting("off").wireframe(True)
+                wireframe.linecolor((0, 0, 255))
+                to_show.append(wireframe)
+
+            self.ui_vedo_plotter.show(to_show)
+
+    def show_shaded_wireframe_clicked(self, s):
+        if s == Qt.Checked:
+            self._active_mesh_shaded_wireframe = True
+        else:
+            self._active_mesh_shaded_wireframe = False
+
+        self.show_mesh()
+
+    def ui_create_options(self):
+        w_show_bbox = QCheckBox("Show Bounding Box")
+        w_show_bbox.stateChanged.connect(self.show_bbox_clicked)
+
+        w_show_wireframe = QCheckBox("Show Wireframe")
+        w_show_wireframe.stateChanged.connect(self.show_wireframe_clicked)
+
+        w_show_shaded_wireframe = QCheckBox("Show Wireframe + Shaded")
+        w_show_shaded_wireframe.stateChanged.connect(self.show_shaded_wireframe_clicked)
+
+        return [ w_show_bbox, w_show_wireframe, w_show_shaded_wireframe ]
 
     def ui_object_changed(self, list_item):
         # Reset drawing
@@ -60,6 +131,7 @@ class MainWindow(QMainWindow):
         # now just display a text
         if list_item is None:
             self.ui_vedo_plotter.show([], constants.UI_NO_ITEM_SELECTED_PLACEHOLDER, at=0)
+            _selected_object = None
             return
 
         self._selected_object = list_item.text()
@@ -67,7 +139,7 @@ class MainWindow(QMainWindow):
         mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
 
         self._active_mesh = Mesh(mesh)
-        self.ui_vedo_plotter.show(mesh)
+        self.show_mesh()
 
         for widget in self.ui_mesh_metadata:
             self.ui_layout_vedo.removeWidget(widget)
