@@ -1,12 +1,17 @@
 import os
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter, load
 from util import constants
 
+from Mesh import Mesh
+
+
 class MainWindow(QMainWindow):
     _selected_class = ""  # relative path to the selected object in the database
     _selected_object = ""  # relative path to the selected object in the database
+
+    _active_mesh: Mesh = None
 
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -34,10 +39,17 @@ class MainWindow(QMainWindow):
         # Main visualization window using vedo
         self.ui_vedo_widget, self.ui_vedo_plotter = self.ui_create_vedo_widget()
 
-        layout_vedo = QVBoxLayout()
-        layout_vedo.addWidget(self.ui_vedo_widget)
+        self.ui_layout_vedo = QVBoxLayout()
+        self.ui_layout_vedo.addWidget(self.ui_vedo_widget)
 
-        layout_main.addLayout(layout_vedo)
+        # Selected Mesh metadata
+        self.ui_mesh_metadata = self.ui_create_mesh_metadata()
+
+        layout_main.addLayout(self.ui_layout_vedo)
+
+
+
+
 
     def ui_object_changed(self, list_item):
         # Reset drawing
@@ -53,7 +65,17 @@ class MainWindow(QMainWindow):
         self._selected_object = list_item.text()
 
         mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
+
+        self._active_mesh = Mesh(mesh)
         self.ui_vedo_plotter.show(mesh)
+
+        for widget in self.ui_mesh_metadata:
+            self.ui_layout_vedo.removeWidget(widget)
+
+        self.ui_mesh_metadata = self.ui_create_mesh_metadata()
+
+        for widget in self.ui_mesh_metadata:
+            self.ui_layout_vedo.addWidget(widget)
 
     def ui_class_changed(self, list_item):
         self._selected_class = list_item.text()
@@ -62,6 +84,12 @@ class MainWindow(QMainWindow):
         self.ui_object_list.clear()
         self.ui_object_list.addItems(files)
 
+        for widget in self.ui_mesh_metadata:
+            self.ui_layout_vedo.removeWidget(widget)
+            widget.setParent(None)
+            widget.deleteLater()
+
+        self.ui_mesh_metadata = []
 
     def ui_create_vedo_widget(self):
         # Create the VTK render window interactor (QVTKRenderWindowInteractor)
@@ -78,6 +106,17 @@ class MainWindow(QMainWindow):
 
         return vtkWidget, plotter
 
+    def ui_create_mesh_metadata(self):
+        if self._active_mesh is None:
+            return []
+
+        return [
+            QLabel("Vertices: " + str(self._active_mesh.get_vertices())),
+            QLabel("Cells: " + str(self._active_mesh.get_cells())),
+            QLabel("Triangles: " + str(self._active_mesh.get_no_triangles())),
+            QLabel("Quads: " + str(self._active_mesh.get_no_quads()))
+        ]
+
     def ui_create_db_lists(self):
         # List of all classes
         folders = os.listdir(constants.DB_RELATIVE_PATH)
@@ -86,7 +125,7 @@ class MainWindow(QMainWindow):
         for folder in folders:
             if os.path.isdir(os.path.join(constants.DB_RELATIVE_PATH, folder)):
                 ui_class_list.addItem(folder)
-        
+
         first_class = ui_class_list.item(0)
         ui_class_list.setCurrentItem(first_class)
 
