@@ -97,7 +97,7 @@ class MainWindow(QMainWindow):
             if self._active_mesh_shaded_wireframe:
                 wireframe = mesh.copy()
                 wireframe.lighting("off").wireframe(True)
-                wireframe.linecolor((0, 0, 255))
+                wireframe.color((0, 0, 255))
                 to_show.append(wireframe)
 
             self.ui_vedo_plotter.show(to_show)
