@@ -17,6 +17,17 @@ class MainWindow(QMainWindow):
     _active_mesh_wireframe: bool = False
     _active_mesh_shaded_wireframe: bool = False
 
+    _ui_class_list: QListWidget = None
+    _ui_object_list: QListWidget = None
+
+    _ui_vedo_widget: QVTKRenderWindowInteractor = None
+    _ui_vedo_plotter: Plotter = None
+
+    _ui_mesh_metadata: list[QLabel] = []
+
+    _ui_layout_vedo: QVBoxLayout = None
+    _ui_layout_options: QVBoxLayout = None
+
     def __init__(self):
         super(MainWindow, self).__init__()
 
@@ -31,36 +42,36 @@ class MainWindow(QMainWindow):
         self.central_widget.setLayout(layout_main)
 
         # Database display widgets
-        self.ui_class_list, self.ui_object_list = self.ui_create_db_lists()
+        self._ui_class_list, self._ui_object_list = self.ui_create_db_lists()
         self.ui_create_db_events()
 
         layout_database = QVBoxLayout()
-        layout_database.addWidget(self.ui_class_list)
-        layout_database.addWidget(self.ui_object_list)
+        layout_database.addWidget(self._ui_class_list)
+        layout_database.addWidget(self._ui_object_list)
 
         layout_main.addLayout(layout_database)
 
         # Main visualization window using vedo
-        self.ui_vedo_widget, self.ui_vedo_plotter = self.ui_create_vedo_widget()
+        self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
 
-        self.ui_layout_vedo = QVBoxLayout()
-        self.ui_layout_vedo.addWidget(self.ui_vedo_widget)
+        self._ui_layout_vedo = QVBoxLayout()
+        self._ui_layout_vedo.addWidget(self._ui_vedo_widget)
 
         # Selected Mesh metadata
-        self.ui_mesh_metadata = self.ui_create_mesh_metadata()
+        self._ui_mesh_metadata = self.ui_create_mesh_metadata()
 
-        layout_main.addLayout(self.ui_layout_vedo)
+        layout_main.addLayout(self._ui_layout_vedo)
 
 
         # Options
-        self.layout_options = QVBoxLayout()
-        self.layout_options.setAlignment(Qt.AlignTop)
+        self._ui_layout_options = QVBoxLayout()
+        self._ui_layout_options.setAlignment(Qt.AlignTop)
 
         w_options = self.ui_create_options()
         for option in w_options:
-            self.layout_options.addWidget(option)
+            self._ui_layout_options.addWidget(option)
 
-        layout_main.addLayout(self.layout_options)
+        layout_main.addLayout(self._ui_layout_options)
 
 
     def show_bbox_clicked(self, s):
@@ -83,7 +94,7 @@ class MainWindow(QMainWindow):
     def show_mesh(self):
         if self._selected_object is not None:
             # Reset drawing
-            self.ui_vedo_plotter.clear()
+            self._ui_vedo_plotter.clear()
 
             mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
             to_show = [mesh]
@@ -100,7 +111,7 @@ class MainWindow(QMainWindow):
                 wireframe.color((0, 0, 255))
                 to_show.append(wireframe)
 
-            self.ui_vedo_plotter.show(to_show)
+            self._ui_vedo_plotter.show(to_show)
 
     def show_shaded_wireframe_clicked(self, s):
         if s == Qt.Checked:
@@ -124,13 +135,13 @@ class MainWindow(QMainWindow):
 
     def ui_object_changed(self, list_item):
         # Reset drawing
-        self.ui_vedo_plotter.clear()
+        self._ui_vedo_plotter.clear()
 
         # If class has changed and there was
         # a selected item, then there's no selected item
         # now just display a text
         if list_item is None:
-            self.ui_vedo_plotter.show([], constants.UI_NO_ITEM_SELECTED_PLACEHOLDER, at=0)
+            self._ui_vedo_plotter.show([], constants.UI_NO_ITEM_SELECTED_PLACEHOLDER, at=0)
             _selected_object = None
             return
 
@@ -141,27 +152,27 @@ class MainWindow(QMainWindow):
         self._active_mesh = Mesh(mesh)
         self.show_mesh()
 
-        for widget in self.ui_mesh_metadata:
-            self.ui_layout_vedo.removeWidget(widget)
+        for widget in self._ui_mesh_metadata:
+            self._ui_layout_vedo.removeWidget(widget)
 
-        self.ui_mesh_metadata = self.ui_create_mesh_metadata()
+        self._ui_mesh_metadata = self.ui_create_mesh_metadata()
 
-        for widget in self.ui_mesh_metadata:
-            self.ui_layout_vedo.addWidget(widget)
+        for widget in self._ui_mesh_metadata:
+            self._ui_layout_vedo.addWidget(widget)
 
     def ui_class_changed(self, list_item):
         self._selected_class = list_item.text()
 
         files = os.listdir(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class))
-        self.ui_object_list.clear()
-        self.ui_object_list.addItems(files)
+        self._ui_object_list.clear()
+        self._ui_object_list.addItems(files)
 
-        for widget in self.ui_mesh_metadata:
-            self.ui_layout_vedo.removeWidget(widget)
+        for widget in self._ui_mesh_metadata:
+            self._ui_layout_vedo.removeWidget(widget)
             widget.setParent(None)
             widget.deleteLater()
 
-        self.ui_mesh_metadata = []
+        self._ui_mesh_metadata = []
 
     def ui_create_vedo_widget(self):
         # Create the VTK render window interactor (QVTKRenderWindowInteractor)
@@ -212,7 +223,7 @@ class MainWindow(QMainWindow):
 
     def ui_create_db_events(self):
         # Set on click events for class elements
-        self.ui_class_list.currentItemChanged.connect(self.ui_class_changed)
+        self._ui_class_list.currentItemChanged.connect(self.ui_class_changed)
 
         # Set on click events for object elements
-        self.ui_object_list.currentItemChanged.connect(self.ui_object_changed)
+        self._ui_object_list.currentItemChanged.connect(self.ui_object_changed)
