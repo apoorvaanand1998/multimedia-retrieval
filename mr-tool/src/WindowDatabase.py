@@ -1,6 +1,7 @@
 import os
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox, QPushButton, \
+    QTabWidget
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter, load
 from util import constants
@@ -8,7 +9,7 @@ from util import constants
 from Mesh import Mesh
 
 
-class MainWindow(QMainWindow):
+class WindowDatabase(QMainWindow):
     _selected_class = None  # relative path to the selected object in the database
     _selected_object = None  # relative path to the selected object in the database
 
@@ -28,8 +29,10 @@ class MainWindow(QMainWindow):
     _ui_layout_vedo: QVBoxLayout = None
     _ui_layout_options: QVBoxLayout = None
 
+    _ui_tab_menu: QTabWidget = None
+
     def __init__(self):
-        super(MainWindow, self).__init__()
+        super(WindowDatabase, self).__init__()
 
         self.setWindowTitle(constants.UI_MAIN_APP_TITLE)
 
@@ -62,7 +65,6 @@ class MainWindow(QMainWindow):
 
         layout_main.addLayout(self._ui_layout_vedo)
 
-
         # Options
         self._ui_layout_options = QVBoxLayout()
         self._ui_layout_options.setAlignment(Qt.AlignTop)
@@ -73,7 +75,6 @@ class MainWindow(QMainWindow):
 
         layout_main.addLayout(self._ui_layout_options)
 
-
     def show_bbox_clicked(self, s):
         if s == Qt.Checked:
             self._active_mesh_bbox = True
@@ -81,7 +82,6 @@ class MainWindow(QMainWindow):
             self._active_mesh_bbox = False
 
         self.show_mesh()
-
 
     def show_wireframe_clicked(self, s):
         if s == Qt.Checked:
@@ -131,7 +131,7 @@ class MainWindow(QMainWindow):
         w_show_shaded_wireframe = QCheckBox("Show Wireframe + Shaded")
         w_show_shaded_wireframe.stateChanged.connect(self.show_shaded_wireframe_clicked)
 
-        return [ w_show_bbox, w_show_wireframe, w_show_shaded_wireframe ]
+        return [w_show_bbox, w_show_wireframe, w_show_shaded_wireframe]
 
     def ui_object_changed(self, list_item):
         # Reset drawing

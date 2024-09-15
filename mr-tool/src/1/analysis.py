@@ -39,4 +39,13 @@ def bounding_box(file_path: str, show_box: bool=False) -> np.ndarray:
         print(b)
     return b.bounds() ## ((min x, max x), (min y, max y), (min z, max z))
 
+<<<<<<< Updated upstream:mr-tool/src/1/analysis.py
 print(output_csv("../ShapeDatabase_INFOMR", "", True))
+=======
+T = TypeVar('T')
+def concat(xss: list[list[T]]) -> list[T]: 
+    ## aka flatten
+    return [x for xs in xss for x in xs]
+
+output_csv("../ShapeDatabase_INFOMR", "../Output_Temp/stats.csv", False)
+>>>>>>> Stashed changes:mr-tool/src/2/analysis.py
