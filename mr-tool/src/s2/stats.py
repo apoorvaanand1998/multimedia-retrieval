@@ -1,6 +1,6 @@
 import csv 
 import math
-## 2.2
+## s2.s2
 
 def min_max(csv_path: str) -> tuple[tuple[int, int], tuple[int, int]]:
     """((min vc, max vc), (min fc, max fc))"""
