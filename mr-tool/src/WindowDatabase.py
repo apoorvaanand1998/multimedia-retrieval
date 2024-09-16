@@ -1,10 +1,9 @@
 import os
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox, QPushButton, \
-    QTabWidget
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QListWidget, QLabel, QCheckBox, QTabWidget
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter, load
-from util import constants
+import constants
 
 from Mesh import Mesh
 
@@ -147,9 +146,7 @@ class WindowDatabase(QMainWindow):
 
         self._selected_object = list_item.text()
 
-        mesh = load(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
-
-        self._active_mesh = Mesh(mesh)
+        self._active_mesh = Mesh(os.path.join(constants.DB_RELATIVE_PATH, self._selected_class, self._selected_object))
         self.show_mesh()
 
         for widget in self._ui_mesh_metadata:

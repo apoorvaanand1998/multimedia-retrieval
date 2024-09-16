@@ -24,7 +24,6 @@ def output_csv(shape_path: str, csv_path: str, ez_mode: bool = True) -> int:
 
     return len(objs)
 
-
 def list_objs(shape_path: str, ez_mode: bool = True) -> list[list[Path]]:
     p = Path(shape_path)
     dirs = [d for d in p.iterdir() if d.is_dir()]
