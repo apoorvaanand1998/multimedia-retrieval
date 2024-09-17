@@ -76,7 +76,7 @@ class WidgetStats(QWidget):
         # TODO: Search for some proper proof of this to add to the report. I just did ChatGPT
         no_bins = math.sqrt(len(self.meshes_stats))
 
-        return WidgetHistogram(list_cells, int(no_bins))
+        return WidgetHistogram(list_cells, int(no_bins), min_no_faces, max_no_faces)
 
     def create_histogram_vertices(self):
         # Analyzing the range of data
@@ -97,4 +97,4 @@ class WidgetStats(QWidget):
         # TODO: Search for some proper proof of this to add to the report. I just did ChatGPT
         no_bins = math.sqrt(len(self.meshes_stats))
 
-        return WidgetHistogram(list_cells, int(no_bins))
+        return WidgetHistogram(list_cells, int(no_bins), min_no_vertices, max_no_vertices)
