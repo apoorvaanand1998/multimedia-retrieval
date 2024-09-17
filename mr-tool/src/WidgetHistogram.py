@@ -10,23 +10,23 @@ class WidgetHistogram(QWidget):
 
     _vedo_plotter: Plotter = None
 
-    def __init__(self, data: list[int], bins: int):
+    def __init__(self, data: list[int], no_bins: int):
         super().__init__()
         self._ui_layout_main = QVBoxLayout()
 
         self._ui_vedo_widget, self._vedo_plotter = self.ui_create_vedo_widget()
-        self._vedo_plotter.show(self.create_histogram(data, bins))
+        self._vedo_plotter.show(self.create_histogram(data, no_bins))
 
         self._ui_layout_main.addWidget(self._ui_vedo_widget)
 
         self.setLayout(self._ui_layout_main)
 
-    def create_histogram(self, data, bins: int):
+    def create_histogram(self, data: list[int], no_bins: int):
         fig = histogram(
             data,
-            bins=bins,
+            bins=no_bins,
             xtitle="Classes",
-            ytitle="Count"
+            ytitle="Count",
         )
 
         return fig

@@ -46,10 +46,19 @@ class Mesh:
 
 # Just a wrapper class
 class MeshStats:
+
     def __init__(self, n: str, c: str, v: int, f: int, t: int, q: int):
         self._name = n
         self._class = c
-        self._vertices = v
-        self._cells = f
+        self._no_vertices = v
+        self._no_cells = f
         self._no_triangles = t
         self._no_quads = q
+
+    @property
+    def no_cells(self):
+        return self._no_cells
+
+    @property
+    def no_vertices(self):
+        return self._no_vertices
