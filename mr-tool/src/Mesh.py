@@ -10,6 +10,10 @@ class Mesh:
     def __init__(self, load_path: str):
         self._vedo_mesh = vedo.load(load_path)
 
+        if self._vedo_mesh is None:
+            print("Could not load " + load_path)
+            exit(-1)
+
         path_tokens = load_path.split('/')
         self._class = path_tokens[len(path_tokens) - 2]
         self._name = path_tokens[-1]
