@@ -1,6 +1,9 @@
 import os.path
+import time
+
 import constants
 import utils
+
 from Mesh import Mesh
 
 from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QPushButton, QProgressBar, QListWidget, QApplication
@@ -58,4 +61,21 @@ class WindowDatabaseStats(QWidget):
 
                 QApplication.processEvents()
 
+            if (obj_count > 3):
+                break
+
         self._ui_log_box.addItem("\nComputed statistics for " + str(obj_count) + " objects.")
+
+        stats_file_path = utils.save_output_stats(constants.DB_ORIGINAL_NAME, obj_stats)
+
+        self._ui_log_box.addItem("\nStatistics saved at " + stats_file_path + "")
+        QApplication.processEvents()
+
+        for i in range(0, 3):
+            self._ui_log_box.addItem("\nReloading in " + str(3 - i) + "s")
+            self._ui_log_box.scrollToBottom()
+            QApplication.processEvents()
+
+            time.sleep(1)
+
+

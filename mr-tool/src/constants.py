@@ -1,8 +1,9 @@
 import os
 
-DB_RELATIVE_PATH = os.path.join("..", "..", "ShapeDatabase_INFOMR")
+DB_ORIGINAL_NAME = "ShapeDatabase_INFOMR"
+DB_RELATIVE_PATH = os.path.join("..", "..", DB_ORIGINAL_NAME)
 
-OUTPUT_DIR_RELATIVE_PATH = os.path.join("", "..", "Output")
+OUTPUT_DIR_RELATIVE_PATH = os.path.join("..", "..", "Output")
 STATS_FILE_NAME = "stats.csv"
 STATS_FILE_HEADERS = "Name,Class,Vertices,Faces(Cells),Triangles,Quads,BBox"
 
