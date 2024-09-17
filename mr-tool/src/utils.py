@@ -2,6 +2,7 @@ import os
 import csv
 
 from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS
+from Mesh import MeshStats
 
 
 ###
@@ -39,3 +40,24 @@ def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
             stat_writer.writerow(stat_row)
 
     return str(stats_file_path)
+
+
+def get_output_stats(db_name: str) -> list[MeshStats]:
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name)):
+        return []
+
+    stats_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name,
+                                   STATS_FILE_NAME)
+
+    statistics: list[MeshStats] = []
+    with open(stats_file_path) as stat_file:
+        stat_reader = csv.reader(stat_file, delimiter=',', quotechar='"')
+
+        for idx, row in enumerate(stat_reader):
+            if idx == 0:
+                continue # Skip headers
+
+            mesh_stats: MeshStats = MeshStats(row[0], row[1], int(row[2]), int(row[3]), int(row[4]), int(row[5]))
+            statistics.append(mesh_stats)
+
+    return statistics

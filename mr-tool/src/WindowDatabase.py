@@ -65,9 +65,6 @@ class WindowDatabase(QMainWindow):
 
         self._ui_layout_main.addWidget(WidgetNoDb(db_name))
 
-
-
-
     def db_ui_setup(self, db_name: str):
         self.db_selector_setup(db_name)
 
@@ -109,7 +106,7 @@ class WindowDatabase(QMainWindow):
     def on_db_selector_changed(self, idx: int):
         db_name = constants.DATABASES[idx]
         self._db_path = str(os.path.join(constants.DB_RELATIVE_PATH, db_name))
-        
+
         if not os.path.exists(self._db_path):
             self.no_db_ui_setup(db_name)
         else:
