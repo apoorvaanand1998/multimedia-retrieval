@@ -1,22 +1,22 @@
 import os
 import csv
 
-from constants import DB_RELATIVE_PATH, OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS
+from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS
 
 
 ###
 # Reads all the nested folders from the database
 # and creates a dictionary of the form { 'Class': ['obj1', 'obj2'] }
 #
-def get_database_map() -> (dict[str, list[str]], int):
-    folders = os.listdir(DB_RELATIVE_PATH)
+def get_database_map(db_path: str) -> (dict[str, list[str]], int):
+    folders = os.listdir(db_path)
     database_map: dict[str, list[str]] = dict()
 
     total_count = 0
     for folder in folders:
-        if os.path.isdir(os.path.join(DB_RELATIVE_PATH, folder)):
+        if os.path.isdir(os.path.join(db_path, folder)):
             objects_list = []
-            for file in os.listdir(os.path.join(DB_RELATIVE_PATH, folder)):
+            for file in os.listdir(os.path.join(db_path, folder)):
                 objects_list.append(file)
                 total_count += 1
             database_map[folder] = objects_list
