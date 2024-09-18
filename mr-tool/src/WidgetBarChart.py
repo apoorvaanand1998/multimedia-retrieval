@@ -1,6 +1,7 @@
-from PyQt5.QtWidgets import QVBoxLayout, QWidget
+from PyQt5.QtWidgets import QVBoxLayout, QWidget, QSizePolicy
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
+from matplotlib.ticker import MaxNLocator
 from vedo import Plotter
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 
@@ -15,7 +16,7 @@ class WidgetBarChart(QWidget):
         super().__init__(parent)
 
         # Create a matplotlib figure
-        self.figure = Figure()
+        self.figure = Figure(tight_layout=True)
         self.canvas = FigureCanvas(self.figure)
 
         # Create a layout and add the canvas to the widget
@@ -40,6 +41,9 @@ class WidgetBarChart(QWidget):
         ax.set_xlabel('Class')
         ax.set_ylabel('Count')
         ax.set_title('Class Item Distribution')
+        
+        ax.tick_params(axis='x', labelsize=5, rotation=90)
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True, prune='lower', nbins=10))
 
         # Redraw the canvas
         self.canvas.draw()
