@@ -38,7 +38,6 @@ class WidgetBarChart(QWidget):
         ax.bar(class_labels, counts)
 
         # Set labels and title
-        ax.set_xlabel('Class')
         ax.set_ylabel('Count')
         ax.set_title('Class Item Distribution')
         
