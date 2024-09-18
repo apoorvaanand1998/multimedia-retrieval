@@ -6,7 +6,6 @@ def min_max(csv_path: str) -> tuple[tuple[int, int], tuple[int, int]]:
     """((min vc, max vc), (min fc, max fc))"""
     max_vc, max_fc = 0, 0
     min_vc, min_fc = math.inf, math.inf
-
     minvc, maxvc, minfc, maxfc = "", "", "", ""
 
     with open(csv_path) as stat_file:
