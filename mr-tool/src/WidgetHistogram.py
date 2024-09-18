@@ -5,7 +5,7 @@ from matplotlib.figure import Figure
 class WidgetHistogram(QWidget):
     _ui_layout_main: QVBoxLayout = None
 
-    def __init__(self, data: list[int], no_bins: int, min_val: int, max_val: int):
+    def __init__(self, hist_title, data: list[int], no_bins: int, min_val: int, max_val: int):
         super().__init__()
         self._ui_layout_main = QVBoxLayout()
 
@@ -17,9 +17,9 @@ class WidgetHistogram(QWidget):
 
         self.setLayout(self._ui_layout_main)
 
-        self.create_histogram(data, no_bins, min_val, max_val)
+        self.create_histogram(hist_title, data, no_bins, min_val, max_val)
 
-    def create_histogram(self, data: list[int], no_bins: int, min_val: int, max_val: int):
+    def create_histogram(self, hist_title, data: list[int], no_bins: int, min_val: int, max_val: int):
         ax = self.figure.add_subplot()
 
         # Clear previous plots
@@ -27,5 +27,5 @@ class WidgetHistogram(QWidget):
 
         # N is the count in each bin, bins is the lower-limit of the bin
         N, bins, patches = ax.hist(data, bins=no_bins, range=(min_val, max_val))
-
+        ax.set_title(hist_title)
         self.canvas.draw()
