@@ -1,5 +1,5 @@
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QCheckBox, QLabel
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QCheckBox, QLabel, QLineEdit
 from Mesh import Mesh
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
 from vedo import Plotter
@@ -10,6 +10,8 @@ class Widget3DViewer(QWidget):
     _mesh: Mesh = None
 
     _ui_layout_main: QVBoxLayout = None
+    _ui_layout_metadata: QVBoxLayout = None
+    _ui_widgets_metadata: list[QLabel] = None
 
     _ui_vedo_widget: QVTKRenderWindowInteractor = None
     _ui_vedo_plotter: Plotter = None
@@ -40,13 +42,13 @@ class Widget3DViewer(QWidget):
         layout_plotter_options.addLayout(layout_options)
 
         # Selected Mesh metadata
-        layout_metadata = QVBoxLayout()
-        w_metadata = self.ui_create_mesh_metadata()
-        for metadata in w_metadata:
-            layout_metadata.addWidget(metadata)
+        self._ui_layout_metadata = QVBoxLayout()
+        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
+        for metadata in self._ui_widgets_metadata:
+            self._ui_layout_metadata.addWidget(metadata)
 
         self._ui_layout_main.addLayout(layout_plotter_options)
-        self._ui_layout_main.addLayout(layout_metadata)
+        self._ui_layout_main.addLayout(self._ui_layout_metadata)
 
         self.setLayout(self._ui_layout_main)
 
@@ -58,6 +60,13 @@ class Widget3DViewer(QWidget):
     def show_none(self):
         self._ui_vedo_plotter.clear()
         self._ui_vedo_plotter.show([], UI_NO_ITEM_SELECTED_PLACEHOLDER, at=0)
+
+        for widget in self._ui_widgets_metadata:
+            self._ui_layout_metadata.removeWidget(widget)
+            widget.setParent(None)
+            widget.deleteLater()
+
+        self._ui_widgets_metadata = []
 
     def show_mesh(self):
         if self._mesh is None:
@@ -83,6 +92,16 @@ class Widget3DViewer(QWidget):
             to_show.append(wireframe)
 
         self._ui_vedo_plotter.show(to_show)
+
+        for widget in self._ui_widgets_metadata:
+            self._ui_layout_metadata.removeWidget(widget)
+            widget.setParent(None)
+            widget.deleteLater()
+
+        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
+
+        for widget in self._ui_widgets_metadata:
+            self._ui_layout_metadata.addWidget(widget)
 
     def ui_create_vedo_widget(self):
         # Create the VTK render window interactor (QVTKRenderWindowInteractor)
@@ -114,7 +133,9 @@ class Widget3DViewer(QWidget):
             return []
 
         return [
-            QLabel("Vertices: " + str(self._mesh.get_vertices())),
+            QLabel("Class: " + str(self._mesh.get_class())),
+            QLabel("Name: " + str(self._mesh.name)),
+            QLabel("\nVertices: " + str(self._mesh.get_vertices())),
             QLabel("Cells: " + str(self._mesh.get_cells())),
             QLabel("Triangles: " + str(self._mesh.get_no_triangles())),
             QLabel("Quads: " + str(self._mesh.get_no_quads()))

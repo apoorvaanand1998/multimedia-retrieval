@@ -82,8 +82,6 @@ class WindowDatabase(QMainWindow):
         else:
             self.db_ui_setup(db_name)
 
-
-
     def ui_object_changed(self, list_item):
         # If class has changed and there was
         # a selected item, then there's no selected item
@@ -97,7 +95,6 @@ class WindowDatabase(QMainWindow):
         mesh = Mesh(os.path.join(self._db_path, self._selected_class, self._selected_object))
         self._ui_3d_viewer.set_mesh(mesh)
         self._ui_3d_viewer.show_mesh()
-
 
     def ui_class_changed(self, list_item):
         self._selected_class = list_item.text()

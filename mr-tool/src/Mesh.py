@@ -18,6 +18,9 @@ class Mesh:
         self._class = path_tokens[len(path_tokens) - 2]
         self._name = path_tokens[-1]
 
+    def get_class(self):
+        return self._class
+
     def get_vertices(self):
         return self._vedo_mesh.dataset.GetNumberOfPoints()
 
@@ -46,6 +49,10 @@ class Mesh:
     @property
     def vedo_mesh(self):
         return self._vedo_mesh
+
+    @property
+    def name(self):
+        return self._name
 
 
 # Just a wrapper class
