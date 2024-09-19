@@ -73,3 +73,7 @@ class MeshStats:
     @property
     def no_vertices(self):
         return self._no_vertices
+
+    @property
+    def name(self):
+        return self._name
