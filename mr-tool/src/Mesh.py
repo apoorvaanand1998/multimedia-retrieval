@@ -43,6 +43,10 @@ class Mesh:
 
         return [n, c, v, f, t, q, bb]
 
+    @property
+    def vedo_mesh(self):
+        return self._vedo_mesh
+
 
 # Just a wrapper class
 class MeshStats:
