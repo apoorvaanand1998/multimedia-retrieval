@@ -30,7 +30,7 @@ class Widget3DViewer(QWidget):
         # Vedo 3D Plotter and Options
         layout_plotter_options = QHBoxLayout()
         layout_options = QVBoxLayout()
-        layout_plotter_options.setAlignment(Qt.AlignTop)
+        layout_options.setAlignment(Qt.AlignTop)
 
         w_options = self.ui_create_options()
         for option in w_options:
