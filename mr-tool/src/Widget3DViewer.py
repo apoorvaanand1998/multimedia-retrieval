@@ -27,8 +27,19 @@ class Widget3DViewer(QWidget):
 
         self._ui_layout_main = QVBoxLayout()
 
-        # Vedo 3D Plotter and Options
-        layout_plotter_options = QHBoxLayout()
+        # Vedo 3D Plotter
+        self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
+
+        self._ui_layout_main.addWidget(self._ui_vedo_widget)
+
+        # Selected Mesh metadata and Options
+        layout_metadata_options = QHBoxLayout()
+
+        self._ui_layout_metadata = QVBoxLayout()
+        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
+        for metadata in self._ui_widgets_metadata:
+            self._ui_layout_metadata.addWidget(metadata)
+
         layout_options = QVBoxLayout()
         layout_options.setAlignment(Qt.AlignTop)
 
@@ -36,19 +47,10 @@ class Widget3DViewer(QWidget):
         for option in w_options:
             layout_options.addWidget(option)
 
-        self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
+        layout_metadata_options.addLayout(self._ui_layout_metadata)
+        layout_metadata_options.addLayout(layout_options)
 
-        layout_plotter_options.addWidget(self._ui_vedo_widget)
-        layout_plotter_options.addLayout(layout_options)
-
-        # Selected Mesh metadata
-        self._ui_layout_metadata = QVBoxLayout()
-        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
-        for metadata in self._ui_widgets_metadata:
-            self._ui_layout_metadata.addWidget(metadata)
-
-        self._ui_layout_main.addLayout(layout_plotter_options)
-        self._ui_layout_main.addLayout(self._ui_layout_metadata)
+        self._ui_layout_main.addLayout(layout_metadata_options)
 
         self.setLayout(self._ui_layout_main)
 
