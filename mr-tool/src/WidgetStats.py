@@ -21,7 +21,9 @@ class WidgetStats(QWidget):
     db_stats: list[MeshStats] = None
 
     db_avg_vertices: int = None
+    db_outliers_vertices: int = None
     db_avg_faces: int = None
+    db_outliers_faces: int = None
 
     def __init__(self, db_map: dict[str, list[str]], db_count: int, db_name: str, db_stats: list[MeshStats]):
         super().__init__()
@@ -32,7 +34,8 @@ class WidgetStats(QWidget):
         self.db_stats = db_stats
 
         # Compute statistics
-        self.db_avg_vertices, self.db_avg_faces = self.create_statistics()
+        (self.db_avg_vertices, self.db_outliers_vertices,
+         self.db_avg_faces, self.db_outliers_faces) = self.create_statistics()
 
         # UI
         self.meshes_stats: list[MeshStats] = utils.get_output_stats(self.db_name)
@@ -105,14 +108,21 @@ class WidgetStats(QWidget):
     def create_statistics(self):
         total_vertices = 0
         total_faces = 0
+        list_vertices = []
+        list_faces = []
         for stat in self.db_stats:
             total_vertices += stat.no_vertices
             total_faces += stat.no_cells
+            list_vertices.append(stat.no_vertices)
+            list_faces.append(stat.no_cells)
 
         avg_vertices = int(total_vertices / len(self.db_stats))
         avg_faces = int(total_faces / len(self.db_stats))
 
-        return avg_vertices, avg_faces
+        outliers_vertices = utils.find_outliers(list_vertices)
+        outliers_faces = utils.find_outliers(list_faces)
+
+        return avg_vertices, outliers_vertices, avg_faces, outliers_faces
 
     def create_db_metadata(self):
         layout = QVBoxLayout()

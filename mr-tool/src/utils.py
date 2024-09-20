@@ -1,6 +1,8 @@
 import os
 import csv
 
+import numpy as np
+
 from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS
 from Mesh import MeshStats
 
@@ -55,9 +57,32 @@ def get_output_stats(db_name: str) -> list[MeshStats]:
 
         for idx, row in enumerate(stat_reader):
             if idx == 0:
-                continue # Skip headers
+                continue  # Skip headers
 
             mesh_stats: MeshStats = MeshStats(row[0], row[1], int(row[2]), int(row[3]), int(row[4]), int(row[5]))
             statistics.append(mesh_stats)
 
     return statistics
+
+
+def find_outliers(data: list[any]):
+    # Convert list to a numpy array for easy computation
+    data = np.array(data)
+
+    # Calculate Q1 (25th percentile) and Q3 (75th percentile)
+    Q1 = np.percentile(data, 25)
+    Q3 = np.percentile(data, 75)
+
+    # Compute the IQR
+    IQR = Q3 - Q1
+
+    # Calculate the lower and upper bounds
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+
+    # Find outliers
+    # outliers_lower = data[(data < lower_bound)][:2]
+    # outliers_upper = data[(data > upper_bound)][:2]
+    outliers = data[(data < lower_bound) | (data > upper_bound)][:2]
+
+    return outliers
