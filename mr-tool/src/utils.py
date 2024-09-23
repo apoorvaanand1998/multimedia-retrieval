@@ -59,7 +59,7 @@ def get_output_stats(db_name: str) -> list[MeshStats]:
             if idx == 0:
                 continue  # Skip headers
 
-            mesh_stats: MeshStats = MeshStats(row[0], row[1], int(row[2]), int(row[3]), int(row[4]), int(row[5]))
+            mesh_stats: MeshStats = MeshStats(row[1], row[2], int(row[3]), int(row[4]), int(row[5]), int(row[6]))
             statistics.append(mesh_stats)
 
     return statistics
