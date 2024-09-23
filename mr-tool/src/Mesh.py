@@ -2,12 +2,14 @@ import vedo
 
 
 class Mesh:
+    _path: str
     _vedo_mesh: vedo.Mesh
 
     _class: str
     _name: str
 
     def __init__(self, load_path: str):
+        self._path = load_path
         self._vedo_mesh = vedo.load(load_path)
 
         if self._vedo_mesh is None:
@@ -17,6 +19,9 @@ class Mesh:
         path_tokens = load_path.split('/')
         self._class = path_tokens[len(path_tokens) - 2]
         self._name = path_tokens[-1]
+
+    def __copy__(self):
+        return Mesh(self._path)
 
     def subdivide(self, no_iterations: int):
         vedo_copy = self._vedo_mesh.copy()

@@ -17,8 +17,10 @@ class NormalizationWizard:
     _window: QMainWindow = None
 
     def __init__(self, mesh: Mesh, steps: list[IStepNormalization], window: QMainWindow):
-        self._original_mesh = mesh
-        self._current_mesh = mesh
+        if mesh is not None:
+            self._original_mesh = mesh
+            self._current_mesh = mesh.__copy__()
+
         self._steps = steps
         self._window = window
 
@@ -30,9 +32,9 @@ class NormalizationWizard:
     def reset(self, new_mesh: Mesh = None):
         if new_mesh is not None:
             self._original_mesh = new_mesh
-            self._current_mesh = new_mesh
+            self._current_mesh = new_mesh.__copy__()
 
-        self._current_mesh = self._original_mesh
+        self._current_mesh = self._original_mesh.__copy__()
 
         self.update_ui()
 
@@ -46,8 +48,10 @@ class NormalizationWizard:
         step._decimate_fraction = float_value
 
     def on_reset_btn_clicked(self):
-        self._current_mesh = self._original_mesh
+        self._current_mesh = self._original_mesh.__copy__()
         self.update_ui()
+
+        self._window.update_3d_viewer()
 
     def on_apply_btn_clicked(self, step: IStepNormalization):
         self._current_mesh = step.apply(self._current_mesh)
