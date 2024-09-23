@@ -18,6 +18,14 @@ class Mesh:
         self._class = path_tokens[len(path_tokens) - 2]
         self._name = path_tokens[-1]
 
+    def subdivide(self, no_iterations: int):
+        vedo_copy = self._vedo_mesh.copy()
+        self._vedo_mesh = vedo_copy.subdivide(no_iterations)
+
+    def decimate(self, no_fraction: float):
+        vedo_copy = self._vedo_mesh.copy()
+        self._vedo_mesh = vedo_copy.decimate(no_fraction)
+
     def get_class(self):
         return self._class
 

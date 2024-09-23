@@ -1,15 +1,19 @@
 import os
 
-from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget
+from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget, QLabel, QPushButton
 from Widget3DViewer import Widget3DViewer
 from Mesh import Mesh
+from NormalizationWizard import NormalizationWizard
+from StepResample import StepResample
 from constants import DB_ORIGINAL_RELATIVE_PATH
 
 
 class WindowNormalization(QMainWindow):
     _db_path: str = DB_ORIGINAL_RELATIVE_PATH
+    _wizard: NormalizationWizard = None
 
     _ui_layout_main: QVBoxLayout = None
+    _ui_layout_db_all: QHBoxLayout = None
 
     _ui_layout_db_selection: QVBoxLayout = None
     _ui_class_list: QListWidget = None
@@ -17,8 +21,16 @@ class WindowNormalization(QMainWindow):
 
     _ui_3d_viewer: Widget3DViewer = None
 
+    _ui_normalization: QWidget = None
+
     def __init__(self):
         super(WindowNormalization, self).__init__()
+
+        self._wizard = NormalizationWizard(
+            mesh=None,
+            steps=[StepResample()],
+            window=self
+        )
 
         self._ui_layout_main = QVBoxLayout()
 
@@ -26,7 +38,7 @@ class WindowNormalization(QMainWindow):
         self.central_widget.setLayout(self._ui_layout_main)
         self.setCentralWidget(self.central_widget)
 
-        layout_db_all = QHBoxLayout()
+        self._ui_layout_db_all = QHBoxLayout()
 
         # Class - Item selection List
         self._ui_class_list, self._ui_object_list = self.ui_create_db_lists()
@@ -38,25 +50,20 @@ class WindowNormalization(QMainWindow):
 
         # 3D Viewer
         self._ui_3d_viewer = Widget3DViewer(with_options=False)
+        self._ui_3d_viewer._flag_shaded_wireframe = True
 
-        layout_db_all.addLayout(layout_database)
-        layout_db_all.addWidget(self._ui_3d_viewer)
+        self._ui_layout_db_all.addLayout(layout_database)
+        self._ui_layout_db_all.addWidget(self._ui_3d_viewer)
 
-        self._ui_layout_main.addLayout(layout_db_all)
+        # Normalization Steps
+        self._ui_normalization = self._wizard.ui_widget
+        self._ui_layout_db_all.addWidget(self._ui_normalization)
 
-        # 3D Viewers for normalisation steps
-        layout_normalisation = QHBoxLayout()
+        self._ui_layout_main.addLayout(self._ui_layout_db_all)
 
-        # test_mesh = Mesh(os.path.join(DB_ORIGINAL_RELATIVE_PATH, "AircraftBuoyant", "m1337.obj"))
-        layout_normalisation.addWidget(Widget3DViewer(with_options=False))
-        layout_normalisation.addWidget(Widget3DViewer(with_options=False))
-        layout_normalisation.addWidget(Widget3DViewer(with_options=False))
-        layout_normalisation.addWidget(Widget3DViewer(with_options=False))
-        layout_normalisation.addWidget(Widget3DViewer(with_options=False))
-
-        layout_normalisation.setContentsMargins(0, 0, 0, 0)
-
-        self._ui_layout_main.addLayout(layout_normalisation)
+    def update_3d_viewer(self):
+        self._ui_3d_viewer.set_mesh(self._wizard.get_current_mesh())
+        self._ui_3d_viewer.show_mesh()
 
     def ui_object_changed(self, list_item):
         # If class has changed and there was
@@ -72,12 +79,21 @@ class WindowNormalization(QMainWindow):
         self._ui_3d_viewer.set_mesh(mesh)
         self._ui_3d_viewer.show_mesh()
 
+        self._wizard.reset(mesh)
+
+        self._ui_layout_db_all.removeWidget(self._ui_normalization)
+        self._ui_normalization = self._wizard.ui_widget
+        self._ui_layout_db_all.addWidget(self._ui_normalization)
+
     def ui_class_changed(self, list_item):
         self._selected_class = list_item.text()
 
         files = os.listdir(os.path.join(self._db_path, self._selected_class))
         self._ui_object_list.clear()
         self._ui_object_list.addItems(files)
+
+        self._wizard.reset()
+        self._ui_layout_db_all.removeWidget(self._ui_normalization)
 
     def ui_create_db_lists(self):
         # List of all classes

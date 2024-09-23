@@ -34,4 +34,4 @@ def cond(v, f):
 def fs(m):
     return [("sub", vd.Mesh.subdivide(m, 10)), ("dec", vd.Mesh.decimate(m, 0.1))]
 
-subsample("../Output/stats.csv", "../Output/resampled.csv")        
+subsample("../Output/stats.csv", "../Output/resampled.csv")

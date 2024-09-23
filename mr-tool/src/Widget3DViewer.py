@@ -168,3 +168,7 @@ class Widget3DViewer(QWidget):
             self._flag_bbox = False
 
         self.show_mesh()
+
+    @property
+    def mesh(self):
+        return self._mesh

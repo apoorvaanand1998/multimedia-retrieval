@@ -1,3 +1,5 @@
+from PyQt5.QtWidgets import QVBoxLayout
+
 from Mesh import Mesh
 
 
@@ -5,5 +7,5 @@ from Mesh import Mesh
 # A bit useless for Python, cuz it has dynamic methods
 # Maybe delete later?
 class IStepNormalization:
-    def apply(self, mesh: Mesh):
+    def apply(self, mesh: Mesh) -> Mesh:
         return mesh
