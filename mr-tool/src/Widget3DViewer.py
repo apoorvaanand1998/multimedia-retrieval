@@ -20,7 +20,7 @@ class Widget3DViewer(QWidget):
     _flag_wireframe: bool = False
     _flag_shaded_wireframe: bool = False
 
-    def __init__(self, mesh: Mesh = None):
+    def __init__(self, mesh: Mesh = None, with_options: bool = True):
         super().__init__()
 
         self._mesh = mesh
@@ -29,7 +29,7 @@ class Widget3DViewer(QWidget):
 
         # Vedo 3D Plotter
         self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
-
+        self._ui_vedo_widget.setContentsMargins(0, 0, 0, 0)
         self._ui_layout_main.addWidget(self._ui_vedo_widget)
 
         # Selected Mesh metadata and Options
@@ -48,7 +48,9 @@ class Widget3DViewer(QWidget):
             layout_options.addWidget(option)
 
         layout_metadata_options.addLayout(self._ui_layout_metadata)
-        layout_metadata_options.addLayout(layout_options)
+
+        if with_options:
+            layout_metadata_options.addLayout(layout_options)
 
         self._ui_layout_main.addLayout(layout_metadata_options)
 
