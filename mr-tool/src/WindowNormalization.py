@@ -1,15 +1,17 @@
 import os
 
-from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget, QLabel, QPushButton
+from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget, QLabel, QPushButton, QLineEdit
 from Widget3DViewer import Widget3DViewer
 from Mesh import Mesh
 from NormalizationWizard import NormalizationWizard
 from StepResample import StepResample
-from constants import DB_ORIGINAL_RELATIVE_PATH
+from constants import DB_ORIGINAL_RELATIVE_PATH, DB_PREPROCESSED_NAME
+from utils import save_to_db
 
 
 class WindowNormalization(QMainWindow):
     _db_path: str = DB_ORIGINAL_RELATIVE_PATH
+    _output_db_name: str = DB_PREPROCESSED_NAME
     _wizard: NormalizationWizard = None
 
     _ui_layout_main: QVBoxLayout = None
@@ -60,6 +62,19 @@ class WindowNormalization(QMainWindow):
         self._ui_layout_db_all.addWidget(self._ui_normalization)
 
         self._ui_layout_main.addLayout(self._ui_layout_db_all)
+
+        # Normalization Output
+        layout_normalization_output = QHBoxLayout()
+
+        line_edit = QLineEdit(self._output_db_name)
+        line_edit.textChanged.connect(lambda text: self.output_db_name(text))
+        layout_normalization_output.addWidget(line_edit)
+
+        btn_single = QPushButton("Save current mesh")
+        btn_single.pressed.connect(lambda: save_to_db(self._wizard.get_current_mesh(), line_edit.text()))
+        layout_normalization_output.addWidget(btn_single)
+
+        self._ui_layout_main.addLayout(layout_normalization_output)
 
     def update_3d_viewer(self):
         self._ui_3d_viewer.set_mesh(self._wizard.get_current_mesh())

@@ -2,9 +2,10 @@ import os
 import csv
 
 import numpy as np
+import vedo
 
-from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS
-from Mesh import MeshStats
+from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS, DB_RELATIVE_PATH
+from Mesh import MeshStats, Mesh
 
 
 ###
@@ -86,3 +87,11 @@ def find_outliers(data: list[any]):
     outliers = data[(data < lower_bound) | (data > upper_bound)][:2]
 
     return outliers
+
+def save_to_db(mesh: Mesh, db_name: str):
+    if mesh is not None:
+        db_path = str(os.path.join(DB_RELATIVE_PATH, db_name, mesh.get_class()))
+        if not os.path.exists(db_path):
+            os.makedirs(db_path)
+
+        vedo.save(mesh.vedo_mesh, str(os.path.join(db_path, mesh.name)))
