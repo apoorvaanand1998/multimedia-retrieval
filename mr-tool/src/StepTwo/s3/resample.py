@@ -26,10 +26,10 @@ def subsample(csv_path: str, output_path: str) -> list[int]:
                         m3 = m.copy()
                         m4 = m.copy()
                         m.subdivide()
-                        m1.subdivide()
-                        m2.subdivide()
-                        m3.subdivide()
-                        m4.subdivide()
+                        m1.subdivide(1)
+                        m2.subdivide(2)
+                        m3.subdivide(3)
+                        m4.subdivide(4)
 
                         vs = [(m, m.dataset.GetNumberOfPoints()),
                               (m1, m1.dataset.GetNumberOfPoints()),

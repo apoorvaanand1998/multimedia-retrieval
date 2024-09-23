@@ -1,15 +1,15 @@
-../ShapeDatabase_INFOMR/AircraftBuoyant/m1337.obj,"[7m[1m[32mvedo.mesh.Mesh at (0x564796365550)                                         [0m
+../ShapeDatabase_INFOMR/AircraftBuoyant/m1337.obj,"[7m[1m[32mvedo.mesh.Mesh at (0x5640b955dae0)                                         [0m
 [0m[32;1mname          : Mesh
 file name     : ../ShapeDatabase_INFOMR/AircraftBuoyant/m1337.obj
-elements      : vertices=5,018 polygons=9,782 lines=0
+elements      : vertices=5,060 polygons=9,889 lines=0
 position      : (0, 0, 0)
 scaling       : (1.00000, 1.00000, 1.00000)
-size          : average=0.421734, diagonal=1.53669
-center of mass: (0.458899, 0.626475, 0.457646)
-bounds        : x=(0.0284, 0.886), y=(0.0250, 0.969), z=(0.0284, 0.886)
+size          : average=0.422007, diagonal=1.53627
+center of mass: (0.457443, 0.632406, 0.457710)
+bounds        : x=(0.0286, 0.886), y=(0.0250, 0.969), z=(0.0285, 0.886)
 pointdata     : ""Normals"" (float32), dim=3
-metadata      : ""decimate_actual_fraction"" = [0.44954044][0m",5018,5018
-../ShapeDatabase_INFOMR/AircraftBuoyant/m1338.obj,"[7m[1m[32mvedo.mesh.Mesh at (0x56479674e7b0)                                         [0m
+metadata      : ""decimate_actual_fraction"" = [0.11361443][0m",5060,5060
+../ShapeDatabase_INFOMR/AircraftBuoyant/m1338.obj,"[7m[1m[32mvedo.mesh.Mesh at (0x7f0e1403a190)                                         [0m
 [0m[32;1mname          : Mesh
 file name     : ../ShapeDatabase_INFOMR/AircraftBuoyant/m1338.obj
 elements      : vertices=4,956 polygons=9,679 lines=0
@@ -20,3 +20,14 @@ center of mass: (0.479613, 0.626202, 0.481319)
 bounds        : x=(0.0250, 0.933), y=(0.0250, 0.975), z=(0.0250, 0.938)
 pointdata     : ""Normals"" (float32), dim=3
 metadata      : ""decimate_actual_fraction"" = [0.57069575][0m",4956,4956
+../ShapeDatabase_INFOMR/AircraftBuoyant/m1339.obj,"[7m[1m[32mvedo.mesh.Mesh at (0x5640ba4c2670)                                         [0m
+[0m[32;1mname          : Mesh
+file name     : ../ShapeDatabase_INFOMR/AircraftBuoyant/m1339.obj
+elements      : vertices=1,878 polygons=6,173 lines=0
+position      : (0, 0, 0)
+scaling       : (1.00000, 1.00000, 1.00000)
+size          : average=0.231941, diagonal=1.26629
+center of mass: (0.312990, 0.352993, 0.326171)
+bounds        : x=(0.0250, 0.607), y=(0.0250, 0.975), z=(0.0250, 0.627)
+pointdata     : ""Normals"" (float32), dim=3
+celldata      : ""GroupIds"" (float32), dim=1, range=(0, 0)[0m",1878,6173
