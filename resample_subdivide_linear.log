@@ -1,0 +1,3100 @@
+2024-09-24 12:13:38,604 - INFO - Number of files: 479 || Target faces: 30000 || Target vertices: 5000
+2024-09-24 12:13:38,664 - INFO - 
+2024-09-24 12:13:38,664 - INFO - Loaded: ShapeDB_sample/Insect/D00753.obj
+2024-09-24 12:13:38,664 - INFO - Subdividing: 19952 faces
+2024-09-24 12:13:38,709 - INFO - Vertex count before decimation routine: 40045
+2024-09-24 12:13:38,709 - INFO - Decimating...
+2024-09-24 12:13:41,197 - INFO - Successfully resampled to: 4961
+2024-09-24 12:13:41,197 - INFO - Decimation iterations: 20
+2024-09-24 12:13:41,208 - INFO - 
+2024-09-24 12:13:41,208 - INFO - Loaded: ShapeDB_sample/Insect/D00806.obj
+2024-09-24 12:13:41,208 - INFO - Subdividing: 578 faces
+2024-09-24 12:13:41,210 - INFO - Subdividing: 2312 faces
+2024-09-24 12:13:41,215 - INFO - Subdividing: 9248 faces
+2024-09-24 12:13:41,226 - INFO - Vertex count before decimation routine: 18516
+2024-09-24 12:13:41,226 - INFO - Decimating...
+2024-09-24 12:13:41,887 - INFO - Successfully resampled to: 5240
+2024-09-24 12:13:41,887 - INFO - Decimation iterations: 12
+2024-09-24 12:13:41,903 - INFO - 
+2024-09-24 12:13:41,903 - INFO - Loaded: ShapeDB_sample/Insect/m17.obj
+2024-09-24 12:13:41,903 - INFO - Subdividing: 2980 faces
+2024-09-24 12:13:41,911 - INFO - Subdividing: 11920 faces
+2024-09-24 12:13:41,928 - INFO - Vertex count before decimation routine: 23898
+2024-09-24 12:13:41,928 - INFO - Decimating...
+2024-09-24 12:13:42,929 - INFO - Successfully resampled to: 4963
+2024-09-24 12:13:42,930 - INFO - Decimation iterations: 15
+2024-09-24 12:13:42,940 - INFO - 
+2024-09-24 12:13:42,940 - INFO - Loaded: ShapeDB_sample/Insect/m24.obj
+2024-09-24 12:13:42,940 - INFO - Subdividing: 284 faces
+2024-09-24 12:13:42,942 - INFO - Subdividing: 1136 faces
+2024-09-24 12:13:42,945 - INFO - Subdividing: 4544 faces
+2024-09-24 12:13:42,953 - INFO - Subdividing: 18176 faces
+2024-09-24 12:13:42,978 - INFO - Vertex count before decimation routine: 36373
+2024-09-24 12:13:42,978 - INFO - Decimating...
+2024-09-24 12:13:44,841 - INFO - Successfully resampled to: 5473
+2024-09-24 12:13:44,842 - INFO - Decimation iterations: 18
+2024-09-24 12:13:44,857 - INFO - 
+2024-09-24 12:13:44,858 - INFO - Loaded: ShapeDB_sample/Insect/m20.obj
+2024-09-24 12:13:44,858 - INFO - Subdividing: 3042 faces
+2024-09-24 12:13:44,864 - INFO - Subdividing: 12168 faces
+2024-09-24 12:13:44,881 - INFO - Vertex count before decimation routine: 24613
+2024-09-24 12:13:44,881 - INFO - Decimating...
+2024-09-24 12:13:45,886 - INFO - Successfully resampled to: 5129
+2024-09-24 12:13:45,886 - INFO - Decimation iterations: 15
+2024-09-24 12:13:45,899 - INFO - 
+2024-09-24 12:13:45,899 - INFO - Loaded: ShapeDB_sample/Insect/D00774.obj
+2024-09-24 12:13:45,899 - INFO - Subdividing: 2980 faces
+2024-09-24 12:13:45,905 - INFO - Subdividing: 11920 faces
+2024-09-24 12:13:45,919 - INFO - Vertex count before decimation routine: 23898
+2024-09-24 12:13:45,920 - INFO - Decimating...
+2024-09-24 12:13:46,848 - INFO - Successfully resampled to: 4963
+2024-09-24 12:13:46,848 - INFO - Decimation iterations: 15
+2024-09-24 12:13:46,864 - INFO - 
+2024-09-24 12:13:46,864 - INFO - Loaded: ShapeDB_sample/Insect/D00399.obj
+2024-09-24 12:13:46,864 - INFO - Subdividing: 5295 faces
+2024-09-24 12:13:46,873 - INFO - Subdividing: 21180 faces
+2024-09-24 12:13:46,898 - INFO - Vertex count before decimation routine: 42828
+2024-09-24 12:13:46,898 - INFO - Decimating...
+2024-09-24 12:13:48,911 - INFO - Successfully resampled to: 5296
+2024-09-24 12:13:48,911 - INFO - Decimation iterations: 20
+2024-09-24 12:13:48,922 - INFO - 
+2024-09-24 12:13:48,922 - INFO - Loaded: ShapeDB_sample/Insect/m22.obj
+2024-09-24 12:13:48,923 - INFO - Subdividing: 620 faces
+2024-09-24 12:13:48,925 - INFO - Subdividing: 2480 faces
+2024-09-24 12:13:48,930 - INFO - Subdividing: 9920 faces
+2024-09-24 12:13:48,944 - INFO - Vertex count before decimation routine: 19863
+2024-09-24 12:13:48,944 - INFO - Decimating...
+2024-09-24 12:13:49,732 - INFO - Successfully resampled to: 5063
+2024-09-24 12:13:49,732 - INFO - Decimation iterations: 13
+2024-09-24 12:13:49,744 - INFO - 
+2024-09-24 12:13:49,744 - INFO - Loaded: ShapeDB_sample/Insect/m9.obj
+2024-09-24 12:13:49,744 - INFO - Subdividing: 894 faces
+2024-09-24 12:13:49,747 - INFO - Subdividing: 3576 faces
+2024-09-24 12:13:49,754 - INFO - Subdividing: 14304 faces
+2024-09-24 12:13:49,774 - INFO - Vertex count before decimation routine: 29523
+2024-09-24 12:13:49,774 - INFO - Decimating...
+2024-09-24 12:13:51,100 - INFO - Successfully resampled to: 5070
+2024-09-24 12:13:51,100 - INFO - Decimation iterations: 17
+2024-09-24 12:13:51,116 - INFO - 
+2024-09-24 12:13:51,116 - INFO - Loaded: ShapeDB_sample/Insect/D00102.obj
+2024-09-24 12:13:51,116 - INFO - Subdividing: 5046 faces
+2024-09-24 12:13:51,122 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:13:51,125 - INFO - 
+2024-09-24 12:13:51,125 - INFO - Loaded: ShapeDB_sample/Insect/D00315.obj
+2024-09-24 12:13:51,125 - INFO - Subdividing: 572 faces
+2024-09-24 12:13:51,127 - INFO - Subdividing: 2288 faces
+2024-09-24 12:13:51,130 - INFO - Subdividing: 9152 faces
+2024-09-24 12:13:51,139 - INFO - Vertex count before decimation routine: 18332
+2024-09-24 12:13:51,139 - INFO - Decimating...
+2024-09-24 12:13:51,777 - INFO - Successfully resampled to: 5194
+2024-09-24 12:13:51,777 - INFO - Decimation iterations: 12
+2024-09-24 12:13:51,783 - INFO - 
+2024-09-24 12:13:51,783 - INFO - Loaded: ShapeDB_sample/Insect/D00855.obj
+2024-09-24 12:13:51,783 - INFO - Subdividing: 554 faces
+2024-09-24 12:13:51,786 - INFO - Subdividing: 2216 faces
+2024-09-24 12:13:51,791 - INFO - Subdividing: 8864 faces
+2024-09-24 12:13:51,801 - INFO - Vertex count before decimation routine: 17750
+2024-09-24 12:13:51,801 - INFO - Decimating...
+2024-09-24 12:13:52,440 - INFO - Successfully resampled to: 5027
+2024-09-24 12:13:52,441 - INFO - Decimation iterations: 12
+2024-09-24 12:13:52,495 - INFO - 
+2024-09-24 12:13:52,495 - INFO - Loaded: ShapeDB_sample/Insect/D00662.obj
+2024-09-24 12:13:52,496 - INFO - Vertex count before decimation routine: 24324
+2024-09-24 12:13:52,496 - INFO - Decimating...
+2024-09-24 12:13:53,337 - INFO - Successfully resampled to: 5277
+2024-09-24 12:13:53,338 - INFO - Decimation iterations: 15
+2024-09-24 12:13:53,347 - INFO - 
+2024-09-24 12:13:53,347 - INFO - Loaded: ShapeDB_sample/Bookset/D01013.obj
+2024-09-24 12:13:53,348 - INFO - Subdividing: 816 faces
+2024-09-24 12:13:53,349 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:13:53,352 - INFO - 
+2024-09-24 12:13:53,352 - INFO - Loaded: ShapeDB_sample/Bookset/D01065.obj
+2024-09-24 12:13:53,352 - INFO - Subdividing: 918 faces
+2024-09-24 12:13:53,353 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:13:53,356 - INFO - 
+2024-09-24 12:13:53,356 - INFO - Loaded: ShapeDB_sample/Bookset/D01096.obj
+2024-09-24 12:13:53,356 - INFO - Subdividing: 2544 faces
+2024-09-24 12:13:53,357 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:13:53,361 - INFO - 
+2024-09-24 12:13:53,361 - INFO - Loaded: ShapeDB_sample/Bookset/D01009.obj
+2024-09-24 12:13:53,361 - INFO - Subdividing: 3156 faces
+2024-09-24 12:13:53,362 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:13:53,367 - INFO - 
+2024-09-24 12:13:53,367 - INFO - Loaded: ShapeDB_sample/Tree/m1096.obj
+2024-09-24 12:13:53,367 - INFO - Subdividing: 1376 faces
+2024-09-24 12:13:53,370 - INFO - Subdividing: 5504 faces
+2024-09-24 12:13:53,377 - INFO - Subdividing: 22016 faces
+2024-09-24 12:13:53,407 - INFO - Vertex count before decimation routine: 45159
+2024-09-24 12:13:53,408 - INFO - Decimating...
+2024-09-24 12:13:55,526 - INFO - Successfully resampled to: 5139
+2024-09-24 12:13:55,526 - INFO - Decimation iterations: 21
+2024-09-24 12:13:55,573 - INFO - 
+2024-09-24 12:13:55,573 - INFO - Loaded: ShapeDB_sample/Tree/D00727.obj
+2024-09-24 12:13:55,573 - INFO - Vertex count before decimation routine: 56409
+2024-09-24 12:13:55,573 - INFO - Decimating...
+2024-09-24 12:13:57,138 - INFO - Successfully resampled to: 5008
+2024-09-24 12:13:57,138 - INFO - Decimation iterations: 26
+2024-09-24 12:13:57,154 - INFO - 
+2024-09-24 12:13:57,154 - INFO - Loaded: ShapeDB_sample/Tree/m1090.obj
+2024-09-24 12:13:57,154 - INFO - Subdividing: 10928 faces
+2024-09-24 12:13:57,170 - INFO - Vertex count before decimation routine: 21874
+2024-09-24 12:13:57,170 - INFO - Decimating...
+2024-09-24 12:13:58,183 - INFO - Successfully resampled to: 5014
+2024-09-24 12:13:58,183 - INFO - Decimation iterations: 14
+2024-09-24 12:13:58,193 - INFO - 
+2024-09-24 12:13:58,193 - INFO - Loaded: ShapeDB_sample/Tree/m1079.obj
+2024-09-24 12:13:58,193 - INFO - Subdividing: 260 faces
+2024-09-24 12:13:58,195 - INFO - Subdividing: 1040 faces
+2024-09-24 12:13:58,198 - INFO - Subdividing: 4160 faces
+2024-09-24 12:13:58,206 - INFO - Subdividing: 16640 faces
+2024-09-24 12:13:58,229 - INFO - Vertex count before decimation routine: 33305
+2024-09-24 12:13:58,229 - INFO - Decimating...
+2024-09-24 12:14:01,239 - INFO - Successfully resampled to: 5017
+2024-09-24 12:14:01,239 - INFO - Decimation iterations: 18
+2024-09-24 12:14:01,262 - INFO - 
+2024-09-24 12:14:01,262 - INFO - Loaded: ShapeDB_sample/Tree/m1086.obj
+2024-09-24 12:14:01,262 - INFO - Subdividing: 6856 faces
+2024-09-24 12:14:01,273 - INFO - Subdividing: 27424 faces
+2024-09-24 12:14:01,313 - INFO - Vertex count before decimation routine: 65356
+2024-09-24 12:14:01,313 - INFO - Decimating...
+2024-09-24 12:14:04,328 - INFO - Successfully resampled to: 5272
+2024-09-24 12:14:04,328 - INFO - Decimation iterations: 29
+2024-09-24 12:14:04,340 - INFO - 
+2024-09-24 12:14:04,340 - INFO - Loaded: ShapeDB_sample/Tree/m1063.obj
+2024-09-24 12:14:04,340 - INFO - Subdividing: 932 faces
+2024-09-24 12:14:04,342 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:04,349 - INFO - 
+2024-09-24 12:14:04,349 - INFO - Loaded: ShapeDB_sample/Tree/m1066.obj
+2024-09-24 12:14:04,350 - INFO - Subdividing: 2042 faces
+2024-09-24 12:14:04,355 - INFO - Subdividing: 8168 faces
+2024-09-24 12:14:04,367 - INFO - Vertex count before decimation routine: 19385
+2024-09-24 12:14:04,367 - INFO - Decimating...
+2024-09-24 12:14:05,040 - INFO - Successfully resampled to: 5192
+2024-09-24 12:14:05,040 - INFO - Decimation iterations: 14
+2024-09-24 12:14:05,052 - INFO - 
+2024-09-24 12:14:05,053 - INFO - Loaded: ShapeDB_sample/Tree/m1070.obj
+2024-09-24 12:14:05,053 - INFO - Subdividing: 1134 faces
+2024-09-24 12:14:05,057 - INFO - Subdividing: 4536 faces
+2024-09-24 12:14:05,064 - INFO - Subdividing: 18144 faces
+2024-09-24 12:14:05,090 - INFO - Vertex count before decimation routine: 40926
+2024-09-24 12:14:05,090 - INFO - Decimating...
+2024-09-24 12:14:06,815 - INFO - Successfully resampled to: 5063
+2024-09-24 12:14:06,815 - INFO - Decimation iterations: 21
+2024-09-24 12:14:06,831 - INFO - 
+2024-09-24 12:14:06,831 - INFO - Loaded: ShapeDB_sample/Tree/m1064.obj
+2024-09-24 12:14:06,831 - INFO - Subdividing: 1800 faces
+2024-09-24 12:14:06,836 - INFO - Subdividing: 7200 faces
+2024-09-24 12:14:06,847 - INFO - Subdividing: 28800 faces
+2024-09-24 12:14:06,890 - INFO - Vertex count before decimation routine: 69013
+2024-09-24 12:14:06,890 - INFO - Decimating...
+2024-09-24 12:14:10,856 - INFO - Successfully resampled to: 5418
+2024-09-24 12:14:10,856 - INFO - Decimation iterations: 36
+2024-09-24 12:14:10,867 - INFO - 
+2024-09-24 12:14:10,867 - INFO - Loaded: ShapeDB_sample/RectangleTable/m906.obj
+2024-09-24 12:14:10,867 - INFO - Subdividing: 312 faces
+2024-09-24 12:14:10,869 - INFO - Subdividing: 1248 faces
+2024-09-24 12:14:10,873 - INFO - Subdividing: 4992 faces
+2024-09-24 12:14:10,880 - INFO - Subdividing: 19968 faces
+2024-09-24 12:14:10,908 - INFO - Vertex count before decimation routine: 39958
+2024-09-24 12:14:10,909 - INFO - Decimating...
+2024-09-24 12:14:12,947 - INFO - Successfully resampled to: 5414
+2024-09-24 12:14:12,947 - INFO - Decimation iterations: 19
+2024-09-24 12:14:12,957 - INFO - 
+2024-09-24 12:14:12,957 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00530.obj
+2024-09-24 12:14:12,957 - INFO - Subdividing: 340 faces
+2024-09-24 12:14:12,958 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:12,960 - INFO - 
+2024-09-24 12:14:12,960 - INFO - Loaded: ShapeDB_sample/RectangleTable/m905.obj
+2024-09-24 12:14:12,961 - INFO - Subdividing: 67 faces
+2024-09-24 12:14:12,962 - INFO - Subdividing: 268 faces
+2024-09-24 12:14:12,964 - INFO - Subdividing: 1072 faces
+2024-09-24 12:14:12,966 - INFO - Subdividing: 4288 faces
+2024-09-24 12:14:12,972 - INFO - Subdividing: 17152 faces
+2024-09-24 12:14:12,996 - INFO - Vertex count before decimation routine: 34923
+2024-09-24 12:14:12,996 - INFO - Decimating...
+2024-09-24 12:14:20,187 - INFO - Successfully resampled to: 5334
+2024-09-24 12:14:20,188 - INFO - Decimation iterations: 18
+2024-09-24 12:14:20,216 - INFO - 
+2024-09-24 12:14:20,216 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00523.obj
+2024-09-24 12:14:20,216 - INFO - Subdividing: 25140 faces
+2024-09-24 12:14:20,243 - INFO - Vertex count before decimation routine: 50310
+2024-09-24 12:14:20,243 - INFO - Decimating...
+2024-09-24 12:14:22,518 - INFO - Successfully resampled to: 4982
+2024-09-24 12:14:22,519 - INFO - Decimation iterations: 22
+2024-09-24 12:14:22,549 - INFO - 
+2024-09-24 12:14:22,549 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00571.obj
+2024-09-24 12:14:22,549 - INFO - Subdividing: 2409 faces
+2024-09-24 12:14:22,553 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:22,555 - INFO - 
+2024-09-24 12:14:22,555 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00188.obj
+2024-09-24 12:14:22,555 - INFO - Subdividing: 120 faces
+2024-09-24 12:14:22,556 - INFO - Subdividing: 480 faces
+2024-09-24 12:14:22,558 - INFO - Subdividing: 1920 faces
+2024-09-24 12:14:22,562 - INFO - Subdividing: 7680 faces
+2024-09-24 12:14:22,570 - INFO - Vertex count before decimation routine: 17340
+2024-09-24 12:14:22,571 - INFO - Decimating...
+2024-09-24 12:14:23,154 - INFO - Successfully resampled to: 5274
+2024-09-24 12:14:23,154 - INFO - Decimation iterations: 12
+2024-09-24 12:14:23,176 - INFO - 
+2024-09-24 12:14:23,176 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00603.obj
+2024-09-24 12:14:23,176 - INFO - Subdividing: 13672 faces
+2024-09-24 12:14:23,192 - INFO - Vertex count before decimation routine: 28186
+2024-09-24 12:14:23,193 - INFO - Decimating...
+2024-09-24 12:14:24,327 - INFO - Successfully resampled to: 5001
+2024-09-24 12:14:24,327 - INFO - Decimation iterations: 17
+2024-09-24 12:14:24,339 - INFO - 
+2024-09-24 12:14:24,340 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00944.obj
+2024-09-24 12:14:24,340 - INFO - Subdividing: 1996 faces
+2024-09-24 12:14:24,345 - INFO - Subdividing: 7984 faces
+2024-09-24 12:14:24,355 - INFO - Vertex count before decimation routine: 15986
+2024-09-24 12:14:24,355 - INFO - Decimating...
+2024-09-24 12:14:24,951 - INFO - Successfully resampled to: 5025
+2024-09-24 12:14:24,951 - INFO - Decimation iterations: 11
+2024-09-24 12:14:24,961 - INFO - 
+2024-09-24 12:14:24,962 - INFO - Loaded: ShapeDB_sample/RectangleTable/m892.obj
+2024-09-24 12:14:24,962 - INFO - Subdividing: 288 faces
+2024-09-24 12:14:24,963 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:24,966 - INFO - 
+2024-09-24 12:14:24,966 - INFO - Loaded: ShapeDB_sample/RectangleTable/m878.obj
+2024-09-24 12:14:24,966 - INFO - Subdividing: 534 faces
+2024-09-24 12:14:24,968 - INFO - Subdividing: 2136 faces
+2024-09-24 12:14:24,973 - INFO - Subdividing: 8544 faces
+2024-09-24 12:14:24,984 - INFO - Vertex count before decimation routine: 17505
+2024-09-24 12:14:24,984 - INFO - Decimating...
+2024-09-24 12:14:25,753 - INFO - Successfully resampled to: 4994
+2024-09-24 12:14:25,753 - INFO - Decimation iterations: 13
+2024-09-24 12:14:25,763 - INFO - 
+2024-09-24 12:14:25,763 - INFO - Loaded: ShapeDB_sample/RectangleTable/D00302.obj
+2024-09-24 12:14:25,763 - INFO - Subdividing: 216 faces
+2024-09-24 12:14:25,764 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:25,767 - INFO - 
+2024-09-24 12:14:25,767 - INFO - Loaded: ShapeDB_sample/RectangleTable/m896.obj
+2024-09-24 12:14:25,767 - INFO - Subdividing: 160 faces
+2024-09-24 12:14:25,769 - INFO - Subdividing: 640 faces
+2024-09-24 12:14:25,772 - INFO - Subdividing: 2560 faces
+2024-09-24 12:14:25,777 - INFO - Subdividing: 10240 faces
+2024-09-24 12:14:25,791 - INFO - Vertex count before decimation routine: 21264
+2024-09-24 12:14:25,791 - INFO - Decimating...
+2024-09-24 12:14:26,988 - INFO - Successfully resampled to: 5473
+2024-09-24 12:14:26,988 - INFO - Decimation iterations: 13
+2024-09-24 12:14:27,010 - INFO - 
+2024-09-24 12:14:27,010 - INFO - Loaded: ShapeDB_sample/Sword/D00484.obj
+2024-09-24 12:14:27,010 - INFO - Subdividing: 13168 faces
+2024-09-24 12:14:27,024 - INFO - Vertex count before decimation routine: 26908
+2024-09-24 12:14:27,024 - INFO - Decimating...
+2024-09-24 12:14:28,137 - INFO - Successfully resampled to: 5341
+2024-09-24 12:14:28,137 - INFO - Decimation iterations: 18
+2024-09-24 12:14:28,149 - INFO - 
+2024-09-24 12:14:28,149 - INFO - Loaded: ShapeDB_sample/Sword/m721.obj
+2024-09-24 12:14:28,149 - INFO - Subdividing: 530 faces
+2024-09-24 12:14:28,152 - INFO - Subdividing: 2120 faces
+2024-09-24 12:14:28,156 - INFO - Subdividing: 8480 faces
+2024-09-24 12:14:28,168 - INFO - Vertex count before decimation routine: 16970
+2024-09-24 12:14:28,168 - INFO - Decimating...
+2024-09-24 12:14:29,249 - INFO - Successfully resampled to: 5329
+2024-09-24 12:14:29,249 - INFO - Decimation iterations: 11
+2024-09-24 12:14:29,265 - INFO - 
+2024-09-24 12:14:29,266 - INFO - Loaded: ShapeDB_sample/Sword/D00356.obj
+2024-09-24 12:14:29,266 - INFO - Subdividing: 6142 faces
+2024-09-24 12:14:29,275 - INFO - Subdividing: 24568 faces
+2024-09-24 12:14:29,306 - INFO - Vertex count before decimation routine: 56738
+2024-09-24 12:14:29,306 - INFO - Decimating...
+2024-09-24 12:14:32,118 - INFO - Successfully resampled to: 5456
+2024-09-24 12:14:32,118 - INFO - Decimation iterations: 27
+2024-09-24 12:14:32,130 - INFO - 
+2024-09-24 12:14:32,130 - INFO - Loaded: ShapeDB_sample/Sword/D00162.obj
+2024-09-24 12:14:32,130 - INFO - Subdividing: 2296 faces
+2024-09-24 12:14:32,135 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:32,145 - INFO - 
+2024-09-24 12:14:32,146 - INFO - Loaded: ShapeDB_sample/Sword/D00177.obj
+2024-09-24 12:14:32,146 - INFO - Subdividing: 10136 faces
+2024-09-24 12:14:32,156 - INFO - Vertex count before decimation routine: 20280
+2024-09-24 12:14:32,156 - INFO - Decimating...
+2024-09-24 12:14:32,881 - INFO - Successfully resampled to: 5157
+2024-09-24 12:14:32,881 - INFO - Decimation iterations: 13
+2024-09-24 12:14:32,886 - INFO - 
+2024-09-24 12:14:32,886 - INFO - Loaded: ShapeDB_sample/Sword/m702.obj
+2024-09-24 12:14:32,886 - INFO - Subdividing: 2000 faces
+2024-09-24 12:14:32,888 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:32,892 - INFO - 
+2024-09-24 12:14:32,892 - INFO - Loaded: ShapeDB_sample/Sword/m703.obj
+2024-09-24 12:14:32,893 - INFO - Subdividing: 1100 faces
+2024-09-24 12:14:32,895 - INFO - Subdividing: 4400 faces
+2024-09-24 12:14:32,900 - INFO - Subdividing: 17600 faces
+2024-09-24 12:14:32,924 - INFO - Vertex count before decimation routine: 35609
+2024-09-24 12:14:32,924 - INFO - Decimating...
+2024-09-24 12:14:35,024 - INFO - Successfully resampled to: 5341
+2024-09-24 12:14:35,025 - INFO - Decimation iterations: 18
+2024-09-24 12:14:35,037 - INFO - 
+2024-09-24 12:14:35,037 - INFO - Loaded: ShapeDB_sample/Sword/m699.obj
+2024-09-24 12:14:35,037 - INFO - Subdividing: 1112 faces
+2024-09-24 12:14:35,040 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:35,057 - INFO - 
+2024-09-24 12:14:35,057 - INFO - Loaded: ShapeDB_sample/Sword/D00071.obj
+2024-09-24 12:14:35,057 - INFO - Subdividing: 21800 faces
+2024-09-24 12:14:35,084 - INFO - Vertex count before decimation routine: 43638
+2024-09-24 12:14:35,084 - INFO - Decimating...
+2024-09-24 12:14:37,291 - INFO - Successfully resampled to: 5463
+2024-09-24 12:14:37,291 - INFO - Decimation iterations: 22
+2024-09-24 12:14:37,318 - INFO - 
+2024-09-24 12:14:37,318 - INFO - Loaded: ShapeDB_sample/Sword/D00066.obj
+2024-09-24 12:14:37,318 - INFO - Subdividing: 21764 faces
+2024-09-24 12:14:37,346 - INFO - Vertex count before decimation routine: 58117
+2024-09-24 12:14:37,346 - INFO - Decimating...
+2024-09-24 12:14:40,652 - WARNING - Failed at: 5500
+2024-09-24 12:14:40,665 - INFO - 
+2024-09-24 12:14:40,665 - INFO - Loaded: ShapeDB_sample/Hand/D01162.obj
+2024-09-24 12:14:40,665 - INFO - Subdividing: 2392 faces
+2024-09-24 12:14:40,670 - INFO - Subdividing: 9568 faces
+2024-09-24 12:14:40,682 - INFO - Vertex count before decimation routine: 19138
+2024-09-24 12:14:40,682 - INFO - Decimating...
+2024-09-24 12:14:41,423 - INFO - Successfully resampled to: 5403
+2024-09-24 12:14:41,423 - INFO - Decimation iterations: 12
+2024-09-24 12:14:41,439 - INFO - 
+2024-09-24 12:14:41,440 - INFO - Loaded: ShapeDB_sample/Hand/m336.obj
+2024-09-24 12:14:41,440 - INFO - Subdividing: 3110 faces
+2024-09-24 12:14:41,446 - INFO - Subdividing: 12440 faces
+2024-09-24 12:14:41,463 - INFO - Vertex count before decimation routine: 24882
+2024-09-24 12:14:41,463 - INFO - Decimating...
+2024-09-24 12:14:42,503 - INFO - Successfully resampled to: 5121
+2024-09-24 12:14:42,504 - INFO - Decimation iterations: 15
+2024-09-24 12:14:42,517 - INFO - 
+2024-09-24 12:14:42,517 - INFO - Loaded: ShapeDB_sample/Hand/D01170.obj
+2024-09-24 12:14:42,517 - INFO - Subdividing: 3090 faces
+2024-09-24 12:14:42,523 - INFO - Subdividing: 12360 faces
+2024-09-24 12:14:42,538 - INFO - Vertex count before decimation routine: 24722
+2024-09-24 12:14:42,538 - INFO - Decimating...
+2024-09-24 12:14:43,559 - INFO - Successfully resampled to: 5088
+2024-09-24 12:14:43,560 - INFO - Decimation iterations: 15
+2024-09-24 12:14:43,573 - INFO - 
+2024-09-24 12:14:43,573 - INFO - Loaded: ShapeDB_sample/Hand/D01060.obj
+2024-09-24 12:14:43,573 - INFO - Subdividing: 2828 faces
+2024-09-24 12:14:43,579 - INFO - Subdividing: 11312 faces
+2024-09-24 12:14:43,593 - INFO - Vertex count before decimation routine: 23001
+2024-09-24 12:14:43,593 - INFO - Decimating...
+2024-09-24 12:14:44,464 - INFO - Successfully resampled to: 5456
+2024-09-24 12:14:44,464 - INFO - Decimation iterations: 14
+2024-09-24 12:14:44,484 - INFO - 
+2024-09-24 12:14:44,484 - INFO - Loaded: ShapeDB_sample/Hand/D01117.obj
+2024-09-24 12:14:44,484 - INFO - Subdividing: 12072 faces
+2024-09-24 12:14:44,500 - INFO - Vertex count before decimation routine: 24146
+2024-09-24 12:14:44,500 - INFO - Decimating...
+2024-09-24 12:14:45,467 - INFO - Successfully resampled to: 4971
+2024-09-24 12:14:45,467 - INFO - Decimation iterations: 15
+2024-09-24 12:14:45,487 - INFO - 
+2024-09-24 12:14:45,487 - INFO - Loaded: ShapeDB_sample/Hand/D01097.obj
+2024-09-24 12:14:45,487 - INFO - Subdividing: 12378 faces
+2024-09-24 12:14:45,503 - INFO - Vertex count before decimation routine: 24758
+2024-09-24 12:14:45,504 - INFO - Decimating...
+2024-09-24 12:14:46,489 - INFO - Successfully resampled to: 5096
+2024-09-24 12:14:46,489 - INFO - Decimation iterations: 15
+2024-09-24 12:14:46,515 - INFO - 
+2024-09-24 12:14:46,515 - INFO - Loaded: ShapeDB_sample/Hand/m329.obj
+2024-09-24 12:14:46,515 - INFO - Subdividing: 12378 faces
+2024-09-24 12:14:46,533 - INFO - Vertex count before decimation routine: 24758
+2024-09-24 12:14:46,533 - INFO - Decimating...
+2024-09-24 12:14:47,541 - INFO - Successfully resampled to: 5096
+2024-09-24 12:14:47,541 - INFO - Decimation iterations: 15
+2024-09-24 12:14:47,567 - INFO - 
+2024-09-24 12:14:47,567 - INFO - Loaded: ShapeDB_sample/Car/m1492.obj
+2024-09-24 12:14:47,567 - INFO - Subdividing: 10880 faces
+2024-09-24 12:14:47,581 - INFO - Vertex count before decimation routine: 22234
+2024-09-24 12:14:47,582 - INFO - Decimating...
+2024-09-24 12:14:48,448 - INFO - Successfully resampled to: 5448
+2024-09-24 12:14:48,449 - INFO - Decimation iterations: 14
+2024-09-24 12:14:48,491 - INFO - 
+2024-09-24 12:14:48,491 - INFO - Loaded: ShapeDB_sample/Car/D00452.obj
+2024-09-24 12:14:48,491 - INFO - Vertex count before decimation routine: 25495
+2024-09-24 12:14:48,491 - INFO - Decimating...
+2024-09-24 12:14:49,457 - INFO - Successfully resampled to: 5023
+2024-09-24 12:14:49,457 - INFO - Decimation iterations: 17
+2024-09-24 12:14:49,480 - INFO - 
+2024-09-24 12:14:49,480 - INFO - Loaded: ShapeDB_sample/Car/m1519.obj
+2024-09-24 12:14:49,480 - INFO - Subdividing: 7958 faces
+2024-09-24 12:14:49,485 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:49,504 - INFO - 
+2024-09-24 12:14:49,504 - INFO - Loaded: ShapeDB_sample/Car/m1485.obj
+2024-09-24 12:14:49,504 - INFO - Subdividing: 12263 faces
+2024-09-24 12:14:49,517 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:49,520 - INFO - 
+2024-09-24 12:14:49,520 - INFO - Loaded: ShapeDB_sample/Car/m1521.obj
+2024-09-24 12:14:49,520 - INFO - Subdividing: 580 faces
+2024-09-24 12:14:49,521 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:49,618 - INFO - 
+2024-09-24 12:14:49,618 - INFO - Loaded: ShapeDB_sample/Car/m1509.obj
+2024-09-24 12:14:49,618 - INFO - Vertex count before decimation routine: 47558
+2024-09-24 12:14:49,618 - INFO - Decimating...
+2024-09-24 12:14:51,633 - INFO - Successfully resampled to: 5334
+2024-09-24 12:14:51,641 - INFO - Decimation iterations: 21
+2024-09-24 12:14:51,660 - INFO - 
+2024-09-24 12:14:51,660 - INFO - Loaded: ShapeDB_sample/Car/m1552.obj
+2024-09-24 12:14:51,660 - INFO - Subdividing: 10474 faces
+2024-09-24 12:14:51,663 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:51,698 - INFO - 
+2024-09-24 12:14:51,698 - INFO - Loaded: ShapeDB_sample/Car/D00803.obj
+2024-09-24 12:14:51,698 - INFO - Vertex count before decimation routine: 25807
+2024-09-24 12:14:51,698 - INFO - Decimating...
+2024-09-24 12:14:52,793 - INFO - Successfully resampled to: 5266
+2024-09-24 12:14:52,794 - INFO - Decimation iterations: 17
+2024-09-24 12:14:52,843 - INFO - 
+2024-09-24 12:14:52,843 - INFO - Loaded: ShapeDB_sample/Car/m1540.obj
+2024-09-24 12:14:52,843 - INFO - Subdividing: 16860 faces
+2024-09-24 12:14:52,866 - INFO - Vertex count before decimation routine: 33808
+2024-09-24 12:14:52,866 - INFO - Decimating...
+2024-09-24 12:14:54,412 - INFO - Successfully resampled to: 5120
+2024-09-24 12:14:54,412 - INFO - Decimation iterations: 18
+2024-09-24 12:14:54,527 - INFO - 
+2024-09-24 12:14:54,527 - INFO - Loaded: ShapeDB_sample/Car/m1556.obj
+2024-09-24 12:14:54,527 - INFO - Vertex count before decimation routine: 35131
+2024-09-24 12:14:54,527 - INFO - Decimating...
+2024-09-24 12:14:56,610 - INFO - Successfully resampled to: 5484
+2024-09-24 12:14:56,611 - INFO - Decimation iterations: 26
+2024-09-24 12:14:56,621 - INFO - 
+2024-09-24 12:14:56,622 - INFO - Loaded: ShapeDB_sample/Car/m1543.obj
+2024-09-24 12:14:56,622 - INFO - Subdividing: 548 faces
+2024-09-24 12:14:56,623 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:14:56,660 - INFO - 
+2024-09-24 12:14:56,660 - INFO - Loaded: ShapeDB_sample/Car/D00260.obj
+2024-09-24 12:14:56,661 - INFO - Vertex count before decimation routine: 38335
+2024-09-24 12:14:56,661 - INFO - Decimating...
+2024-09-24 12:14:57,996 - INFO - Successfully resampled to: 5175
+2024-09-24 12:14:57,996 - INFO - Decimation iterations: 21
+2024-09-24 12:14:58,115 - INFO - 
+2024-09-24 12:14:58,115 - INFO - Loaded: ShapeDB_sample/Car/m1510.obj
+2024-09-24 12:14:58,115 - INFO - Vertex count before decimation routine: 54710
+2024-09-24 12:14:58,115 - INFO - Decimating...
+2024-09-24 12:15:00,615 - INFO - Successfully resampled to: 5347
+2024-09-24 12:15:00,624 - INFO - Decimation iterations: 22
+2024-09-24 12:15:00,636 - INFO - 
+2024-09-24 12:15:00,636 - INFO - Loaded: ShapeDB_sample/Car/m1517.obj
+2024-09-24 12:15:00,636 - INFO - Subdividing: 7448 faces
+2024-09-24 12:15:00,639 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:00,669 - INFO - 
+2024-09-24 12:15:00,669 - INFO - Loaded: ShapeDB_sample/Car/D00299.obj
+2024-09-24 12:15:00,669 - INFO - Vertex count before decimation routine: 23527
+2024-09-24 12:15:00,669 - INFO - Decimating...
+2024-09-24 12:15:01,738 - INFO - Successfully resampled to: 5240
+2024-09-24 12:15:01,738 - INFO - Decimation iterations: 20
+2024-09-24 12:15:01,760 - INFO - 
+2024-09-24 12:15:01,761 - INFO - Loaded: ShapeDB_sample/Car/m1488.obj
+2024-09-24 12:15:01,761 - INFO - Subdividing: 9223 faces
+2024-09-24 12:15:01,765 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:01,769 - INFO - 
+2024-09-24 12:15:01,770 - INFO - Loaded: ShapeDB_sample/Car/m1500.obj
+2024-09-24 12:15:01,770 - INFO - Subdividing: 3260 faces
+2024-09-24 12:15:01,774 - INFO - Subdividing: 13040 faces
+2024-09-24 12:15:01,792 - INFO - Vertex count before decimation routine: 26094
+2024-09-24 12:15:01,793 - INFO - Decimating...
+2024-09-24 12:15:02,956 - INFO - Successfully resampled to: 5379
+2024-09-24 12:15:02,956 - INFO - Decimation iterations: 15
+2024-09-24 12:15:02,983 - INFO - 
+2024-09-24 12:15:02,983 - INFO - Loaded: ShapeDB_sample/ComputerKeyboard/D00525.obj
+2024-09-24 12:15:02,983 - INFO - Subdividing: 26043 faces
+2024-09-24 12:15:02,989 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:02,995 - INFO - 
+2024-09-24 12:15:02,995 - INFO - Loaded: ShapeDB_sample/ComputerKeyboard/D00905.obj
+2024-09-24 12:15:02,996 - INFO - Subdividing: 7680 faces
+2024-09-24 12:15:02,997 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:03,016 - INFO - 
+2024-09-24 12:15:03,016 - INFO - Loaded: ShapeDB_sample/ComputerKeyboard/D00627.obj
+2024-09-24 12:15:03,016 - INFO - Vertex count before decimation routine: 6564
+2024-09-24 12:15:03,016 - INFO - Decimating...
+2024-09-24 12:15:03,225 - INFO - Successfully resampled to: 5388
+2024-09-24 12:15:03,225 - INFO - Decimation iterations: 4
+2024-09-24 12:15:03,257 - INFO - 
+2024-09-24 12:15:03,257 - INFO - Loaded: ShapeDB_sample/ComputerKeyboard/D00382.obj
+2024-09-24 12:15:03,257 - INFO - Vertex count before decimation routine: 8346
+2024-09-24 12:15:03,257 - INFO - Decimating...
+2024-09-24 12:15:03,650 - INFO - Successfully resampled to: 5245
+2024-09-24 12:15:03,651 - INFO - Decimation iterations: 8
+2024-09-24 12:15:03,669 - INFO - 
+2024-09-24 12:15:03,669 - INFO - Loaded: ShapeDB_sample/Bed/D00650.obj
+2024-09-24 12:15:03,669 - INFO - Subdividing: 7443 faces
+2024-09-24 12:15:03,673 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:03,677 - INFO - 
+2024-09-24 12:15:03,677 - INFO - Loaded: ShapeDB_sample/Bed/D00988.obj
+2024-09-24 12:15:03,677 - INFO - Subdividing: 624 faces
+2024-09-24 12:15:03,680 - INFO - Subdividing: 2496 faces
+2024-09-24 12:15:03,684 - INFO - Subdividing: 9984 faces
+2024-09-24 12:15:03,697 - INFO - Vertex count before decimation routine: 23028
+2024-09-24 12:15:03,697 - INFO - Decimating...
+2024-09-24 12:15:04,543 - INFO - Successfully resampled to: 5329
+2024-09-24 12:15:04,544 - INFO - Decimation iterations: 15
+2024-09-24 12:15:04,557 - INFO - 
+2024-09-24 12:15:04,557 - INFO - Loaded: ShapeDB_sample/Bed/D00031.obj
+2024-09-24 12:15:04,557 - INFO - Subdividing: 3590 faces
+2024-09-24 12:15:04,560 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:04,564 - INFO - 
+2024-09-24 12:15:04,564 - INFO - Loaded: ShapeDB_sample/Bed/m946.obj
+2024-09-24 12:15:04,564 - INFO - Subdividing: 644 faces
+2024-09-24 12:15:04,566 - INFO - Subdividing: 2576 faces
+2024-09-24 12:15:04,570 - INFO - Subdividing: 10304 faces
+2024-09-24 12:15:04,584 - INFO - Vertex count before decimation routine: 21603
+2024-09-24 12:15:04,584 - INFO - Decimating...
+2024-09-24 12:15:05,414 - INFO - Successfully resampled to: 5076
+2024-09-24 12:15:05,414 - INFO - Decimation iterations: 14
+2024-09-24 12:15:05,428 - INFO - 
+2024-09-24 12:15:05,429 - INFO - Loaded: ShapeDB_sample/Bed/D00836.obj
+2024-09-24 12:15:05,429 - INFO - Subdividing: 3154 faces
+2024-09-24 12:15:05,434 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:05,451 - INFO - 
+2024-09-24 12:15:05,451 - INFO - Loaded: ShapeDB_sample/Violin/D00250.obj
+2024-09-24 12:15:05,451 - INFO - Subdividing: 29310 faces
+2024-09-24 12:15:05,456 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:05,476 - INFO - 
+2024-09-24 12:15:05,477 - INFO - Loaded: ShapeDB_sample/Violin/D00898.obj
+2024-09-24 12:15:05,477 - INFO - Vertex count before decimation routine: 7672
+2024-09-24 12:15:05,477 - INFO - Decimating...
+2024-09-24 12:15:05,776 - INFO - Successfully resampled to: 5486
+2024-09-24 12:15:05,776 - INFO - Decimation iterations: 5
+2024-09-24 12:15:05,809 - INFO - 
+2024-09-24 12:15:05,809 - INFO - Loaded: ShapeDB_sample/Violin/D00598.obj
+2024-09-24 12:15:05,809 - INFO - Vertex count before decimation routine: 6831
+2024-09-24 12:15:05,809 - INFO - Decimating...
+2024-09-24 12:15:06,046 - INFO - Successfully resampled to: 5490
+2024-09-24 12:15:06,046 - INFO - Decimation iterations: 3
+2024-09-24 12:15:06,066 - INFO - 
+2024-09-24 12:15:06,066 - INFO - Loaded: ShapeDB_sample/Violin/D00701.obj
+2024-09-24 12:15:06,067 - INFO - Subdividing: 13341 faces
+2024-09-24 12:15:06,070 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:06,080 - INFO - 
+2024-09-24 12:15:06,080 - INFO - Loaded: ShapeDB_sample/Monitor/D00915.obj
+2024-09-24 12:15:06,080 - INFO - Subdividing: 9779 faces
+2024-09-24 12:15:06,090 - INFO - Vertex count before decimation routine: 19973
+2024-09-24 12:15:06,091 - INFO - Decimating...
+2024-09-24 12:15:06,785 - INFO - Successfully resampled to: 5221
+2024-09-24 12:15:06,785 - INFO - Decimation iterations: 13
+2024-09-24 12:15:06,812 - INFO - 
+2024-09-24 12:15:06,812 - INFO - Loaded: ShapeDB_sample/Monitor/D00444.obj
+2024-09-24 12:15:06,812 - INFO - Subdividing: 19638 faces
+2024-09-24 12:15:06,835 - INFO - Vertex count before decimation routine: 40178
+2024-09-24 12:15:06,836 - INFO - Decimating...
+2024-09-24 12:15:08,611 - INFO - Successfully resampled to: 5088
+2024-09-24 12:15:08,611 - INFO - Decimation iterations: 20
+2024-09-24 12:15:08,621 - INFO - 
+2024-09-24 12:15:08,621 - INFO - Loaded: ShapeDB_sample/Monitor/D00469.obj
+2024-09-24 12:15:08,621 - INFO - Subdividing: 444 faces
+2024-09-24 12:15:08,623 - INFO - Subdividing: 1776 faces
+2024-09-24 12:15:08,627 - INFO - Subdividing: 7104 faces
+2024-09-24 12:15:08,636 - INFO - Subdividing: 28416 faces
+2024-09-24 12:15:08,669 - INFO - Vertex count before decimation routine: 56840
+2024-09-24 12:15:08,669 - INFO - Decimating...
+2024-09-24 12:15:11,330 - INFO - Successfully resampled to: 5040
+2024-09-24 12:15:11,330 - INFO - Decimation iterations: 23
+2024-09-24 12:15:11,341 - INFO - 
+2024-09-24 12:15:11,341 - INFO - Loaded: ShapeDB_sample/Monitor/D00659.obj
+2024-09-24 12:15:11,341 - INFO - Subdividing: 294 faces
+2024-09-24 12:15:11,343 - INFO - Subdividing: 1176 faces
+2024-09-24 12:15:11,346 - INFO - Subdividing: 4704 faces
+2024-09-24 12:15:11,353 - INFO - Subdividing: 18816 faces
+2024-09-24 12:15:11,373 - INFO - Vertex count before decimation routine: 37956
+2024-09-24 12:15:11,373 - INFO - Decimating...
+2024-09-24 12:15:13,012 - INFO - Successfully resampled to: 5201
+2024-09-24 12:15:13,012 - INFO - Decimation iterations: 19
+2024-09-24 12:15:13,027 - INFO - 
+2024-09-24 12:15:13,028 - INFO - Loaded: ShapeDB_sample/City/D01173.obj
+2024-09-24 12:15:13,028 - INFO - Subdividing: 4217 faces
+2024-09-24 12:15:13,031 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:13,036 - INFO - 
+2024-09-24 12:15:13,036 - INFO - Loaded: ShapeDB_sample/City/D01056.obj
+2024-09-24 12:15:13,036 - INFO - Subdividing: 1767 faces
+2024-09-24 12:15:13,038 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:13,050 - INFO - 
+2024-09-24 12:15:13,050 - INFO - Loaded: ShapeDB_sample/City/D01090.obj
+2024-09-24 12:15:13,050 - INFO - Subdividing: 13409 faces
+2024-09-24 12:15:13,056 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:13,071 - INFO - 
+2024-09-24 12:15:13,071 - INFO - Loaded: ShapeDB_sample/City/m1659.obj
+2024-09-24 12:15:13,071 - INFO - Subdividing: 10692 faces
+2024-09-24 12:15:13,074 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:13,084 - INFO - 
+2024-09-24 12:15:13,084 - INFO - Loaded: ShapeDB_sample/City/m1660.obj
+2024-09-24 12:15:13,084 - INFO - Subdividing: 4217 faces
+2024-09-24 12:15:13,086 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:13,090 - INFO - 
+2024-09-24 12:15:13,090 - INFO - Loaded: ShapeDB_sample/Cup/m496.obj
+2024-09-24 12:15:13,090 - INFO - Subdividing: 1000 faces
+2024-09-24 12:15:13,092 - INFO - Subdividing: 4000 faces
+2024-09-24 12:15:13,098 - INFO - Subdividing: 16000 faces
+2024-09-24 12:15:13,119 - INFO - Vertex count before decimation routine: 32002
+2024-09-24 12:15:13,119 - INFO - Decimating...
+2024-09-24 12:15:14,886 - INFO - Successfully resampled to: 5341
+2024-09-24 12:15:14,895 - INFO - Decimation iterations: 17
+2024-09-24 12:15:14,899 - INFO - 
+2024-09-24 12:15:14,899 - INFO - Loaded: ShapeDB_sample/Cup/D00519.obj
+2024-09-24 12:15:14,899 - INFO - Subdividing: 888 faces
+2024-09-24 12:15:14,902 - INFO - Subdividing: 3552 faces
+2024-09-24 12:15:14,909 - INFO - Subdividing: 14208 faces
+2024-09-24 12:15:14,926 - INFO - Vertex count before decimation routine: 31656
+2024-09-24 12:15:14,926 - INFO - Decimating...
+2024-09-24 12:15:16,239 - INFO - Successfully resampled to: 5238
+2024-09-24 12:15:16,239 - INFO - Decimation iterations: 18
+2024-09-24 12:15:16,265 - INFO - 
+2024-09-24 12:15:16,265 - INFO - Loaded: ShapeDB_sample/Cup/D00457.obj
+2024-09-24 12:15:16,265 - INFO - Subdividing: 21740 faces
+2024-09-24 12:15:16,287 - INFO - Vertex count before decimation routine: 43482
+2024-09-24 12:15:16,288 - INFO - Decimating...
+2024-09-24 12:15:18,137 - INFO - Successfully resampled to: 5284
+2024-09-24 12:15:18,137 - INFO - Decimation iterations: 20
+2024-09-24 12:15:18,167 - INFO - 
+2024-09-24 12:15:18,167 - INFO - Loaded: ShapeDB_sample/Cup/D00550.obj
+2024-09-24 12:15:18,167 - INFO - Subdividing: 24928 faces
+2024-09-24 12:15:18,196 - INFO - Vertex count before decimation routine: 52419
+2024-09-24 12:15:18,196 - INFO - Decimating...
+2024-09-24 12:15:20,545 - INFO - Successfully resampled to: 4995
+2024-09-24 12:15:20,545 - INFO - Decimation iterations: 23
+2024-09-24 12:15:20,559 - INFO - 
+2024-09-24 12:15:20,560 - INFO - Loaded: ShapeDB_sample/Cup/m501.obj
+2024-09-24 12:15:20,560 - INFO - Subdividing: 2000 faces
+2024-09-24 12:15:20,565 - INFO - Subdividing: 8000 faces
+2024-09-24 12:15:20,577 - INFO - Vertex count before decimation routine: 16252
+2024-09-24 12:15:20,577 - INFO - Decimating...
+2024-09-24 12:15:21,160 - INFO - Successfully resampled to: 5110
+2024-09-24 12:15:21,160 - INFO - Decimation iterations: 11
+2024-09-24 12:15:21,178 - INFO - 
+2024-09-24 12:15:21,178 - INFO - Loaded: ShapeDB_sample/Cup/D00463.obj
+2024-09-24 12:15:21,178 - INFO - Subdividing: 9420 faces
+2024-09-24 12:15:21,189 - INFO - Vertex count before decimation routine: 18840
+2024-09-24 12:15:21,189 - INFO - Decimating...
+2024-09-24 12:15:21,839 - INFO - Successfully resampled to: 5319
+2024-09-24 12:15:21,839 - INFO - Decimation iterations: 12
+2024-09-24 12:15:21,862 - INFO - 
+2024-09-24 12:15:21,862 - INFO - Loaded: ShapeDB_sample/Quadruped/m98.obj
+2024-09-24 12:15:21,862 - INFO - Subdividing: 8236 faces
+2024-09-24 12:15:21,865 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:21,872 - INFO - 
+2024-09-24 12:15:21,872 - INFO - Loaded: ShapeDB_sample/Quadruped/m99.obj
+2024-09-24 12:15:21,872 - INFO - Subdividing: 2888 faces
+2024-09-24 12:15:21,876 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:21,884 - INFO - 
+2024-09-24 12:15:21,884 - INFO - Loaded: ShapeDB_sample/Quadruped/m88.obj
+2024-09-24 12:15:21,884 - INFO - Subdividing: 3220 faces
+2024-09-24 12:15:21,890 - INFO - Subdividing: 12880 faces
+2024-09-24 12:15:21,908 - INFO - Vertex count before decimation routine: 25768
+2024-09-24 12:15:21,908 - INFO - Decimating...
+2024-09-24 12:15:23,056 - INFO - Successfully resampled to: 5309
+2024-09-24 12:15:23,056 - INFO - Decimation iterations: 15
+2024-09-24 12:15:23,080 - INFO - 
+2024-09-24 12:15:23,080 - INFO - Loaded: ShapeDB_sample/Quadruped/m282.obj
+2024-09-24 12:15:23,080 - INFO - Subdividing: 3587 faces
+2024-09-24 12:15:23,084 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:23,093 - INFO - 
+2024-09-24 12:15:23,093 - INFO - Loaded: ShapeDB_sample/Quadruped/D00867.obj
+2024-09-24 12:15:23,093 - INFO - Subdividing: 12676 faces
+2024-09-24 12:15:23,109 - INFO - Vertex count before decimation routine: 28396
+2024-09-24 12:15:23,109 - INFO - Decimating...
+2024-09-24 12:15:24,316 - INFO - Successfully resampled to: 5276
+2024-09-24 12:15:24,316 - INFO - Decimation iterations: 19
+2024-09-24 12:15:24,328 - INFO - 
+2024-09-24 12:15:24,328 - INFO - Loaded: ShapeDB_sample/Quadruped/m87.obj
+2024-09-24 12:15:24,328 - INFO - Subdividing: 1331 faces
+2024-09-24 12:15:24,330 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:24,337 - INFO - 
+2024-09-24 12:15:24,337 - INFO - Loaded: ShapeDB_sample/Quadruped/m111.obj
+2024-09-24 12:15:24,337 - INFO - Subdividing: 2442 faces
+2024-09-24 12:15:24,342 - INFO - Subdividing: 9768 faces
+2024-09-24 12:15:24,355 - INFO - Vertex count before decimation routine: 19598
+2024-09-24 12:15:24,355 - INFO - Decimating...
+2024-09-24 12:15:25,122 - INFO - Successfully resampled to: 4983
+2024-09-24 12:15:25,122 - INFO - Decimation iterations: 13
+2024-09-24 12:15:25,132 - INFO - 
+2024-09-24 12:15:25,132 - INFO - Loaded: ShapeDB_sample/Quadruped/m105.obj
+2024-09-24 12:15:25,133 - INFO - Subdividing: 260 faces
+2024-09-24 12:15:25,134 - INFO - Subdividing: 1040 faces
+2024-09-24 12:15:25,138 - INFO - Subdividing: 4160 faces
+2024-09-24 12:15:25,145 - INFO - Subdividing: 16640 faces
+2024-09-24 12:15:25,168 - INFO - Vertex count before decimation routine: 33461
+2024-09-24 12:15:25,168 - INFO - Decimating...
+2024-09-24 12:15:26,962 - INFO - Successfully resampled to: 5048
+2024-09-24 12:15:26,962 - INFO - Decimation iterations: 18
+2024-09-24 12:15:26,984 - INFO - 
+2024-09-24 12:15:26,984 - INFO - Loaded: ShapeDB_sample/Quadruped/m94.obj
+2024-09-24 12:15:26,984 - INFO - Subdividing: 6328 faces
+2024-09-24 12:15:26,993 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:26,999 - INFO - 
+2024-09-24 12:15:26,999 - INFO - Loaded: ShapeDB_sample/Quadruped/m101.obj
+2024-09-24 12:15:26,999 - INFO - Subdividing: 2180 faces
+2024-09-24 12:15:27,003 - INFO - Subdividing: 8720 faces
+2024-09-24 12:15:27,014 - INFO - Vertex count before decimation routine: 17493
+2024-09-24 12:15:27,014 - INFO - Decimating...
+2024-09-24 12:15:27,653 - INFO - Successfully resampled to: 4975
+2024-09-24 12:15:27,653 - INFO - Decimation iterations: 12
+2024-09-24 12:15:27,667 - INFO - 
+2024-09-24 12:15:27,668 - INFO - Loaded: ShapeDB_sample/Quadruped/D00111.obj
+2024-09-24 12:15:27,668 - INFO - Subdividing: 4574 faces
+2024-09-24 12:15:27,676 - INFO - Subdividing: 18296 faces
+2024-09-24 12:15:27,698 - INFO - Vertex count before decimation routine: 36701
+2024-09-24 12:15:27,698 - INFO - Decimating...
+2024-09-24 12:15:29,401 - INFO - Successfully resampled to: 4972
+2024-09-24 12:15:29,401 - INFO - Decimation iterations: 19
+2024-09-24 12:15:29,541 - INFO - 
+2024-09-24 12:15:29,541 - INFO - Loaded: ShapeDB_sample/Biplane/m1120.obj
+2024-09-24 12:15:29,541 - INFO - Vertex count before decimation routine: 65722
+2024-09-24 12:15:29,541 - INFO - Decimating...
+2024-09-24 12:15:33,133 - INFO - Successfully resampled to: 5231
+2024-09-24 12:15:33,141 - INFO - Decimation iterations: 28
+2024-09-24 12:15:33,178 - INFO - 
+2024-09-24 12:15:33,178 - INFO - Loaded: ShapeDB_sample/Biplane/D00900.obj
+2024-09-24 12:15:33,178 - INFO - Vertex count before decimation routine: 27750
+2024-09-24 12:15:33,178 - INFO - Decimating...
+2024-09-24 12:15:34,180 - INFO - Successfully resampled to: 5398
+2024-09-24 12:15:34,180 - INFO - Decimation iterations: 17
+2024-09-24 12:15:34,200 - INFO - 
+2024-09-24 12:15:34,200 - INFO - Loaded: ShapeDB_sample/Biplane/m1143.obj
+2024-09-24 12:15:34,200 - INFO - Subdividing: 6570 faces
+2024-09-24 12:15:34,203 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:34,206 - INFO - 
+2024-09-24 12:15:34,206 - INFO - Loaded: ShapeDB_sample/Biplane/D00632.obj
+2024-09-24 12:15:34,206 - INFO - Subdividing: 1024 faces
+2024-09-24 12:15:34,208 - INFO - Subdividing: 4096 faces
+2024-09-24 12:15:34,212 - INFO - Subdividing: 16384 faces
+2024-09-24 12:15:34,231 - INFO - Vertex count before decimation routine: 33650
+2024-09-24 12:15:34,231 - INFO - Decimating...
+2024-09-24 12:15:35,648 - INFO - Successfully resampled to: 5201
+2024-09-24 12:15:35,649 - INFO - Decimation iterations: 18
+2024-09-24 12:15:35,671 - INFO - 
+2024-09-24 12:15:35,671 - INFO - Loaded: ShapeDB_sample/Biplane/m1144.obj
+2024-09-24 12:15:35,672 - INFO - Subdividing: 6736 faces
+2024-09-24 12:15:35,675 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:35,680 - INFO - 
+2024-09-24 12:15:35,680 - INFO - Loaded: ShapeDB_sample/Biplane/m1146.obj
+2024-09-24 12:15:35,680 - INFO - Subdividing: 3016 faces
+2024-09-24 12:15:35,683 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:35,705 - INFO - 
+2024-09-24 12:15:35,706 - INFO - Loaded: ShapeDB_sample/Biplane/D00616.obj
+2024-09-24 12:15:35,706 - INFO - Vertex count before decimation routine: 20306
+2024-09-24 12:15:35,706 - INFO - Decimating...
+2024-09-24 12:15:36,354 - INFO - Successfully resampled to: 4963
+2024-09-24 12:15:36,354 - INFO - Decimation iterations: 13
+2024-09-24 12:15:36,402 - INFO - 
+2024-09-24 12:15:36,402 - INFO - Loaded: ShapeDB_sample/Biplane/D00890.obj
+2024-09-24 12:15:36,402 - INFO - Vertex count before decimation routine: 45079
+2024-09-24 12:15:36,402 - INFO - Decimating...
+2024-09-24 12:15:38,885 - INFO - Successfully resampled to: 5092
+2024-09-24 12:15:38,885 - INFO - Decimation iterations: 42
+2024-09-24 12:15:38,903 - INFO - 
+2024-09-24 12:15:38,903 - INFO - Loaded: ShapeDB_sample/Biplane/m1139.obj
+2024-09-24 12:15:38,903 - INFO - Subdividing: 4234 faces
+2024-09-24 12:15:38,911 - INFO - Subdividing: 16936 faces
+2024-09-24 12:15:38,934 - INFO - Vertex count before decimation routine: 37159
+2024-09-24 12:15:38,934 - INFO - Decimating...
+2024-09-24 12:15:41,176 - INFO - Successfully resampled to: 5409
+2024-09-24 12:15:41,185 - INFO - Decimation iterations: 28
+2024-09-24 12:15:41,190 - INFO - 
+2024-09-24 12:15:41,190 - INFO - Loaded: ShapeDB_sample/Jet/m1281.obj
+2024-09-24 12:15:41,190 - INFO - Subdividing: 692 faces
+2024-09-24 12:15:41,192 - INFO - Subdividing: 2768 faces
+2024-09-24 12:15:41,198 - INFO - Subdividing: 11072 faces
+2024-09-24 12:15:41,213 - INFO - Vertex count before decimation routine: 22626
+2024-09-24 12:15:41,214 - INFO - Decimating...
+2024-09-24 12:15:42,217 - INFO - Successfully resampled to: 5257
+2024-09-24 12:15:42,217 - INFO - Decimation iterations: 14
+2024-09-24 12:15:42,221 - INFO - 
+2024-09-24 12:15:42,221 - INFO - Loaded: ShapeDB_sample/Jet/m1280.obj
+2024-09-24 12:15:42,221 - INFO - Subdividing: 324 faces
+2024-09-24 12:15:42,222 - INFO - Subdividing: 1296 faces
+2024-09-24 12:15:42,225 - INFO - Subdividing: 5184 faces
+2024-09-24 12:15:42,233 - INFO - Subdividing: 20736 faces
+2024-09-24 12:15:42,262 - INFO - Vertex count before decimation routine: 42669
+2024-09-24 12:15:42,263 - INFO - Decimating...
+2024-09-24 12:15:45,785 - INFO - Successfully resampled to: 5318
+2024-09-24 12:15:45,785 - INFO - Decimation iterations: 31
+2024-09-24 12:15:45,788 - INFO - 
+2024-09-24 12:15:45,789 - INFO - Loaded: ShapeDB_sample/Jet/m1241.obj
+2024-09-24 12:15:45,789 - INFO - Subdividing: 720 faces
+2024-09-24 12:15:45,790 - INFO - Subdividing: 2880 faces
+2024-09-24 12:15:45,795 - INFO - Subdividing: 11520 faces
+2024-09-24 12:15:45,811 - INFO - Vertex count before decimation routine: 23944
+2024-09-24 12:15:45,811 - INFO - Decimating...
+2024-09-24 12:15:46,792 - INFO - Successfully resampled to: 5471
+2024-09-24 12:15:46,792 - INFO - Decimation iterations: 14
+2024-09-24 12:15:46,803 - INFO - 
+2024-09-24 12:15:46,804 - INFO - Loaded: ShapeDB_sample/Jet/m1296.obj
+2024-09-24 12:15:46,804 - INFO - Subdividing: 408 faces
+2024-09-24 12:15:46,806 - INFO - Subdividing: 1632 faces
+2024-09-24 12:15:46,810 - INFO - Subdividing: 6528 faces
+2024-09-24 12:15:46,820 - INFO - Subdividing: 26112 faces
+2024-09-24 12:15:46,856 - INFO - Vertex count before decimation routine: 52930
+2024-09-24 12:15:46,856 - INFO - Decimating...
+2024-09-24 12:15:49,527 - INFO - Successfully resampled to: 5200
+2024-09-24 12:15:49,528 - INFO - Decimation iterations: 22
+2024-09-24 12:15:49,539 - INFO - 
+2024-09-24 12:15:49,540 - INFO - Loaded: ShapeDB_sample/Jet/m1292.obj
+2024-09-24 12:15:49,540 - INFO - Subdividing: 5036 faces
+2024-09-24 12:15:49,547 - INFO - Subdividing: 20144 faces
+2024-09-24 12:15:49,573 - INFO - Vertex count before decimation routine: 41845
+2024-09-24 12:15:49,574 - INFO - Decimating...
+2024-09-24 12:15:52,343 - INFO - Successfully resampled to: 5085
+2024-09-24 12:15:52,343 - INFO - Decimation iterations: 31
+2024-09-24 12:15:52,359 - INFO - 
+2024-09-24 12:15:52,359 - INFO - Loaded: ShapeDB_sample/Jet/m1286.obj
+2024-09-24 12:15:52,359 - INFO - Subdividing: 428 faces
+2024-09-24 12:15:52,360 - INFO - Subdividing: 1712 faces
+2024-09-24 12:15:52,365 - INFO - Subdividing: 6848 faces
+2024-09-24 12:15:52,376 - INFO - Subdividing: 27392 faces
+2024-09-24 12:15:52,415 - INFO - Vertex count before decimation routine: 56674
+2024-09-24 12:15:52,416 - INFO - Decimating...
+2024-09-24 12:15:56,209 - INFO - Successfully resampled to: 5272
+2024-09-24 12:15:56,217 - INFO - Decimation iterations: 30
+2024-09-24 12:15:56,220 - INFO - 
+2024-09-24 12:15:56,221 - INFO - Loaded: ShapeDB_sample/Jet/m1209.obj
+2024-09-24 12:15:56,221 - INFO - Subdividing: 480 faces
+2024-09-24 12:15:56,223 - INFO - Subdividing: 1920 faces
+2024-09-24 12:15:56,228 - INFO - Subdividing: 7680 faces
+2024-09-24 12:15:56,238 - INFO - Vertex count before decimation routine: 15392
+2024-09-24 12:15:56,238 - INFO - Decimating...
+2024-09-24 12:15:56,844 - INFO - Successfully resampled to: 5315
+2024-09-24 12:15:56,844 - INFO - Decimation iterations: 11
+2024-09-24 12:15:56,855 - INFO - 
+2024-09-24 12:15:56,855 - INFO - Loaded: ShapeDB_sample/Jet/m1221.obj
+2024-09-24 12:15:56,855 - INFO - Subdividing: 688 faces
+2024-09-24 12:15:56,857 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:56,864 - INFO - 
+2024-09-24 12:15:56,864 - INFO - Loaded: ShapeDB_sample/Jet/m1157.obj
+2024-09-24 12:15:56,864 - INFO - Subdividing: 2088 faces
+2024-09-24 12:15:56,868 - INFO - Subdividing: 8352 faces
+2024-09-24 12:15:56,880 - INFO - Vertex count before decimation routine: 17581
+2024-09-24 12:15:56,880 - INFO - Decimating...
+2024-09-24 12:15:57,513 - INFO - Successfully resampled to: 5270
+2024-09-24 12:15:57,513 - INFO - Decimation iterations: 12
+2024-09-24 12:15:57,517 - INFO - 
+2024-09-24 12:15:57,517 - INFO - Loaded: ShapeDB_sample/Jet/m1194.obj
+2024-09-24 12:15:57,517 - INFO - Subdividing: 1188 faces
+2024-09-24 12:15:57,519 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:57,522 - INFO - 
+2024-09-24 12:15:57,522 - INFO - Loaded: ShapeDB_sample/Jet/m1234.obj
+2024-09-24 12:15:57,522 - INFO - Subdividing: 492 faces
+2024-09-24 12:15:57,522 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:57,525 - INFO - 
+2024-09-24 12:15:57,525 - INFO - Loaded: ShapeDB_sample/Jet/m1208.obj
+2024-09-24 12:15:57,525 - INFO - Subdividing: 519 faces
+2024-09-24 12:15:57,526 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:57,529 - INFO - 
+2024-09-24 12:15:57,530 - INFO - Loaded: ShapeDB_sample/Jet/m1183.obj
+2024-09-24 12:15:57,530 - INFO - Subdividing: 780 faces
+2024-09-24 12:15:57,532 - INFO - Subdividing: 3120 faces
+2024-09-24 12:15:57,536 - INFO - Subdividing: 12480 faces
+2024-09-24 12:15:57,553 - INFO - Vertex count before decimation routine: 25944
+2024-09-24 12:15:57,553 - INFO - Decimating...
+2024-09-24 12:15:58,648 - INFO - Successfully resampled to: 5345
+2024-09-24 12:15:58,649 - INFO - Decimation iterations: 16
+2024-09-24 12:15:58,664 - INFO - 
+2024-09-24 12:15:58,664 - INFO - Loaded: ShapeDB_sample/Jet/m1191.obj
+2024-09-24 12:15:58,664 - INFO - Subdividing: 2444 faces
+2024-09-24 12:15:58,669 - INFO - Subdividing: 9776 faces
+2024-09-24 12:15:58,683 - INFO - Vertex count before decimation routine: 19823
+2024-09-24 12:15:58,683 - INFO - Decimating...
+2024-09-24 12:15:59,487 - INFO - Successfully resampled to: 5208
+2024-09-24 12:15:59,487 - INFO - Decimation iterations: 14
+2024-09-24 12:15:59,499 - INFO - 
+2024-09-24 12:15:59,499 - INFO - Loaded: ShapeDB_sample/Jet/m1225.obj
+2024-09-24 12:15:59,499 - INFO - Subdividing: 340 faces
+2024-09-24 12:15:59,500 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:59,504 - INFO - 
+2024-09-24 12:15:59,504 - INFO - Loaded: ShapeDB_sample/Jet/m1217.obj
+2024-09-24 12:15:59,504 - INFO - Subdividing: 594 faces
+2024-09-24 12:15:59,505 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:15:59,517 - INFO - 
+2024-09-24 12:15:59,518 - INFO - Loaded: ShapeDB_sample/Jet/m1149.obj
+2024-09-24 12:15:59,518 - INFO - Subdividing: 5874 faces
+2024-09-24 12:15:59,526 - INFO - Subdividing: 23496 faces
+2024-09-24 12:15:59,559 - INFO - Vertex count before decimation routine: 47058
+2024-09-24 12:15:59,559 - INFO - Decimating...
+2024-09-24 12:16:01,878 - INFO - Successfully resampled to: 5203
+2024-09-24 12:16:01,878 - INFO - Decimation iterations: 21
+2024-09-24 12:16:01,892 - INFO - 
+2024-09-24 12:16:01,892 - INFO - Loaded: ShapeDB_sample/Jet/m1161.obj
+2024-09-24 12:16:01,892 - INFO - Subdividing: 1692 faces
+2024-09-24 12:16:01,895 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:01,900 - INFO - 
+2024-09-24 12:16:01,900 - INFO - Loaded: ShapeDB_sample/Jet/m1216.obj
+2024-09-24 12:16:01,900 - INFO - Subdividing: 1754 faces
+2024-09-24 12:16:01,902 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:01,908 - INFO - 
+2024-09-24 12:16:01,909 - INFO - Loaded: ShapeDB_sample/Jet/m1212.obj
+2024-09-24 12:16:01,909 - INFO - Subdividing: 2513 faces
+2024-09-24 12:16:01,910 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:01,913 - INFO - 
+2024-09-24 12:16:01,913 - INFO - Loaded: ShapeDB_sample/Jet/m1207.obj
+2024-09-24 12:16:01,913 - INFO - Subdividing: 669 faces
+2024-09-24 12:16:01,914 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:01,918 - INFO - 
+2024-09-24 12:16:01,918 - INFO - Loaded: ShapeDB_sample/Jet/m1210.obj
+2024-09-24 12:16:01,918 - INFO - Subdividing: 1145 faces
+2024-09-24 12:16:01,921 - INFO - Subdividing: 4580 faces
+2024-09-24 12:16:01,927 - INFO - Subdividing: 18320 faces
+2024-09-24 12:16:01,953 - INFO - Vertex count before decimation routine: 36690
+2024-09-24 12:16:01,953 - INFO - Decimating...
+2024-09-24 12:16:08,805 - INFO - Successfully resampled to: 4953
+2024-09-24 12:16:08,806 - INFO - Decimation iterations: 19
+2024-09-24 12:16:08,819 - INFO - 
+2024-09-24 12:16:08,819 - INFO - Loaded: ShapeDB_sample/Jet/m1289.obj
+2024-09-24 12:16:08,819 - INFO - Subdividing: 9746 faces
+2024-09-24 12:16:08,823 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:08,825 - INFO - 
+2024-09-24 12:16:08,825 - INFO - Loaded: ShapeDB_sample/Jet/m1276.obj
+2024-09-24 12:16:08,825 - INFO - Subdividing: 256 faces
+2024-09-24 12:16:08,826 - INFO - Subdividing: 1024 faces
+2024-09-24 12:16:08,828 - INFO - Subdividing: 4096 faces
+2024-09-24 12:16:08,834 - INFO - Subdividing: 16384 faces
+2024-09-24 12:16:08,855 - INFO - Vertex count before decimation routine: 34466
+2024-09-24 12:16:08,856 - INFO - Decimating...
+2024-09-24 12:16:10,918 - INFO - Successfully resampled to: 5313
+2024-09-24 12:16:10,918 - INFO - Decimation iterations: 21
+2024-09-24 12:16:10,931 - INFO - 
+2024-09-24 12:16:10,931 - INFO - Loaded: ShapeDB_sample/Jet/m1274.obj
+2024-09-24 12:16:10,931 - INFO - Subdividing: 684 faces
+2024-09-24 12:16:10,934 - INFO - Subdividing: 2736 faces
+2024-09-24 12:16:10,939 - INFO - Subdividing: 10944 faces
+2024-09-24 12:16:10,954 - INFO - Vertex count before decimation routine: 22581
+2024-09-24 12:16:10,954 - INFO - Decimating...
+2024-09-24 12:16:11,870 - INFO - Successfully resampled to: 5178
+2024-09-24 12:16:11,870 - INFO - Decimation iterations: 14
+2024-09-24 12:16:11,876 - INFO - 
+2024-09-24 12:16:11,876 - INFO - Loaded: ShapeDB_sample/Jet/m1265.obj
+2024-09-24 12:16:11,876 - INFO - Subdividing: 680 faces
+2024-09-24 12:16:11,877 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:11,881 - INFO - 
+2024-09-24 12:16:11,881 - INFO - Loaded: ShapeDB_sample/Jet/m1298.obj
+2024-09-24 12:16:11,881 - INFO - Subdividing: 542 faces
+2024-09-24 12:16:11,883 - INFO - Subdividing: 2168 faces
+2024-09-24 12:16:11,887 - INFO - Subdividing: 8672 faces
+2024-09-24 12:16:11,899 - INFO - Vertex count before decimation routine: 17458
+2024-09-24 12:16:11,899 - INFO - Decimating...
+2024-09-24 12:16:12,936 - INFO - Successfully resampled to: 5485
+2024-09-24 12:16:12,936 - INFO - Decimation iterations: 11
+2024-09-24 12:16:12,940 - INFO - 
+2024-09-24 12:16:12,940 - INFO - Loaded: ShapeDB_sample/Jet/m1273.obj
+2024-09-24 12:16:12,940 - INFO - Subdividing: 924 faces
+2024-09-24 12:16:12,942 - INFO - Subdividing: 3696 faces
+2024-09-24 12:16:12,947 - INFO - Subdividing: 14784 faces
+2024-09-24 12:16:12,970 - INFO - Vertex count before decimation routine: 29784
+2024-09-24 12:16:12,970 - INFO - Decimating...
+2024-09-24 12:16:15,036 - INFO - Successfully resampled to: 5311
+2024-09-24 12:16:15,037 - INFO - Decimation iterations: 19
+2024-09-24 12:16:15,109 - INFO - 
+2024-09-24 12:16:15,109 - INFO - Loaded: ShapeDB_sample/Starship/m1368.obj
+2024-09-24 12:16:15,109 - INFO - Vertex count before decimation routine: 31275
+2024-09-24 12:16:15,109 - INFO - Decimating...
+2024-09-24 12:16:16,494 - INFO - Successfully resampled to: 4997
+2024-09-24 12:16:16,494 - INFO - Decimation iterations: 18
+2024-09-24 12:16:16,510 - INFO - 
+2024-09-24 12:16:16,510 - INFO - Loaded: ShapeDB_sample/Starship/m1386.obj
+2024-09-24 12:16:16,510 - INFO - Subdividing: 3384 faces
+2024-09-24 12:16:16,517 - INFO - Subdividing: 13536 faces
+2024-09-24 12:16:16,535 - INFO - Vertex count before decimation routine: 27087
+2024-09-24 12:16:16,535 - INFO - Decimating...
+2024-09-24 12:16:17,925 - INFO - Successfully resampled to: 5028
+2024-09-24 12:16:17,925 - INFO - Decimation iterations: 16
+2024-09-24 12:16:17,939 - INFO - 
+2024-09-24 12:16:17,939 - INFO - Loaded: ShapeDB_sample/Starship/m1361.obj
+2024-09-24 12:16:17,939 - INFO - Subdividing: 2008 faces
+2024-09-24 12:16:17,944 - INFO - Subdividing: 8032 faces
+2024-09-24 12:16:17,955 - INFO - Vertex count before decimation routine: 16158
+2024-09-24 12:16:17,956 - INFO - Decimating...
+2024-09-24 12:16:18,598 - INFO - Successfully resampled to: 5099
+2024-09-24 12:16:18,598 - INFO - Decimation iterations: 12
+2024-09-24 12:16:18,636 - INFO - 
+2024-09-24 12:16:18,636 - INFO - Loaded: ShapeDB_sample/Starship/m1362.obj
+2024-09-24 12:16:18,636 - INFO - Subdividing: 22912 faces
+2024-09-24 12:16:18,645 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:18,651 - INFO - 
+2024-09-24 12:16:18,651 - INFO - Loaded: ShapeDB_sample/Starship/m1371.obj
+2024-09-24 12:16:18,652 - INFO - Subdividing: 2542 faces
+2024-09-24 12:16:18,653 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:18,674 - INFO - 
+2024-09-24 12:16:18,674 - INFO - Loaded: ShapeDB_sample/Starship/m1364.obj
+2024-09-24 12:16:18,674 - INFO - Subdividing: 18139 faces
+2024-09-24 12:16:18,681 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:18,694 - INFO - 
+2024-09-24 12:16:18,694 - INFO - Loaded: ShapeDB_sample/Musical_Instrument/m640.obj
+2024-09-24 12:16:18,694 - INFO - Subdividing: 7346 faces
+2024-09-24 12:16:18,704 - INFO - Subdividing: 29384 faces
+2024-09-24 12:16:18,743 - INFO - Vertex count before decimation routine: 58831
+2024-09-24 12:16:18,743 - INFO - Decimating...
+2024-09-24 12:16:22,891 - INFO - Successfully resampled to: 4956
+2024-09-24 12:16:22,891 - INFO - Decimation iterations: 24
+2024-09-24 12:16:22,910 - INFO - 
+2024-09-24 12:16:22,910 - INFO - Loaded: ShapeDB_sample/Musical_Instrument/m646.obj
+2024-09-24 12:16:22,910 - INFO - Subdividing: 358 faces
+2024-09-24 12:16:22,912 - INFO - Subdividing: 1432 faces
+2024-09-24 12:16:22,917 - INFO - Subdividing: 5728 faces
+2024-09-24 12:16:22,926 - INFO - Subdividing: 22912 faces
+2024-09-24 12:16:22,957 - INFO - Vertex count before decimation routine: 46067
+2024-09-24 12:16:22,957 - INFO - Decimating...
+2024-09-24 12:16:26,694 - INFO - Successfully resampled to: 5079
+2024-09-24 12:16:26,694 - INFO - Decimation iterations: 21
+2024-09-24 12:16:26,722 - INFO - 
+2024-09-24 12:16:26,722 - INFO - Loaded: ShapeDB_sample/Musical_Instrument/m627.obj
+2024-09-24 12:16:26,722 - INFO - Subdividing: 13529 faces
+2024-09-24 12:16:26,726 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:26,749 - INFO - 
+2024-09-24 12:16:26,749 - INFO - Loaded: ShapeDB_sample/Musical_Instrument/m629.obj
+2024-09-24 12:16:26,749 - INFO - Subdividing: 16090 faces
+2024-09-24 12:16:26,771 - INFO - Vertex count before decimation routine: 32360
+2024-09-24 12:16:26,771 - INFO - Decimating...
+2024-09-24 12:16:28,142 - INFO - Successfully resampled to: 5007
+2024-09-24 12:16:28,143 - INFO - Decimation iterations: 18
+2024-09-24 12:16:28,155 - INFO - 
+2024-09-24 12:16:28,155 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m479.obj
+2024-09-24 12:16:28,155 - INFO - Subdividing: 1056 faces
+2024-09-24 12:16:28,158 - INFO - Subdividing: 4224 faces
+2024-09-24 12:16:28,166 - INFO - Subdividing: 16896 faces
+2024-09-24 12:16:28,189 - INFO - Vertex count before decimation routine: 34500
+2024-09-24 12:16:28,190 - INFO - Decimating...
+2024-09-24 12:16:29,729 - INFO - Successfully resampled to: 5307
+2024-09-24 12:16:29,729 - INFO - Decimation iterations: 18
+2024-09-24 12:16:29,739 - INFO - 
+2024-09-24 12:16:29,739 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m390.obj
+2024-09-24 12:16:29,739 - INFO - Subdividing: 45 faces
+2024-09-24 12:16:29,740 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:29,745 - INFO - 
+2024-09-24 12:16:29,745 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m386.obj
+2024-09-24 12:16:29,745 - INFO - Subdividing: 1008 faces
+2024-09-24 12:16:29,748 - INFO - Subdividing: 4032 faces
+2024-09-24 12:16:29,755 - INFO - Subdividing: 16128 faces
+2024-09-24 12:16:29,776 - INFO - Vertex count before decimation routine: 32284
+2024-09-24 12:16:29,776 - INFO - Decimating...
+2024-09-24 12:16:33,420 - INFO - Successfully resampled to: 5404
+2024-09-24 12:16:33,420 - INFO - Decimation iterations: 17
+2024-09-24 12:16:33,432 - INFO - 
+2024-09-24 12:16:33,432 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m382.obj
+2024-09-24 12:16:33,432 - INFO - Subdividing: 400 faces
+2024-09-24 12:16:33,434 - INFO - Subdividing: 1600 faces
+2024-09-24 12:16:33,439 - INFO - Subdividing: 6400 faces
+2024-09-24 12:16:33,448 - INFO - Subdividing: 25600 faces
+2024-09-24 12:16:33,482 - INFO - Vertex count before decimation routine: 51552
+2024-09-24 12:16:33,482 - INFO - Decimating...
+2024-09-24 12:16:37,871 - INFO - Successfully resampled to: 5241
+2024-09-24 12:16:37,879 - INFO - Decimation iterations: 22
+2024-09-24 12:16:37,884 - INFO - 
+2024-09-24 12:16:37,884 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m400.obj
+2024-09-24 12:16:37,884 - INFO - Subdividing: 840 faces
+2024-09-24 12:16:37,886 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:37,905 - INFO - 
+2024-09-24 12:16:37,905 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m416.obj
+2024-09-24 12:16:37,905 - INFO - Subdividing: 13542 faces
+2024-09-24 12:16:37,912 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:37,918 - INFO - 
+2024-09-24 12:16:37,918 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m389.obj
+2024-09-24 12:16:37,918 - INFO - Subdividing: 5100 faces
+2024-09-24 12:16:37,920 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:37,922 - INFO - 
+2024-09-24 12:16:37,923 - INFO - Loaded: ShapeDB_sample/BuildingNonResidential/m471.obj
+2024-09-24 12:16:37,923 - INFO - Subdividing: 248 faces
+2024-09-24 12:16:37,923 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:37,926 - INFO - 
+2024-09-24 12:16:37,926 - INFO - Loaded: ShapeDB_sample/AircraftBuoyant/m1337.obj
+2024-09-24 12:16:37,927 - INFO - Subdividing: 340 faces
+2024-09-24 12:16:37,927 - INFO - Subdividing: 1360 faces
+2024-09-24 12:16:37,930 - INFO - Subdividing: 5440 faces
+2024-09-24 12:16:37,937 - INFO - Subdividing: 21760 faces
+2024-09-24 12:16:37,968 - INFO - Vertex count before decimation routine: 44001
+2024-09-24 12:16:37,968 - INFO - Decimating...
+2024-09-24 12:16:41,500 - INFO - Successfully resampled to: 5382
+2024-09-24 12:16:41,500 - INFO - Decimation iterations: 20
+2024-09-24 12:16:41,515 - INFO - 
+2024-09-24 12:16:41,515 - INFO - Loaded: ShapeDB_sample/AircraftBuoyant/m1342.obj
+2024-09-24 12:16:41,515 - INFO - Subdividing: 2305 faces
+2024-09-24 12:16:41,521 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:41,528 - INFO - 
+2024-09-24 12:16:41,528 - INFO - Loaded: ShapeDB_sample/AircraftBuoyant/m1350.obj
+2024-09-24 12:16:41,528 - INFO - Subdividing: 1976 faces
+2024-09-24 12:16:41,532 - INFO - Subdividing: 7904 faces
+2024-09-24 12:16:41,542 - INFO - Vertex count before decimation routine: 16235
+2024-09-24 12:16:41,543 - INFO - Decimating...
+2024-09-24 12:16:42,116 - INFO - Successfully resampled to: 5464
+2024-09-24 12:16:42,116 - INFO - Decimation iterations: 11
+2024-09-24 12:16:42,154 - INFO - 
+2024-09-24 12:16:42,154 - INFO - Loaded: ShapeDB_sample/Cellphone/D00079.obj
+2024-09-24 12:16:42,154 - INFO - Vertex count before decimation routine: 20212
+2024-09-24 12:16:42,154 - INFO - Decimating...
+2024-09-24 12:16:42,886 - INFO - Successfully resampled to: 5112
+2024-09-24 12:16:42,886 - INFO - Decimation iterations: 14
+2024-09-24 12:16:42,898 - INFO - 
+2024-09-24 12:16:42,898 - INFO - Loaded: ShapeDB_sample/Cellphone/D00369.obj
+2024-09-24 12:16:42,898 - INFO - Subdividing: 1735 faces
+2024-09-24 12:16:42,901 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:42,912 - INFO - 
+2024-09-24 12:16:42,912 - INFO - Loaded: ShapeDB_sample/Cellphone/D00997.obj
+2024-09-24 12:16:42,912 - INFO - Subdividing: 8564 faces
+2024-09-24 12:16:42,923 - INFO - Vertex count before decimation routine: 18111
+2024-09-24 12:16:42,923 - INFO - Decimating...
+2024-09-24 12:16:43,578 - INFO - Successfully resampled to: 5481
+2024-09-24 12:16:43,579 - INFO - Decimation iterations: 13
+2024-09-24 12:16:43,593 - INFO - 
+2024-09-24 12:16:43,594 - INFO - Loaded: ShapeDB_sample/Cellphone/D00979.obj
+2024-09-24 12:16:43,594 - INFO - Subdividing: 5956 faces
+2024-09-24 12:16:43,602 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:43,620 - INFO - 
+2024-09-24 12:16:43,620 - INFO - Loaded: ShapeDB_sample/Drum/D00939.obj
+2024-09-24 12:16:43,621 - INFO - Vertex count before decimation routine: 5390
+2024-09-24 12:16:43,621 - INFO - Decimating...
+2024-09-24 12:16:43,621 - INFO - Successfully resampled to: 5390
+2024-09-24 12:16:43,621 - INFO - Decimation iterations: 0
+2024-09-24 12:16:43,627 - INFO - 
+2024-09-24 12:16:43,627 - INFO - Loaded: ShapeDB_sample/Drum/D00404.obj
+2024-09-24 12:16:43,627 - INFO - Subdividing: 8244 faces
+2024-09-24 12:16:43,629 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:43,648 - INFO - 
+2024-09-24 12:16:43,648 - INFO - Loaded: ShapeDB_sample/Drum/D00163.obj
+2024-09-24 12:16:43,648 - INFO - Vertex count before decimation routine: 8433
+2024-09-24 12:16:43,648 - INFO - Decimating...
+2024-09-24 12:16:43,883 - INFO - Successfully resampled to: 5239
+2024-09-24 12:16:43,884 - INFO - Decimation iterations: 4
+2024-09-24 12:16:43,900 - INFO - 
+2024-09-24 12:16:43,901 - INFO - Loaded: ShapeDB_sample/Drum/D00298.obj
+2024-09-24 12:16:43,901 - INFO - Subdividing: 9414 faces
+2024-09-24 12:16:43,903 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:43,906 - INFO - 
+2024-09-24 12:16:43,906 - INFO - Loaded: ShapeDB_sample/Monoplane/D00043.obj
+2024-09-24 12:16:43,906 - INFO - Subdividing: 556 faces
+2024-09-24 12:16:43,907 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:43,910 - INFO - 
+2024-09-24 12:16:43,910 - INFO - Loaded: ShapeDB_sample/Monoplane/D00402.obj
+2024-09-24 12:16:43,910 - INFO - Subdividing: 668 faces
+2024-09-24 12:16:43,912 - INFO - Subdividing: 2672 faces
+2024-09-24 12:16:43,915 - INFO - Subdividing: 10688 faces
+2024-09-24 12:16:43,926 - INFO - Vertex count before decimation routine: 21848
+2024-09-24 12:16:43,926 - INFO - Decimating...
+2024-09-24 12:16:44,771 - INFO - Successfully resampled to: 5103
+2024-09-24 12:16:44,772 - INFO - Decimation iterations: 14
+2024-09-24 12:16:44,782 - INFO - 
+2024-09-24 12:16:44,782 - INFO - Loaded: ShapeDB_sample/Monoplane/D00011.obj
+2024-09-24 12:16:44,783 - INFO - Subdividing: 1032 faces
+2024-09-24 12:16:44,786 - INFO - Subdividing: 4128 faces
+2024-09-24 12:16:44,792 - INFO - Subdividing: 16512 faces
+2024-09-24 12:16:44,810 - INFO - Vertex count before decimation routine: 33602
+2024-09-24 12:16:44,810 - INFO - Decimating...
+2024-09-24 12:16:46,501 - INFO - Successfully resampled to: 5148
+2024-09-24 12:16:46,501 - INFO - Decimation iterations: 21
+2024-09-24 12:16:46,505 - INFO - 
+2024-09-24 12:16:46,505 - INFO - Loaded: ShapeDB_sample/Monoplane/D00304.obj
+2024-09-24 12:16:46,505 - INFO - Subdividing: 2704 faces
+2024-09-24 12:16:46,509 - INFO - Subdividing: 10816 faces
+2024-09-24 12:16:46,520 - INFO - Vertex count before decimation routine: 22284
+2024-09-24 12:16:46,520 - INFO - Decimating...
+2024-09-24 12:16:47,387 - INFO - Successfully resampled to: 5228
+2024-09-24 12:16:47,387 - INFO - Decimation iterations: 14
+2024-09-24 12:16:47,430 - INFO - 
+2024-09-24 12:16:47,430 - INFO - Loaded: ShapeDB_sample/Motorcycle/m1482.obj
+2024-09-24 12:16:47,430 - INFO - Subdividing: 29064 faces
+2024-09-24 12:16:47,440 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:47,533 - INFO - 
+2024-09-24 12:16:47,534 - INFO - Loaded: ShapeDB_sample/Motorcycle/m1483.obj
+2024-09-24 12:16:47,534 - INFO - Vertex count before decimation routine: 46407
+2024-09-24 12:16:47,534 - INFO - Decimating...
+2024-09-24 12:16:49,557 - INFO - Successfully resampled to: 5173
+2024-09-24 12:16:49,566 - INFO - Decimation iterations: 21
+2024-09-24 12:16:49,581 - INFO - 
+2024-09-24 12:16:49,581 - INFO - Loaded: ShapeDB_sample/Motorcycle/D00395.obj
+2024-09-24 12:16:49,581 - INFO - Subdividing: 12538 faces
+2024-09-24 12:16:49,586 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:49,595 - INFO - 
+2024-09-24 12:16:49,595 - INFO - Loaded: ShapeDB_sample/Motorcycle/D00224.obj
+2024-09-24 12:16:49,595 - INFO - Subdividing: 7453 faces
+2024-09-24 12:16:49,604 - INFO - Subdividing: 29812 faces
+2024-09-24 12:16:49,642 - INFO - Vertex count before decimation routine: 59963
+2024-09-24 12:16:49,642 - INFO - Decimating...
+2024-09-24 12:16:52,638 - INFO - Successfully resampled to: 5486
+2024-09-24 12:16:52,638 - INFO - Decimation iterations: 23
+2024-09-24 12:16:52,672 - INFO - 
+2024-09-24 12:16:52,672 - INFO - Loaded: ShapeDB_sample/Motorcycle/D00945.obj
+2024-09-24 12:16:52,673 - INFO - Subdividing: 4590 faces
+2024-09-24 12:16:52,681 - INFO - Subdividing: 18360 faces
+2024-09-24 12:16:52,703 - INFO - Vertex count before decimation routine: 44105
+2024-09-24 12:16:52,703 - INFO - Decimating...
+2024-09-24 12:16:54,804 - INFO - Successfully resampled to: 5464
+2024-09-24 12:16:54,804 - INFO - Decimation iterations: 28
+2024-09-24 12:16:54,809 - INFO - 
+2024-09-24 12:16:54,809 - INFO - Loaded: ShapeDB_sample/Guitar/D00645.obj
+2024-09-24 12:16:54,809 - INFO - Subdividing: 1932 faces
+2024-09-24 12:16:54,812 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:54,961 - INFO - 
+2024-09-24 12:16:54,964 - INFO - Loaded: ShapeDB_sample/Guitar/D00849.obj
+2024-09-24 12:16:54,968 - INFO - Vertex count before decimation routine: 29495
+2024-09-24 12:16:54,968 - INFO - Decimating...
+2024-09-24 12:16:56,784 - INFO - Successfully resampled to: 5305
+2024-09-24 12:16:56,792 - INFO - Decimation iterations: 17
+2024-09-24 12:16:56,807 - INFO - 
+2024-09-24 12:16:56,807 - INFO - Loaded: ShapeDB_sample/Guitar/D00655.obj
+2024-09-24 12:16:56,807 - INFO - Subdividing: 11008 faces
+2024-09-24 12:16:56,821 - INFO - Vertex count before decimation routine: 27245
+2024-09-24 12:16:56,822 - INFO - Decimating...
+2024-09-24 12:16:58,608 - INFO - Successfully resampled to: 5294
+2024-09-24 12:16:58,608 - INFO - Decimation iterations: 33
+2024-09-24 12:16:58,622 - INFO - 
+2024-09-24 12:16:58,622 - INFO - Loaded: ShapeDB_sample/Guitar/D00461.obj
+2024-09-24 12:16:58,623 - INFO - Subdividing: 16932 faces
+2024-09-24 12:16:58,640 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:58,653 - INFO - 
+2024-09-24 12:16:58,653 - INFO - Loaded: ShapeDB_sample/HumanHead/D00487.obj
+2024-09-24 12:16:58,653 - INFO - Subdividing: 19092 faces
+2024-09-24 12:16:58,658 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:58,669 - INFO - 
+2024-09-24 12:16:58,670 - INFO - Loaded: ShapeDB_sample/HumanHead/D00653.obj
+2024-09-24 12:16:58,670 - INFO - Subdividing: 17058 faces
+2024-09-24 12:16:58,678 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:16:58,684 - INFO - 
+2024-09-24 12:16:58,684 - INFO - Loaded: ShapeDB_sample/HumanHead/m352.obj
+2024-09-24 12:16:58,684 - INFO - Subdividing: 1197 faces
+2024-09-24 12:16:58,688 - INFO - Subdividing: 4788 faces
+2024-09-24 12:16:58,701 - INFO - Subdividing: 19152 faces
+2024-09-24 12:16:58,749 - INFO - Vertex count before decimation routine: 38891
+2024-09-24 12:16:58,750 - INFO - Decimating...
+2024-09-24 12:17:01,437 - INFO - Successfully resampled to: 5283
+2024-09-24 12:17:01,437 - INFO - Decimation iterations: 21
+2024-09-24 12:17:01,449 - INFO - 
+2024-09-24 12:17:01,449 - INFO - Loaded: ShapeDB_sample/HumanHead/m354.obj
+2024-09-24 12:17:01,449 - INFO - Subdividing: 426 faces
+2024-09-24 12:17:01,451 - INFO - Subdividing: 1704 faces
+2024-09-24 12:17:01,456 - INFO - Subdividing: 6816 faces
+2024-09-24 12:17:01,466 - INFO - Subdividing: 27264 faces
+2024-09-24 12:17:01,504 - INFO - Vertex count before decimation routine: 54561
+2024-09-24 12:17:01,504 - INFO - Decimating...
+2024-09-24 12:17:04,311 - INFO - Successfully resampled to: 5369
+2024-09-24 12:17:04,311 - INFO - Decimation iterations: 22
+2024-09-24 12:17:04,328 - INFO - 
+2024-09-24 12:17:04,328 - INFO - Loaded: ShapeDB_sample/HumanHead/D00434.obj
+2024-09-24 12:17:04,328 - INFO - Subdividing: 24864 faces
+2024-09-24 12:17:04,334 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:04,339 - INFO - 
+2024-09-24 12:17:04,339 - INFO - Loaded: ShapeDB_sample/HumanHead/m367.obj
+2024-09-24 12:17:04,339 - INFO - Subdividing: 1852 faces
+2024-09-24 12:17:04,341 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:04,350 - INFO - 
+2024-09-24 12:17:04,350 - INFO - Loaded: ShapeDB_sample/HumanHead/D00566.obj
+2024-09-24 12:17:04,350 - INFO - Subdividing: 11118 faces
+2024-09-24 12:17:04,352 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:04,359 - INFO - 
+2024-09-24 12:17:04,359 - INFO - Loaded: ShapeDB_sample/HumanHead/D00205.obj
+2024-09-24 12:17:04,359 - INFO - Subdividing: 6816 faces
+2024-09-24 12:17:04,361 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:04,370 - INFO - 
+2024-09-24 12:17:04,370 - INFO - Loaded: ShapeDB_sample/HumanHead/D00984.obj
+2024-09-24 12:17:04,370 - INFO - Subdividing: 13848 faces
+2024-09-24 12:17:04,373 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:04,375 - INFO - 
+2024-09-24 12:17:04,376 - INFO - Loaded: ShapeDB_sample/HumanHead/m362.obj
+2024-09-24 12:17:04,376 - INFO - Subdividing: 360 faces
+2024-09-24 12:17:04,377 - INFO - Subdividing: 1440 faces
+2024-09-24 12:17:04,379 - INFO - Subdividing: 5760 faces
+2024-09-24 12:17:04,387 - INFO - Subdividing: 23040 faces
+2024-09-24 12:17:04,420 - INFO - Vertex count before decimation routine: 46086
+2024-09-24 12:17:04,420 - INFO - Decimating...
+2024-09-24 12:17:10,669 - INFO - Successfully resampled to: 5044
+2024-09-24 12:17:10,670 - INFO - Decimation iterations: 21
+2024-09-24 12:17:10,688 - INFO - 
+2024-09-24 12:17:10,688 - INFO - Loaded: ShapeDB_sample/Wheel/m737.obj
+2024-09-24 12:17:10,688 - INFO - Subdividing: 7110 faces
+2024-09-24 12:17:10,695 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:10,700 - INFO - 
+2024-09-24 12:17:10,700 - INFO - Loaded: ShapeDB_sample/Wheel/m738.obj
+2024-09-24 12:17:10,700 - INFO - Subdividing: 700 faces
+2024-09-24 12:17:10,703 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:10,713 - INFO - 
+2024-09-24 12:17:10,713 - INFO - Loaded: ShapeDB_sample/Wheel/m739.obj
+2024-09-24 12:17:10,714 - INFO - Subdividing: 1624 faces
+2024-09-24 12:17:10,721 - INFO - Subdividing: 6496 faces
+2024-09-24 12:17:10,752 - INFO - Subdividing: 25984 faces
+2024-09-24 12:17:10,851 - INFO - Vertex count before decimation routine: 51950
+2024-09-24 12:17:10,852 - INFO - Decimating...
+2024-09-24 12:17:16,076 - INFO - Successfully resampled to: 5095
+2024-09-24 12:17:16,077 - INFO - Decimation iterations: 22
+2024-09-24 12:17:16,085 - INFO - 
+2024-09-24 12:17:16,086 - INFO - Loaded: ShapeDB_sample/Helicopter/m1322.obj
+2024-09-24 12:17:16,086 - INFO - Subdividing: 1270 faces
+2024-09-24 12:17:16,088 - INFO - Subdividing: 5080 faces
+2024-09-24 12:17:16,095 - INFO - Subdividing: 20320 faces
+2024-09-24 12:17:16,123 - INFO - Vertex count before decimation routine: 40680
+2024-09-24 12:17:16,123 - INFO - Decimating...
+2024-09-24 12:17:18,554 - INFO - Successfully resampled to: 4978
+2024-09-24 12:17:18,554 - INFO - Decimation iterations: 20
+2024-09-24 12:17:18,574 - INFO - 
+2024-09-24 12:17:18,574 - INFO - Loaded: ShapeDB_sample/Helicopter/m1321.obj
+2024-09-24 12:17:18,574 - INFO - Subdividing: 5138 faces
+2024-09-24 12:17:18,577 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:18,580 - INFO - 
+2024-09-24 12:17:18,581 - INFO - Loaded: ShapeDB_sample/Helicopter/m1330.obj
+2024-09-24 12:17:18,581 - INFO - Subdividing: 578 faces
+2024-09-24 12:17:18,581 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:18,588 - INFO - 
+2024-09-24 12:17:18,588 - INFO - Loaded: ShapeDB_sample/Helicopter/m1333.obj
+2024-09-24 12:17:18,588 - INFO - Subdividing: 900 faces
+2024-09-24 12:17:18,589 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:18,599 - INFO - 
+2024-09-24 12:17:18,599 - INFO - Loaded: ShapeDB_sample/Helicopter/D00191.obj
+2024-09-24 12:17:18,599 - INFO - Subdividing: 8476 faces
+2024-09-24 12:17:18,602 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:18,607 - INFO - 
+2024-09-24 12:17:18,607 - INFO - Loaded: ShapeDB_sample/Helicopter/D00423.obj
+2024-09-24 12:17:18,607 - INFO - Subdividing: 2668 faces
+2024-09-24 12:17:18,611 - INFO - Subdividing: 10672 faces
+2024-09-24 12:17:18,624 - INFO - Vertex count before decimation routine: 21372
+2024-09-24 12:17:18,624 - INFO - Decimating...
+2024-09-24 12:17:19,465 - INFO - Successfully resampled to: 5450
+2024-09-24 12:17:19,465 - INFO - Decimation iterations: 13
+2024-09-24 12:17:19,470 - INFO - 
+2024-09-24 12:17:19,470 - INFO - Loaded: ShapeDB_sample/Helicopter/D00986.obj
+2024-09-24 12:17:19,470 - INFO - Subdividing: 2060 faces
+2024-09-24 12:17:19,473 - INFO - Subdividing: 8240 faces
+2024-09-24 12:17:19,481 - INFO - Vertex count before decimation routine: 16998
+2024-09-24 12:17:19,481 - INFO - Decimating...
+2024-09-24 12:17:20,053 - INFO - Successfully resampled to: 5467
+2024-09-24 12:17:20,053 - INFO - Decimation iterations: 11
+2024-09-24 12:17:20,064 - INFO - 
+2024-09-24 12:17:20,064 - INFO - Loaded: ShapeDB_sample/Helicopter/m1316.obj
+2024-09-24 12:17:20,064 - INFO - Subdividing: 682 faces
+2024-09-24 12:17:20,066 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:20,072 - INFO - 
+2024-09-24 12:17:20,072 - INFO - Loaded: ShapeDB_sample/Helicopter/m1311.obj
+2024-09-24 12:17:20,072 - INFO - Subdividing: 2008 faces
+2024-09-24 12:17:20,077 - INFO - Subdividing: 8032 faces
+2024-09-24 12:17:20,088 - INFO - Vertex count before decimation routine: 16066
+2024-09-24 12:17:20,088 - INFO - Decimating...
+2024-09-24 12:17:20,737 - INFO - Successfully resampled to: 5040
+2024-09-24 12:17:20,737 - INFO - Decimation iterations: 11
+2024-09-24 12:17:20,743 - INFO - 
+2024-09-24 12:17:20,743 - INFO - Loaded: ShapeDB_sample/Helicopter/m1304.obj
+2024-09-24 12:17:20,743 - INFO - Subdividing: 2094 faces
+2024-09-24 12:17:20,745 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:20,766 - INFO - 
+2024-09-24 12:17:20,766 - INFO - Loaded: ShapeDB_sample/Bus/D00815.obj
+2024-09-24 12:17:20,766 - INFO - Vertex count before decimation routine: 7075
+2024-09-24 12:17:20,766 - INFO - Decimating...
+2024-09-24 12:17:21,007 - INFO - Successfully resampled to: 5396
+2024-09-24 12:17:21,007 - INFO - Decimation iterations: 4
+2024-09-24 12:17:21,058 - INFO - 
+2024-09-24 12:17:21,059 - INFO - Loaded: ShapeDB_sample/Bus/D00182.obj
+2024-09-24 12:17:21,059 - INFO - Vertex count before decimation routine: 13436
+2024-09-24 12:17:21,059 - INFO - Decimating...
+2024-09-24 12:17:22,449 - INFO - Successfully resampled to: 5421
+2024-09-24 12:17:22,449 - INFO - Decimation iterations: 15
+2024-09-24 12:17:22,489 - INFO - 
+2024-09-24 12:17:22,489 - INFO - Loaded: ShapeDB_sample/Bus/D00769.obj
+2024-09-24 12:17:22,489 - INFO - Vertex count before decimation routine: 8963
+2024-09-24 12:17:22,489 - INFO - Decimating...
+2024-09-24 12:17:23,132 - INFO - Successfully resampled to: 5359
+2024-09-24 12:17:23,132 - INFO - Decimation iterations: 7
+2024-09-24 12:17:23,163 - INFO - 
+2024-09-24 12:17:23,163 - INFO - Loaded: ShapeDB_sample/Bus/D00179.obj
+2024-09-24 12:17:23,163 - INFO - Vertex count before decimation routine: 5976
+2024-09-24 12:17:23,164 - INFO - Decimating...
+2024-09-24 12:17:23,270 - INFO - Successfully resampled to: 5456
+2024-09-24 12:17:23,270 - INFO - Decimation iterations: 1
+2024-09-24 12:17:23,307 - INFO - 
+2024-09-24 12:17:23,307 - INFO - Loaded: ShapeDB_sample/PianoBoard/D00181.obj
+2024-09-24 12:17:23,307 - INFO - Vertex count before decimation routine: 9628
+2024-09-24 12:17:23,307 - INFO - Decimating...
+2024-09-24 12:17:23,773 - INFO - Successfully resampled to: 5179
+2024-09-24 12:17:23,774 - INFO - Decimation iterations: 7
+2024-09-24 12:17:23,790 - INFO - 
+2024-09-24 12:17:23,790 - INFO - Loaded: ShapeDB_sample/PianoBoard/D00966.obj
+2024-09-24 12:17:23,790 - INFO - Subdividing: 5970 faces
+2024-09-24 12:17:23,793 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:23,798 - INFO - 
+2024-09-24 12:17:23,798 - INFO - Loaded: ShapeDB_sample/PianoBoard/D00460.obj
+2024-09-24 12:17:23,798 - INFO - Subdividing: 4500 faces
+2024-09-24 12:17:23,800 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:23,807 - INFO - 
+2024-09-24 12:17:23,807 - INFO - Loaded: ShapeDB_sample/PianoBoard/D00104.obj
+2024-09-24 12:17:23,807 - INFO - Subdividing: 7125 faces
+2024-09-24 12:17:23,809 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:23,812 - INFO - 
+2024-09-24 12:17:23,812 - INFO - Loaded: ShapeDB_sample/DeskLamp/D00693.obj
+2024-09-24 12:17:23,812 - INFO - Subdividing: 1224 faces
+2024-09-24 12:17:23,814 - INFO - Subdividing: 4896 faces
+2024-09-24 12:17:23,819 - INFO - Subdividing: 19584 faces
+2024-09-24 12:17:23,841 - INFO - Vertex count before decimation routine: 39463
+2024-09-24 12:17:23,842 - INFO - Decimating...
+2024-09-24 12:17:25,594 - INFO - Successfully resampled to: 5352
+2024-09-24 12:17:25,594 - INFO - Decimation iterations: 19
+2024-09-24 12:17:25,610 - INFO - 
+2024-09-24 12:17:25,610 - INFO - Loaded: ShapeDB_sample/DeskLamp/D00268.obj
+2024-09-24 12:17:25,610 - INFO - Subdividing: 3672 faces
+2024-09-24 12:17:25,619 - INFO - Subdividing: 14688 faces
+2024-09-24 12:17:25,650 - INFO - Vertex count before decimation routine: 29480
+2024-09-24 12:17:25,650 - INFO - Decimating...
+2024-09-24 12:17:27,090 - INFO - Successfully resampled to: 4959
+2024-09-24 12:17:27,091 - INFO - Decimation iterations: 17
+2024-09-24 12:17:27,118 - INFO - 
+2024-09-24 12:17:27,118 - INFO - Loaded: ShapeDB_sample/DeskLamp/D00330.obj
+2024-09-24 12:17:27,118 - INFO - Subdividing: 18523 faces
+2024-09-24 12:17:27,140 - INFO - Vertex count before decimation routine: 45050
+2024-09-24 12:17:27,140 - INFO - Decimating...
+2024-09-24 12:17:29,074 - INFO - Successfully resampled to: 5350
+2024-09-24 12:17:29,074 - INFO - Decimation iterations: 23
+2024-09-24 12:17:29,075 - INFO - 
+2024-09-24 12:17:29,075 - INFO - Loaded: ShapeDB_sample/DeskLamp/D00378.obj
+2024-09-24 12:17:29,075 - INFO - Subdividing: 116 faces
+2024-09-24 12:17:29,076 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:29,086 - INFO - 
+2024-09-24 12:17:29,086 - INFO - Loaded: ShapeDB_sample/DeskLamp/m615.obj
+2024-09-24 12:17:29,087 - INFO - Subdividing: 5410 faces
+2024-09-24 12:17:29,089 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:29,093 - INFO - 
+2024-09-24 12:17:29,093 - INFO - Loaded: ShapeDB_sample/DeskLamp/D00715.obj
+2024-09-24 12:17:29,093 - INFO - Subdividing: 3916 faces
+2024-09-24 12:17:29,097 - INFO - Subdividing: 15664 faces
+2024-09-24 12:17:29,114 - INFO - Vertex count before decimation routine: 31334
+2024-09-24 12:17:29,114 - INFO - Decimating...
+2024-09-24 12:17:30,866 - INFO - Successfully resampled to: 5227
+2024-09-24 12:17:30,866 - INFO - Decimation iterations: 17
+2024-09-24 12:17:30,877 - INFO - 
+2024-09-24 12:17:30,877 - INFO - Loaded: ShapeDB_sample/WheelChair/D00453.obj
+2024-09-24 12:17:30,877 - INFO - Subdividing: 1012 faces
+2024-09-24 12:17:30,879 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:30,887 - INFO - 
+2024-09-24 12:17:30,888 - INFO - Loaded: ShapeDB_sample/WheelChair/D00183.obj
+2024-09-24 12:17:30,888 - INFO - Subdividing: 5646 faces
+2024-09-24 12:17:30,896 - INFO - Subdividing: 22584 faces
+2024-09-24 12:17:30,922 - INFO - Vertex count before decimation routine: 47653
+2024-09-24 12:17:30,922 - INFO - Decimating...
+2024-09-24 12:17:33,199 - INFO - Successfully resampled to: 5175
+2024-09-24 12:17:33,199 - INFO - Decimation iterations: 22
+2024-09-24 12:17:33,222 - INFO - 
+2024-09-24 12:17:33,222 - INFO - Loaded: ShapeDB_sample/WheelChair/D00365.obj
+2024-09-24 12:17:33,222 - INFO - Subdividing: 14412 faces
+2024-09-24 12:17:33,238 - INFO - Vertex count before decimation routine: 28862
+2024-09-24 12:17:33,239 - INFO - Decimating...
+2024-09-24 12:17:34,372 - INFO - Successfully resampled to: 5375
+2024-09-24 12:17:34,372 - INFO - Decimation iterations: 16
+2024-09-24 12:17:34,416 - INFO - 
+2024-09-24 12:17:34,417 - INFO - Loaded: ShapeDB_sample/WheelChair/D00088.obj
+2024-09-24 12:17:34,417 - INFO - Vertex count before decimation routine: 26911
+2024-09-24 12:17:34,417 - INFO - Decimating...
+2024-09-24 12:17:35,425 - INFO - Successfully resampled to: 5138
+2024-09-24 12:17:35,425 - INFO - Decimation iterations: 16
+2024-09-24 12:17:35,450 - INFO - 
+2024-09-24 12:17:35,450 - INFO - Loaded: ShapeDB_sample/Vase/m536.obj
+2024-09-24 12:17:35,451 - INFO - Subdividing: 9152 faces
+2024-09-24 12:17:35,463 - INFO - Vertex count before decimation routine: 18306
+2024-09-24 12:17:35,463 - INFO - Decimating...
+2024-09-24 12:17:36,119 - INFO - Successfully resampled to: 5168
+2024-09-24 12:17:36,119 - INFO - Decimation iterations: 12
+2024-09-24 12:17:36,131 - INFO - 
+2024-09-24 12:17:36,131 - INFO - Loaded: ShapeDB_sample/Vase/m541.obj
+2024-09-24 12:17:36,131 - INFO - Subdividing: 1196 faces
+2024-09-24 12:17:36,133 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:36,137 - INFO - 
+2024-09-24 12:17:36,137 - INFO - Loaded: ShapeDB_sample/Vase/m545.obj
+2024-09-24 12:17:36,137 - INFO - Subdividing: 800 faces
+2024-09-24 12:17:36,139 - INFO - Subdividing: 3200 faces
+2024-09-24 12:17:36,145 - INFO - Subdividing: 12800 faces
+2024-09-24 12:17:36,162 - INFO - Vertex count before decimation routine: 25602
+2024-09-24 12:17:36,162 - INFO - Decimating...
+2024-09-24 12:17:37,309 - INFO - Successfully resampled to: 5269
+2024-09-24 12:17:37,309 - INFO - Decimation iterations: 15
+2024-09-24 12:17:37,329 - INFO - 
+2024-09-24 12:17:37,329 - INFO - Loaded: ShapeDB_sample/Vase/m539.obj
+2024-09-24 12:17:37,329 - INFO - Subdividing: 5004 faces
+2024-09-24 12:17:37,338 - INFO - Subdividing: 20016 faces
+2024-09-24 12:17:37,370 - INFO - Vertex count before decimation routine: 40131
+2024-09-24 12:17:37,370 - INFO - Decimating...
+2024-09-24 12:17:39,538 - INFO - Successfully resampled to: 5428
+2024-09-24 12:17:39,546 - INFO - Decimation iterations: 19
+2024-09-24 12:17:39,560 - INFO - 
+2024-09-24 12:17:39,560 - INFO - Loaded: ShapeDB_sample/Glasses/D00050.obj
+2024-09-24 12:17:39,560 - INFO - Subdividing: 11300 faces
+2024-09-24 12:17:39,575 - INFO - Vertex count before decimation routine: 25562
+2024-09-24 12:17:39,575 - INFO - Decimating...
+2024-09-24 12:17:40,749 - INFO - Successfully resampled to: 5492
+2024-09-24 12:17:40,749 - INFO - Decimation iterations: 21
+2024-09-24 12:17:40,757 - INFO - 
+2024-09-24 12:17:40,757 - INFO - Loaded: ShapeDB_sample/Glasses/D00560.obj
+2024-09-24 12:17:40,757 - INFO - Subdividing: 8368 faces
+2024-09-24 12:17:40,767 - INFO - Vertex count before decimation routine: 16826
+2024-09-24 12:17:40,767 - INFO - Decimating...
+2024-09-24 12:17:41,372 - INFO - Successfully resampled to: 5292
+2024-09-24 12:17:41,372 - INFO - Decimation iterations: 11
+2024-09-24 12:17:41,393 - INFO - 
+2024-09-24 12:17:41,393 - INFO - Loaded: ShapeDB_sample/Glasses/D00507.obj
+2024-09-24 12:17:41,393 - INFO - Subdividing: 11300 faces
+2024-09-24 12:17:41,407 - INFO - Vertex count before decimation routine: 25562
+2024-09-24 12:17:41,407 - INFO - Decimating...
+2024-09-24 12:17:42,412 - INFO - Successfully resampled to: 5496
+2024-09-24 12:17:42,412 - INFO - Decimation iterations: 16
+2024-09-24 12:17:42,437 - INFO - 
+2024-09-24 12:17:42,437 - INFO - Loaded: ShapeDB_sample/Glasses/D00660.obj
+2024-09-24 12:17:42,437 - INFO - Subdividing: 18568 faces
+2024-09-24 12:17:42,458 - INFO - Vertex count before decimation routine: 40072
+2024-09-24 12:17:42,459 - INFO - Decimating...
+2024-09-24 12:17:44,146 - INFO - Successfully resampled to: 5418
+2024-09-24 12:17:44,147 - INFO - Decimation iterations: 21
+2024-09-24 12:17:44,160 - INFO - 
+2024-09-24 12:17:44,160 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00046.obj
+2024-09-24 12:17:44,160 - INFO - Subdividing: 2354 faces
+2024-09-24 12:17:44,166 - INFO - Subdividing: 9416 faces
+2024-09-24 12:17:44,177 - INFO - Vertex count before decimation routine: 18858
+2024-09-24 12:17:44,178 - INFO - Decimating...
+2024-09-24 12:17:44,914 - INFO - Successfully resampled to: 5336
+2024-09-24 12:17:44,914 - INFO - Decimation iterations: 12
+2024-09-24 12:17:44,927 - INFO - 
+2024-09-24 12:17:44,928 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00237.obj
+2024-09-24 12:17:44,928 - INFO - Subdividing: 3840 faces
+2024-09-24 12:17:44,934 - INFO - Subdividing: 15360 faces
+2024-09-24 12:17:44,951 - INFO - Vertex count before decimation routine: 30740
+2024-09-24 12:17:44,951 - INFO - Decimating...
+2024-09-24 12:17:46,257 - INFO - Successfully resampled to: 5139
+2024-09-24 12:17:46,257 - INFO - Decimation iterations: 17
+2024-09-24 12:17:46,280 - INFO - 
+2024-09-24 12:17:46,280 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00637.obj
+2024-09-24 12:17:46,280 - INFO - Subdividing: 15019 faces
+2024-09-24 12:17:46,297 - INFO - Vertex count before decimation routine: 30075
+2024-09-24 12:17:46,297 - INFO - Decimating...
+2024-09-24 12:17:47,596 - INFO - Successfully resampled to: 5035
+2024-09-24 12:17:47,596 - INFO - Decimation iterations: 17
+2024-09-24 12:17:47,607 - INFO - 
+2024-09-24 12:17:47,608 - INFO - Loaded: ShapeDB_sample/MultiSeat/m831.obj
+2024-09-24 12:17:47,608 - INFO - Subdividing: 900 faces
+2024-09-24 12:17:47,611 - INFO - Subdividing: 3600 faces
+2024-09-24 12:17:47,618 - INFO - Subdividing: 14400 faces
+2024-09-24 12:17:47,639 - INFO - Vertex count before decimation routine: 28840
+2024-09-24 12:17:47,639 - INFO - Decimating...
+2024-09-24 12:17:49,313 - INFO - Successfully resampled to: 5338
+2024-09-24 12:17:49,313 - INFO - Decimation iterations: 16
+2024-09-24 12:17:49,324 - INFO - 
+2024-09-24 12:17:49,324 - INFO - Loaded: ShapeDB_sample/MultiSeat/m833.obj
+2024-09-24 12:17:49,324 - INFO - Subdividing: 549 faces
+2024-09-24 12:17:49,327 - INFO - Subdividing: 2196 faces
+2024-09-24 12:17:49,332 - INFO - Subdividing: 8784 faces
+2024-09-24 12:17:49,344 - INFO - Vertex count before decimation routine: 18032
+2024-09-24 12:17:49,344 - INFO - Decimating...
+2024-09-24 12:17:50,087 - INFO - Successfully resampled to: 5157
+2024-09-24 12:17:50,087 - INFO - Decimation iterations: 12
+2024-09-24 12:17:50,096 - INFO - 
+2024-09-24 12:17:50,097 - INFO - Loaded: ShapeDB_sample/MultiSeat/m836.obj
+2024-09-24 12:17:50,097 - INFO - Subdividing: 44 faces
+2024-09-24 12:17:50,098 - INFO - Subdividing: 176 faces
+2024-09-24 12:17:50,100 - INFO - Subdividing: 704 faces
+2024-09-24 12:17:50,102 - INFO - Subdividing: 2816 faces
+2024-09-24 12:17:50,108 - INFO - Subdividing: 11264 faces
+2024-09-24 12:17:50,123 - INFO - Vertex count before decimation routine: 22813
+2024-09-24 12:17:50,123 - INFO - Decimating...
+2024-09-24 12:17:53,401 - INFO - Successfully resampled to: 5177
+2024-09-24 12:17:53,402 - INFO - Decimation iterations: 14
+2024-09-24 12:17:53,430 - INFO - 
+2024-09-24 12:17:53,430 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00289.obj
+2024-09-24 12:17:53,430 - INFO - Subdividing: 24874 faces
+2024-09-24 12:17:53,462 - INFO - Vertex count before decimation routine: 49788
+2024-09-24 12:17:53,462 - INFO - Decimating...
+2024-09-24 12:17:55,647 - INFO - Successfully resampled to: 5466
+2024-09-24 12:17:55,647 - INFO - Decimation iterations: 21
+2024-09-24 12:17:55,693 - INFO - 
+2024-09-24 12:17:55,693 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00273.obj
+2024-09-24 12:17:55,693 - INFO - Vertex count before decimation routine: 27775
+2024-09-24 12:17:55,693 - INFO - Decimating...
+2024-09-24 12:17:56,705 - INFO - Successfully resampled to: 5213
+2024-09-24 12:17:56,705 - INFO - Decimation iterations: 16
+2024-09-24 12:17:56,736 - INFO - 
+2024-09-24 12:17:56,736 - INFO - Loaded: ShapeDB_sample/MultiSeat/D00648.obj
+2024-09-24 12:17:56,736 - INFO - Vertex count before decimation routine: 15181
+2024-09-24 12:17:56,736 - INFO - Decimating...
+2024-09-24 12:17:57,149 - INFO - Successfully resampled to: 5310
+2024-09-24 12:17:57,150 - INFO - Decimation iterations: 10
+2024-09-24 12:17:57,164 - INFO - 
+2024-09-24 12:17:57,164 - INFO - Loaded: ShapeDB_sample/Truck/D00056.obj
+2024-09-24 12:17:57,164 - INFO - Subdividing: 21741 faces
+2024-09-24 12:17:57,171 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:57,177 - INFO - 
+2024-09-24 12:17:57,177 - INFO - Loaded: ShapeDB_sample/Truck/m1573.obj
+2024-09-24 12:17:57,177 - INFO - Subdividing: 2788 faces
+2024-09-24 12:17:57,179 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:57,187 - INFO - 
+2024-09-24 12:17:57,187 - INFO - Loaded: ShapeDB_sample/Truck/D00406.obj
+2024-09-24 12:17:57,187 - INFO - Subdividing: 9108 faces
+2024-09-24 12:17:57,190 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:17:57,216 - INFO - 
+2024-09-24 12:17:57,216 - INFO - Loaded: ShapeDB_sample/Truck/D00010.obj
+2024-09-24 12:17:57,217 - INFO - Vertex count before decimation routine: 6939
+2024-09-24 12:17:57,217 - INFO - Decimating...
+2024-09-24 12:17:57,461 - INFO - Successfully resampled to: 5223
+2024-09-24 12:17:57,461 - INFO - Decimation iterations: 4
+2024-09-24 12:17:57,495 - INFO - 
+2024-09-24 12:17:57,495 - INFO - Loaded: ShapeDB_sample/Truck/D00112.obj
+2024-09-24 12:17:57,495 - INFO - Vertex count before decimation routine: 7853
+2024-09-24 12:17:57,495 - INFO - Decimating...
+2024-09-24 12:17:57,930 - INFO - Successfully resampled to: 5187
+2024-09-24 12:17:57,930 - INFO - Decimation iterations: 6
+2024-09-24 12:17:57,944 - INFO - 
+2024-09-24 12:17:57,945 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m810.obj
+2024-09-24 12:17:57,945 - INFO - Subdividing: 1494 faces
+2024-09-24 12:17:57,949 - INFO - Subdividing: 5976 faces
+2024-09-24 12:17:57,958 - INFO - Subdividing: 23904 faces
+2024-09-24 12:17:57,991 - INFO - Vertex count before decimation routine: 47836
+2024-09-24 12:17:57,992 - INFO - Decimating...
+2024-09-24 12:18:02,430 - INFO - Successfully resampled to: 5256
+2024-09-24 12:18:02,438 - INFO - Decimation iterations: 21
+2024-09-24 12:18:02,441 - INFO - 
+2024-09-24 12:18:02,442 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m805.obj
+2024-09-24 12:18:02,442 - INFO - Subdividing: 290 faces
+2024-09-24 12:18:02,443 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:02,446 - INFO - 
+2024-09-24 12:18:02,446 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m812.obj
+2024-09-24 12:18:02,446 - INFO - Subdividing: 434 faces
+2024-09-24 12:18:02,448 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:02,451 - INFO - 
+2024-09-24 12:18:02,451 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m816.obj
+2024-09-24 12:18:02,451 - INFO - Subdividing: 546 faces
+2024-09-24 12:18:02,452 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:02,456 - INFO - 
+2024-09-24 12:18:02,456 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m815.obj
+2024-09-24 12:18:02,456 - INFO - Subdividing: 546 faces
+2024-09-24 12:18:02,457 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:02,468 - INFO - 
+2024-09-24 12:18:02,468 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m789.obj
+2024-09-24 12:18:02,468 - INFO - Subdividing: 4808 faces
+2024-09-24 12:18:02,474 - INFO - Subdividing: 19232 faces
+2024-09-24 12:18:02,499 - INFO - Vertex count before decimation routine: 38614
+2024-09-24 12:18:02,499 - INFO - Decimating...
+2024-09-24 12:18:04,228 - INFO - Successfully resampled to: 5278
+2024-09-24 12:18:04,228 - INFO - Decimation iterations: 19
+2024-09-24 12:18:04,241 - INFO - 
+2024-09-24 12:18:04,241 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m824.obj
+2024-09-24 12:18:04,241 - INFO - Subdividing: 1266 faces
+2024-09-24 12:18:04,243 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:04,245 - INFO - 
+2024-09-24 12:18:04,245 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m827.obj
+2024-09-24 12:18:04,246 - INFO - Subdividing: 132 faces
+2024-09-24 12:18:04,247 - INFO - Subdividing: 528 faces
+2024-09-24 12:18:04,249 - INFO - Subdividing: 2112 faces
+2024-09-24 12:18:04,253 - INFO - Subdividing: 8448 faces
+2024-09-24 12:18:04,264 - INFO - Vertex count before decimation routine: 16918
+2024-09-24 12:18:04,264 - INFO - Decimating...
+2024-09-24 12:18:05,114 - INFO - Successfully resampled to: 5321
+2024-09-24 12:18:05,114 - INFO - Decimation iterations: 11
+2024-09-24 12:18:05,126 - INFO - 
+2024-09-24 12:18:05,126 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m823.obj
+2024-09-24 12:18:05,126 - INFO - Subdividing: 812 faces
+2024-09-24 12:18:05,129 - INFO - Subdividing: 3248 faces
+2024-09-24 12:18:05,135 - INFO - Subdividing: 12992 faces
+2024-09-24 12:18:05,152 - INFO - Vertex count before decimation routine: 26018
+2024-09-24 12:18:05,152 - INFO - Decimating...
+2024-09-24 12:18:07,372 - INFO - Successfully resampled to: 5380
+2024-09-24 12:18:07,372 - INFO - Decimation iterations: 15
+2024-09-24 12:18:07,376 - INFO - 
+2024-09-24 12:18:07,376 - INFO - Loaded: ShapeDB_sample/NonWheelChair/m820.obj
+2024-09-24 12:18:07,376 - INFO - Subdividing: 208 faces
+2024-09-24 12:18:07,377 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:07,391 - INFO - 
+2024-09-24 12:18:07,391 - INFO - Loaded: ShapeDB_sample/NonWheelChair/D00936.obj
+2024-09-24 12:18:07,391 - INFO - Subdividing: 6196 faces
+2024-09-24 12:18:07,412 - INFO - Subdividing: 24784 faces
+2024-09-24 12:18:07,540 - INFO - Vertex count before decimation routine: 49590
+2024-09-24 12:18:07,540 - INFO - Decimating...
+2024-09-24 12:18:10,333 - INFO - Successfully resampled to: 5440
+2024-09-24 12:18:10,342 - INFO - Decimation iterations: 21
+2024-09-24 12:18:10,348 - INFO - 
+2024-09-24 12:18:10,348 - INFO - Loaded: ShapeDB_sample/NonWheelChair/D00707.obj
+2024-09-24 12:18:10,349 - INFO - Subdividing: 2568 faces
+2024-09-24 12:18:10,352 - INFO - Subdividing: 10272 faces
+2024-09-24 12:18:10,365 - INFO - Vertex count before decimation routine: 26759
+2024-09-24 12:18:10,365 - INFO - Decimating...
+2024-09-24 12:18:11,403 - INFO - Successfully resampled to: 5220
+2024-09-24 12:18:11,403 - INFO - Decimation iterations: 18
+2024-09-24 12:18:11,416 - INFO - 
+2024-09-24 12:18:11,417 - INFO - Loaded: ShapeDB_sample/DeskPhone/D00486.obj
+2024-09-24 12:18:11,417 - INFO - Subdividing: 3314 faces
+2024-09-24 12:18:11,423 - INFO - Subdividing: 13256 faces
+2024-09-24 12:18:11,439 - INFO - Vertex count before decimation routine: 26554
+2024-09-24 12:18:11,439 - INFO - Decimating...
+2024-09-24 12:18:12,765 - INFO - Successfully resampled to: 5497
+2024-09-24 12:18:12,765 - INFO - Decimation iterations: 15
+2024-09-24 12:18:12,777 - INFO - 
+2024-09-24 12:18:12,777 - INFO - Loaded: ShapeDB_sample/DeskPhone/D00680.obj
+2024-09-24 12:18:12,777 - INFO - Subdividing: 1508 faces
+2024-09-24 12:18:12,781 - INFO - Subdividing: 6032 faces
+2024-09-24 12:18:12,789 - INFO - Subdividing: 24128 faces
+2024-09-24 12:18:12,824 - INFO - Vertex count before decimation routine: 48595
+2024-09-24 12:18:12,824 - INFO - Decimating...
+2024-09-24 12:18:15,251 - INFO - Successfully resampled to: 5384
+2024-09-24 12:18:15,251 - INFO - Decimation iterations: 21
+2024-09-24 12:18:15,297 - INFO - 
+2024-09-24 12:18:15,297 - INFO - Loaded: ShapeDB_sample/DeskPhone/D00511.obj
+2024-09-24 12:18:15,297 - INFO - Vertex count before decimation routine: 31349
+2024-09-24 12:18:15,297 - INFO - Decimating...
+2024-09-24 12:18:16,510 - INFO - Successfully resampled to: 5321
+2024-09-24 12:18:16,510 - INFO - Decimation iterations: 17
+2024-09-24 12:18:16,575 - INFO - 
+2024-09-24 12:18:16,575 - INFO - Loaded: ShapeDB_sample/DeskPhone/D00316.obj
+2024-09-24 12:18:16,575 - INFO - Vertex count before decimation routine: 48093
+2024-09-24 12:18:16,575 - INFO - Decimating...
+2024-09-24 12:18:18,828 - INFO - Successfully resampled to: 5413
+2024-09-24 12:18:18,836 - INFO - Decimation iterations: 21
+2024-09-24 12:18:18,842 - INFO - 
+2024-09-24 12:18:18,842 - INFO - Loaded: ShapeDB_sample/Bird/D00862.obj
+2024-09-24 12:18:18,842 - INFO - Subdividing: 1507 faces
+2024-09-24 12:18:18,845 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:18,849 - INFO - 
+2024-09-24 12:18:18,849 - INFO - Loaded: ShapeDB_sample/Bird/m38.obj
+2024-09-24 12:18:18,849 - INFO - Subdividing: 928 faces
+2024-09-24 12:18:18,851 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:18,855 - INFO - 
+2024-09-24 12:18:18,855 - INFO - Loaded: ShapeDB_sample/Bird/D00625.obj
+2024-09-24 12:18:18,855 - INFO - Subdividing: 1398 faces
+2024-09-24 12:18:18,858 - INFO - Subdividing: 5592 faces
+2024-09-24 12:18:18,864 - INFO - Subdividing: 22368 faces
+2024-09-24 12:18:18,891 - INFO - Vertex count before decimation routine: 47340
+2024-09-24 12:18:18,892 - INFO - Decimating...
+2024-09-24 12:18:21,222 - INFO - Successfully resampled to: 5177
+2024-09-24 12:18:21,223 - INFO - Decimation iterations: 22
+2024-09-24 12:18:21,225 - INFO - 
+2024-09-24 12:18:21,225 - INFO - Loaded: ShapeDB_sample/Bird/D00999.obj
+2024-09-24 12:18:21,225 - INFO - Subdividing: 744 faces
+2024-09-24 12:18:21,226 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:21,235 - INFO - 
+2024-09-24 12:18:21,235 - INFO - Loaded: ShapeDB_sample/Bird/m33.obj
+2024-09-24 12:18:21,235 - INFO - Subdividing: 6164 faces
+2024-09-24 12:18:21,244 - INFO - Subdividing: 24656 faces
+2024-09-24 12:18:21,278 - INFO - Vertex count before decimation routine: 49374
+2024-09-24 12:18:21,278 - INFO - Decimating...
+2024-09-24 12:18:24,075 - INFO - Successfully resampled to: 5454
+2024-09-24 12:18:24,075 - INFO - Decimation iterations: 21
+2024-09-24 12:18:24,080 - INFO - 
+2024-09-24 12:18:24,080 - INFO - Loaded: ShapeDB_sample/Bird/m35.obj
+2024-09-24 12:18:24,081 - INFO - Subdividing: 1394 faces
+2024-09-24 12:18:24,084 - INFO - Subdividing: 5576 faces
+2024-09-24 12:18:24,093 - INFO - Subdividing: 22304 faces
+2024-09-24 12:18:24,124 - INFO - Vertex count before decimation routine: 44610
+2024-09-24 12:18:24,124 - INFO - Decimating...
+2024-09-24 12:18:26,346 - INFO - Successfully resampled to: 5420
+2024-09-24 12:18:26,354 - INFO - Decimation iterations: 20
+2024-09-24 12:18:26,359 - INFO - 
+2024-09-24 12:18:26,359 - INFO - Loaded: ShapeDB_sample/Bird/D00922.obj
+2024-09-24 12:18:26,359 - INFO - Subdividing: 1794 faces
+2024-09-24 12:18:26,363 - INFO - Subdividing: 7176 faces
+2024-09-24 12:18:26,373 - INFO - Subdividing: 28704 faces
+2024-09-24 12:18:26,409 - INFO - Vertex count before decimation routine: 57414
+2024-09-24 12:18:26,410 - INFO - Decimating...
+2024-09-24 12:18:29,254 - INFO - Successfully resampled to: 5090
+2024-09-24 12:18:29,254 - INFO - Decimation iterations: 23
+2024-09-24 12:18:29,264 - INFO - 
+2024-09-24 12:18:29,264 - INFO - Loaded: ShapeDB_sample/Bird/m47.obj
+2024-09-24 12:18:29,264 - INFO - Subdividing: 165 faces
+2024-09-24 12:18:29,266 - INFO - Subdividing: 660 faces
+2024-09-24 12:18:29,268 - INFO - Subdividing: 2640 faces
+2024-09-24 12:18:29,274 - INFO - Subdividing: 10560 faces
+2024-09-24 12:18:29,287 - INFO - Vertex count before decimation routine: 21341
+2024-09-24 12:18:29,287 - INFO - Decimating...
+2024-09-24 12:18:30,188 - INFO - Successfully resampled to: 5465
+2024-09-24 12:18:30,188 - INFO - Decimation iterations: 13
+2024-09-24 12:18:30,208 - INFO - 
+2024-09-24 12:18:30,208 - INFO - Loaded: ShapeDB_sample/SubmachineGun/D00733.obj
+2024-09-24 12:18:30,208 - INFO - Subdividing: 8831 faces
+2024-09-24 12:18:30,213 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:30,220 - INFO - 
+2024-09-24 12:18:30,220 - INFO - Loaded: ShapeDB_sample/SubmachineGun/D00537.obj
+2024-09-24 12:18:30,220 - INFO - Subdividing: 3190 faces
+2024-09-24 12:18:30,224 - INFO - Subdividing: 12760 faces
+2024-09-24 12:18:30,241 - INFO - Vertex count before decimation routine: 31997
+2024-09-24 12:18:30,241 - INFO - Decimating...
+2024-09-24 12:18:31,597 - INFO - Successfully resampled to: 5275
+2024-09-24 12:18:31,597 - INFO - Decimation iterations: 21
+2024-09-24 12:18:31,610 - INFO - 
+2024-09-24 12:18:31,610 - INFO - Loaded: ShapeDB_sample/SubmachineGun/D00431.obj
+2024-09-24 12:18:31,610 - INFO - Subdividing: 2708 faces
+2024-09-24 12:18:31,616 - INFO - Subdividing: 10832 faces
+2024-09-24 12:18:31,628 - INFO - Vertex count before decimation routine: 22906
+2024-09-24 12:18:31,629 - INFO - Decimating...
+2024-09-24 12:18:32,575 - INFO - Successfully resampled to: 5041
+2024-09-24 12:18:32,575 - INFO - Decimation iterations: 15
+2024-09-24 12:18:32,588 - INFO - 
+2024-09-24 12:18:32,588 - INFO - Loaded: ShapeDB_sample/SubmachineGun/D00878.obj
+2024-09-24 12:18:32,588 - INFO - Subdividing: 2916 faces
+2024-09-24 12:18:32,595 - INFO - Subdividing: 11664 faces
+2024-09-24 12:18:32,609 - INFO - Vertex count before decimation routine: 25115
+2024-09-24 12:18:32,609 - INFO - Decimating...
+2024-09-24 12:18:33,794 - INFO - Successfully resampled to: 5020
+2024-09-24 12:18:33,794 - INFO - Decimation iterations: 18
+2024-09-24 12:18:33,821 - INFO - 
+2024-09-24 12:18:33,821 - INFO - Loaded: ShapeDB_sample/Skyscraper/D00125.obj
+2024-09-24 12:18:33,821 - INFO - Subdividing: 16194 faces
+2024-09-24 12:18:33,847 - INFO - Vertex count before decimation routine: 51508
+2024-09-24 12:18:33,847 - INFO - Decimating...
+2024-09-24 12:18:35,900 - INFO - Successfully resampled to: 5314
+2024-09-24 12:18:35,900 - INFO - Decimation iterations: 30
+2024-09-24 12:18:35,954 - INFO - 
+2024-09-24 12:18:35,955 - INFO - Loaded: ShapeDB_sample/Skyscraper/D00870.obj
+2024-09-24 12:18:35,955 - INFO - Vertex count before decimation routine: 65343
+2024-09-24 12:18:35,955 - INFO - Decimating...
+2024-09-24 12:18:37,612 - INFO - Successfully resampled to: 5475
+2024-09-24 12:18:37,612 - INFO - Decimation iterations: 24
+2024-09-24 12:18:37,645 - INFO - 
+2024-09-24 12:18:37,645 - INFO - Loaded: ShapeDB_sample/Skyscraper/D00126.obj
+2024-09-24 12:18:37,645 - INFO - Vertex count before decimation routine: 39975
+2024-09-24 12:18:37,645 - INFO - Decimating...
+2024-09-24 12:18:38,736 - INFO - Successfully resampled to: 5158
+2024-09-24 12:18:38,736 - INFO - Decimation iterations: 17
+2024-09-24 12:18:38,760 - INFO - 
+2024-09-24 12:18:38,760 - INFO - Loaded: ShapeDB_sample/Skyscraper/D00664.obj
+2024-09-24 12:18:38,760 - INFO - Subdividing: 12812 faces
+2024-09-24 12:18:38,766 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:38,771 - INFO - 
+2024-09-24 12:18:38,771 - INFO - Loaded: ShapeDB_sample/RoundTable/D00581.obj
+2024-09-24 12:18:38,771 - INFO - Subdividing: 1526 faces
+2024-09-24 12:18:38,775 - INFO - Subdividing: 6104 faces
+2024-09-24 12:18:38,784 - INFO - Subdividing: 24416 faces
+2024-09-24 12:18:38,818 - INFO - Vertex count before decimation routine: 66818
+2024-09-24 12:18:38,818 - INFO - Decimating...
+2024-09-24 12:18:41,642 - INFO - Successfully resampled to: 5338
+2024-09-24 12:18:41,651 - INFO - Decimation iterations: 33
+2024-09-24 12:18:41,654 - INFO - 
+2024-09-24 12:18:41,654 - INFO - Loaded: ShapeDB_sample/RoundTable/m926.obj
+2024-09-24 12:18:41,654 - INFO - Subdividing: 408 faces
+2024-09-24 12:18:41,656 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:41,660 - INFO - 
+2024-09-24 12:18:41,660 - INFO - Loaded: ShapeDB_sample/RoundTable/m927.obj
+2024-09-24 12:18:41,660 - INFO - Subdividing: 366 faces
+2024-09-24 12:18:41,661 - INFO - Subdividing: 1464 faces
+2024-09-24 12:18:41,665 - INFO - Subdividing: 5856 faces
+2024-09-24 12:18:41,675 - INFO - Subdividing: 23424 faces
+2024-09-24 12:18:41,716 - INFO - Vertex count before decimation routine: 46866
+2024-09-24 12:18:41,716 - INFO - Decimating...
+2024-09-24 12:18:45,755 - INFO - Successfully resampled to: 5139
+2024-09-24 12:18:45,756 - INFO - Decimation iterations: 21
+2024-09-24 12:18:45,760 - INFO - 
+2024-09-24 12:18:45,761 - INFO - Loaded: ShapeDB_sample/RoundTable/m925.obj
+2024-09-24 12:18:45,761 - INFO - Subdividing: 408 faces
+2024-09-24 12:18:45,762 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:45,766 - INFO - 
+2024-09-24 12:18:45,766 - INFO - Loaded: ShapeDB_sample/RoundTable/D00909.obj
+2024-09-24 12:18:45,767 - INFO - Subdividing: 2330 faces
+2024-09-24 12:18:45,771 - INFO - Subdividing: 9320 faces
+2024-09-24 12:18:45,782 - INFO - Vertex count before decimation routine: 18905
+2024-09-24 12:18:45,783 - INFO - Decimating...
+2024-09-24 12:18:46,465 - INFO - Successfully resampled to: 5437
+2024-09-24 12:18:46,465 - INFO - Decimation iterations: 12
+2024-09-24 12:18:46,476 - INFO - 
+2024-09-24 12:18:46,476 - INFO - Loaded: ShapeDB_sample/RoundTable/m924.obj
+2024-09-24 12:18:46,476 - INFO - Subdividing: 408 faces
+2024-09-24 12:18:46,478 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:18:46,480 - INFO - 
+2024-09-24 12:18:46,480 - INFO - Loaded: ShapeDB_sample/RoundTable/m922.obj
+2024-09-24 12:18:46,481 - INFO - Subdividing: 88 faces
+2024-09-24 12:18:46,482 - INFO - Subdividing: 352 faces
+2024-09-24 12:18:46,484 - INFO - Subdividing: 1408 faces
+2024-09-24 12:18:46,487 - INFO - Subdividing: 5632 faces
+2024-09-24 12:18:46,496 - INFO - Subdividing: 22528 faces
+2024-09-24 12:18:46,526 - INFO - Vertex count before decimation routine: 45066
+2024-09-24 12:18:46,526 - INFO - Decimating...
+2024-09-24 12:18:52,038 - INFO - Successfully resampled to: 5484
+2024-09-24 12:18:52,038 - INFO - Decimation iterations: 20
+2024-09-24 12:18:52,068 - INFO - 
+2024-09-24 12:18:52,068 - INFO - Loaded: ShapeDB_sample/PlantIndoors/D00609.obj
+2024-09-24 12:18:52,068 - INFO - Subdividing: 10794 faces
+2024-09-24 12:18:52,092 - INFO - Vertex count before decimation routine: 64764
+2024-09-24 12:18:52,092 - INFO - Decimating...
+2024-09-24 12:18:54,014 - INFO - Successfully resampled to: 5481
+2024-09-24 12:18:54,014 - INFO - Decimation iterations: 30
+2024-09-24 12:18:54,048 - INFO - 
+2024-09-24 12:18:54,048 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1027.obj
+2024-09-24 12:18:54,048 - INFO - Subdividing: 5054 faces
+2024-09-24 12:18:54,057 - INFO - Subdividing: 20216 faces
+2024-09-24 12:18:54,090 - INFO - Vertex count before decimation routine: 45471
+2024-09-24 12:18:54,090 - INFO - Decimating...
+2024-09-24 12:18:56,392 - INFO - Successfully resampled to: 5297
+2024-09-24 12:18:56,392 - INFO - Decimation iterations: 25
+2024-09-24 12:18:56,417 - INFO - 
+2024-09-24 12:18:56,417 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1016.obj
+2024-09-24 12:18:56,417 - INFO - Subdividing: 7909 faces
+2024-09-24 12:18:56,430 - INFO - Vertex count before decimation routine: 18583
+2024-09-24 12:18:56,430 - INFO - Decimating...
+2024-09-24 12:18:57,182 - INFO - Successfully resampled to: 5138
+2024-09-24 12:18:57,182 - INFO - Decimation iterations: 16
+2024-09-24 12:18:57,211 - INFO - 
+2024-09-24 12:18:57,211 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1002.obj
+2024-09-24 12:18:57,211 - INFO - Subdividing: 10184 faces
+2024-09-24 12:18:57,231 - INFO - Vertex count before decimation routine: 26720
+2024-09-24 12:18:57,231 - INFO - Decimating...
+2024-09-24 12:19:06,077 - INFO - Successfully resampled to: 5474
+2024-09-24 12:19:06,077 - INFO - Decimation iterations: 28
+2024-09-24 12:19:06,095 - INFO - 
+2024-09-24 12:19:06,095 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1003.obj
+2024-09-24 12:19:06,095 - INFO - Subdividing: 10544 faces
+2024-09-24 12:19:06,115 - INFO - Vertex count before decimation routine: 27333
+2024-09-24 12:19:06,115 - INFO - Decimating...
+2024-09-24 12:19:08,477 - INFO - Successfully resampled to: 5442
+2024-09-24 12:19:08,477 - INFO - Decimation iterations: 24
+2024-09-24 12:19:08,509 - INFO - 
+2024-09-24 12:19:08,509 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1014.obj
+2024-09-24 12:19:08,509 - INFO - Subdividing: 20144 faces
+2024-09-24 12:19:08,562 - INFO - Vertex count before decimation routine: 51894
+2024-09-24 12:19:08,562 - INFO - Decimating...
+2024-09-24 12:19:12,767 - INFO - Successfully resampled to: 5160
+2024-09-24 12:19:12,768 - INFO - Decimation iterations: 41
+2024-09-24 12:19:12,783 - INFO - 
+2024-09-24 12:19:12,783 - INFO - Loaded: ShapeDB_sample/PlantIndoors/D00370.obj
+2024-09-24 12:19:12,783 - INFO - Subdividing: 8928 faces
+2024-09-24 12:19:12,808 - INFO - Vertex count before decimation routine: 53568
+2024-09-24 12:19:12,808 - INFO - Decimating...
+2024-09-24 12:19:14,825 - WARNING - Decimation routine failed
+2024-09-24 12:19:14,825 - WARNING - Failed at: 8742
+2024-09-24 12:19:14,857 - INFO - 
+2024-09-24 12:19:14,857 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1005.obj
+2024-09-24 12:19:14,857 - INFO - Subdividing: 19610 faces
+2024-09-24 12:19:14,899 - INFO - Vertex count before decimation routine: 55684
+2024-09-24 12:19:14,899 - INFO - Decimating...
+2024-09-24 12:19:21,555 - WARNING - Decimation routine failed
+2024-09-24 12:19:21,556 - WARNING - Failed at: 17560
+2024-09-24 12:19:21,568 - INFO - 
+2024-09-24 12:19:21,569 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m997.obj
+2024-09-24 12:19:21,569 - INFO - Subdividing: 723 faces
+2024-09-24 12:19:21,572 - INFO - Subdividing: 2892 faces
+2024-09-24 12:19:21,578 - INFO - Subdividing: 11568 faces
+2024-09-24 12:19:21,594 - INFO - Vertex count before decimation routine: 25692
+2024-09-24 12:19:21,594 - INFO - Decimating...
+2024-09-24 12:19:22,652 - INFO - Successfully resampled to: 5142
+2024-09-24 12:19:22,653 - INFO - Decimation iterations: 16
+2024-09-24 12:19:22,693 - INFO - 
+2024-09-24 12:19:22,693 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1013.obj
+2024-09-24 12:19:22,693 - INFO - Subdividing: 7424 faces
+2024-09-24 12:19:22,706 - INFO - Subdividing: 29696 faces
+2024-09-24 12:19:22,757 - INFO - Vertex count before decimation routine: 69161
+2024-09-24 12:19:22,757 - INFO - Decimating...
+2024-09-24 12:19:27,238 - INFO - Successfully resampled to: 5416
+2024-09-24 12:19:27,238 - INFO - Decimation iterations: 40
+2024-09-24 12:19:27,295 - INFO - 
+2024-09-24 12:19:27,295 - INFO - Loaded: ShapeDB_sample/PlantIndoors/D00159.obj
+2024-09-24 12:19:27,295 - INFO - Vertex count before decimation routine: 98256
+2024-09-24 12:19:27,296 - INFO - Decimating...
+2024-09-24 12:19:36,369 - WARNING - Decimation routine failed
+2024-09-24 12:19:36,377 - WARNING - Failed at: 94038
+2024-09-24 12:19:36,412 - INFO - 
+2024-09-24 12:19:36,412 - INFO - Loaded: ShapeDB_sample/PlantIndoors/m1006.obj
+2024-09-24 12:19:36,412 - INFO - Subdividing: 25760 faces
+2024-09-24 12:19:36,464 - INFO - Vertex count before decimation routine: 58629
+2024-09-24 12:19:36,464 - INFO - Decimating...
+2024-09-24 12:19:39,854 - INFO - Successfully resampled to: 5201
+2024-09-24 12:19:39,854 - INFO - Decimation iterations: 28
+2024-09-24 12:19:39,867 - INFO - 
+2024-09-24 12:19:39,867 - INFO - Loaded: ShapeDB_sample/PlantIndoors/D00667.obj
+2024-09-24 12:19:39,867 - INFO - Subdividing: 2064 faces
+2024-09-24 12:19:39,872 - INFO - Subdividing: 8256 faces
+2024-09-24 12:19:39,883 - INFO - Vertex count before decimation routine: 18386
+2024-09-24 12:19:39,883 - INFO - Decimating...
+2024-09-24 12:19:40,544 - INFO - Successfully resampled to: 5025
+2024-09-24 12:19:40,544 - INFO - Decimation iterations: 13
+2024-09-24 12:19:40,562 - INFO - 
+2024-09-24 12:19:40,562 - INFO - Loaded: ShapeDB_sample/Mug/D00760.obj
+2024-09-24 12:19:40,562 - INFO - Subdividing: 6520 faces
+2024-09-24 12:19:40,570 - INFO - Subdividing: 26080 faces
+2024-09-24 12:19:40,599 - INFO - Vertex count before decimation routine: 52166
+2024-09-24 12:19:40,600 - INFO - Decimating...
+2024-09-24 12:19:43,210 - INFO - Successfully resampled to: 5138
+2024-09-24 12:19:43,210 - INFO - Decimation iterations: 22
+2024-09-24 12:19:43,222 - INFO - 
+2024-09-24 12:19:43,223 - INFO - Loaded: ShapeDB_sample/Mug/D00825.obj
+2024-09-24 12:19:43,223 - INFO - Subdividing: 1800 faces
+2024-09-24 12:19:43,227 - INFO - Subdividing: 7200 faces
+2024-09-24 12:19:43,237 - INFO - Subdividing: 28800 faces
+2024-09-24 12:19:43,268 - INFO - Vertex count before decimation routine: 59686
+2024-09-24 12:19:43,269 - INFO - Decimating...
+2024-09-24 12:19:45,992 - INFO - Successfully resampled to: 5208
+2024-09-24 12:19:46,001 - INFO - Decimation iterations: 24
+2024-09-24 12:19:46,006 - INFO - 
+2024-09-24 12:19:46,006 - INFO - Loaded: ShapeDB_sample/Mug/D00923.obj
+2024-09-24 12:19:46,006 - INFO - Subdividing: 2874 faces
+2024-09-24 12:19:46,008 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:46,013 - INFO - 
+2024-09-24 12:19:46,013 - INFO - Loaded: ShapeDB_sample/Mug/m503.obj
+2024-09-24 12:19:46,013 - INFO - Subdividing: 1550 faces
+2024-09-24 12:19:46,016 - INFO - Subdividing: 6200 faces
+2024-09-24 12:19:46,024 - INFO - Subdividing: 24800 faces
+2024-09-24 12:19:46,058 - INFO - Vertex count before decimation routine: 50086
+2024-09-24 12:19:46,058 - INFO - Decimating...
+2024-09-24 12:19:48,650 - INFO - Successfully resampled to: 5474
+2024-09-24 12:19:48,651 - INFO - Decimation iterations: 21
+2024-09-24 12:19:48,683 - INFO - 
+2024-09-24 12:19:48,683 - INFO - Loaded: ShapeDB_sample/Mug/m506.obj
+2024-09-24 12:19:48,683 - INFO - Subdividing: 17461 faces
+2024-09-24 12:19:48,688 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:48,699 - INFO - 
+2024-09-24 12:19:48,700 - INFO - Loaded: ShapeDB_sample/Gun/m680.obj
+2024-09-24 12:19:48,700 - INFO - Subdividing: 5500 faces
+2024-09-24 12:19:48,705 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:48,708 - INFO - 
+2024-09-24 12:19:48,708 - INFO - Loaded: ShapeDB_sample/Gun/m685.obj
+2024-09-24 12:19:48,708 - INFO - Subdividing: 550 faces
+2024-09-24 12:19:48,709 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:48,723 - INFO - 
+2024-09-24 12:19:48,723 - INFO - Loaded: ShapeDB_sample/Gun/m652.obj
+2024-09-24 12:19:48,724 - INFO - Subdividing: 10198 faces
+2024-09-24 12:19:48,726 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:48,728 - INFO - 
+2024-09-24 12:19:48,728 - INFO - Loaded: ShapeDB_sample/Gun/m651.obj
+2024-09-24 12:19:48,728 - INFO - Subdividing: 130 faces
+2024-09-24 12:19:48,729 - INFO - Subdividing: 520 faces
+2024-09-24 12:19:48,730 - INFO - Subdividing: 2080 faces
+2024-09-24 12:19:48,733 - INFO - Subdividing: 8320 faces
+2024-09-24 12:19:48,744 - INFO - Vertex count before decimation routine: 16996
+2024-09-24 12:19:48,744 - INFO - Decimating...
+2024-09-24 12:19:49,491 - INFO - Successfully resampled to: 5418
+2024-09-24 12:19:49,491 - INFO - Decimation iterations: 11
+2024-09-24 12:19:49,510 - INFO - 
+2024-09-24 12:19:49,510 - INFO - Loaded: ShapeDB_sample/Gun/D00368.obj
+2024-09-24 12:19:49,510 - INFO - Subdividing: 9270 faces
+2024-09-24 12:19:49,521 - INFO - Vertex count before decimation routine: 18556
+2024-09-24 12:19:49,521 - INFO - Decimating...
+2024-09-24 12:19:50,177 - INFO - Successfully resampled to: 5249
+2024-09-24 12:19:50,177 - INFO - Decimation iterations: 12
+2024-09-24 12:19:50,180 - INFO - 
+2024-09-24 12:19:50,180 - INFO - Loaded: ShapeDB_sample/Gun/D00153.obj
+2024-09-24 12:19:50,180 - INFO - Subdividing: 704 faces
+2024-09-24 12:19:50,181 - INFO - Subdividing: 2816 faces
+2024-09-24 12:19:50,185 - INFO - Subdividing: 11264 faces
+2024-09-24 12:19:50,198 - INFO - Vertex count before decimation routine: 22540
+2024-09-24 12:19:50,198 - INFO - Decimating...
+2024-09-24 12:19:51,193 - INFO - Successfully resampled to: 5163
+2024-09-24 12:19:51,194 - INFO - Decimation iterations: 14
+2024-09-24 12:19:51,205 - INFO - 
+2024-09-24 12:19:51,205 - INFO - Loaded: ShapeDB_sample/Gun/m661.obj
+2024-09-24 12:19:51,205 - INFO - Subdividing: 668 faces
+2024-09-24 12:19:51,208 - INFO - Subdividing: 2672 faces
+2024-09-24 12:19:51,214 - INFO - Subdividing: 10688 faces
+2024-09-24 12:19:51,230 - INFO - Vertex count before decimation routine: 21538
+2024-09-24 12:19:51,230 - INFO - Decimating...
+2024-09-24 12:19:52,100 - INFO - Successfully resampled to: 4959
+2024-09-24 12:19:52,100 - INFO - Decimation iterations: 14
+2024-09-24 12:19:52,139 - INFO - 
+2024-09-24 12:19:52,139 - INFO - Loaded: ShapeDB_sample/Gun/m666.obj
+2024-09-24 12:19:52,139 - INFO - Subdividing: 26860 faces
+2024-09-24 12:19:52,175 - INFO - Vertex count before decimation routine: 53730
+2024-09-24 12:19:52,176 - INFO - Decimating...
+2024-09-24 12:19:54,622 - INFO - Successfully resampled to: 5296
+2024-09-24 12:19:54,622 - INFO - Decimation iterations: 22
+2024-09-24 12:19:54,647 - INFO - 
+2024-09-24 12:19:54,647 - INFO - Loaded: ShapeDB_sample/Gun/m664.obj
+2024-09-24 12:19:54,647 - INFO - Subdividing: 9270 faces
+2024-09-24 12:19:54,659 - INFO - Vertex count before decimation routine: 18556
+2024-09-24 12:19:54,659 - INFO - Decimating...
+2024-09-24 12:19:55,328 - INFO - Successfully resampled to: 5249
+2024-09-24 12:19:55,328 - INFO - Decimation iterations: 12
+2024-09-24 12:19:55,344 - INFO - 
+2024-09-24 12:19:55,344 - INFO - Loaded: ShapeDB_sample/Gun/m665.obj
+2024-09-24 12:19:55,344 - INFO - Subdividing: 3500 faces
+2024-09-24 12:19:55,351 - INFO - Subdividing: 14000 faces
+2024-09-24 12:19:55,371 - INFO - Vertex count before decimation routine: 28469
+2024-09-24 12:19:55,371 - INFO - Decimating...
+2024-09-24 12:19:56,785 - INFO - Successfully resampled to: 5337
+2024-09-24 12:19:56,785 - INFO - Decimation iterations: 16
+2024-09-24 12:19:56,800 - INFO - 
+2024-09-24 12:19:56,800 - INFO - Loaded: ShapeDB_sample/Gun/m659.obj
+2024-09-24 12:19:56,800 - INFO - Subdividing: 2291 faces
+2024-09-24 12:19:56,803 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:56,821 - INFO - 
+2024-09-24 12:19:56,821 - INFO - Loaded: ShapeDB_sample/Train/m1585.obj
+2024-09-24 12:19:56,822 - INFO - Subdividing: 10241 faces
+2024-09-24 12:19:56,836 - INFO - Vertex count before decimation routine: 20666
+2024-09-24 12:19:56,836 - INFO - Decimating...
+2024-09-24 12:19:58,013 - INFO - Successfully resampled to: 5385
+2024-09-24 12:19:58,013 - INFO - Decimation iterations: 13
+2024-09-24 12:19:58,024 - INFO - 
+2024-09-24 12:19:58,024 - INFO - Loaded: ShapeDB_sample/Train/m1578.obj
+2024-09-24 12:19:58,024 - INFO - Subdividing: 574 faces
+2024-09-24 12:19:58,027 - INFO - Subdividing: 2296 faces
+2024-09-24 12:19:58,032 - INFO - Subdividing: 9184 faces
+2024-09-24 12:19:58,045 - INFO - Vertex count before decimation routine: 18414
+2024-09-24 12:19:58,045 - INFO - Decimating...
+2024-09-24 12:19:58,828 - INFO - Successfully resampled to: 5230
+2024-09-24 12:19:58,828 - INFO - Decimation iterations: 12
+2024-09-24 12:19:58,855 - INFO - 
+2024-09-24 12:19:58,855 - INFO - Loaded: ShapeDB_sample/Train/m1586.obj
+2024-09-24 12:19:58,855 - INFO - Subdividing: 10581 faces
+2024-09-24 12:19:58,869 - INFO - Vertex count before decimation routine: 21396
+2024-09-24 12:19:58,869 - INFO - Decimating...
+2024-09-24 12:19:59,715 - INFO - Successfully resampled to: 5067
+2024-09-24 12:19:59,715 - INFO - Decimation iterations: 14
+2024-09-24 12:19:59,741 - INFO - 
+2024-09-24 12:19:59,741 - INFO - Loaded: ShapeDB_sample/Train/D01064.obj
+2024-09-24 12:19:59,741 - INFO - Subdividing: 29523 faces
+2024-09-24 12:19:59,746 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:19:59,785 - INFO - 
+2024-09-24 12:19:59,786 - INFO - Loaded: ShapeDB_sample/Train/D01180.obj
+2024-09-24 12:19:59,786 - INFO - Vertex count before decimation routine: 13612
+2024-09-24 12:19:59,786 - INFO - Decimating...
+2024-09-24 12:20:01,266 - INFO - Successfully resampled to: 5473
+2024-09-24 12:20:01,275 - INFO - Decimation iterations: 14
+2024-09-24 12:20:01,300 - INFO - 
+2024-09-24 12:20:01,300 - INFO - Loaded: ShapeDB_sample/Train/D01027.obj
+2024-09-24 12:20:01,300 - INFO - Vertex count before decimation routine: 4906
+2024-09-24 12:20:01,300 - INFO - Decimating...
+2024-09-24 12:20:01,300 - INFO - Successfully resampled to: 4906
+2024-09-24 12:20:01,300 - INFO - Decimation iterations: 0
+2024-09-24 12:20:01,305 - INFO - 
+2024-09-24 12:20:01,305 - INFO - Loaded: ShapeDB_sample/House/m456.obj
+2024-09-24 12:20:01,305 - INFO - Subdividing: 703 faces
+2024-09-24 12:20:01,307 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:01,312 - INFO - 
+2024-09-24 12:20:01,312 - INFO - Loaded: ShapeDB_sample/House/D00889.obj
+2024-09-24 12:20:01,313 - INFO - Subdividing: 2048 faces
+2024-09-24 12:20:01,316 - INFO - Subdividing: 8192 faces
+2024-09-24 12:20:01,328 - INFO - Vertex count before decimation routine: 20170
+2024-09-24 12:20:01,329 - INFO - Decimating...
+2024-09-24 12:20:02,507 - INFO - Successfully resampled to: 5460
+2024-09-24 12:20:02,507 - INFO - Decimation iterations: 14
+2024-09-24 12:20:02,521 - INFO - 
+2024-09-24 12:20:02,522 - INFO - Loaded: ShapeDB_sample/House/m447.obj
+2024-09-24 12:20:02,522 - INFO - Subdividing: 2370 faces
+2024-09-24 12:20:02,527 - INFO - Subdividing: 9480 faces
+2024-09-24 12:20:02,542 - INFO - Vertex count before decimation routine: 20016
+2024-09-24 12:20:02,543 - INFO - Decimating...
+2024-09-24 12:20:04,017 - INFO - Successfully resampled to: 5360
+2024-09-24 12:20:04,017 - INFO - Decimation iterations: 13
+2024-09-24 12:20:04,028 - INFO - 
+2024-09-24 12:20:04,028 - INFO - Loaded: ShapeDB_sample/House/m452.obj
+2024-09-24 12:20:04,028 - INFO - Subdividing: 5111 faces
+2024-09-24 12:20:04,031 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:04,046 - INFO - 
+2024-09-24 12:20:04,046 - INFO - Loaded: ShapeDB_sample/House/D00325.obj
+2024-09-24 12:20:04,046 - INFO - Subdividing: 16975 faces
+2024-09-24 12:20:04,069 - INFO - Vertex count before decimation routine: 37500
+2024-09-24 12:20:04,069 - INFO - Decimating...
+2024-09-24 12:20:05,762 - INFO - Successfully resampled to: 5280
+2024-09-24 12:20:05,762 - INFO - Decimation iterations: 22
+2024-09-24 12:20:05,800 - INFO - 
+2024-09-24 12:20:05,800 - INFO - Loaded: ShapeDB_sample/House/D00286.obj
+2024-09-24 12:20:05,800 - INFO - Vertex count before decimation routine: 28479
+2024-09-24 12:20:05,800 - INFO - Decimating...
+2024-09-24 12:20:06,979 - INFO - Successfully resampled to: 5247
+2024-09-24 12:20:06,979 - INFO - Decimation iterations: 19
+2024-09-24 12:20:06,993 - INFO - 
+2024-09-24 12:20:06,993 - INFO - Loaded: ShapeDB_sample/House/D00965.obj
+2024-09-24 12:20:06,993 - INFO - Subdividing: 2800 faces
+2024-09-24 12:20:06,995 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:06,999 - INFO - 
+2024-09-24 12:20:06,999 - INFO - Loaded: ShapeDB_sample/House/m439.obj
+2024-09-24 12:20:06,999 - INFO - Subdividing: 532 faces
+2024-09-24 12:20:07,001 - INFO - Subdividing: 2128 faces
+2024-09-24 12:20:07,005 - INFO - Subdividing: 8512 faces
+2024-09-24 12:20:07,019 - INFO - Vertex count before decimation routine: 17114
+2024-09-24 12:20:07,020 - INFO - Decimating...
+2024-09-24 12:20:07,983 - INFO - Successfully resampled to: 5429
+2024-09-24 12:20:07,983 - INFO - Decimation iterations: 11
+2024-09-24 12:20:07,990 - INFO - 
+2024-09-24 12:20:07,991 - INFO - Loaded: ShapeDB_sample/House/m448.obj
+2024-09-24 12:20:07,991 - INFO - Subdividing: 1502 faces
+2024-09-24 12:20:07,992 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:07,994 - INFO - 
+2024-09-24 12:20:07,994 - INFO - Loaded: ShapeDB_sample/Chess/m1599.obj
+2024-09-24 12:20:07,994 - INFO - Subdividing: 496 faces
+2024-09-24 12:20:07,996 - INFO - Subdividing: 1984 faces
+2024-09-24 12:20:07,999 - INFO - Subdividing: 7936 faces
+2024-09-24 12:20:08,011 - INFO - Vertex count before decimation routine: 15874
+2024-09-24 12:20:08,012 - INFO - Decimating...
+2024-09-24 12:20:09,331 - INFO - Successfully resampled to: 4980
+2024-09-24 12:20:09,331 - INFO - Decimation iterations: 11
+2024-09-24 12:20:09,334 - INFO - 
+2024-09-24 12:20:09,334 - INFO - Loaded: ShapeDB_sample/Chess/D01080.obj
+2024-09-24 12:20:09,334 - INFO - Subdividing: 496 faces
+2024-09-24 12:20:09,336 - INFO - Subdividing: 1984 faces
+2024-09-24 12:20:09,339 - INFO - Subdividing: 7936 faces
+2024-09-24 12:20:09,349 - INFO - Vertex count before decimation routine: 15874
+2024-09-24 12:20:09,349 - INFO - Decimating...
+2024-09-24 12:20:10,157 - INFO - Successfully resampled to: 4980
+2024-09-24 12:20:10,157 - INFO - Decimation iterations: 11
+2024-09-24 12:20:10,169 - INFO - 
+2024-09-24 12:20:10,169 - INFO - Loaded: ShapeDB_sample/Chess/D01043.obj
+2024-09-24 12:20:10,169 - INFO - Subdividing: 772 faces
+2024-09-24 12:20:10,173 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:10,177 - INFO - 
+2024-09-24 12:20:10,177 - INFO - Loaded: ShapeDB_sample/Chess/D01123.obj
+2024-09-24 12:20:10,177 - INFO - Subdividing: 776 faces
+2024-09-24 12:20:10,180 - INFO - Subdividing: 3104 faces
+2024-09-24 12:20:10,185 - INFO - Subdividing: 12416 faces
+2024-09-24 12:20:10,201 - INFO - Vertex count before decimation routine: 24834
+2024-09-24 12:20:10,201 - INFO - Decimating...
+2024-09-24 12:20:11,454 - INFO - Successfully resampled to: 5112
+2024-09-24 12:20:11,454 - INFO - Decimation iterations: 15
+2024-09-24 12:20:11,465 - INFO - 
+2024-09-24 12:20:11,465 - INFO - Loaded: ShapeDB_sample/Chess/D01053.obj
+2024-09-24 12:20:11,465 - INFO - Subdividing: 168 faces
+2024-09-24 12:20:11,468 - INFO - Subdividing: 672 faces
+2024-09-24 12:20:11,470 - INFO - Subdividing: 2688 faces
+2024-09-24 12:20:11,475 - INFO - Subdividing: 10752 faces
+2024-09-24 12:20:11,488 - INFO - Vertex count before decimation routine: 21569
+2024-09-24 12:20:11,488 - INFO - Decimating...
+2024-09-24 12:20:12,300 - INFO - Successfully resampled to: 5486
+2024-09-24 12:20:12,300 - INFO - Decimation iterations: 13
+2024-09-24 12:20:12,312 - INFO - 
+2024-09-24 12:20:12,312 - INFO - Loaded: ShapeDB_sample/Chess/D01126.obj
+2024-09-24 12:20:12,312 - INFO - Subdividing: 1600 faces
+2024-09-24 12:20:12,316 - INFO - Subdividing: 6400 faces
+2024-09-24 12:20:12,324 - INFO - Subdividing: 25600 faces
+2024-09-24 12:20:12,352 - INFO - Vertex count before decimation routine: 51202
+2024-09-24 12:20:12,353 - INFO - Decimating...
+2024-09-24 12:20:15,351 - INFO - Successfully resampled to: 5040
+2024-09-24 12:20:15,351 - INFO - Decimation iterations: 22
+2024-09-24 12:20:15,364 - INFO - 
+2024-09-24 12:20:15,364 - INFO - Loaded: ShapeDB_sample/Chess/D01130.obj
+2024-09-24 12:20:15,364 - INFO - Subdividing: 2600 faces
+2024-09-24 12:20:15,367 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:15,370 - INFO - 
+2024-09-24 12:20:15,370 - INFO - Loaded: ShapeDB_sample/Chess/D01145.obj
+2024-09-24 12:20:15,370 - INFO - Subdividing: 776 faces
+2024-09-24 12:20:15,372 - INFO - Subdividing: 3104 faces
+2024-09-24 12:20:15,376 - INFO - Subdividing: 12416 faces
+2024-09-24 12:20:15,390 - INFO - Vertex count before decimation routine: 24834
+2024-09-24 12:20:15,390 - INFO - Decimating...
+2024-09-24 12:20:16,459 - INFO - Successfully resampled to: 5112
+2024-09-24 12:20:16,459 - INFO - Decimation iterations: 15
+2024-09-24 12:20:16,470 - INFO - 
+2024-09-24 12:20:16,470 - INFO - Loaded: ShapeDB_sample/AquaticAnimal/m62.obj
+2024-09-24 12:20:16,470 - INFO - Subdividing: 478 faces
+2024-09-24 12:20:16,472 - INFO - Subdividing: 1912 faces
+2024-09-24 12:20:16,477 - INFO - Subdividing: 7648 faces
+2024-09-24 12:20:16,488 - INFO - Vertex count before decimation routine: 15298
+2024-09-24 12:20:16,488 - INFO - Decimating...
+2024-09-24 12:20:17,006 - INFO - Successfully resampled to: 5332
+2024-09-24 12:20:17,006 - INFO - Decimation iterations: 10
+2024-09-24 12:20:17,019 - INFO - 
+2024-09-24 12:20:17,020 - INFO - Loaded: ShapeDB_sample/AquaticAnimal/m63.obj
+2024-09-24 12:20:17,020 - INFO - Subdividing: 1792 faces
+2024-09-24 12:20:17,025 - INFO - Subdividing: 7168 faces
+2024-09-24 12:20:17,035 - INFO - Subdividing: 28672 faces
+2024-09-24 12:20:17,076 - INFO - Vertex count before decimation routine: 58897
+2024-09-24 12:20:17,076 - INFO - Decimating...
+2024-09-24 12:20:20,477 - INFO - Successfully resampled to: 5336
+2024-09-24 12:20:20,477 - INFO - Decimation iterations: 24
+2024-09-24 12:20:20,490 - INFO - 
+2024-09-24 12:20:20,490 - INFO - Loaded: ShapeDB_sample/AquaticAnimal/m75.obj
+2024-09-24 12:20:20,490 - INFO - Subdividing: 512 faces
+2024-09-24 12:20:20,492 - INFO - Subdividing: 2048 faces
+2024-09-24 12:20:20,498 - INFO - Subdividing: 8192 faces
+2024-09-24 12:20:20,511 - INFO - Vertex count before decimation routine: 16622
+2024-09-24 12:20:20,511 - INFO - Decimating...
+2024-09-24 12:20:21,215 - INFO - Successfully resampled to: 5234
+2024-09-24 12:20:21,215 - INFO - Decimation iterations: 11
+2024-09-24 12:20:21,227 - INFO - 
+2024-09-24 12:20:21,228 - INFO - Loaded: ShapeDB_sample/AquaticAnimal/m68.obj
+2024-09-24 12:20:21,228 - INFO - Subdividing: 1098 faces
+2024-09-24 12:20:21,231 - INFO - Subdividing: 4392 faces
+2024-09-24 12:20:21,239 - INFO - Subdividing: 17568 faces
+2024-09-24 12:20:21,264 - INFO - Vertex count before decimation routine: 35140
+2024-09-24 12:20:21,264 - INFO - Decimating...
+2024-09-24 12:20:23,121 - INFO - Successfully resampled to: 5274
+2024-09-24 12:20:23,121 - INFO - Decimation iterations: 18
+2024-09-24 12:20:23,188 - INFO - 
+2024-09-24 12:20:23,188 - INFO - Loaded: ShapeDB_sample/AquaticAnimal/m55.obj
+2024-09-24 12:20:23,188 - INFO - Vertex count before decimation routine: 19505
+2024-09-24 12:20:23,189 - INFO - Decimating...
+2024-09-24 12:20:23,858 - INFO - Successfully resampled to: 5046
+2024-09-24 12:20:23,858 - INFO - Decimation iterations: 13
+2024-09-24 12:20:23,873 - INFO - 
+2024-09-24 12:20:23,873 - INFO - Loaded: ShapeDB_sample/Spoon/D00683.obj
+2024-09-24 12:20:23,873 - INFO - Subdividing: 3282 faces
+2024-09-24 12:20:23,877 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:23,879 - INFO - 
+2024-09-24 12:20:23,879 - INFO - Loaded: ShapeDB_sample/Spoon/D00144.obj
+2024-09-24 12:20:23,879 - INFO - Subdividing: 1407 faces
+2024-09-24 12:20:23,880 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:23,884 - INFO - 
+2024-09-24 12:20:23,884 - INFO - Loaded: ShapeDB_sample/Spoon/D00517.obj
+2024-09-24 12:20:23,884 - INFO - Subdividing: 2697 faces
+2024-09-24 12:20:23,885 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:23,890 - INFO - 
+2024-09-24 12:20:23,890 - INFO - Loaded: ShapeDB_sample/Spoon/D00927.obj
+2024-09-24 12:20:23,890 - INFO - Subdividing: 5448 faces
+2024-09-24 12:20:23,891 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:23,898 - INFO - 
+2024-09-24 12:20:23,898 - INFO - Loaded: ShapeDB_sample/Hat/m1641.obj
+2024-09-24 12:20:23,898 - INFO - Subdividing: 2500 faces
+2024-09-24 12:20:23,904 - INFO - Subdividing: 10000 faces
+2024-09-24 12:20:23,919 - INFO - Vertex count before decimation routine: 20006
+2024-09-24 12:20:23,919 - INFO - Decimating...
+2024-09-24 12:20:24,906 - INFO - Successfully resampled to: 5087
+2024-09-24 12:20:24,906 - INFO - Decimation iterations: 13
+2024-09-24 12:20:24,924 - INFO - 
+2024-09-24 12:20:24,924 - INFO - Loaded: ShapeDB_sample/Hat/m1639.obj
+2024-09-24 12:20:24,925 - INFO - Subdividing: 4000 faces
+2024-09-24 12:20:24,933 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:20:24,938 - INFO - 
+2024-09-24 12:20:24,938 - INFO - Loaded: ShapeDB_sample/Hat/m1628.obj
+2024-09-24 12:20:24,938 - INFO - Subdividing: 1500 faces
+2024-09-24 12:20:24,942 - INFO - Subdividing: 6000 faces
+2024-09-24 12:20:24,953 - INFO - Subdividing: 24000 faces
+2024-09-24 12:20:24,999 - INFO - Vertex count before decimation routine: 49671
+2024-09-24 12:20:24,999 - INFO - Decimating...
+2024-09-24 12:20:28,602 - INFO - Successfully resampled to: 5073
+2024-09-24 12:20:28,610 - INFO - Decimation iterations: 22
+2024-09-24 12:20:28,640 - INFO - 
+2024-09-24 12:20:28,640 - INFO - Loaded: ShapeDB_sample/PlantWildNonTree/m972.obj
+2024-09-24 12:20:28,640 - INFO - Subdividing: 15295 faces
+2024-09-24 12:20:28,715 - INFO - Vertex count before decimation routine: 47593
+2024-09-24 12:20:28,715 - INFO - Decimating...
+2024-09-24 12:22:56,799 - WARNING - Decimation routine failed
+2024-09-24 12:22:56,808 - WARNING - Failed at: 35773
+2024-09-24 12:22:56,822 - INFO - 
+2024-09-24 12:22:56,822 - INFO - Loaded: ShapeDB_sample/PlantWildNonTree/m976.obj
+2024-09-24 12:22:56,823 - INFO - Subdividing: 1889 faces
+2024-09-24 12:22:56,826 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:22:56,856 - INFO - 
+2024-09-24 12:22:56,857 - INFO - Loaded: ShapeDB_sample/PlantWildNonTree/m962.obj
+2024-09-24 12:22:56,857 - INFO - Subdividing: 19104 faces
+2024-09-24 12:22:56,916 - INFO - Vertex count before decimation routine: 48656
+2024-09-24 12:22:56,916 - INFO - Decimating...
+2024-09-24 12:23:00,580 - INFO - Successfully resampled to: 5346
+2024-09-24 12:23:00,581 - INFO - Decimation iterations: 29
+2024-09-24 12:23:00,600 - INFO - 
+2024-09-24 12:23:00,600 - INFO - Loaded: ShapeDB_sample/PlantWildNonTree/m978.obj
+2024-09-24 12:23:00,600 - INFO - Subdividing: 3966 faces
+2024-09-24 12:23:00,608 - INFO - Subdividing: 15864 faces
+2024-09-24 12:23:00,643 - INFO - Vertex count before decimation routine: 35493
+2024-09-24 12:23:00,643 - INFO - Decimating...
+2024-09-24 12:23:02,538 - INFO - Successfully resampled to: 5168
+2024-09-24 12:23:02,538 - INFO - Decimation iterations: 21
+2024-09-24 12:23:02,552 - INFO - 
+2024-09-24 12:23:02,552 - INFO - Loaded: ShapeDB_sample/PlantWildNonTree/m981.obj
+2024-09-24 12:23:02,552 - INFO - Subdividing: 2200 faces
+2024-09-24 12:23:02,555 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:02,570 - INFO - 
+2024-09-24 12:23:02,570 - INFO - Loaded: ShapeDB_sample/Rocket/D00719.obj
+2024-09-24 12:23:02,570 - INFO - Subdividing: 12970 faces
+2024-09-24 12:23:02,587 - INFO - Vertex count before decimation routine: 28729
+2024-09-24 12:23:02,587 - INFO - Decimating...
+2024-09-24 12:23:03,712 - INFO - Successfully resampled to: 5091
+2024-09-24 12:23:03,712 - INFO - Decimation iterations: 18
+2024-09-24 12:23:03,748 - INFO - 
+2024-09-24 12:23:03,748 - INFO - Loaded: ShapeDB_sample/Rocket/D00975.obj
+2024-09-24 12:23:03,748 - INFO - Subdividing: 15346 faces
+2024-09-24 12:23:03,783 - INFO - Vertex count before decimation routine: 92076
+2024-09-24 12:23:03,784 - INFO - Decimating...
+2024-09-24 12:23:06,615 - INFO - Successfully resampled to: 5109
+2024-09-24 12:23:06,616 - INFO - Decimation iterations: 34
+2024-09-24 12:23:06,626 - INFO - 
+2024-09-24 12:23:06,626 - INFO - Loaded: ShapeDB_sample/Rocket/D00433.obj
+2024-09-24 12:23:06,626 - INFO - Subdividing: 304 faces
+2024-09-24 12:23:06,628 - INFO - Subdividing: 1216 faces
+2024-09-24 12:23:06,632 - INFO - Subdividing: 4864 faces
+2024-09-24 12:23:06,640 - INFO - Subdividing: 19456 faces
+2024-09-24 12:23:06,662 - INFO - Vertex count before decimation routine: 38930
+2024-09-24 12:23:06,662 - INFO - Decimating...
+2024-09-24 12:23:08,465 - INFO - Successfully resampled to: 5273
+2024-09-24 12:23:08,465 - INFO - Decimation iterations: 19
+2024-09-24 12:23:08,512 - INFO - 
+2024-09-24 12:23:08,512 - INFO - Loaded: ShapeDB_sample/Rocket/D00564.obj
+2024-09-24 12:23:08,512 - INFO - Subdividing: 24466 faces
+2024-09-24 12:23:08,575 - INFO - Vertex count before decimation routine: 146796
+2024-09-24 12:23:08,575 - INFO - Decimating...
+2024-09-24 12:23:13,292 - INFO - Successfully resampled to: 5346
+2024-09-24 12:23:13,293 - INFO - Decimation iterations: 38
+2024-09-24 12:23:13,311 - INFO - 
+2024-09-24 12:23:13,311 - INFO - Loaded: ShapeDB_sample/Shelf/D00057.obj
+2024-09-24 12:23:13,311 - INFO - Subdividing: 6900 faces
+2024-09-24 12:23:13,323 - INFO - Subdividing: 27600 faces
+2024-09-24 12:23:13,363 - INFO - Vertex count before decimation routine: 78295
+2024-09-24 12:23:13,364 - INFO - Decimating...
+2024-09-24 12:23:17,654 - WARNING - Decimation routine failed
+2024-09-24 12:23:17,654 - WARNING - Failed at: 7484
+2024-09-24 12:23:17,668 - INFO - 
+2024-09-24 12:23:17,668 - INFO - Loaded: ShapeDB_sample/Shelf/D00242.obj
+2024-09-24 12:23:17,668 - INFO - Subdividing: 3584 faces
+2024-09-24 12:23:17,671 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:17,677 - INFO - 
+2024-09-24 12:23:17,677 - INFO - Loaded: ShapeDB_sample/Shelf/m864.obj
+2024-09-24 12:23:17,677 - INFO - Subdividing: 406 faces
+2024-09-24 12:23:17,679 - INFO - Subdividing: 1624 faces
+2024-09-24 12:23:17,684 - INFO - Subdividing: 6496 faces
+2024-09-24 12:23:17,694 - INFO - Subdividing: 25984 faces
+2024-09-24 12:23:17,730 - INFO - Vertex count before decimation routine: 53708
+2024-09-24 12:23:17,730 - INFO - Decimating...
+2024-09-24 12:23:23,976 - INFO - Successfully resampled to: 5222
+2024-09-24 12:23:23,984 - INFO - Decimation iterations: 24
+2024-09-24 12:23:24,010 - INFO - 
+2024-09-24 12:23:24,010 - INFO - Loaded: ShapeDB_sample/Shelf/D00691.obj
+2024-09-24 12:23:24,010 - INFO - Subdividing: 5004 faces
+2024-09-24 12:23:24,019 - INFO - Subdividing: 20016 faces
+2024-09-24 12:23:24,043 - INFO - Vertex count before decimation routine: 46751
+2024-09-24 12:23:24,044 - INFO - Decimating...
+2024-09-24 12:23:25,999 - INFO - Successfully resampled to: 5495
+2024-09-24 12:23:25,999 - INFO - Decimation iterations: 24
+2024-09-24 12:23:26,009 - INFO - 
+2024-09-24 12:23:26,009 - INFO - Loaded: ShapeDB_sample/Shelf/D00592.obj
+2024-09-24 12:23:26,009 - INFO - Subdividing: 106 faces
+2024-09-24 12:23:26,011 - INFO - Subdividing: 424 faces
+2024-09-24 12:23:26,013 - INFO - Subdividing: 1696 faces
+2024-09-24 12:23:26,016 - INFO - Subdividing: 6784 faces
+2024-09-24 12:23:26,025 - INFO - Subdividing: 27136 faces
+2024-09-24 12:23:26,055 - INFO - Vertex count before decimation routine: 54293
+2024-09-24 12:23:26,055 - INFO - Decimating...
+2024-09-24 12:23:28,614 - INFO - Successfully resampled to: 5361
+2024-09-24 12:23:28,614 - INFO - Decimation iterations: 22
+2024-09-24 12:23:28,624 - INFO - 
+2024-09-24 12:23:28,624 - INFO - Loaded: ShapeDB_sample/Shelf/D00881.obj
+2024-09-24 12:23:28,624 - INFO - Subdividing: 400 faces
+2024-09-24 12:23:28,625 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:28,628 - INFO - 
+2024-09-24 12:23:28,628 - INFO - Loaded: ShapeDB_sample/Shelf/m844.obj
+2024-09-24 12:23:28,628 - INFO - Subdividing: 324 faces
+2024-09-24 12:23:28,630 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:28,632 - INFO - 
+2024-09-24 12:23:28,633 - INFO - Loaded: ShapeDB_sample/Shelf/D00887.obj
+2024-09-24 12:23:28,633 - INFO - Subdividing: 404 faces
+2024-09-24 12:23:28,634 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:28,657 - INFO - 
+2024-09-24 12:23:28,657 - INFO - Loaded: ShapeDB_sample/Ship/m1453.obj
+2024-09-24 12:23:28,657 - INFO - Subdividing: 15870 faces
+2024-09-24 12:23:28,677 - INFO - Vertex count before decimation routine: 31860
+2024-09-24 12:23:28,677 - INFO - Decimating...
+2024-09-24 12:23:30,066 - INFO - Successfully resampled to: 5402
+2024-09-24 12:23:30,067 - INFO - Decimation iterations: 17
+2024-09-24 12:23:30,079 - INFO - 
+2024-09-24 12:23:30,079 - INFO - Loaded: ShapeDB_sample/Ship/m1452.obj
+2024-09-24 12:23:30,080 - INFO - Subdividing: 1452 faces
+2024-09-24 12:23:30,084 - INFO - Subdividing: 5808 faces
+2024-09-24 12:23:30,092 - INFO - Subdividing: 23232 faces
+2024-09-24 12:23:30,124 - INFO - Vertex count before decimation routine: 46829
+2024-09-24 12:23:30,124 - INFO - Decimating...
+2024-09-24 12:23:32,407 - INFO - Successfully resampled to: 5498
+2024-09-24 12:23:32,407 - INFO - Decimation iterations: 21
+2024-09-24 12:23:32,420 - INFO - 
+2024-09-24 12:23:32,420 - INFO - Loaded: ShapeDB_sample/Ship/m1456.obj
+2024-09-24 12:23:32,420 - INFO - Subdividing: 924 faces
+2024-09-24 12:23:32,421 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:32,426 - INFO - 
+2024-09-24 12:23:32,426 - INFO - Loaded: ShapeDB_sample/Ship/m1434.obj
+2024-09-24 12:23:32,426 - INFO - Subdividing: 1077 faces
+2024-09-24 12:23:32,429 - INFO - Subdividing: 4308 faces
+2024-09-24 12:23:32,436 - INFO - Subdividing: 17232 faces
+2024-09-24 12:23:32,458 - INFO - Vertex count before decimation routine: 34571
+2024-09-24 12:23:32,459 - INFO - Decimating...
+2024-09-24 12:23:34,152 - INFO - Successfully resampled to: 5249
+2024-09-24 12:23:34,152 - INFO - Decimation iterations: 18
+2024-09-24 12:23:34,182 - INFO - 
+2024-09-24 12:23:34,183 - INFO - Loaded: ShapeDB_sample/Ship/D00175.obj
+2024-09-24 12:23:34,183 - INFO - Subdividing: 26994 faces
+2024-09-24 12:23:34,213 - INFO - Vertex count before decimation routine: 54390
+2024-09-24 12:23:34,213 - INFO - Decimating...
+2024-09-24 12:23:36,672 - INFO - Successfully resampled to: 5009
+2024-09-24 12:23:36,672 - INFO - Decimation iterations: 23
+2024-09-24 12:23:36,724 - INFO - 
+2024-09-24 12:23:36,724 - INFO - Loaded: ShapeDB_sample/Ship/D00771.obj
+2024-09-24 12:23:36,724 - INFO - Vertex count before decimation routine: 33376
+2024-09-24 12:23:36,724 - INFO - Decimating...
+2024-09-24 12:23:38,144 - INFO - Successfully resampled to: 5245
+2024-09-24 12:23:38,144 - INFO - Decimation iterations: 18
+2024-09-24 12:23:38,148 - INFO - 
+2024-09-24 12:23:38,148 - INFO - Loaded: ShapeDB_sample/Ship/m1459.obj
+2024-09-24 12:23:38,148 - INFO - Subdividing: 531 faces
+2024-09-24 12:23:38,150 - INFO - Subdividing: 2124 faces
+2024-09-24 12:23:38,153 - INFO - Subdividing: 8496 faces
+2024-09-24 12:23:38,164 - INFO - Vertex count before decimation routine: 17250
+2024-09-24 12:23:38,165 - INFO - Decimating...
+2024-09-24 12:23:40,298 - INFO - Successfully resampled to: 4983
+2024-09-24 12:23:40,298 - INFO - Decimation iterations: 12
+2024-09-24 12:23:40,306 - INFO - 
+2024-09-24 12:23:40,307 - INFO - Loaded: ShapeDB_sample/Ship/D00467.obj
+2024-09-24 12:23:40,307 - INFO - Subdividing: 5504 faces
+2024-09-24 12:23:40,310 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:40,337 - INFO - 
+2024-09-24 12:23:40,338 - INFO - Loaded: ShapeDB_sample/Ship/m1466.obj
+2024-09-24 12:23:40,338 - INFO - Subdividing: 18939 faces
+2024-09-24 12:23:40,354 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:40,362 - INFO - 
+2024-09-24 12:23:40,362 - INFO - Loaded: ShapeDB_sample/Ship/D00896.obj
+2024-09-24 12:23:40,362 - INFO - Subdividing: 9542 faces
+2024-09-24 12:23:40,368 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:40,385 - INFO - 
+2024-09-24 12:23:40,385 - INFO - Loaded: ShapeDB_sample/Ship/m1460.obj
+2024-09-24 12:23:40,385 - INFO - Subdividing: 9510 faces
+2024-09-24 12:23:40,388 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:40,391 - INFO - 
+2024-09-24 12:23:40,391 - INFO - Loaded: ShapeDB_sample/Ship/D00099.obj
+2024-09-24 12:23:40,391 - INFO - Subdividing: 672 faces
+2024-09-24 12:23:40,393 - INFO - Subdividing: 2688 faces
+2024-09-24 12:23:40,396 - INFO - Subdividing: 10752 faces
+2024-09-24 12:23:40,408 - INFO - Vertex count before decimation routine: 21808
+2024-09-24 12:23:40,408 - INFO - Decimating...
+2024-09-24 12:23:42,306 - INFO - Successfully resampled to: 5029
+2024-09-24 12:23:42,307 - INFO - Decimation iterations: 14
+2024-09-24 12:23:42,350 - INFO - 
+2024-09-24 12:23:42,350 - INFO - Loaded: ShapeDB_sample/Bicycle/D00078.obj
+2024-09-24 12:23:42,350 - INFO - Vertex count before decimation routine: 22674
+2024-09-24 12:23:42,351 - INFO - Decimating...
+2024-09-24 12:23:43,568 - INFO - Successfully resampled to: 5002
+2024-09-24 12:23:43,568 - INFO - Decimation iterations: 15
+2024-09-24 12:23:43,645 - INFO - 
+2024-09-24 12:23:43,645 - INFO - Loaded: ShapeDB_sample/Bicycle/D00555.obj
+2024-09-24 12:23:43,645 - INFO - Vertex count before decimation routine: 34364
+2024-09-24 12:23:43,645 - INFO - Decimating...
+2024-09-24 12:23:45,218 - INFO - Successfully resampled to: 5281
+2024-09-24 12:23:45,219 - INFO - Decimation iterations: 19
+2024-09-24 12:23:45,318 - INFO - 
+2024-09-24 12:23:45,318 - INFO - Loaded: ShapeDB_sample/Bicycle/D00077.obj
+2024-09-24 12:23:45,318 - INFO - Vertex count before decimation routine: 16416
+2024-09-24 12:23:45,319 - INFO - Decimating...
+2024-09-24 12:23:46,174 - INFO - Successfully resampled to: 5179
+2024-09-24 12:23:46,176 - INFO - Decimation iterations: 11
+2024-09-24 12:23:46,188 - INFO - 
+2024-09-24 12:23:46,189 - INFO - Loaded: ShapeDB_sample/Bicycle/m1473.obj
+2024-09-24 12:23:46,189 - INFO - Subdividing: 4448 faces
+2024-09-24 12:23:46,192 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:46,204 - INFO - 
+2024-09-24 12:23:46,204 - INFO - Loaded: ShapeDB_sample/Bicycle/D00514.obj
+2024-09-24 12:23:46,204 - INFO - Subdividing: 12939 faces
+2024-09-24 12:23:46,220 - INFO - Vertex count before decimation routine: 26544
+2024-09-24 12:23:46,220 - INFO - Decimating...
+2024-09-24 12:23:47,455 - INFO - Successfully resampled to: 5237
+2024-09-24 12:23:47,455 - INFO - Decimation iterations: 16
+2024-09-24 12:23:47,475 - INFO - 
+2024-09-24 12:23:47,475 - INFO - Loaded: ShapeDB_sample/Computer/m1778.obj
+2024-09-24 12:23:47,475 - INFO - Subdividing: 9528 faces
+2024-09-24 12:23:47,493 - INFO - Vertex count before decimation routine: 19321
+2024-09-24 12:23:47,493 - INFO - Decimating...
+2024-09-24 12:23:48,946 - INFO - Successfully resampled to: 5102
+2024-09-24 12:23:48,946 - INFO - Decimation iterations: 13
+2024-09-24 12:23:48,949 - INFO - 
+2024-09-24 12:23:48,949 - INFO - Loaded: ShapeDB_sample/Computer/D01072.obj
+2024-09-24 12:23:48,949 - INFO - Subdividing: 618 faces
+2024-09-24 12:23:48,950 - INFO - Subdividing: 2472 faces
+2024-09-24 12:23:48,955 - INFO - Subdividing: 9888 faces
+2024-09-24 12:23:48,967 - INFO - Vertex count before decimation routine: 19820
+2024-09-24 12:23:48,967 - INFO - Decimating...
+2024-09-24 12:23:50,053 - INFO - Successfully resampled to: 5050
+2024-09-24 12:23:50,062 - INFO - Decimation iterations: 13
+2024-09-24 12:23:50,079 - INFO - 
+2024-09-24 12:23:50,079 - INFO - Loaded: ShapeDB_sample/Computer/D01067.obj
+2024-09-24 12:23:50,079 - INFO - Subdividing: 9528 faces
+2024-09-24 12:23:50,093 - INFO - Vertex count before decimation routine: 19321
+2024-09-24 12:23:50,093 - INFO - Decimating...
+2024-09-24 12:23:51,097 - INFO - Successfully resampled to: 5102
+2024-09-24 12:23:51,097 - INFO - Decimation iterations: 13
+2024-09-24 12:23:51,099 - INFO - 
+2024-09-24 12:23:51,099 - INFO - Loaded: ShapeDB_sample/Computer/D01071.obj
+2024-09-24 12:23:51,099 - INFO - Subdividing: 43 faces
+2024-09-24 12:23:51,100 - INFO - Subdividing: 172 faces
+2024-09-24 12:23:51,101 - INFO - Subdividing: 688 faces
+2024-09-24 12:23:51,102 - INFO - Subdividing: 2752 faces
+2024-09-24 12:23:51,106 - INFO - Subdividing: 11008 faces
+2024-09-24 12:23:51,120 - INFO - Vertex count before decimation routine: 22194
+2024-09-24 12:23:51,120 - INFO - Decimating...
+2024-09-24 12:23:53,445 - INFO - Successfully resampled to: 5083
+2024-09-24 12:23:53,454 - INFO - Decimation iterations: 14
+2024-09-24 12:23:53,478 - INFO - 
+2024-09-24 12:23:53,479 - INFO - Loaded: ShapeDB_sample/Computer/D01023.obj
+2024-09-24 12:23:53,479 - INFO - Subdividing: 20749 faces
+2024-09-24 12:23:53,486 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:23:53,496 - INFO - 
+2024-09-24 12:23:53,496 - INFO - Loaded: ShapeDB_sample/Computer/D01033.obj
+2024-09-24 12:23:53,496 - INFO - Subdividing: 5666 faces
+2024-09-24 12:23:53,503 - INFO - Subdividing: 22664 faces
+2024-09-24 12:23:53,535 - INFO - Vertex count before decimation routine: 45763
+2024-09-24 12:23:53,535 - INFO - Decimating...
+2024-09-24 12:23:56,459 - INFO - Successfully resampled to: 5246
+2024-09-24 12:23:56,459 - INFO - Decimation iterations: 25
+2024-09-24 12:23:56,494 - INFO - 
+2024-09-24 12:23:56,494 - INFO - Loaded: ShapeDB_sample/Apartment/D00681.obj
+2024-09-24 12:23:56,494 - INFO - Subdividing: 15557 faces
+2024-09-24 12:23:56,538 - INFO - Vertex count before decimation routine: 42321
+2024-09-24 12:23:56,538 - INFO - Decimating...
+2024-09-24 12:24:02,405 - WARNING - Decimation routine failed
+2024-09-24 12:24:02,405 - WARNING - Failed at: 7066
+2024-09-24 12:24:02,419 - INFO - 
+2024-09-24 12:24:02,419 - INFO - Loaded: ShapeDB_sample/Apartment/D00639.obj
+2024-09-24 12:24:02,419 - INFO - Subdividing: 7980 faces
+2024-09-24 12:24:02,430 - INFO - Vertex count before decimation routine: 17456
+2024-09-24 12:24:02,430 - INFO - Decimating...
+2024-09-24 12:24:03,040 - INFO - Successfully resampled to: 5358
+2024-09-24 12:24:03,040 - INFO - Decimation iterations: 12
+2024-09-24 12:24:03,058 - INFO - 
+2024-09-24 12:24:03,058 - INFO - Loaded: ShapeDB_sample/Apartment/D00953.obj
+2024-09-24 12:24:03,058 - INFO - Subdividing: 7140 faces
+2024-09-24 12:24:03,062 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:03,081 - INFO - 
+2024-09-24 12:24:03,081 - INFO - Loaded: ShapeDB_sample/Apartment/m464.obj
+2024-09-24 12:24:03,081 - INFO - Subdividing: 12810 faces
+2024-09-24 12:24:03,094 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:03,102 - INFO - 
+2024-09-24 12:24:03,102 - INFO - Loaded: ShapeDB_sample/Fish/D00450.obj
+2024-09-24 12:24:03,102 - INFO - Subdividing: 6348 faces
+2024-09-24 12:24:03,105 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:03,111 - INFO - 
+2024-09-24 12:24:03,111 - INFO - Loaded: ShapeDB_sample/Fish/D00142.obj
+2024-09-24 12:24:03,111 - INFO - Subdividing: 5286 faces
+2024-09-24 12:24:03,118 - INFO - Subdividing: 21144 faces
+2024-09-24 12:24:03,142 - INFO - Vertex count before decimation routine: 43857
+2024-09-24 12:24:03,142 - INFO - Decimating...
+2024-09-24 12:24:05,470 - INFO - Successfully resampled to: 5280
+2024-09-24 12:24:05,470 - INFO - Decimation iterations: 24
+2024-09-24 12:24:05,489 - INFO - 
+2024-09-24 12:24:05,489 - INFO - Loaded: ShapeDB_sample/Fish/D00748.obj
+2024-09-24 12:24:05,489 - INFO - Subdividing: 8098 faces
+2024-09-24 12:24:05,494 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:05,499 - INFO - 
+2024-09-24 12:24:05,499 - INFO - Loaded: ShapeDB_sample/Fish/D00950.obj
+2024-09-24 12:24:05,500 - INFO - Subdividing: 5798 faces
+2024-09-24 12:24:05,506 - INFO - Subdividing: 23192 faces
+2024-09-24 12:24:05,536 - INFO - Vertex count before decimation routine: 48463
+2024-09-24 12:24:05,536 - INFO - Decimating...
+2024-09-24 12:24:07,825 - INFO - Successfully resampled to: 5175
+2024-09-24 12:24:07,834 - INFO - Decimation iterations: 22
+2024-09-24 12:24:07,839 - INFO - 
+2024-09-24 12:24:07,840 - INFO - Loaded: ShapeDB_sample/Sign/m1685.obj
+2024-09-24 12:24:07,840 - INFO - Subdividing: 1344 faces
+2024-09-24 12:24:07,844 - INFO - Subdividing: 5376 faces
+2024-09-24 12:24:07,853 - INFO - Subdividing: 21504 faces
+2024-09-24 12:24:07,882 - INFO - Vertex count before decimation routine: 43096
+2024-09-24 12:24:07,882 - INFO - Decimating...
+2024-09-24 12:24:10,512 - INFO - Successfully resampled to: 5312
+2024-09-24 12:24:10,512 - INFO - Decimation iterations: 20
+2024-09-24 12:24:10,530 - INFO - 
+2024-09-24 12:24:10,530 - INFO - Loaded: ShapeDB_sample/Sign/m1682.obj
+2024-09-24 12:24:10,530 - INFO - Subdividing: 8804 faces
+2024-09-24 12:24:10,545 - INFO - Vertex count before decimation routine: 17698
+2024-09-24 12:24:10,545 - INFO - Decimating...
+2024-09-24 12:24:12,033 - INFO - Successfully resampled to: 5060
+2024-09-24 12:24:12,033 - INFO - Decimation iterations: 12
+2024-09-24 12:24:12,043 - INFO - 
+2024-09-24 12:24:12,043 - INFO - Loaded: ShapeDB_sample/Sign/m1675.obj
+2024-09-24 12:24:12,043 - INFO - Subdividing: 52 faces
+2024-09-24 12:24:12,045 - INFO - Subdividing: 208 faces
+2024-09-24 12:24:12,047 - INFO - Subdividing: 832 faces
+2024-09-24 12:24:12,050 - INFO - Subdividing: 3328 faces
+2024-09-24 12:24:12,057 - INFO - Subdividing: 13312 faces
+2024-09-24 12:24:12,081 - INFO - Vertex count before decimation routine: 27010
+2024-09-24 12:24:12,081 - INFO - Decimating...
+2024-09-24 12:24:14,302 - INFO - Successfully resampled to: 5083
+2024-09-24 12:24:14,303 - INFO - Decimation iterations: 16
+2024-09-24 12:24:14,305 - INFO - 
+2024-09-24 12:24:14,305 - INFO - Loaded: ShapeDB_sample/FloorLamp/m623.obj
+2024-09-24 12:24:14,305 - INFO - Subdividing: 120 faces
+2024-09-24 12:24:14,306 - INFO - Subdividing: 480 faces
+2024-09-24 12:24:14,308 - INFO - Subdividing: 1920 faces
+2024-09-24 12:24:14,310 - INFO - Subdividing: 7680 faces
+2024-09-24 12:24:14,321 - INFO - Vertex count before decimation routine: 15723
+2024-09-24 12:24:14,321 - INFO - Decimating...
+2024-09-24 12:24:15,219 - INFO - Successfully resampled to: 4972
+2024-09-24 12:24:15,228 - INFO - Decimation iterations: 11
+2024-09-24 12:24:15,230 - INFO - 
+2024-09-24 12:24:15,230 - INFO - Loaded: ShapeDB_sample/FloorLamp/m624.obj
+2024-09-24 12:24:15,231 - INFO - Subdividing: 76 faces
+2024-09-24 12:24:15,232 - INFO - Subdividing: 304 faces
+2024-09-24 12:24:15,233 - INFO - Subdividing: 1216 faces
+2024-09-24 12:24:15,237 - INFO - Subdividing: 4864 faces
+2024-09-24 12:24:15,246 - INFO - Subdividing: 19456 faces
+2024-09-24 12:24:15,286 - INFO - Vertex count before decimation routine: 38920
+2024-09-24 12:24:15,287 - INFO - Decimating...
+2024-09-24 12:24:22,567 - INFO - Successfully resampled to: 5263
+2024-09-24 12:24:22,568 - INFO - Decimation iterations: 19
+2024-09-24 12:24:22,632 - INFO - 
+2024-09-24 12:24:22,632 - INFO - Loaded: ShapeDB_sample/FloorLamp/D00580.obj
+2024-09-24 12:24:22,632 - INFO - Vertex count before decimation routine: 39647
+2024-09-24 12:24:22,632 - INFO - Decimating...
+2024-09-24 12:24:27,719 - WARNING - Decimation routine failed
+2024-09-24 12:24:27,719 - WARNING - Failed at: 26919
+2024-09-24 12:24:27,737 - INFO - 
+2024-09-24 12:24:27,737 - INFO - Loaded: ShapeDB_sample/FloorLamp/D00388.obj
+2024-09-24 12:24:27,737 - INFO - Subdividing: 7212 faces
+2024-09-24 12:24:27,747 - INFO - Subdividing: 28848 faces
+2024-09-24 12:24:27,783 - INFO - Vertex count before decimation routine: 59147
+2024-09-24 12:24:27,783 - INFO - Decimating...
+2024-09-24 12:24:31,028 - INFO - Successfully resampled to: 5285
+2024-09-24 12:24:31,028 - INFO - Decimation iterations: 23
+2024-09-24 12:24:31,040 - INFO - 
+2024-09-24 12:24:31,041 - INFO - Loaded: ShapeDB_sample/FloorLamp/D00228.obj
+2024-09-24 12:24:31,041 - INFO - Subdividing: 2632 faces
+2024-09-24 12:24:31,046 - INFO - Subdividing: 10528 faces
+2024-09-24 12:24:31,058 - INFO - Vertex count before decimation routine: 21062
+2024-09-24 12:24:31,058 - INFO - Decimating...
+2024-09-24 12:24:31,862 - INFO - Successfully resampled to: 5355
+2024-09-24 12:24:31,863 - INFO - Decimation iterations: 13
+2024-09-24 12:24:31,874 - INFO - 
+2024-09-24 12:24:31,875 - INFO - Loaded: ShapeDB_sample/Bottle/m492.obj
+2024-09-24 12:24:31,875 - INFO - Subdividing: 724 faces
+2024-09-24 12:24:31,876 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:31,886 - INFO - 
+2024-09-24 12:24:31,886 - INFO - Loaded: ShapeDB_sample/Bottle/m486.obj
+2024-09-24 12:24:31,886 - INFO - Subdividing: 3894 faces
+2024-09-24 12:24:31,893 - INFO - Subdividing: 15576 faces
+2024-09-24 12:24:31,914 - INFO - Vertex count before decimation routine: 31762
+2024-09-24 12:24:31,914 - INFO - Decimating...
+2024-09-24 12:24:33,672 - INFO - Successfully resampled to: 5440
+2024-09-24 12:24:33,672 - INFO - Decimation iterations: 17
+2024-09-24 12:24:33,684 - INFO - 
+2024-09-24 12:24:33,684 - INFO - Loaded: ShapeDB_sample/Bottle/m491.obj
+2024-09-24 12:24:33,684 - INFO - Subdividing: 997 faces
+2024-09-24 12:24:33,688 - INFO - Subdividing: 3988 faces
+2024-09-24 12:24:33,695 - INFO - Subdividing: 15952 faces
+2024-09-24 12:24:33,716 - INFO - Vertex count before decimation routine: 32254
+2024-09-24 12:24:33,717 - INFO - Decimating...
+2024-09-24 12:24:36,542 - INFO - Successfully resampled to: 5430
+2024-09-24 12:24:36,543 - INFO - Decimation iterations: 17
+2024-09-24 12:24:36,581 - INFO - 
+2024-09-24 12:24:36,581 - INFO - Loaded: ShapeDB_sample/Bottle/D00176.obj
+2024-09-24 12:24:36,581 - INFO - Subdividing: 14272 faces
+2024-09-24 12:24:36,647 - INFO - Vertex count before decimation routine: 28546
+2024-09-24 12:24:36,647 - INFO - Decimating...
+2024-09-24 12:24:38,764 - INFO - Successfully resampled to: 5288
+2024-09-24 12:24:38,764 - INFO - Decimation iterations: 16
+2024-09-24 12:24:38,836 - INFO - 
+2024-09-24 12:24:38,838 - INFO - Loaded: ShapeDB_sample/Bottle/D00166.obj
+2024-09-24 12:24:38,838 - INFO - Vertex count before decimation routine: 23142
+2024-09-24 12:24:38,839 - INFO - Decimating...
+2024-09-24 12:24:40,529 - INFO - Successfully resampled to: 5350
+2024-09-24 12:24:40,529 - INFO - Decimation iterations: 14
+2024-09-24 12:24:40,536 - INFO - 
+2024-09-24 12:24:40,536 - INFO - Loaded: ShapeDB_sample/Bottle/D00139.obj
+2024-09-24 12:24:40,536 - INFO - Subdividing: 4860 faces
+2024-09-24 12:24:40,538 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:40,550 - INFO - 
+2024-09-24 12:24:40,550 - INFO - Loaded: ShapeDB_sample/Tool/D01012.obj
+2024-09-24 12:24:40,551 - INFO - Subdividing: 8922 faces
+2024-09-24 12:24:40,564 - INFO - Vertex count before decimation routine: 17846
+2024-09-24 12:24:40,564 - INFO - Decimating...
+2024-09-24 12:24:41,409 - INFO - Successfully resampled to: 5039
+2024-09-24 12:24:41,409 - INFO - Decimation iterations: 12
+2024-09-24 12:24:41,418 - INFO - 
+2024-09-24 12:24:41,419 - INFO - Loaded: ShapeDB_sample/Tool/m589.obj
+2024-09-24 12:24:41,419 - INFO - Subdividing: 4046 faces
+2024-09-24 12:24:41,425 - INFO - Subdividing: 16184 faces
+2024-09-24 12:24:41,447 - INFO - Vertex count before decimation routine: 33236
+2024-09-24 12:24:41,447 - INFO - Decimating...
+2024-09-24 12:24:43,198 - INFO - Successfully resampled to: 5289
+2024-09-24 12:24:43,198 - INFO - Decimation iterations: 19
+2024-09-24 12:24:43,208 - INFO - 
+2024-09-24 12:24:43,208 - INFO - Loaded: ShapeDB_sample/Tool/D01156.obj
+2024-09-24 12:24:43,208 - INFO - Subdividing: 11012 faces
+2024-09-24 12:24:43,222 - INFO - Vertex count before decimation routine: 22026
+2024-09-24 12:24:43,222 - INFO - Decimating...
+2024-09-24 12:24:44,183 - INFO - Successfully resampled to: 5037
+2024-09-24 12:24:44,183 - INFO - Decimation iterations: 14
+2024-09-24 12:24:44,196 - INFO - 
+2024-09-24 12:24:44,196 - INFO - Loaded: ShapeDB_sample/Tool/m1103.obj
+2024-09-24 12:24:44,196 - INFO - Subdividing: 330 faces
+2024-09-24 12:24:44,198 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:44,206 - INFO - 
+2024-09-24 12:24:44,206 - INFO - Loaded: ShapeDB_sample/Tool/m1117.obj
+2024-09-24 12:24:44,206 - INFO - Subdividing: 3424 faces
+2024-09-24 12:24:44,212 - INFO - Subdividing: 13696 faces
+2024-09-24 12:24:44,233 - INFO - Vertex count before decimation routine: 27400
+2024-09-24 12:24:44,233 - INFO - Decimating...
+2024-09-24 12:24:45,495 - INFO - Successfully resampled to: 5081
+2024-09-24 12:24:45,495 - INFO - Decimation iterations: 16
+2024-09-24 12:24:45,510 - INFO - 
+2024-09-24 12:24:45,510 - INFO - Loaded: ShapeDB_sample/Tool/D01140.obj
+2024-09-24 12:24:45,510 - INFO - Subdividing: 7808 faces
+2024-09-24 12:24:45,520 - INFO - Vertex count before decimation routine: 15618
+2024-09-24 12:24:45,520 - INFO - Decimating...
+2024-09-24 12:24:46,067 - INFO - Successfully resampled to: 5445
+2024-09-24 12:24:46,067 - INFO - Decimation iterations: 10
+2024-09-24 12:24:46,071 - INFO - 
+2024-09-24 12:24:46,071 - INFO - Loaded: ShapeDB_sample/Tool/m1111.obj
+2024-09-24 12:24:46,071 - INFO - Subdividing: 1038 faces
+2024-09-24 12:24:46,073 - INFO - Subdividing: 4152 faces
+2024-09-24 12:24:46,080 - INFO - Subdividing: 16608 faces
+2024-09-24 12:24:46,105 - INFO - Vertex count before decimation routine: 33220
+2024-09-24 12:24:46,105 - INFO - Decimating...
+2024-09-24 12:24:47,881 - INFO - Successfully resampled to: 4986
+2024-09-24 12:24:47,881 - INFO - Decimation iterations: 18
+2024-09-24 12:24:47,899 - INFO - 
+2024-09-24 12:24:47,899 - INFO - Loaded: ShapeDB_sample/Tool/D01152.obj
+2024-09-24 12:24:47,899 - INFO - Subdividing: 7880 faces
+2024-09-24 12:24:47,911 - INFO - Vertex count before decimation routine: 15762
+2024-09-24 12:24:47,911 - INFO - Decimating...
+2024-09-24 12:24:48,450 - INFO - Successfully resampled to: 5494
+2024-09-24 12:24:48,450 - INFO - Decimation iterations: 10
+2024-09-24 12:24:48,459 - INFO - 
+2024-09-24 12:24:48,460 - INFO - Loaded: ShapeDB_sample/Door/D01177.obj
+2024-09-24 12:24:48,460 - INFO - Subdividing: 98 faces
+2024-09-24 12:24:48,461 - INFO - Subdividing: 392 faces
+2024-09-24 12:24:48,463 - INFO - Subdividing: 1568 faces
+2024-09-24 12:24:48,466 - INFO - Subdividing: 6272 faces
+2024-09-24 12:24:48,476 - INFO - Subdividing: 25088 faces
+2024-09-24 12:24:48,505 - INFO - Vertex count before decimation routine: 51300
+2024-09-24 12:24:48,505 - INFO - Decimating...
+2024-09-24 12:24:53,109 - INFO - Successfully resampled to: 5262
+2024-09-24 12:24:53,110 - INFO - Decimation iterations: 22
+2024-09-24 12:24:53,141 - INFO - 
+2024-09-24 12:24:53,141 - INFO - Loaded: ShapeDB_sample/Door/m1727.obj
+2024-09-24 12:24:53,142 - INFO - Subdividing: 7332 faces
+2024-09-24 12:24:53,163 - INFO - Subdividing: 29328 faces
+2024-09-24 12:24:53,238 - INFO - Vertex count before decimation routine: 58714
+2024-09-24 12:24:53,238 - INFO - Decimating...
+2024-09-24 12:24:57,777 - INFO - Successfully resampled to: 5253
+2024-09-24 12:24:57,778 - INFO - Decimation iterations: 23
+2024-09-24 12:24:57,790 - INFO - 
+2024-09-24 12:24:57,790 - INFO - Loaded: ShapeDB_sample/Door/D01005.obj
+2024-09-24 12:24:57,790 - INFO - Subdividing: 11464 faces
+2024-09-24 12:24:57,800 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:24:57,804 - INFO - 
+2024-09-24 12:24:57,804 - INFO - Loaded: ShapeDB_sample/Door/D01114.obj
+2024-09-24 12:24:57,804 - INFO - Subdividing: 2620 faces
+2024-09-24 12:24:57,813 - INFO - Subdividing: 10480 faces
+2024-09-24 12:24:57,866 - INFO - Vertex count before decimation routine: 20986
+2024-09-24 12:24:57,866 - INFO - Decimating...
+2024-09-24 12:24:59,733 - INFO - Successfully resampled to: 5351
+2024-09-24 12:24:59,733 - INFO - Decimation iterations: 13
+2024-09-24 12:24:59,737 - INFO - 
+2024-09-24 12:24:59,737 - INFO - Loaded: ShapeDB_sample/Door/D01136.obj
+2024-09-24 12:24:59,737 - INFO - Subdividing: 1328 faces
+2024-09-24 12:24:59,740 - INFO - Subdividing: 5312 faces
+2024-09-24 12:24:59,750 - INFO - Subdividing: 21248 faces
+2024-09-24 12:24:59,806 - INFO - Vertex count before decimation routine: 42786
+2024-09-24 12:24:59,806 - INFO - Decimating...
+2024-09-24 12:25:06,387 - INFO - Successfully resampled to: 5300
+2024-09-24 12:25:06,387 - INFO - Decimation iterations: 20
+2024-09-24 12:25:06,395 - INFO - 
+2024-09-24 12:25:06,395 - INFO - Loaded: ShapeDB_sample/Door/m1712.obj
+2024-09-24 12:25:06,395 - INFO - Subdividing: 3468 faces
+2024-09-24 12:25:06,404 - INFO - Subdividing: 13872 faces
+2024-09-24 12:25:06,424 - INFO - Vertex count before decimation routine: 27734
+2024-09-24 12:25:06,424 - INFO - Decimating...
+2024-09-24 12:25:09,051 - INFO - Successfully resampled to: 5127
+2024-09-24 12:25:09,051 - INFO - Decimation iterations: 16
+2024-09-24 12:25:09,055 - INFO - 
+2024-09-24 12:25:09,055 - INFO - Loaded: ShapeDB_sample/Door/m1729.obj
+2024-09-24 12:25:09,055 - INFO - Subdividing: 564 faces
+2024-09-24 12:25:09,056 - INFO - Subdividing: 2256 faces
+2024-09-24 12:25:09,060 - INFO - Subdividing: 9024 faces
+2024-09-24 12:25:09,071 - INFO - Vertex count before decimation routine: 18102
+2024-09-24 12:25:09,071 - INFO - Decimating...
+2024-09-24 12:25:09,855 - INFO - Successfully resampled to: 5148
+2024-09-24 12:25:09,865 - INFO - Decimation iterations: 12
+2024-09-24 12:25:09,871 - INFO - 
+2024-09-24 12:25:09,871 - INFO - Loaded: ShapeDB_sample/Door/m1717.obj
+2024-09-24 12:25:09,871 - INFO - Subdividing: 1617 faces
+2024-09-24 12:25:09,873 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:09,877 - INFO - 
+2024-09-24 12:25:09,877 - INFO - Loaded: ShapeDB_sample/Knife/D01160.obj
+2024-09-24 12:25:09,878 - INFO - Subdividing: 1686 faces
+2024-09-24 12:25:09,879 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:09,882 - INFO - 
+2024-09-24 12:25:09,882 - INFO - Loaded: ShapeDB_sample/Knife/m726.obj
+2024-09-24 12:25:09,882 - INFO - Subdividing: 817 faces
+2024-09-24 12:25:09,884 - INFO - Subdividing: 3268 faces
+2024-09-24 12:25:09,889 - INFO - Subdividing: 13072 faces
+2024-09-24 12:25:09,907 - INFO - Vertex count before decimation routine: 26205
+2024-09-24 12:25:09,907 - INFO - Decimating...
+2024-09-24 12:25:11,461 - INFO - Successfully resampled to: 5395
+2024-09-24 12:25:11,462 - INFO - Decimation iterations: 15
+2024-09-24 12:25:11,473 - INFO - 
+2024-09-24 12:25:11,473 - INFO - Loaded: ShapeDB_sample/Knife/m724.obj
+2024-09-24 12:25:11,474 - INFO - Subdividing: 516 faces
+2024-09-24 12:25:11,476 - INFO - Subdividing: 2064 faces
+2024-09-24 12:25:11,481 - INFO - Subdividing: 8256 faces
+2024-09-24 12:25:11,494 - INFO - Vertex count before decimation routine: 16516
+2024-09-24 12:25:11,494 - INFO - Decimating...
+2024-09-24 12:25:12,350 - INFO - Successfully resampled to: 5182
+2024-09-24 12:25:12,350 - INFO - Decimation iterations: 11
+2024-09-24 12:25:12,360 - INFO - 
+2024-09-24 12:25:12,361 - INFO - Loaded: ShapeDB_sample/Knife/D01054.obj
+2024-09-24 12:25:12,361 - INFO - Subdividing: 780 faces
+2024-09-24 12:25:12,362 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:12,365 - INFO - 
+2024-09-24 12:25:12,366 - INFO - Loaded: ShapeDB_sample/Knife/D01025.obj
+2024-09-24 12:25:12,366 - INFO - Subdividing: 1314 faces
+2024-09-24 12:25:12,367 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:12,390 - INFO - 
+2024-09-24 12:25:12,390 - INFO - Loaded: ShapeDB_sample/TruckNonContainer/D00283.obj
+2024-09-24 12:25:12,390 - INFO - Vertex count before decimation routine: 6979
+2024-09-24 12:25:12,390 - INFO - Decimating...
+2024-09-24 12:25:12,553 - INFO - Successfully resampled to: 5412
+2024-09-24 12:25:12,553 - INFO - Decimation iterations: 3
+2024-09-24 12:25:12,573 - INFO - 
+2024-09-24 12:25:12,573 - INFO - Loaded: ShapeDB_sample/TruckNonContainer/D00252.obj
+2024-09-24 12:25:12,573 - INFO - Subdividing: 13668 faces
+2024-09-24 12:25:12,576 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:12,587 - INFO - 
+2024-09-24 12:25:12,587 - INFO - Loaded: ShapeDB_sample/TruckNonContainer/D00148.obj
+2024-09-24 12:25:12,587 - INFO - Subdividing: 14064 faces
+2024-09-24 12:25:12,590 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:12,613 - INFO - 
+2024-09-24 12:25:12,613 - INFO - Loaded: ShapeDB_sample/TruckNonContainer/D00943.obj
+2024-09-24 12:25:12,614 - INFO - Vertex count before decimation routine: 8852
+2024-09-24 12:25:12,614 - INFO - Decimating...
+2024-09-24 12:25:13,050 - INFO - Successfully resampled to: 5128
+2024-09-24 12:25:13,050 - INFO - Decimation iterations: 7
+2024-09-24 12:25:13,063 - INFO - 
+2024-09-24 12:25:13,063 - INFO - Loaded: ShapeDB_sample/Humanoid/m192.obj
+2024-09-24 12:25:13,063 - INFO - Subdividing: 837 faces
+2024-09-24 12:25:13,066 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:13,095 - INFO - 
+2024-09-24 12:25:13,095 - INFO - Loaded: ShapeDB_sample/Humanoid/m145.obj
+2024-09-24 12:25:13,095 - INFO - Subdividing: 25506 faces
+2024-09-24 12:25:13,135 - INFO - Vertex count before decimation routine: 51017
+2024-09-24 12:25:13,136 - INFO - Decimating...
+2024-09-24 12:25:15,831 - INFO - Successfully resampled to: 5022
+2024-09-24 12:25:15,839 - INFO - Decimation iterations: 22
+2024-09-24 12:25:15,848 - INFO - 
+2024-09-24 12:25:15,849 - INFO - Loaded: ShapeDB_sample/Humanoid/m187.obj
+2024-09-24 12:25:15,849 - INFO - Subdividing: 3128 faces
+2024-09-24 12:25:15,855 - INFO - Subdividing: 12512 faces
+2024-09-24 12:25:15,872 - INFO - Vertex count before decimation routine: 25078
+2024-09-24 12:25:15,872 - INFO - Decimating...
+2024-09-24 12:25:16,964 - INFO - Successfully resampled to: 5202
+2024-09-24 12:25:16,964 - INFO - Decimation iterations: 15
+2024-09-24 12:25:16,996 - INFO - 
+2024-09-24 12:25:16,996 - INFO - Loaded: ShapeDB_sample/Humanoid/m193.obj
+2024-09-24 12:25:16,996 - INFO - Subdividing: 17298 faces
+2024-09-24 12:25:17,003 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:17,027 - INFO - 
+2024-09-24 12:25:17,027 - INFO - Loaded: ShapeDB_sample/Humanoid/m224.obj
+2024-09-24 12:25:17,027 - INFO - Subdividing: 19219 faces
+2024-09-24 12:25:17,032 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:17,036 - INFO - 
+2024-09-24 12:25:17,036 - INFO - Loaded: ShapeDB_sample/Humanoid/m185.obj
+2024-09-24 12:25:17,036 - INFO - Subdividing: 919 faces
+2024-09-24 12:25:17,037 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:17,039 - INFO - 
+2024-09-24 12:25:17,039 - INFO - Loaded: ShapeDB_sample/Humanoid/m191.obj
+2024-09-24 12:25:17,039 - INFO - Subdividing: 264 faces
+2024-09-24 12:25:17,040 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:17,053 - INFO - 
+2024-09-24 12:25:17,053 - INFO - Loaded: ShapeDB_sample/Humanoid/m147.obj
+2024-09-24 12:25:17,053 - INFO - Subdividing: 8559 faces
+2024-09-24 12:25:17,056 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:17,064 - INFO - 
+2024-09-24 12:25:17,065 - INFO - Loaded: ShapeDB_sample/Humanoid/m194.obj
+2024-09-24 12:25:17,065 - INFO - Subdividing: 3460 faces
+2024-09-24 12:25:17,070 - INFO - Subdividing: 13840 faces
+2024-09-24 12:25:17,090 - INFO - Vertex count before decimation routine: 29595
+2024-09-24 12:25:17,090 - INFO - Decimating...
+2024-09-24 12:25:18,469 - INFO - Successfully resampled to: 5431
+2024-09-24 12:25:18,469 - INFO - Decimation iterations: 19
+2024-09-24 12:25:18,511 - INFO - 
+2024-09-24 12:25:18,511 - INFO - Loaded: ShapeDB_sample/Humanoid/m220.obj
+2024-09-24 12:25:18,511 - INFO - Subdividing: 25449 faces
+2024-09-24 12:25:18,524 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:18,551 - INFO - 
+2024-09-24 12:25:18,551 - INFO - Loaded: ShapeDB_sample/Humanoid/m182.obj
+2024-09-24 12:25:18,551 - INFO - Subdividing: 22190 faces
+2024-09-24 12:25:18,557 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:18,568 - INFO - 
+2024-09-24 12:25:18,568 - INFO - Loaded: ShapeDB_sample/Humanoid/m196.obj
+2024-09-24 12:25:18,568 - INFO - Subdividing: 7763 faces
+2024-09-24 12:25:18,571 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:18,575 - INFO - 
+2024-09-24 12:25:18,575 - INFO - Loaded: ShapeDB_sample/Humanoid/m164.obj
+2024-09-24 12:25:18,575 - INFO - Subdividing: 1396 faces
+2024-09-24 12:25:18,578 - INFO - Subdividing: 5584 faces
+2024-09-24 12:25:18,586 - INFO - Subdividing: 22336 faces
+2024-09-24 12:25:18,618 - INFO - Vertex count before decimation routine: 44702
+2024-09-24 12:25:18,618 - INFO - Decimating...
+2024-09-24 12:25:20,896 - INFO - Successfully resampled to: 5457
+2024-09-24 12:25:20,896 - INFO - Decimation iterations: 20
+2024-09-24 12:25:20,908 - INFO - 
+2024-09-24 12:25:20,908 - INFO - Loaded: ShapeDB_sample/Humanoid/m159.obj
+2024-09-24 12:25:20,908 - INFO - Subdividing: 998 faces
+2024-09-24 12:25:20,912 - INFO - Subdividing: 3992 faces
+2024-09-24 12:25:20,919 - INFO - Subdividing: 15968 faces
+2024-09-24 12:25:20,941 - INFO - Vertex count before decimation routine: 32194
+2024-09-24 12:25:20,941 - INFO - Decimating...
+2024-09-24 12:25:22,409 - INFO - Successfully resampled to: 5401
+2024-09-24 12:25:22,410 - INFO - Decimation iterations: 17
+2024-09-24 12:25:22,427 - INFO - 
+2024-09-24 12:25:22,427 - INFO - Loaded: ShapeDB_sample/Humanoid/m165.obj
+2024-09-24 12:25:22,427 - INFO - Subdividing: 1748 faces
+2024-09-24 12:25:22,428 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:22,440 - INFO - 
+2024-09-24 12:25:22,440 - INFO - Loaded: ShapeDB_sample/Humanoid/m211.obj
+2024-09-24 12:25:22,440 - INFO - Subdividing: 5476 faces
+2024-09-24 12:25:22,446 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:22,450 - INFO - 
+2024-09-24 12:25:22,450 - INFO - Loaded: ShapeDB_sample/Humanoid/m167.obj
+2024-09-24 12:25:22,450 - INFO - Subdividing: 856 faces
+2024-09-24 12:25:22,452 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:22,487 - INFO - 
+2024-09-24 12:25:22,488 - INFO - Loaded: ShapeDB_sample/Humanoid/m228.obj
+2024-09-24 12:25:22,488 - INFO - Vertex count before decimation routine: 15201
+2024-09-24 12:25:22,488 - INFO - Decimating...
+2024-09-24 12:25:23,009 - INFO - Successfully resampled to: 5471
+2024-09-24 12:25:23,010 - INFO - Decimation iterations: 10
+2024-09-24 12:25:23,020 - INFO - 
+2024-09-24 12:25:23,020 - INFO - Loaded: ShapeDB_sample/Humanoid/m163.obj
+2024-09-24 12:25:23,020 - INFO - Subdividing: 208 faces
+2024-09-24 12:25:23,022 - INFO - Subdividing: 832 faces
+2024-09-24 12:25:23,025 - INFO - Subdividing: 3328 faces
+2024-09-24 12:25:23,031 - INFO - Subdividing: 13312 faces
+2024-09-24 12:25:23,049 - INFO - Vertex count before decimation routine: 26895
+2024-09-24 12:25:23,049 - INFO - Decimating...
+2024-09-24 12:25:24,154 - INFO - Successfully resampled to: 4991
+2024-09-24 12:25:24,154 - INFO - Decimation iterations: 16
+2024-09-24 12:25:24,167 - INFO - 
+2024-09-24 12:25:24,167 - INFO - Loaded: ShapeDB_sample/Humanoid/m215.obj
+2024-09-24 12:25:24,168 - INFO - Subdividing: 1320 faces
+2024-09-24 12:25:24,171 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:24,175 - INFO - 
+2024-09-24 12:25:24,175 - INFO - Loaded: ShapeDB_sample/Humanoid/m161.obj
+2024-09-24 12:25:24,175 - INFO - Subdividing: 839 faces
+2024-09-24 12:25:24,176 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:24,191 - INFO - 
+2024-09-24 12:25:24,191 - INFO - Loaded: ShapeDB_sample/Humanoid/m148.obj
+2024-09-24 12:25:24,191 - INFO - Subdividing: 7707 faces
+2024-09-24 12:25:24,193 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:24,218 - INFO - 
+2024-09-24 12:25:24,218 - INFO - Loaded: ShapeDB_sample/Humanoid/m216.obj
+2024-09-24 12:25:24,218 - INFO - Subdividing: 17495 faces
+2024-09-24 12:25:24,224 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:24,261 - INFO - 
+2024-09-24 12:25:24,261 - INFO - Loaded: ShapeDB_sample/Humanoid/m265.obj
+2024-09-24 12:25:24,261 - INFO - Vertex count before decimation routine: 16267
+2024-09-24 12:25:24,261 - INFO - Decimating...
+2024-09-24 12:25:24,790 - INFO - Successfully resampled to: 5104
+2024-09-24 12:25:24,790 - INFO - Decimation iterations: 11
+2024-09-24 12:25:24,803 - INFO - 
+2024-09-24 12:25:24,803 - INFO - Loaded: ShapeDB_sample/Humanoid/m259.obj
+2024-09-24 12:25:24,803 - INFO - Subdividing: 728 faces
+2024-09-24 12:25:24,806 - INFO - Subdividing: 2912 faces
+2024-09-24 12:25:24,812 - INFO - Subdividing: 11648 faces
+2024-09-24 12:25:24,828 - INFO - Vertex count before decimation routine: 23334
+2024-09-24 12:25:24,828 - INFO - Decimating...
+2024-09-24 12:25:25,711 - INFO - Successfully resampled to: 5365
+2024-09-24 12:25:25,711 - INFO - Decimation iterations: 14
+2024-09-24 12:25:25,727 - INFO - 
+2024-09-24 12:25:25,727 - INFO - Loaded: ShapeDB_sample/Humanoid/m266.obj
+2024-09-24 12:25:25,727 - INFO - Subdividing: 2132 faces
+2024-09-24 12:25:25,729 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:25,733 - INFO - 
+2024-09-24 12:25:25,734 - INFO - Loaded: ShapeDB_sample/Humanoid/m248.obj
+2024-09-24 12:25:25,734 - INFO - Subdividing: 897 faces
+2024-09-24 12:25:25,736 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:25,758 - INFO - 
+2024-09-24 12:25:25,758 - INFO - Loaded: ShapeDB_sample/Humanoid/m249.obj
+2024-09-24 12:25:25,758 - INFO - Subdividing: 15874 faces
+2024-09-24 12:25:25,762 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:25,780 - INFO - 
+2024-09-24 12:25:25,780 - INFO - Loaded: ShapeDB_sample/ClassicPiano/D00092.obj
+2024-09-24 12:25:25,780 - INFO - Vertex count before decimation routine: 5901
+2024-09-24 12:25:25,780 - INFO - Decimating...
+2024-09-24 12:25:25,902 - INFO - Successfully resampled to: 5264
+2024-09-24 12:25:25,902 - INFO - Decimation iterations: 2
+2024-09-24 12:25:25,934 - INFO - 
+2024-09-24 12:25:25,934 - INFO - Loaded: ShapeDB_sample/ClassicPiano/D00279.obj
+2024-09-24 12:25:25,934 - INFO - Vertex count before decimation routine: 7253
+2024-09-24 12:25:25,934 - INFO - Decimating...
+2024-09-24 12:25:26,240 - INFO - Successfully resampled to: 5464
+2024-09-24 12:25:26,241 - INFO - Decimation iterations: 5
+2024-09-24 12:25:26,259 - INFO - 
+2024-09-24 12:25:26,259 - INFO - Loaded: ShapeDB_sample/ClassicPiano/D00034.obj
+2024-09-24 12:25:26,259 - INFO - Subdividing: 10902 faces
+2024-09-24 12:25:26,262 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:26,270 - INFO - 
+2024-09-24 12:25:26,270 - INFO - Loaded: ShapeDB_sample/ClassicPiano/D00009.obj
+2024-09-24 12:25:26,270 - INFO - Subdividing: 11958 faces
+2024-09-24 12:25:26,273 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:26,289 - INFO - 
+2024-09-24 12:25:26,289 - INFO - Loaded: ShapeDB_sample/MilitaryVehicle/D00334.obj
+2024-09-24 12:25:26,289 - INFO - Subdividing: 9976 faces
+2024-09-24 12:25:26,297 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:26,317 - INFO - 
+2024-09-24 12:25:26,317 - INFO - Loaded: ShapeDB_sample/MilitaryVehicle/D00723.obj
+2024-09-24 12:25:26,318 - INFO - Subdividing: 25582 faces
+2024-09-24 12:25:26,329 - CRITICAL - Subdividing broke mesh
+2024-09-24 12:25:26,331 - INFO - 
+2024-09-24 12:25:26,331 - INFO - Loaded: ShapeDB_sample/MilitaryVehicle/D00799.obj
+2024-09-24 12:25:26,331 - INFO - Subdividing: 1342 faces
+2024-09-24 12:25:26,333 - INFO - Subdividing: 5368 faces
+2024-09-24 12:25:26,339 - INFO - Subdividing: 21472 faces
+2024-09-24 12:25:26,363 - INFO - Vertex count before decimation routine: 42992
+2024-09-24 12:25:26,363 - INFO - Decimating...
+2024-09-24 12:25:28,285 - INFO - Successfully resampled to: 5265
+2024-09-24 12:25:28,286 - INFO - Decimation iterations: 20
+2024-09-24 12:25:28,316 - INFO - 
+2024-09-24 12:25:28,316 - INFO - Loaded: ShapeDB_sample/MilitaryVehicle/D00272.obj
+2024-09-24 12:25:28,316 - INFO - Vertex count before decimation routine: 15903
+2024-09-24 12:25:28,316 - INFO - Decimating...
+2024-09-24 12:25:28,757 - INFO - Successfully resampled to: 5391
+2024-09-24 12:25:28,757 - INFO - Decimation iterations: 11
+2024-09-24 12:25:28,757 - INFO - Broken object count: 178
+2024-09-24 12:25:28,757 - INFO - Overshot decimate count: 8
+2024-09-24 12:25:28,767 - INFO - Average vertex count: 5240.460750853243
+2024-09-24 12:25:28,767 - INFO - Elapsed time: 710.1779708862305
