@@ -1,17 +1,23 @@
 import os
 
-from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget, QLabel, QPushButton, QLineEdit
+from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QListWidget, QWidget, QLabel, QPushButton, QLineEdit, \
+    QProgressBar
 from Widget3DViewer import Widget3DViewer
 from Mesh import Mesh
 from NormalizationWizard import NormalizationWizard
 from StepResample import StepResample
 from constants import DB_ORIGINAL_RELATIVE_PATH, DB_PREPROCESSED_NAME
 from utils import save_to_db
+from QHSeparationLine import QHSeparationLine
 
 
 class WindowNormalization(QMainWindow):
     _db_path: str = DB_ORIGINAL_RELATIVE_PATH
-    _output_db_name: str = DB_PREPROCESSED_NAME
+    _output_single_db_name: str = DB_PREPROCESSED_NAME
+
+    _output_all_db_name: str = DB_PREPROCESSED_NAME
+    _output_all_target_no_vertices: int = 5000
+
     _wizard: NormalizationWizard = None
 
     _ui_layout_main: QVBoxLayout = None
@@ -24,6 +30,8 @@ class WindowNormalization(QMainWindow):
     _ui_3d_viewer: Widget3DViewer = None
 
     _ui_normalization: QWidget = None
+
+    _ui_progress_bar: QProgressBar = None
 
     def __init__(self):
         super(WindowNormalization, self).__init__()
@@ -64,17 +72,59 @@ class WindowNormalization(QMainWindow):
         self._ui_layout_main.addLayout(self._ui_layout_db_all)
 
         # Normalization Output
-        layout_normalization_output = QHBoxLayout()
+        layout_normalization_single = QHBoxLayout()
 
-        line_edit = QLineEdit(self._output_db_name)
-        line_edit.textChanged.connect(lambda text: self.output_db_name(text))
-        layout_normalization_output.addWidget(line_edit)
+        line_edit = QLineEdit(self._output_single_db_name)
+        line_edit.textChanged.connect(lambda text: self.output_single_db_name(text))
+        layout_normalization_single.addWidget(line_edit)
 
         btn_single = QPushButton("Save current mesh")
         btn_single.pressed.connect(lambda: save_to_db(self._wizard.get_current_mesh(), line_edit.text()))
-        layout_normalization_output.addWidget(btn_single)
+        layout_normalization_single.addWidget(btn_single)
 
-        self._ui_layout_main.addLayout(layout_normalization_output)
+        self._ui_layout_main.addLayout(layout_normalization_single)
+
+        # Normalize all shapes
+        divider_line = QHSeparationLine()
+        self._ui_layout_main.addWidget(divider_line)
+
+
+        layout_normalization_all = QVBoxLayout()
+
+        layout_normalization_all_controls = QHBoxLayout()
+
+        line_edit = QLineEdit(self._output_all_db_name)
+        line_edit.textChanged.connect(lambda text: self.output_all_db_name(text))
+        layout_normalization_all_controls.addWidget(line_edit)
+
+        line_edit_no_vertices = QLineEdit(str(self._output_all_target_no_vertices))
+        line_edit_no_vertices.textChanged.connect(self.set_target_no_vertices)
+        layout_normalization_all_controls.addWidget(line_edit_no_vertices)
+
+        btn_all = QPushButton("Process all shapes")
+        btn_all.pressed.connect(self.process_all_shapes)
+        layout_normalization_all_controls.addWidget(btn_all)
+
+        layout_normalization_all.addLayout(layout_normalization_all_controls)
+
+        self._ui_layout_main.addLayout(layout_normalization_all)
+
+        layout_progress = QVBoxLayout()
+
+        self._ui_progress_label = QLabel("")
+        layout_progress.addWidget(self._ui_progress_label)
+
+        self._ui_progress_bar = QProgressBar()
+        self._ui_progress_bar.setRange(0, 100)
+        layout_progress.addWidget(self._ui_progress_bar)
+
+        self._ui_layout_main.addLayout(layout_progress)
+
+    def process_all_shapes(self):
+
+
+    def set_target_no_vertices(self, n):
+        self._output_target_no_vertices = n
 
     def update_3d_viewer(self):
         self._ui_3d_viewer.set_mesh(self._wizard.get_current_mesh())
