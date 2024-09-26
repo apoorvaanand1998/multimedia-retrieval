@@ -28,6 +28,13 @@ def get_database_map(db_path: str) -> (dict[str, list[str]], int):
     return database_map, total_count
 
 
+def save_array_to_txt(file_name: str, array: list[str]):
+    f = open(file_name, 'w')
+    for el in array:
+        f.write(str(el))
+        f.write("\n")
+    f.close()
+
 def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
     if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name)):
         os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name))
@@ -88,10 +95,15 @@ def find_outliers(data: list[any]):
 
     return outliers
 
+
 def save_to_db(mesh: Mesh, db_name: str):
+    final_path = None
     if mesh is not None:
         db_path = str(os.path.join(DB_RELATIVE_PATH, db_name, mesh.get_class()))
         if not os.path.exists(db_path):
             os.makedirs(db_path)
 
-        vedo.save(mesh.vedo_mesh, str(os.path.join(db_path, mesh.name)))
+        final_path = str(os.path.join(db_path, mesh.name))
+        vedo.save(mesh.vedo_mesh, final_path)
+
+    return final_path

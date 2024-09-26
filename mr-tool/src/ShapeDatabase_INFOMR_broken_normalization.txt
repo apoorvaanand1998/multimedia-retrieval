@@ -1,0 +1,2228 @@
+Insect -> D00309.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00136.obj. Reason: 0 vertices due to subdivide
+Insect -> D00081.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00732.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00109.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00294.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00082.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00333.obj. Reason: 0 vertices due to subdivide
+Insect -> D00695.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00291.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00734.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00668.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00746.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m4.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00752.obj. Reason: 0 vertices due to subdivide
+Insect -> m13.obj. Reason: 0 vertices due to subdivide
+Insect -> D00430.obj. Reason: 0 vertices due to subdivide
+Insect -> D00814.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m12.obj. Reason: 0 vertices due to subdivide
+Insect -> D00753.obj. Reason: 0 vertices due to subdivide
+Insect -> m7.obj. Reason: 0 vertices due to subdivide
+Insect -> D00989.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00786.obj. Reason: 0 vertices due to subdivide
+Insect -> m10.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00590.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00180.obj. Reason: 0 vertices due to subdivide
+Insect -> m11.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00787.obj. Reason: 0 vertices due to subdivide
+Insect -> m6.obj. Reason: 0 vertices due to subdivide
+Insect -> m2.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00973.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m15.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00806.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00231.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m14.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m3.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m1.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m16.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m17.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m0.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00160.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m19.obj. Reason: 0 vertices due to subdivide
+Insect -> m25.obj. Reason: 0 vertices due to subdivide
+Insect -> m24.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m18.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m20.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00615.obj. Reason: 0 vertices due to subdivide
+Insect -> m21.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00774.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m8.obj. Reason: 0 vertices due to subdivide
+Insect -> m23.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00399.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> m22.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00788.obj. Reason: 0 vertices due to subdivide
+Insect -> m9.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00102.obj. Reason: 0 vertices due to subdivide
+Insect -> D00895.obj. Reason: 0 vertices due to subdivide
+Insect -> D00315.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00713.obj. Reason: 0 vertices due to subdivide
+Insect -> D00855.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00672.obj. Reason: 0 vertices due to subdivide
+Insect -> D00510.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00662.obj. Reason: Didn't meet the required 50 vertices delta
+Insect -> D00884.obj. Reason: Didn't meet the required 50 vertices delta
+Bookset -> D01038.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01199.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01013.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01065.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01110.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01135.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01109.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01096.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01108.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01122.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01042.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01078.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01050.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01182.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01009.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01183.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01030.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01184.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01190.obj. Reason: 0 vertices due to subdivide
+Bookset -> D01146.obj. Reason: 0 vertices due to subdivide
+Tree -> m1068.obj. Reason: 0 vertices due to subdivide
+Tree -> D00533.obj. Reason: 0 vertices due to subdivide
+Tree -> m1097.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1082.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1096.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1069.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1095.obj. Reason: 0 vertices due to subdivide
+Tree -> D00096.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00727.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1091.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1079.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1092.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1086.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00456.obj. Reason: 0 vertices due to subdivide
+Tree -> m1093.obj. Reason: 0 vertices due to subdivide
+Tree -> m1078.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00223.obj. Reason: 0 vertices due to subdivide
+Tree -> D00221.obj. Reason: 0 vertices due to subdivide
+Tree -> D00393.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00810.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00385.obj. Reason: 0 vertices due to subdivide
+Tree -> D00439.obj. Reason: 0 vertices due to subdivide
+Tree -> D00834.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00612.obj. Reason: 0 vertices due to subdivide
+Tree -> D00996.obj. Reason: 0 vertices due to subdivide
+Tree -> D00200.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00573.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00765.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00367.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> D00777.obj. Reason: 0 vertices due to subdivide
+Tree -> m1075.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1062.obj. Reason: 0 vertices due to subdivide
+Tree -> m1089.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1077.obj. Reason: 0 vertices due to subdivide
+Tree -> m1063.obj. Reason: 0 vertices due to subdivide
+Tree -> m1067.obj. Reason: 0 vertices due to subdivide
+Tree -> m1098.obj. Reason: 0 vertices due to subdivide
+Tree -> m1072.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1066.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1070.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1064.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1065.obj. Reason: Didn't meet the required 50 vertices delta
+Tree -> m1071.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m907.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m913.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m873.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m898.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m872.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00678.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m912.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m906.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m910.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m904.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00530.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00295.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00134.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m870.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m871.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00243.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m905.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m915.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m901.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m875.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m874.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m914.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m902.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m876.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m889.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m888.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m877.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00523.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m917.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00418.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00230.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00421.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00187.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00954.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00571.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m763.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00766.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00188.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m764.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m765.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00603.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00944.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m891.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m890.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m919.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> D00505.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00317.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m879.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m886.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m892.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m893.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m887.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m878.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00302.obj. Reason: 0 vertices due to subdivide
+RectangleTable -> m920.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m908.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m883.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m897.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m896.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m882.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m894.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m881.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> m895.obj. Reason: Didn't meet the required 50 vertices delta
+RectangleTable -> D00714.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m720.obj. Reason: 0 vertices due to subdivide
+Sword -> D00916.obj. Reason: 0 vertices due to subdivide
+Sword -> D00484.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m697.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m709.obj. Reason: 0 vertices due to subdivide
+Sword -> m721.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m694.obj. Reason: 0 vertices due to subdivide
+Sword -> m695.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m691.obj. Reason: 0 vertices due to subdivide
+Sword -> m690.obj. Reason: 0 vertices due to subdivide
+Sword -> m719.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m692.obj. Reason: 0 vertices due to subdivide
+Sword -> m687.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m693.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00133.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00906.obj. Reason: 0 vertices due to subdivide
+Sword -> m718.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00195.obj. Reason: 0 vertices due to subdivide
+Sword -> D00807.obj. Reason: 0 vertices due to subdivide
+Sword -> D00812.obj. Reason: 0 vertices due to subdivide
+Sword -> D00635.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00540.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00149.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00808.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00162.obj. Reason: 0 vertices due to subdivide
+Sword -> D00992.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m701.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> D00513.obj. Reason: 0 vertices due to subdivide
+Sword -> D00249.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m714.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m700.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m702.obj. Reason: 0 vertices due to subdivide
+Sword -> m689.obj. Reason: 0 vertices due to subdivide
+Sword -> m688.obj. Reason: 0 vertices due to subdivide
+Sword -> m703.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m717.obj. Reason: 0 vertices due to subdivide
+Sword -> D00712.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m713.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m707.obj. Reason: 0 vertices due to subdivide
+Sword -> m698.obj. Reason: 0 vertices due to subdivide
+Sword -> m699.obj. Reason: 0 vertices due to subdivide
+Sword -> m704.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m710.obj. Reason: Didn't meet the required 50 vertices delta
+Sword -> m711.obj. Reason: 0 vertices due to subdivide
+Sword -> m705.obj. Reason: 0 vertices due to subdivide
+Sword -> D00066.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m330.obj. Reason: 0 vertices due to subdivide
+Hand -> m324.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01200.obj. Reason: 0 vertices due to subdivide
+Hand -> m325.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m331.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01162.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m327.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m333.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m332.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m326.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m336.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m337.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m323.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01170.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01172.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01006.obj. Reason: 0 vertices due to subdivide
+Hand -> m335.obj. Reason: 0 vertices due to subdivide
+Hand -> m334.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01198.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01074.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01060.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01117.obj. Reason: 0 vertices due to subdivide
+Hand -> D01106.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01041.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01097.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01118.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01093.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01022.obj. Reason: 0 vertices due to subdivide
+Hand -> m339.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m338.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01020.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01197.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01193.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01024.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> D01153.obj. Reason: Didn't meet the required 50 vertices delta
+Hand -> m328.obj. Reason: 0 vertices due to subdivide
+Hand -> m329.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1518.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1530.obj. Reason: 0 vertices due to subdivide
+Car -> m1524.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1487.obj. Reason: 0 vertices due to subdivide
+Car -> m1486.obj. Reason: 0 vertices due to subdivide
+Car -> D00452.obj. Reason: 0 vertices due to subdivide
+Car -> m1525.obj. Reason: 0 vertices due to subdivide
+Car -> D00724.obj. Reason: 0 vertices due to subdivide
+Car -> m1531.obj. Reason: 0 vertices due to subdivide
+Car -> m1519.obj. Reason: 0 vertices due to subdivide
+Car -> m1527.obj. Reason: 0 vertices due to subdivide
+Car -> m1533.obj. Reason: 0 vertices due to subdivide
+Car -> m1490.obj. Reason: 0 vertices due to subdivide
+Car -> m1485.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1532.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1526.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1522.obj. Reason: 0 vertices due to subdivide
+Car -> m1536.obj. Reason: 0 vertices due to subdivide
+Car -> m1495.obj. Reason: 0 vertices due to subdivide
+Car -> D00865.obj. Reason: 0 vertices due to subdivide
+Car -> m1523.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1535.obj. Reason: 0 vertices due to subdivide
+Car -> m1521.obj. Reason: 0 vertices due to subdivide
+Car -> m1509.obj. Reason: 0 vertices due to subdivide
+Car -> m1496.obj. Reason: 0 vertices due to subdivide
+Car -> m1497.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1508.obj. Reason: 0 vertices due to subdivide
+Car -> m1553.obj. Reason: 0 vertices due to subdivide
+Car -> m1547.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> D00785.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> D00236.obj. Reason: 0 vertices due to subdivide
+Car -> m1546.obj. Reason: 0 vertices due to subdivide
+Car -> m1544.obj. Reason: 0 vertices due to subdivide
+Car -> m1550.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> D00618.obj. Reason: 0 vertices due to subdivide
+Car -> m1551.obj. Reason: 0 vertices due to subdivide
+Car -> m1545.obj. Reason: 0 vertices due to subdivide
+Car -> m1555.obj. Reason: 0 vertices due to subdivide
+Car -> m1540.obj. Reason: 0 vertices due to subdivide
+Car -> m1542.obj. Reason: 0 vertices due to subdivide
+Car -> D00541.obj. Reason: 0 vertices due to subdivide
+Car -> m1543.obj. Reason: 0 vertices due to subdivide
+Car -> m1557.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> D00767.obj. Reason: 0 vertices due to subdivide
+Car -> D00377.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> D00405.obj. Reason: 0 vertices due to subdivide
+Car -> m1559.obj. Reason: 0 vertices due to subdivide
+Car -> m1558.obj. Reason: 0 vertices due to subdivide
+Car -> m1548.obj. Reason: 0 vertices due to subdivide
+Car -> m1561.obj. Reason: 0 vertices due to subdivide
+Car -> m1563.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1539.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1511.obj. Reason: 0 vertices due to subdivide
+Car -> m1505.obj. Reason: 0 vertices due to subdivide
+Car -> D00260.obj. Reason: 0 vertices due to subdivide
+Car -> D00671.obj. Reason: 0 vertices due to subdivide
+Car -> m1504.obj. Reason: 0 vertices due to subdivide
+Car -> m1510.obj. Reason: 0 vertices due to subdivide
+Car -> m1538.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1506.obj. Reason: 0 vertices due to subdivide
+Car -> m1512.obj. Reason: 0 vertices due to subdivide
+Car -> m1498.obj. Reason: 0 vertices due to subdivide
+Car -> m1513.obj. Reason: 0 vertices due to subdivide
+Car -> m1507.obj. Reason: 0 vertices due to subdivide
+Car -> m1503.obj. Reason: 0 vertices due to subdivide
+Car -> m1517.obj. Reason: 0 vertices due to subdivide
+Car -> m1489.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1516.obj. Reason: 0 vertices due to subdivide
+Car -> m1514.obj. Reason: 0 vertices due to subdivide
+Car -> m1500.obj. Reason: Didn't meet the required 50 vertices delta
+Car -> m1528.obj. Reason: 0 vertices due to subdivide
+Car -> m1529.obj. Reason: 0 vertices due to subdivide
+Car -> m1515.obj. Reason: Didn't meet the required 50 vertices delta
+ComputerKeyboard -> D00692.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00493.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00905.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00278.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00654.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00127.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00569.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00420.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00600.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00990.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00116.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00673.obj. Reason: 0 vertices due to subdivide
+ComputerKeyboard -> D00676.obj. Reason: 0 vertices due to subdivide
+Bed -> D00650.obj. Reason: 0 vertices due to subdivide
+Bed -> D00322.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00121.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00735.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00545.obj. Reason: 0 vertices due to subdivide
+Bed -> D00552.obj. Reason: 0 vertices due to subdivide
+Bed -> D00988.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00184.obj. Reason: 0 vertices due to subdivide
+Bed -> D00031.obj. Reason: 0 vertices due to subdivide
+Bed -> m949.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00839.obj. Reason: 0 vertices due to subdivide
+Bed -> m945.obj. Reason: 0 vertices due to subdivide
+Bed -> m951.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00565.obj. Reason: 0 vertices due to subdivide
+Bed -> D00217.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00969.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> m950.obj. Reason: 0 vertices due to subdivide
+Bed -> m946.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00836.obj. Reason: 0 vertices due to subdivide
+Bed -> m947.obj. Reason: 0 vertices due to subdivide
+Bed -> D00417.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00210.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00213.obj. Reason: 0 vertices due to subdivide
+Bed -> D00110.obj. Reason: Didn't meet the required 50 vertices delta
+Bed -> D00307.obj. Reason: 0 vertices due to subdivide
+Violin -> D00108.obj. Reason: 0 vertices due to subdivide
+Violin -> D00250.obj. Reason: 0 vertices due to subdivide
+Violin -> D00324.obj. Reason: 0 vertices due to subdivide
+Violin -> D00340.obj. Reason: 0 vertices due to subdivide
+Violin -> D00620.obj. Reason: 0 vertices due to subdivide
+Violin -> D00743.obj. Reason: 0 vertices due to subdivide
+Violin -> D00376.obj. Reason: 0 vertices due to subdivide
+Violin -> D00570.obj. Reason: 0 vertices due to subdivide
+Violin -> D00216.obj. Reason: 0 vertices due to subdivide
+Violin -> D00349.obj. Reason: 0 vertices due to subdivide
+Violin -> D00602.obj. Reason: 0 vertices due to subdivide
+Violin -> D00704.obj. Reason: 0 vertices due to subdivide
+Violin -> D00506.obj. Reason: 0 vertices due to subdivide
+Violin -> D00701.obj. Reason: 0 vertices due to subdivide
+Violin -> D00675.obj. Reason: 0 vertices due to subdivide
+Violin -> D00891.obj. Reason: 0 vertices due to subdivide
+Monitor -> D01000.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00444.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00336.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00469.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00141.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00387.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00391.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00412.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00229.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00007.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00364.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00548.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00978.obj. Reason: 0 vertices due to subdivide
+Monitor -> D00659.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00920.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00919.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00339.obj. Reason: Didn't meet the required 50 vertices delta
+Monitor -> D00852.obj. Reason: 0 vertices due to subdivide
+City -> m1652.obj. Reason: 0 vertices due to subdivide
+City -> D01001.obj. Reason: 0 vertices due to subdivide
+City -> D01039.obj. Reason: 0 vertices due to subdivide
+City -> m1654.obj. Reason: 0 vertices due to subdivide
+City -> D01010.obj. Reason: 0 vertices due to subdivide
+City -> D01007.obj. Reason: 0 vertices due to subdivide
+City -> D01173.obj. Reason: 0 vertices due to subdivide
+City -> D01101.obj. Reason: 0 vertices due to subdivide
+City -> D01103.obj. Reason: 0 vertices due to subdivide
+City -> D01066.obj. Reason: 0 vertices due to subdivide
+City -> D01068.obj. Reason: 0 vertices due to subdivide
+City -> D01056.obj. Reason: 0 vertices due to subdivide
+City -> D01091.obj. Reason: 0 vertices due to subdivide
+City -> D01092.obj. Reason: 0 vertices due to subdivide
+City -> D01195.obj. Reason: 0 vertices due to subdivide
+City -> m1664.obj. Reason: 0 vertices due to subdivide
+City -> m1661.obj. Reason: 0 vertices due to subdivide
+City -> m1660.obj. Reason: 0 vertices due to subdivide
+City -> D01192.obj. Reason: 0 vertices due to subdivide
+Cup -> m495.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m494.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m496.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00874.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m497.obj. Reason: 0 vertices due to subdivide
+Cup -> D00519.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00642.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00457.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m526.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00550.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00587.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00035.obj. Reason: 0 vertices due to subdivide
+Cup -> D00355.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00174.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00214.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00638.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00206.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00738.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00328.obj. Reason: 0 vertices due to subdivide
+Cup -> D00843.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m502.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m500.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00882.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m501.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00067.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> m499.obj. Reason: 0 vertices due to subdivide
+Cup -> m498.obj. Reason: Didn't meet the required 50 vertices delta
+Cup -> D00270.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m278.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m279.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m98.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m99.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00509.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m281.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m89.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m108.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m109.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00326.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m88.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m280.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00508.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m282.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00867.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00380.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00218.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00757.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00794.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00409.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00150.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00583.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00226.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00795.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00831.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m86.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m92.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m107.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m106.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m112.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m93.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m87.obj. Reason: 0 vertices due to subdivide
+Quadruped -> D00261.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00934.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m91.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m104.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m110.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m111.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00841.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m105.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m90.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m273.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m94.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m277.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m101.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m100.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00111.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00663.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m276.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m95.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m97.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m274.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m102.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> m103.obj. Reason: 0 vertices due to subdivide
+Quadruped -> m275.obj. Reason: Didn't meet the required 50 vertices delta
+Quadruped -> D00700.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1134.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00490.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1135.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00320.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1121.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1137.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1123.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1122.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1136.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00900.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00069.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1132.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1126.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1127.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1133.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00246.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1125.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1131.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1119.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00132.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1118.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1124.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1143.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00632.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1141.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00634.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1144.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1146.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00178.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00410.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00601.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00199.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00616.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00373.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1129.obj. Reason: 0 vertices due to subdivide
+Biplane -> m1128.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00277.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00854.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00666.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> D00276.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1138.obj. Reason: 0 vertices due to subdivide
+Biplane -> D00890.obj. Reason: Didn't meet the required 50 vertices delta
+Biplane -> m1139.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1256.obj. Reason: 0 vertices due to subdivide
+Jet -> m1242.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1295.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1281.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1280.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1294.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1243.obj. Reason: 0 vertices due to subdivide
+Jet -> m1257.obj. Reason: 0 vertices due to subdivide
+Jet -> m1269.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1241.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1255.obj. Reason: 0 vertices due to subdivide
+Jet -> m1282.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1296.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1297.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1283.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1240.obj. Reason: 0 vertices due to subdivide
+Jet -> m1268.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1250.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1278.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1287.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1293.obj. Reason: 0 vertices due to subdivide
+Jet -> m1292.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1286.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1279.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1251.obj. Reason: 0 vertices due to subdivide
+Jet -> m1245.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1253.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1247.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1290.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1284.obj. Reason: 0 vertices due to subdivide
+Jet -> m1285.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1291.obj. Reason: 0 vertices due to subdivide
+Jet -> m1246.obj. Reason: 0 vertices due to subdivide
+Jet -> m1252.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1209.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1235.obj. Reason: 0 vertices due to subdivide
+Jet -> m1221.obj. Reason: 0 vertices due to subdivide
+Jet -> m1157.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1180.obj. Reason: 0 vertices due to subdivide
+Jet -> m1194.obj. Reason: 0 vertices due to subdivide
+Jet -> m1195.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1181.obj. Reason: 0 vertices due to subdivide
+Jet -> m1156.obj. Reason: 0 vertices due to subdivide
+Jet -> m1220.obj. Reason: 0 vertices due to subdivide
+Jet -> m1234.obj. Reason: 0 vertices due to subdivide
+Jet -> m1208.obj. Reason: 0 vertices due to subdivide
+Jet -> m1222.obj. Reason: 0 vertices due to subdivide
+Jet -> m1236.obj. Reason: 0 vertices due to subdivide
+Jet -> m1168.obj. Reason: 0 vertices due to subdivide
+Jet -> m1154.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1197.obj. Reason: 0 vertices due to subdivide
+Jet -> m1183.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1182.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1196.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1155.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1169.obj. Reason: 0 vertices due to subdivide
+Jet -> m1237.obj. Reason: 0 vertices due to subdivide
+Jet -> m1223.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1227.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1233.obj. Reason: 0 vertices due to subdivide
+Jet -> m1151.obj. Reason: 0 vertices due to subdivide
+Jet -> m1179.obj. Reason: 0 vertices due to subdivide
+Jet -> m1187.obj. Reason: 0 vertices due to subdivide
+Jet -> m1193.obj. Reason: 0 vertices due to subdivide
+Jet -> m1178.obj. Reason: 0 vertices due to subdivide
+Jet -> m1150.obj. Reason: 0 vertices due to subdivide
+Jet -> m1232.obj. Reason: 0 vertices due to subdivide
+Jet -> m1226.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1230.obj. Reason: 0 vertices due to subdivide
+Jet -> m1224.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1218.obj. Reason: 0 vertices due to subdivide
+Jet -> m1152.obj. Reason: 0 vertices due to subdivide
+Jet -> m1185.obj. Reason: 0 vertices due to subdivide
+Jet -> m1191.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1190.obj. Reason: 0 vertices due to subdivide
+Jet -> m1184.obj. Reason: 0 vertices due to subdivide
+Jet -> m1153.obj. Reason: 0 vertices due to subdivide
+Jet -> m1147.obj. Reason: 0 vertices due to subdivide
+Jet -> m1219.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1225.obj. Reason: 0 vertices due to subdivide
+Jet -> m1231.obj. Reason: 0 vertices due to subdivide
+Jet -> m1228.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1214.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1200.obj. Reason: 0 vertices due to subdivide
+Jet -> m1162.obj. Reason: 0 vertices due to subdivide
+Jet -> m1176.obj. Reason: 0 vertices due to subdivide
+Jet -> m1188.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1177.obj. Reason: 0 vertices due to subdivide
+Jet -> m1163.obj. Reason: 0 vertices due to subdivide
+Jet -> m1201.obj. Reason: 0 vertices due to subdivide
+Jet -> m1215.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1229.obj. Reason: 0 vertices due to subdivide
+Jet -> m1217.obj. Reason: 0 vertices due to subdivide
+Jet -> m1149.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1175.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1161.obj. Reason: 0 vertices due to subdivide
+Jet -> m1174.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1216.obj. Reason: 0 vertices due to subdivide
+Jet -> m1202.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1212.obj. Reason: 0 vertices due to subdivide
+Jet -> m1158.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1159.obj. Reason: 0 vertices due to subdivide
+Jet -> m1165.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1171.obj. Reason: 0 vertices due to subdivide
+Jet -> m1213.obj. Reason: 0 vertices due to subdivide
+Jet -> m1207.obj. Reason: 0 vertices due to subdivide
+Jet -> m1211.obj. Reason: 0 vertices due to subdivide
+Jet -> m1205.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1239.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1167.obj. Reason: 0 vertices due to subdivide
+Jet -> m1173.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1198.obj. Reason: 0 vertices due to subdivide
+Jet -> m1199.obj. Reason: 0 vertices due to subdivide
+Jet -> m1172.obj. Reason: 0 vertices due to subdivide
+Jet -> m1166.obj. Reason: 0 vertices due to subdivide
+Jet -> m1238.obj. Reason: 0 vertices due to subdivide
+Jet -> m1204.obj. Reason: 0 vertices due to subdivide
+Jet -> m1210.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1277.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1263.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1288.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1262.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1276.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1248.obj. Reason: 0 vertices due to subdivide
+Jet -> m1260.obj. Reason: 0 vertices due to subdivide
+Jet -> m1274.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1300.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1301.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1275.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1261.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1249.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1265.obj. Reason: 0 vertices due to subdivide
+Jet -> m1271.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1259.obj. Reason: 0 vertices due to subdivide
+Jet -> m1258.obj. Reason: 0 vertices due to subdivide
+Jet -> m1270.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1264.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1266.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1299.obj. Reason: 0 vertices due to subdivide
+Jet -> m1298.obj. Reason: Didn't meet the required 50 vertices delta
+Jet -> m1267.obj. Reason: 0 vertices due to subdivide
+Jet -> m1273.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1369.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1355.obj. Reason: 0 vertices due to subdivide
+Starship -> m1382.obj. Reason: 0 vertices due to subdivide
+Starship -> m1354.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1368.obj. Reason: 0 vertices due to subdivide
+Starship -> m1356.obj. Reason: 0 vertices due to subdivide
+Starship -> m1381.obj. Reason: 0 vertices due to subdivide
+Starship -> m1353.obj. Reason: 0 vertices due to subdivide
+Starship -> m1384.obj. Reason: 0 vertices due to subdivide
+Starship -> m1385.obj. Reason: 0 vertices due to subdivide
+Starship -> m1378.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1386.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1379.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1360.obj. Reason: 0 vertices due to subdivide
+Starship -> m1374.obj. Reason: 0 vertices due to subdivide
+Starship -> m1375.obj. Reason: 0 vertices due to subdivide
+Starship -> m1361.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1362.obj. Reason: 0 vertices due to subdivide
+Starship -> m1376.obj. Reason: 0 vertices due to subdivide
+Starship -> m1372.obj. Reason: 0 vertices due to subdivide
+Starship -> m1366.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1373.obj. Reason: Didn't meet the required 50 vertices delta
+Starship -> m1365.obj. Reason: 0 vertices due to subdivide
+Starship -> m1371.obj. Reason: 0 vertices due to subdivide
+Starship -> m1359.obj. Reason: 0 vertices due to subdivide
+Starship -> m1358.obj. Reason: 0 vertices due to subdivide
+Starship -> m1370.obj. Reason: 0 vertices due to subdivide
+Starship -> m1364.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m640.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m641.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m643.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m646.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m647.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m645.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m644.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m634.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m635.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m625.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m632.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m627.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m633.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m629.obj. Reason: Didn't meet the required 50 vertices delta
+Musical_Instrument -> m628.obj. Reason: 0 vertices due to subdivide
+Musical_Instrument -> m638.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m481.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m478.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m479.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m390.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m384.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m409.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m408.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m385.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m391.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m387.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m393.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m392.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m386.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m382.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m396.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m397.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m383.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m395.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m418.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m394.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m414.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m400.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m401.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m415.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m398.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m402.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m412.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m413.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m407.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m405.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m404.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m410.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m389.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m477.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m474.obj. Reason: Didn't meet the required 50 vertices delta
+BuildingNonResidential -> m475.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m471.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m470.obj. Reason: 0 vertices due to subdivide
+BuildingNonResidential -> m472.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1337.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1341.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1340.obj. Reason: 0 vertices due to subdivide
+AircraftBuoyant -> m1342.obj. Reason: 0 vertices due to subdivide
+AircraftBuoyant -> m1343.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1347.obj. Reason: 0 vertices due to subdivide
+AircraftBuoyant -> m1346.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1352.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1344.obj. Reason: 0 vertices due to subdivide
+AircraftBuoyant -> m1350.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1351.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1345.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1348.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1349.obj. Reason: Didn't meet the required 50 vertices delta
+AircraftBuoyant -> m1339.obj. Reason: 0 vertices due to subdivide
+AircraftBuoyant -> m1338.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00902.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00527.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00848.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00079.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00327.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00440.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00369.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00032.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00542.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00152.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00192.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00554.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00018.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00559.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00362.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00979.obj. Reason: 0 vertices due to subdivide
+Cellphone -> D00248.obj. Reason: Didn't meet the required 50 vertices delta
+Cellphone -> D00312.obj. Reason: Didn't meet the required 50 vertices delta
+Drum -> D00308.obj. Reason: 0 vertices due to subdivide
+Drum -> D00709.obj. Reason: 0 vertices due to subdivide
+Drum -> D00551.obj. Reason: 0 vertices due to subdivide
+Drum -> D00383.obj. Reason: 0 vertices due to subdivide
+Drum -> D00557.obj. Reason: 0 vertices due to subdivide
+Drum -> D00596.obj. Reason: 0 vertices due to subdivide
+Drum -> D00193.obj. Reason: 0 vertices due to subdivide
+Drum -> D00404.obj. Reason: 0 vertices due to subdivide
+Drum -> D00982.obj. Reason: 0 vertices due to subdivide
+Drum -> D00189.obj. Reason: 0 vertices due to subdivide
+Drum -> D00163.obj. Reason: 0 vertices due to subdivide
+Drum -> D00063.obj. Reason: 0 vertices due to subdivide
+Drum -> D00115.obj. Reason: Didn't meet the required 50 vertices delta
+Drum -> D00298.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00043.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00482.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00864.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00319.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00169.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00963.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00019.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00798.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00995.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00167.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00402.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00617.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00011.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00301.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00840.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00262.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00925.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00688.obj. Reason: 0 vertices due to subdivide
+Monoplane -> D00098.obj. Reason: Didn't meet the required 50 vertices delta
+Monoplane -> D00304.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00269.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> m1479.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> m1484.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00521.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00858.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> m1481.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> m1480.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> m1482.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> m1483.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00544.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00342.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00021.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00396.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00768.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00224.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00345.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00945.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00039.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00880.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00288.obj. Reason: Didn't meet the required 50 vertices delta
+Motorcycle -> D00886.obj. Reason: 0 vertices due to subdivide
+Motorcycle -> D00703.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00335.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00645.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00097.obj. Reason: Didn't meet the required 50 vertices delta
+Guitar -> D00849.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00041.obj. Reason: Didn't meet the required 50 vertices delta
+Guitar -> D00124.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00534.obj. Reason: Didn't meet the required 50 vertices delta
+Guitar -> D00494.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00222.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00023.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00232.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00374.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00414.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00549.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00076.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00464.obj. Reason: 0 vertices due to subdivide
+Guitar -> D00844.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00487.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00653.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00910.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m353.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m347.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m346.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m352.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m344.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m350.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m351.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m345.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m369.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m341.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m355.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m354.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m340.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m368.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m356.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m342.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m343.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m357.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00434.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m366.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m367.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00758.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00566.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m365.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m359.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m358.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m370.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m364.obj. Reason: 0 vertices due to subdivide
+HumanHead -> D00205.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m348.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m360.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> D00629.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m361.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m349.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> D00984.obj. Reason: 0 vertices due to subdivide
+HumanHead -> m363.obj. Reason: Didn't meet the required 50 vertices delta
+HumanHead -> m362.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m734.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m735.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m737.obj. Reason: 0 vertices due to subdivide
+Wheel -> m736.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m733.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m743.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m742.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m740.obj. Reason: 0 vertices due to subdivide
+Wheel -> m741.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m745.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m744.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m746.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m747.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m749.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m748.obj. Reason: Didn't meet the required 50 vertices delta
+Wheel -> m738.obj. Reason: 0 vertices due to subdivide
+Wheel -> m739.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1322.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1336.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> D00644.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1323.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1309.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1321.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1320.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1334.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1308.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1330.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1318.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1319.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1325.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1327.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1333.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1332.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1326.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00751.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00397.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00977.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00191.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00423.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> D00796.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> D00820.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00361.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00991.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00038.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00986.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> D00658.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1317.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1316.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1302.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00498.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00473.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00471.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1328.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1314.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00868.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1315.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1329.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> D00470.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00500.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1311.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1305.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1304.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1310.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1306.obj. Reason: 0 vertices due to subdivide
+Helicopter -> m1312.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1313.obj. Reason: Didn't meet the required 50 vertices delta
+Helicopter -> m1307.obj. Reason: 0 vertices due to subdivide
+Helicopter -> D00502.obj. Reason: 0 vertices due to subdivide
+Bus -> D00832.obj. Reason: 0 vertices due to subdivide
+Bus -> D00516.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00122.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00718.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00253.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00441.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00332.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00721.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00008.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00381.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00962.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00235.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00966.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00212.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00075.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00460.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00104.obj. Reason: 0 vertices due to subdivide
+PianoBoard -> D00065.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> D00686.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00693.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00268.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00531.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00257.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00455.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00330.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00912.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00090.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00547.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> m608.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> m609.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00744.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00797.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00378.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> D00147.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00435.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> m616.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m603.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m615.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m614.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00759.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> m604.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m611.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m605.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> D00776.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> m613.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> m606.obj. Reason: 0 vertices due to subdivide
+DeskLamp -> D00698.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00048.obj. Reason: Didn't meet the required 50 vertices delta
+DeskLamp -> D00715.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00453.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00687.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00526.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00720.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00183.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00394.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00782.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00203.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00821.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00604.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00365.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00628.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00004.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00274.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00499.obj. Reason: 0 vertices due to subdivide
+WheelChair -> D00088.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00070.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00449.obj. Reason: Didn't meet the required 50 vertices delta
+WheelChair -> D00846.obj. Reason: 0 vertices due to subdivide
+Vase -> m537.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m535.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m534.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m531.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m527.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m533.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m532.obj. Reason: 0 vertices due to subdivide
+Vase -> m541.obj. Reason: 0 vertices due to subdivide
+Vase -> m540.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m542.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m543.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m547.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m546.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m544.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m545.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m528.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m529.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m539.obj. Reason: Didn't meet the required 50 vertices delta
+Vase -> m538.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00877.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00730.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00656.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00050.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00640.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00816.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00630.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00432.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00813.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00225.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00994.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00201.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00560.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00575.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00937.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00507.obj. Reason: 0 vertices due to subdivide
+Glasses -> D00883.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00475.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00717.obj. Reason: Didn't meet the required 50 vertices delta
+Glasses -> D00660.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00285.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00046.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00245.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00053.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m780.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m838.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m839.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00586.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00237.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m781.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m783.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> D00036.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m782.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m779.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00146.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m778.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00637.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00145.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m829.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m784.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m776.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> m831.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00607.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m830.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m777.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> m775.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> m832.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> m833.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m774.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00985.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00588.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m837.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m836.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m834.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m835.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00329.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00263.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> D00289.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m840.obj. Reason: 0 vertices due to subdivide
+MultiSeat -> m841.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00273.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> m843.obj. Reason: Didn't meet the required 50 vertices delta
+MultiSeat -> D00648.obj. Reason: 0 vertices due to subdivide
+Truck -> D00241.obj. Reason: 0 vertices due to subdivide
+Truck -> D00056.obj. Reason: 0 vertices due to subdivide
+Truck -> D00047.obj. Reason: 0 vertices due to subdivide
+Truck -> D00424.obj. Reason: 0 vertices due to subdivide
+Truck -> m1572.obj. Reason: 0 vertices due to subdivide
+Truck -> m1573.obj. Reason: 0 vertices due to subdivide
+Truck -> D00002.obj. Reason: 0 vertices due to subdivide
+Truck -> m1571.obj. Reason: Didn't meet the required 50 vertices delta
+Truck -> D00406.obj. Reason: 0 vertices due to subdivide
+Truck -> m1570.obj. Reason: 0 vertices due to subdivide
+Truck -> m1574.obj. Reason: 0 vertices due to subdivide
+Truck -> D00947.obj. Reason: 0 vertices due to subdivide
+Truck -> m1575.obj. Reason: 0 vertices due to subdivide
+Truck -> m1576.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00240.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00445.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00928.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00914.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00694.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00481.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00443.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m794.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m810.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m804.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m805.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m811.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00357.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00419.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m795.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m797.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00037.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m807.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m813.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m812.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m806.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m796.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m786.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m816.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00185.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m817.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m787.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m793.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00741.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m785.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m791.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m815.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m801.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m828.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m800.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m814.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m790.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m789.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m819.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m824.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m818.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m788.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m826.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m827.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m823.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m822.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m798.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00170.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m820.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m808.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m809.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> m821.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> m799.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00512.obj. Reason: 0 vertices due to subdivide
+NonWheelChair -> D00936.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00707.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00101.obj. Reason: Didn't meet the required 50 vertices delta
+NonWheelChair -> D00853.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00135.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00486.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00680.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00118.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00318.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00899.obj. Reason: 0 vertices due to subdivide
+DeskPhone -> D00154.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00829.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00220.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00556.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00958.obj. Reason: 0 vertices due to subdivide
+DeskPhone -> D00773.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00576.obj. Reason: 0 vertices due to subdivide
+DeskPhone -> D00894.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00511.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00897.obj. Reason: Didn't meet the required 50 vertices delta
+DeskPhone -> D00316.obj. Reason: 0 vertices due to subdivide
+DeskPhone -> D00706.obj. Reason: 0 vertices due to subdivide
+Bird -> D00862.obj. Reason: 0 vertices due to subdivide
+Bird -> D00323.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00284.obj. Reason: 0 vertices due to subdivide
+Bird -> D00736.obj. Reason: 0 vertices due to subdivide
+Bird -> m49.obj. Reason: 0 vertices due to subdivide
+Bird -> D00442.obj. Reason: 0 vertices due to subdivide
+Bird -> m48.obj. Reason: 0 vertices due to subdivide
+Bird -> D00961.obj. Reason: 0 vertices due to subdivide
+Bird -> m38.obj. Reason: 0 vertices due to subdivide
+Bird -> D00625.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00546.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00234.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m39.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m29.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00386.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m28.obj. Reason: 0 vertices due to subdivide
+Bird -> D00999.obj. Reason: 0 vertices due to subdivide
+Bird -> m32.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00438.obj. Reason: 0 vertices due to subdivide
+Bird -> m33.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m31.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00599.obj. Reason: 0 vertices due to subdivide
+Bird -> m30.obj. Reason: 0 vertices due to subdivide
+Bird -> m34.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m35.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00762.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m37.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00164.obj. Reason: 0 vertices due to subdivide
+Bird -> m36.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00089.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m45.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m51.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m50.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m44.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00922.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m52.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m47.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m43.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> D00689.obj. Reason: 0 vertices due to subdivide
+Bird -> m42.obj. Reason: 0 vertices due to subdivide
+Bird -> m40.obj. Reason: 0 vertices due to subdivide
+Bird -> D00271.obj. Reason: 0 vertices due to subdivide
+Bird -> D00113.obj. Reason: Didn't meet the required 50 vertices delta
+Bird -> m41.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00068.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00256.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00119.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00052.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00537.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00431.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00960.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00219.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00970.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00384.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00613.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00062.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00459.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00060.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00064.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00878.obj. Reason: Didn't meet the required 50 vertices delta
+SubmachineGun -> D00893.obj. Reason: 0 vertices due to subdivide
+SubmachineGun -> D00489.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00532.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00125.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00870.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00130.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00520.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00126.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00872.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00641.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00822.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00589.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00006.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00300.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00664.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00058.obj. Reason: 0 vertices due to subdivide
+Skyscraper -> D00059.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00729.obj. Reason: Didn't meet the required 50 vertices delta
+Skyscraper -> D00259.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00094.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m938.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00083.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00524.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00646.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00492.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m929.obj. Reason: 0 vertices due to subdivide
+RoundTable -> m928.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00866.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00948.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00194.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00581.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00344.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00756.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00407.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00827.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00401.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m926.obj. Reason: 0 vertices due to subdivide
+RoundTable -> m932.obj. Reason: 0 vertices due to subdivide
+RoundTable -> m933.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m927.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m931.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m925.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00909.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m924.obj. Reason: 0 vertices due to subdivide
+RoundTable -> m930.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m934.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00702.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00501.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m921.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m935.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m923.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> m937.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00503.obj. Reason: Didn't meet the required 50 vertices delta
+RoundTable -> D00107.obj. Reason: 0 vertices due to subdivide
+RoundTable -> D00649.obj. Reason: 0 vertices due to subdivide
+RoundTable -> m922.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00080.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> D00491.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> D00280.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00657.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00087.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1023.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00800.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1022.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1036.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m998.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1034.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> D00624.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1035.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1021.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m999.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m989.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1025.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1031.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> D00595.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00609.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00379.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1018.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1030.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1032.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1026.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00622.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1027.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1033.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m992.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00968.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1002.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m993.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1029.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1001.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1015.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1000.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m990.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m994.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1010.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00370.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00238.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1011.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m1005.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m995.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> m997.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1013.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1007.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00159.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m1012.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> m996.obj. Reason: 0 vertices due to subdivide
+PlantIndoors -> D00466.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00049.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00667.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00128.obj. Reason: Didn't meet the required 50 vertices delta
+PlantIndoors -> D00073.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00321.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> m509.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00685.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00684.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> m508.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00913.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00747.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00745.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00341.obj. Reason: 0 vertices due to subdivide
+Mug -> D00427.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00227.obj. Reason: 0 vertices due to subdivide
+Mug -> D00202.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00770.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00833.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00172.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00760.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00372.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00825.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00923.obj. Reason: 0 vertices due to subdivide
+Mug -> m503.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00705.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00908.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> m504.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> m506.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> m507.obj. Reason: Didn't meet the required 50 vertices delta
+Mug -> D00728.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00282.obj. Reason: 0 vertices due to subdivide
+Gun -> m683.obj. Reason: 0 vertices due to subdivide
+Gun -> m654.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m668.obj. Reason: 0 vertices due to subdivide
+Gun -> m669.obj. Reason: 0 vertices due to subdivide
+Gun -> m655.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m682.obj. Reason: 0 vertices due to subdivide
+Gun -> D00929.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m680.obj. Reason: 0 vertices due to subdivide
+Gun -> m657.obj. Reason: 0 vertices due to subdivide
+Gun -> m681.obj. Reason: 0 vertices due to subdivide
+Gun -> m685.obj. Reason: 0 vertices due to subdivide
+Gun -> m653.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m684.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00244.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m686.obj. Reason: 0 vertices due to subdivide
+Gun -> m679.obj. Reason: 0 vertices due to subdivide
+Gun -> m651.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m650.obj. Reason: 0 vertices due to subdivide
+Gun -> m678.obj. Reason: 0 vertices due to subdivide
+Gun -> D00140.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00425.obj. Reason: 0 vertices due to subdivide
+Gun -> D00209.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00802.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00153.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00972.obj. Reason: 0 vertices due to subdivide
+Gun -> D00161.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00606.obj. Reason: 0 vertices due to subdivide
+Gun -> D00239.obj. Reason: 0 vertices due to subdivide
+Gun -> D00826.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00204.obj. Reason: 0 vertices due to subdivide
+Gun -> m675.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m661.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m649.obj. Reason: 0 vertices due to subdivide
+Gun -> m648.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m660.obj. Reason: 0 vertices due to subdivide
+Gun -> m674.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00103.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m662.obj. Reason: 0 vertices due to subdivide
+Gun -> m676.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m677.obj. Reason: 0 vertices due to subdivide
+Gun -> m663.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m667.obj. Reason: 0 vertices due to subdivide
+Gun -> m672.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m666.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> D00477.obj. Reason: 0 vertices due to subdivide
+Gun -> m658.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m670.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m665.obj. Reason: Didn't meet the required 50 vertices delta
+Gun -> m671.obj. Reason: 0 vertices due to subdivide
+Gun -> m659.obj. Reason: 0 vertices due to subdivide
+Train -> D01016.obj. Reason: 0 vertices due to subdivide
+Train -> D01014.obj. Reason: 0 vertices due to subdivide
+Train -> m1584.obj. Reason: Didn't meet the required 50 vertices delta
+Train -> m1578.obj. Reason: Didn't meet the required 50 vertices delta
+Train -> D01089.obj. Reason: 0 vertices due to subdivide
+Train -> m1583.obj. Reason: 0 vertices due to subdivide
+Train -> m1580.obj. Reason: 0 vertices due to subdivide
+Train -> D01094.obj. Reason: 0 vertices due to subdivide
+Train -> m1588.obj. Reason: Didn't meet the required 50 vertices delta
+Train -> D01035.obj. Reason: 0 vertices due to subdivide
+Train -> D01008.obj. Reason: 0 vertices due to subdivide
+Train -> D01031.obj. Reason: 0 vertices due to subdivide
+Train -> D01147.obj. Reason: 0 vertices due to subdivide
+House -> m456.obj. Reason: 0 vertices due to subdivide
+House -> D00889.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m443.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m457.obj. Reason: Didn't meet the required 50 vertices delta
+House -> D00095.obj. Reason: Didn't meet the required 50 vertices delta
+House -> D00903.obj. Reason: 0 vertices due to subdivide
+House -> m441.obj. Reason: 0 vertices due to subdivide
+House -> m454.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m440.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m451.obj. Reason: 0 vertices due to subdivide
+House -> D00044.obj. Reason: 0 vertices due to subdivide
+House -> D00091.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m453.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m447.obj. Reason: Didn't meet the required 50 vertices delta
+House -> D00873.obj. Reason: 0 vertices due to subdivide
+House -> m446.obj. Reason: 0 vertices due to subdivide
+House -> m452.obj. Reason: 0 vertices due to subdivide
+House -> D00325.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m435.obj. Reason: 0 vertices due to subdivide
+House -> m434.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m436.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m423.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m433.obj. Reason: 0 vertices due to subdivide
+House -> m432.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m430.obj. Reason: 0 vertices due to subdivide
+House -> m431.obj. Reason: 0 vertices due to subdivide
+House -> D00568.obj. Reason: Didn't meet the required 50 vertices delta
+House -> D00965.obj. Reason: 0 vertices due to subdivide
+House -> D00001.obj. Reason: 0 vertices due to subdivide
+House -> m429.obj. Reason: 0 vertices due to subdivide
+House -> D00389.obj. Reason: 0 vertices due to subdivide
+House -> D00359.obj. Reason: 0 vertices due to subdivide
+House -> m439.obj. Reason: Didn't meet the required 50 vertices delta
+House -> D00665.obj. Reason: 0 vertices due to subdivide
+House -> m462.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m448.obj. Reason: 0 vertices due to subdivide
+House -> m449.obj. Reason: Didn't meet the required 50 vertices delta
+House -> m461.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01188.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01017.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01171.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01049.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1591.obj. Reason: 0 vertices due to subdivide
+Chess -> D01112.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01099.obj. Reason: 0 vertices due to subdivide
+Chess -> D01105.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1608.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1609.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01138.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1599.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1604.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1610.obj. Reason: 0 vertices due to subdivide
+Chess -> m1611.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1605.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1598.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1613.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1607.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01081.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01080.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1606.obj. Reason: 0 vertices due to subdivide
+Chess -> m1612.obj. Reason: 0 vertices due to subdivide
+Chess -> D01043.obj. Reason: 0 vertices due to subdivide
+Chess -> D01123.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1602.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01053.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1603.obj. Reason: 0 vertices due to subdivide
+Chess -> D01126.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01130.obj. Reason: 0 vertices due to subdivide
+Chess -> m1601.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01045.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1614.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1600.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> m1589.obj. Reason: 0 vertices due to subdivide
+Chess -> D01021.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01019.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01186.obj. Reason: Didn't meet the required 50 vertices delta
+Chess -> D01145.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m58.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m64.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m70.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m71.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m65.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m59.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m73.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m67.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m66.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m72.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m76.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m62.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m63.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m77.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m61.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m75.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m74.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m60.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m79.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m78.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m53.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m57.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m80.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m81.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m56.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m54.obj. Reason: 0 vertices due to subdivide
+AquaticAnimal -> m68.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m69.obj. Reason: Didn't meet the required 50 vertices delta
+AquaticAnimal -> m55.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00497.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00085.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00669.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00593.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00196.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00790.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00157.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00422.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00964.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00144.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00014.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00842.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00474.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00517.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00661.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00674.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00338.obj. Reason: 0 vertices due to subdivide
+Spoon -> D00927.obj. Reason: 0 vertices due to subdivide
+Hat -> m1640.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1641.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1631.obj. Reason: 0 vertices due to subdivide
+Hat -> m1630.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1632.obj. Reason: 0 vertices due to subdivide
+Hat -> m1627.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1633.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1637.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1636.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1634.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1638.obj. Reason: Didn't meet the required 50 vertices delta
+Hat -> m1639.obj. Reason: 0 vertices due to subdivide
+Hat -> m1629.obj. Reason: 0 vertices due to subdivide
+Hat -> m1628.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m1052.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m964.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m971.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m965.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m973.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m966.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m976.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m962.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m988.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m977.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m961.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m975.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m974.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m979.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m986.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m987.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m978.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m984.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m980.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m981.obj. Reason: 0 vertices due to subdivide
+PlantWildNonTree -> m983.obj. Reason: Didn't meet the required 50 vertices delta
+PlantWildNonTree -> m982.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00719.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00485.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00697.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00975.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00343.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00433.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00354.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00426.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00585.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00437.obj. Reason: 0 vertices due to subdivide
+Rocket -> D00346.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00015.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00564.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00764.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00942.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00614.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00428.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00472.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00528.obj. Reason: Didn't meet the required 50 vertices delta
+Rocket -> D00851.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00725.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00057.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m866.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00917.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00242.obj. Reason: 0 vertices due to subdivide
+Shelf -> m858.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m864.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m865.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m859.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00337.obj. Reason: 0 vertices due to subdivide
+Shelf -> m861.obj. Reason: 0 vertices due to subdivide
+Shelf -> m849.obj. Reason: 0 vertices due to subdivide
+Shelf -> m860.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00468.obj. Reason: 0 vertices due to subdivide
+Shelf -> m862.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m863.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00592.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00631.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00352.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00772.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00956.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00198.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00818.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> D00171.obj. Reason: 0 vertices due to subdivide
+Shelf -> m852.obj. Reason: 0 vertices due to subdivide
+Shelf -> m846.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m847.obj. Reason: 0 vertices due to subdivide
+Shelf -> m853.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00881.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00129.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m845.obj. Reason: 0 vertices due to subdivide
+Shelf -> m851.obj. Reason: 0 vertices due to subdivide
+Shelf -> m850.obj. Reason: 0 vertices due to subdivide
+Shelf -> m844.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00074.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m854.obj. Reason: 0 vertices due to subdivide
+Shelf -> m868.obj. Reason: 0 vertices due to subdivide
+Shelf -> D00887.obj. Reason: 0 vertices due to subdivide
+Shelf -> m855.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m857.obj. Reason: Didn't meet the required 50 vertices delta
+Shelf -> m856.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1444.obj. Reason: 0 vertices due to subdivide
+Ship -> m1450.obj. Reason: 0 vertices due to subdivide
+Ship -> m1451.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00042.obj. Reason: 0 vertices due to subdivide
+Ship -> m1453.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1447.obj. Reason: 0 vertices due to subdivide
+Ship -> m1446.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1452.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00647.obj. Reason: 0 vertices due to subdivide
+Ship -> D00247.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1456.obj. Reason: 0 vertices due to subdivide
+Ship -> m1442.obj. Reason: 0 vertices due to subdivide
+Ship -> m1457.obj. Reason: 0 vertices due to subdivide
+Ship -> D00907.obj. Reason: 0 vertices due to subdivide
+Ship -> m1441.obj. Reason: 0 vertices due to subdivide
+Ship -> m1455.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1469.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1468.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1454.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1440.obj. Reason: 0 vertices due to subdivide
+Ship -> D00292.obj. Reason: 0 vertices due to subdivide
+Ship -> D00791.obj. Reason: 0 vertices due to subdivide
+Ship -> D00949.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1427.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1433.obj. Reason: 0 vertices due to subdivide
+Ship -> m1432.obj. Reason: 0 vertices due to subdivide
+Ship -> m1430.obj. Reason: 0 vertices due to subdivide
+Ship -> m1431.obj. Reason: 0 vertices due to subdivide
+Ship -> m1435.obj. Reason: 0 vertices due to subdivide
+Ship -> m1434.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00543.obj. Reason: 0 vertices due to subdivide
+Ship -> D00027.obj. Reason: 0 vertices due to subdivide
+Ship -> m1436.obj. Reason: 0 vertices due to subdivide
+Ship -> m1437.obj. Reason: 0 vertices due to subdivide
+Ship -> D00175.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1439.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00837.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1438.obj. Reason: 0 vertices due to subdivide
+Ship -> D00771.obj. Reason: 0 vertices due to subdivide
+Ship -> m1428.obj. Reason: 0 vertices due to subdivide
+Ship -> m1429.obj. Reason: 0 vertices due to subdivide
+Ship -> D00429.obj. Reason: 0 vertices due to subdivide
+Ship -> m1459.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1465.obj. Reason: 0 vertices due to subdivide
+Ship -> m1471.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1470.obj. Reason: 0 vertices due to subdivide
+Ship -> m1464.obj. Reason: 0 vertices due to subdivide
+Ship -> m1458.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00539.obj. Reason: 0 vertices due to subdivide
+Ship -> m1466.obj. Reason: 0 vertices due to subdivide
+Ship -> m1467.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00935.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1463.obj. Reason: 0 vertices due to subdivide
+Ship -> m1448.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1449.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> m1461.obj. Reason: 0 vertices due to subdivide
+Ship -> D00258.obj. Reason: Didn't meet the required 50 vertices delta
+Ship -> D00099.obj. Reason: Didn't meet the required 50 vertices delta
+Bicycle -> m1478.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00040.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00078.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00708.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00536.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00750.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00621.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00033.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00838.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00558.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00016.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00567.obj. Reason: Didn't meet the required 50 vertices delta
+Bicycle -> D00077.obj. Reason: 0 vertices due to subdivide
+Bicycle -> m1472.obj. Reason: 0 vertices due to subdivide
+Bicycle -> m1473.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00931.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00514.obj. Reason: Didn't meet the required 50 vertices delta
+Bicycle -> m1477.obj. Reason: 0 vertices due to subdivide
+Bicycle -> m1476.obj. Reason: Didn't meet the required 50 vertices delta
+Bicycle -> D00930.obj. Reason: 0 vertices due to subdivide
+Bicycle -> D00847.obj. Reason: 0 vertices due to subdivide
+Computer -> D01002.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01028.obj. Reason: 0 vertices due to subdivide
+Computer -> D01164.obj. Reason: 0 vertices due to subdivide
+Computer -> D01100.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01128.obj. Reason: 0 vertices due to subdivide
+Computer -> D01115.obj. Reason: 0 vertices due to subdivide
+Computer -> D01102.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01072.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01098.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01071.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01070.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1769.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1770.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1764.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01082.obj. Reason: 0 vertices due to subdivide
+Computer -> m1765.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1767.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1773.obj. Reason: 0 vertices due to subdivide
+Computer -> m1772.obj. Reason: 0 vertices due to subdivide
+Computer -> m1766.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1776.obj. Reason: 0 vertices due to subdivide
+Computer -> D01085.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1777.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1775.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> m1774.obj. Reason: 0 vertices due to subdivide
+Computer -> D01023.obj. Reason: 0 vertices due to subdivide
+Computer -> D01037.obj. Reason: 0 vertices due to subdivide
+Computer -> D01033.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01026.obj. Reason: Didn't meet the required 50 vertices delta
+Computer -> D01185.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00651.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00478.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00860.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00045.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00496.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00681.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00859.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00626.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00792.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00156.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00348.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00953.obj. Reason: 0 vertices due to subdivide
+Apartment -> D00366.obj. Reason: 0 vertices due to subdivide
+Apartment -> m463.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00921.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> m465.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00138.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> m464.obj. Reason: Didn't meet the required 50 vertices delta
+Apartment -> D00310.obj. Reason: Didn't meet the required 50 vertices delta
+Fish -> D00450.obj. Reason: 0 vertices due to subdivide
+Fish -> D00535.obj. Reason: 0 vertices due to subdivide
+Fish -> D00643.obj. Reason: 0 vertices due to subdivide
+Fish -> D00293.obj. Reason: 0 vertices due to subdivide
+Fish -> D00682.obj. Reason: 0 vertices due to subdivide
+Fish -> D00251.obj. Reason: 0 vertices due to subdivide
+Fish -> D00633.obj. Reason: 0 vertices due to subdivide
+Fish -> D00142.obj. Reason: Didn't meet the required 50 vertices delta
+Fish -> D00022.obj. Reason: 0 vertices due to subdivide
+Fish -> D00351.obj. Reason: 0 vertices due to subdivide
+Fish -> D00636.obj. Reason: Didn't meet the required 50 vertices delta
+Fish -> D00030.obj. Reason: 0 vertices due to subdivide
+Fish -> D00024.obj. Reason: 0 vertices due to subdivide
+Fish -> D00012.obj. Reason: 0 vertices due to subdivide
+Fish -> D00165.obj. Reason: 0 vertices due to subdivide
+Fish -> D00398.obj. Reason: 0 vertices due to subdivide
+Fish -> D00950.obj. Reason: Didn't meet the required 50 vertices delta
+Fish -> D00763.obj. Reason: 0 vertices due to subdivide
+Fish -> D00850.obj. Reason: 0 vertices due to subdivide
+Sign -> m1685.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1684.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1679.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1678.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1683.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1682.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1680.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1681.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1673.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1672.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1670.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1671.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1675.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1674.obj. Reason: Didn't meet the required 50 vertices delta
+Sign -> m1676.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00876.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00888.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00875.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00093.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00495.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m623.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m622.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m620.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m621.obj. Reason: 0 vertices due to subdivide
+FloorLamp -> D00740.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m619.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m624.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m618.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00580.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00186.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00408.obj. Reason: 0 vertices due to subdivide
+FloorLamp -> D00388.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> m617.obj. Reason: 0 vertices due to subdivide
+FloorLamp -> D00955.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00028.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00228.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00981.obj. Reason: 0 vertices due to subdivide
+FloorLamp -> D00563.obj. Reason: 0 vertices due to subdivide
+FloorLamp -> D00400.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00856.obj. Reason: Didn't meet the required 50 vertices delta
+FloorLamp -> D00924.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00679.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00123.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00726.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00281.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m482.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00451.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m483.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m487.obj. Reason: 0 vertices due to subdivide
+Bottle -> m492.obj. Reason: 0 vertices due to subdivide
+Bottle -> m486.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m490.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m484.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00696.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m485.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m491.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00020.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00208.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00350.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00347.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00390.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00959.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00940.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00176.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00166.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m488.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> m489.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00711.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00716.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00892.obj. Reason: Didn't meet the required 50 vertices delta
+Bottle -> D00139.obj. Reason: 0 vertices due to subdivide
+Bottle -> D00311.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1108.obj. Reason: 0 vertices due to subdivide
+Tool -> D01003.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1109.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01176.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01148.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01159.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01165.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01012.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m590.obj. Reason: 0 vertices due to subdivide
+Tool -> m591.obj. Reason: 0 vertices due to subdivide
+Tool -> D01113.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m587.obj. Reason: 0 vertices due to subdivide
+Tool -> D01111.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01069.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m588.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m589.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01127.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01084.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01086.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01131.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01156.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1101.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1115.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1114.obj. Reason: 0 vertices due to subdivide
+Tool -> m1100.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1116.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1102.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1103.obj. Reason: 0 vertices due to subdivide
+Tool -> m1117.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01140.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1113.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1107.obj. Reason: 0 vertices due to subdivide
+Tool -> m1106.obj. Reason: 0 vertices due to subdivide
+Tool -> m1112.obj. Reason: 0 vertices due to subdivide
+Tool -> m1099.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1104.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1110.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1111.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> m1105.obj. Reason: Didn't meet the required 50 vertices delta
+Tool -> D01152.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01177.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1732.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1726.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1727.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1725.obj. Reason: 0 vertices due to subdivide
+Door -> m1731.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01029.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1730.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1724.obj. Reason: 0 vertices due to subdivide
+Door -> m1718.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1720.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1708.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01005.obj. Reason: 0 vertices due to subdivide
+Door -> D01158.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1721.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1723.obj. Reason: 0 vertices due to subdivide
+Door -> D01167.obj. Reason: 0 vertices due to subdivide
+Door -> m1722.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01114.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01129.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01076.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01062.obj. Reason: 0 vertices due to subdivide
+Door -> D01139.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01058.obj. Reason: 0 vertices due to subdivide
+Door -> D01104.obj. Reason: 0 vertices due to subdivide
+Door -> D01121.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01136.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01052.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1713.obj. Reason: 0 vertices due to subdivide
+Door -> m1707.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01194.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1712.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01143.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01155.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01141.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1710.obj. Reason: 0 vertices due to subdivide
+Door -> m1711.obj. Reason: 0 vertices due to subdivide
+Door -> m1715.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1729.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> D01144.obj. Reason: 0 vertices due to subdivide
+Door -> m1728.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1714.obj. Reason: 0 vertices due to subdivide
+Door -> m1716.obj. Reason: Didn't meet the required 50 vertices delta
+Door -> m1717.obj. Reason: 0 vertices due to subdivide
+Knife -> D01189.obj. Reason: 0 vertices due to subdivide
+Knife -> D01174.obj. Reason: 0 vertices due to subdivide
+Knife -> D01160.obj. Reason: 0 vertices due to subdivide
+Knife -> D01015.obj. Reason: 0 vertices due to subdivide
+Knife -> D01175.obj. Reason: 0 vertices due to subdivide
+Knife -> m722.obj. Reason: Didn't meet the required 50 vertices delta
+Knife -> m726.obj. Reason: Didn't meet the required 50 vertices delta
+Knife -> m727.obj. Reason: Didn't meet the required 50 vertices delta
+Knife -> m725.obj. Reason: Didn't meet the required 50 vertices delta
+Knife -> m724.obj. Reason: Didn't meet the required 50 vertices delta
+Knife -> D01075.obj. Reason: 0 vertices due to subdivide
+Knife -> D01063.obj. Reason: 0 vertices due to subdivide
+Knife -> D01077.obj. Reason: 0 vertices due to subdivide
+Knife -> D01107.obj. Reason: 0 vertices due to subdivide
+Knife -> D01054.obj. Reason: 0 vertices due to subdivide
+Knife -> D01120.obj. Reason: 0 vertices due to subdivide
+Knife -> D01057.obj. Reason: 0 vertices due to subdivide
+Knife -> D01132.obj. Reason: 0 vertices due to subdivide
+Knife -> D01051.obj. Reason: 0 vertices due to subdivide
+Knife -> D01119.obj. Reason: 0 vertices due to subdivide
+Knife -> m728.obj. Reason: 0 vertices due to subdivide
+Knife -> D01168.obj. Reason: 0 vertices due to subdivide
+Knife -> D01150.obj. Reason: 0 vertices due to subdivide
+Knife -> D01187.obj. Reason: 0 vertices due to subdivide
+Knife -> D01025.obj. Reason: 0 vertices due to subdivide
+Knife -> D01032.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00737.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00252.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00143.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00148.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00215.obj. Reason: 0 vertices due to subdivide
+TruckNonContainer -> D00879.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m244.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m250.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m132.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m126.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m133.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m251.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m245.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m253.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m125.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m131.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m119.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m118.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m130.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m124.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m246.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m252.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m256.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m242.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m120.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m134.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m135.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m121.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m243.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m257.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m241.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m255.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m137.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m123.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m122.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m136.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m254.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m240.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m227.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m233.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m192.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m186.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m151.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m145.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m179.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m178.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m144.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m150.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m187.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m193.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m232.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m226.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m230.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m224.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m218.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m185.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m191.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m146.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m152.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m153.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m190.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m184.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m219.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m231.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m235.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m221.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m194.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m143.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m157.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m156.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m195.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m181.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m220.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m234.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m208.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m222.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m236.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m197.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m183.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m168.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m154.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m140.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m141.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m155.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m169.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m182.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m196.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m237.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m223.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m206.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m212.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m170.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m164.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m158.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m159.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m165.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m171.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m213.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m207.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m211.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m205.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m239.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m167.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m173.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m172.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m166.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m199.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m238.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m204.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m210.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m228.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m214.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m189.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m162.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m176.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m177.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m163.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m188.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m215.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m229.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m203.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m217.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m149.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m175.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m161.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m160.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m174.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m148.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m216.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m202.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m265.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m259.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m258.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m264.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m266.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m138.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m139.obj. Reason: Didn't meet the required 50 vertices delta
+Humanoid -> m263.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m129.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m128.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m262.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m248.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m260.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m261.obj. Reason: 0 vertices due to subdivide
+Humanoid -> m249.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00254.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00120.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00034.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00579.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00009.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00967.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00190.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00811.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00983.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00789.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00561.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00005.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00845.obj. Reason: 0 vertices due to subdivide
+ClassicPiano -> D00305.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00334.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00051.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00801.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00778.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00971.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00799.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00611.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00761.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00952.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00173.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00100.obj. Reason: Didn't meet the required 50 vertices delta
+MilitaryVehicle -> D00272.obj. Reason: 0 vertices due to subdivide
+MilitaryVehicle -> D00933.obj. Reason: 0 vertices due to subdivide

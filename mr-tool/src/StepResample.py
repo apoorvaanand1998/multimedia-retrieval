@@ -5,7 +5,8 @@ from IStepNormalization import IStepNormalization
 class StepResample(IStepNormalization):
     _mode: int = 0  # 0 - Subdivide, 1 - Decimate
     _subdivide_iterations: int = 1
-    _decimate_fraction: float = 0.1
+    _decimate_fraction: float = 0.9
+    _decimate_desired_vertices: int = 100
 
     def __init__(self):
         super().__init__()
@@ -21,6 +22,8 @@ class StepResample(IStepNormalization):
             mesh.subdivide(self._subdivide_iterations)
         elif self._mode == 1:
             mesh.decimate(self._decimate_fraction)
+        elif self._mode == 2:
+            mesh.decimate_target(self._decimate_desired_vertices)
 
         return mesh
 
