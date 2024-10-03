@@ -142,7 +142,7 @@ class Widget3DViewer(QWidget):
             QLabel("Class: " + str(self._mesh.get_class())),
             QLabel("Name: " + str(self._mesh.name)),
             QLabel("\nVertices: " + str(self._mesh.get_no_vertices())),
-            QLabel("Cells: " + str(self._mesh.get_cells())),
+            QLabel("Cells: " + str(self._mesh.get_no_cells())),
             QLabel("Triangles: " + str(self._mesh.get_no_triangles())),
             QLabel("Quads: " + str(self._mesh.get_no_quads()))
         ]

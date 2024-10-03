@@ -1,5 +1,6 @@
 import os
 import csv
+import datetime
 
 import numpy as np
 import vedo
@@ -28,18 +29,19 @@ def get_database_map(db_path: str) -> (dict[str, list[str]], int):
     return database_map, total_count
 
 
-def save_array_to_txt(file_name: str, array: list[str]):
-    f = open(file_name, 'w')
+def save_array_to_txt(file_path: str, array: list[any]):
+    f = open(file_path, 'w')
     for el in array:
         f.write(str(el))
         f.write("\n")
     f.close()
 
-def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
-    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name)):
-        os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name))
 
-    stats_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name,
+def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name)):
+        os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name))
+
+    stats_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name,
                                    STATS_FILE_NAME)
     with open(stats_file_path, mode='w') as stat_file:
         stat_writer = csv.writer(stat_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -56,8 +58,8 @@ def get_output_stats(db_name: str) -> list[MeshStats]:
     if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name)):
         return []
 
-    stats_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name,
-                                   STATS_FILE_NAME)
+    stats_file_path = str(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics",
+                                       db_name, STATS_FILE_NAME))
 
     statistics: list[MeshStats] = []
     with open(stats_file_path) as stat_file:
@@ -107,3 +109,7 @@ def save_to_db(mesh: Mesh, db_name: str):
         vedo.save(mesh.vedo_mesh, final_path)
 
     return final_path
+
+
+def get_time_from_seconds(seconds: float) -> str:
+    return str(datetime.timedelta(seconds=666))

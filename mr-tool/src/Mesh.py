@@ -77,7 +77,7 @@ class Mesh:
     def get_vertices(self):
         return self._vedo_mesh.vertices
 
-    def get_cells(self):
+    def get_no_cells(self):
         return self._vedo_mesh.dataset.GetNumberOfCells()
 
     def get_no_triangles(self):
@@ -91,8 +91,8 @@ class Mesh:
     def get_statistics(self):
         n = self._name
         c = self._class
-        v = self.get_vertices()
-        f = self.get_cells()
+        v = self.get_no_vertices()
+        f = self.get_no_cells()
         t = self.get_no_triangles()
         q = self.get_no_quads()
         bb = self._vedo_mesh.box().bounds().tolist()
