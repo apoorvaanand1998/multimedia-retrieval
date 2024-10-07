@@ -46,5 +46,5 @@ def sample_files_from_subdirectories(source_dir, dest_dir, percentage):
 if __name__ == "__main__":
     source_directory = 'ShapeDatabase_INFOMR'
     destination_directory = 'ShapeDB_sample'
-    percentage_of_files = 40
+    percentage_of_files = 100
     sample_files_from_subdirectories(source_directory, destination_directory, percentage_of_files)

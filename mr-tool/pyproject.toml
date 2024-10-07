@@ -10,6 +10,12 @@ readme = "README.md"
 python = "^3.10"
 vedo = "^2024.5.2"
 pyqt5 = "^5.15.11"
+open3d = "^0.18.0"
+scikit-learn = "^1.5.2"
+pyyaml = "^6.0.2"
+addict = "^2.4.0"
+pandas = "^2.2.3"
+tqdm = "^4.66.5"
 
 
 [build-system]

@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+
+remeshed_ShapeDB.zip
+remeshed_ShapeDB/
+*.xopp
+
 __pycache__/
 *.py[cod]
 *$py.class
