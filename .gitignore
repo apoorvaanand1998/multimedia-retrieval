@@ -169,3 +169,5 @@ Reporting (+notes)/.obsidian/app.json
 
 .DS_Store
 .idea
+/ShapeDB_sample/
+/remeshed_ShapeDB/
