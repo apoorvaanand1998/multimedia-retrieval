@@ -1,9 +1,13 @@
+import numpy as np
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QVBoxLayout, QWidget, QLabel, QCheckBox, QTabWidget, QHBoxLayout, QSlider, QPushButton, \
     QMainWindow
 from IStepNormalization import IStepNormalization
 from StepResample import StepResample
+from StepTranslate import StepTranslate
+from StepScale import StepScale
 from Mesh import Mesh
+from Widget3DPlot import Widget3DPlot
 
 
 class NormalizationWizard:
@@ -16,12 +20,17 @@ class NormalizationWizard:
 
     _window: QMainWindow = None
 
-    def __init__(self, mesh: Mesh, steps: list[IStepNormalization], window: QMainWindow):
+    _s_resample = StepResample()
+    _s_translate = StepTranslate()
+    _s_scale = StepScale()
+
+    def __init__(self, mesh: Mesh, window: QMainWindow):
         if mesh is not None:
             self._original_mesh = mesh
             self._current_mesh = mesh.__copy__()
 
-        self._steps = steps
+        self._steps = [self._s_resample, self._s_translate, self._s_scale]
+
         self._window = window
 
         self.update_ui()
@@ -34,7 +43,7 @@ class NormalizationWizard:
             self._original_mesh = new_mesh
             self._current_mesh = new_mesh.__copy__()
 
-        self._current_mesh = self._original_mesh.__copy__()
+        self._current_mesh = self._original_mesh.__copy__() if self._original_mesh is not None else None
 
         self.update_ui()
 
@@ -58,6 +67,15 @@ class NormalizationWizard:
         self.update_ui()
 
         self._window.update_3d_viewer()
+
+    def on_scale_apply(self):
+        self.on_apply_btn_clicked(self._s_scale)
+
+    def on_resample_apply(self):
+        self.on_apply_btn_clicked(self._s_resample)
+
+    def on_translate_apply(self):
+        self.on_apply_btn_clicked(self._s_translate)
 
     def update_ui(self):
         self._ui_widget = QWidget()
@@ -115,7 +133,97 @@ class NormalizationWizard:
                     button_reset = QPushButton("Reset")
                     button_reset.pressed.connect(self.on_reset_btn_clicked)
                     button_apply = QPushButton("Apply")
-                    button_apply.pressed.connect(lambda: self.on_apply_btn_clicked(step))
+                    button_apply.pressed.connect(self.on_resample_apply)
+
+                    layout_buttons = QHBoxLayout()
+                    layout_buttons.addWidget(button_reset)
+                    layout_buttons.addWidget(button_apply)
+
+                    layout_step.addLayout(layout_buttons)
+
+                    layout.addLayout(layout_step)
+
+                elif isinstance(step, StepTranslate):
+                    layout_step = QVBoxLayout()
+                    layout_step.addWidget(QLabel("Translation"))
+
+                    layout_before_after = QHBoxLayout()
+
+                    layout_before = QVBoxLayout()
+                    plot_before = Widget3DPlot(
+                        self._original_mesh.get_vertices().tolist(),
+                        [self._original_mesh.get_barycenter().tolist()]
+                    )
+                    layout_before.addWidget(plot_before)
+                    layout_before.addWidget(QLabel("Barycenter: " + str(self._original_mesh.get_barycenter())))
+
+                    layout_before_after.addLayout(layout_before)
+
+                    layout_after = QVBoxLayout()
+                    # a = self._original_mesh.get_barycenter()
+                    # b = self._current_mesh.get_barycenter()
+                    if self._current_mesh is None or np.array_equal(self._current_mesh.get_barycenter(),
+                                                                    self._original_mesh.get_barycenter()):
+                        layout_after.addWidget(QLabel("Press apply to translate the vertices"))
+                    else:
+                        plot_after = Widget3DPlot(
+                            self._current_mesh.get_vertices().tolist(),
+                            [self._current_mesh.get_barycenter().tolist()]
+                        )
+                        layout_after.addWidget(plot_after)
+                        layout_after.addWidget(QLabel("Barycenter: " + str(self._current_mesh.get_barycenter())))
+
+                    layout_before_after.addLayout(layout_after)
+
+                    layout_step.addLayout(layout_before_after)
+
+                    button_reset = QPushButton("Reset")
+                    button_reset.pressed.connect(self.on_reset_btn_clicked)
+                    button_apply = QPushButton("Apply")
+                    button_apply.pressed.connect(self.on_translate_apply)
+
+                    layout_buttons = QHBoxLayout()
+                    layout_buttons.addWidget(button_reset)
+                    layout_buttons.addWidget(button_apply)
+
+                    layout_step.addLayout(layout_buttons)
+
+                    layout.addLayout(layout_step)
+
+                elif isinstance(step, StepScale):
+                    layout_step = QVBoxLayout()
+                    layout_step.addWidget(QLabel("Scale to unit volume"))
+
+                    layout_before_after = QHBoxLayout()
+
+                    layout_before = QVBoxLayout()
+
+                    layout_before.addWidget(
+                        QLabel("Bounding Box Dimensions: " + str(self._original_mesh.get_bounding_box_dimensions()))
+                    )
+                    layout_before.addWidget(
+                        QLabel("Volume: " + str(self._original_mesh.get_volume()))
+                    )
+
+                    layout_before_after.addLayout(layout_before)
+
+                    layout_after = QVBoxLayout()
+
+                    layout_after.addWidget(
+                        QLabel("Bounding Box Dimensions: " + str(self._current_mesh.get_bounding_box_dimensions()))
+                    )
+                    layout_after.addWidget(
+                        QLabel("Volume: " + str(self._current_mesh.get_volume()))
+                    )
+
+                    layout_before_after.addLayout(layout_after)
+
+                    layout_step.addLayout(layout_before_after)
+
+                    button_reset = QPushButton("Reset")
+                    button_reset.pressed.connect(self.on_reset_btn_clicked)
+                    button_apply = QPushButton("Apply")
+                    button_apply.pressed.connect(self.on_scale_apply)
 
                     layout_buttons = QHBoxLayout()
                     layout_buttons.addWidget(button_reset)

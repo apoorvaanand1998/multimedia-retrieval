@@ -19,5 +19,7 @@ class WindowMain(QMainWindow):
         central_widget.addTab(WindowDatabaseStats(), "Statistics")
         central_widget.addTab(WindowNormalization(), "Normalization")
 
+        self.showMaximized()
+
         self.setCentralWidget(central_widget)
 
