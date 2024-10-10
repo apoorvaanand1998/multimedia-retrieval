@@ -37,5 +37,5 @@ def sample3(m: vedo.Mesh) -> np.ndarray:
 
 if __name__ == "__main__":
     m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
-    plt.hist(a3(m, 100^2, 100))
+    plt.hist(a3(m, 100**2, 100))
     plt.show()
