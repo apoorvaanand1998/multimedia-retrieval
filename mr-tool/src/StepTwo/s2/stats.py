@@ -1,15 +1,11 @@
 import csv 
 import math
-import os
-
-
 ## s2.s2
 
 def min_max(csv_path: str) -> tuple[tuple[int, int], tuple[int, int]]:
     """((min vc, max vc), (min fc, max fc))"""
     max_vc, max_fc = 0, 0
     min_vc, min_fc = math.inf, math.inf
-
     minvc, maxvc, minfc, maxfc = "", "", "", ""
 
     with open(csv_path) as stat_file:
@@ -45,4 +41,4 @@ def check_all_faces_are_triangles(csv_path: str) -> bool:
                 return False
     return True
 
-print(min_max("../../../Output_Temp/stats.csv"))
+print(avg_shape("../Output_Temp/stats.csv"))

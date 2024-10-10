@@ -20,15 +20,26 @@ class Widget3DViewer(QWidget):
     _flag_wireframe: bool = False
     _flag_shaded_wireframe: bool = False
 
-    def __init__(self, mesh: Mesh = None):
+    def __init__(self, mesh: Mesh = None, with_options: bool = True):
         super().__init__()
 
         self._mesh = mesh
 
         self._ui_layout_main = QVBoxLayout()
 
-        # Vedo 3D Plotter and Options
-        layout_plotter_options = QHBoxLayout()
+        # Vedo 3D Plotter
+        self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
+        self._ui_vedo_widget.setContentsMargins(0, 0, 0, 0)
+        self._ui_layout_main.addWidget(self._ui_vedo_widget)
+
+        # Selected Mesh metadata and Options
+        layout_metadata_options = QHBoxLayout()
+
+        self._ui_layout_metadata = QVBoxLayout()
+        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
+        for metadata in self._ui_widgets_metadata:
+            self._ui_layout_metadata.addWidget(metadata)
+
         layout_options = QVBoxLayout()
         layout_options.setAlignment(Qt.AlignTop)
 
@@ -36,21 +47,16 @@ class Widget3DViewer(QWidget):
         for option in w_options:
             layout_options.addWidget(option)
 
-        self._ui_vedo_widget, self._ui_vedo_plotter = self.ui_create_vedo_widget()
+        layout_metadata_options.addLayout(self._ui_layout_metadata)
 
-        layout_plotter_options.addWidget(self._ui_vedo_widget)
-        layout_plotter_options.addLayout(layout_options)
+        if with_options:
+            layout_metadata_options.addLayout(layout_options)
 
-        # Selected Mesh metadata
-        self._ui_layout_metadata = QVBoxLayout()
-        self._ui_widgets_metadata = self.ui_create_mesh_metadata()
-        for metadata in self._ui_widgets_metadata:
-            self._ui_layout_metadata.addWidget(metadata)
-
-        self._ui_layout_main.addLayout(layout_plotter_options)
-        self._ui_layout_main.addLayout(self._ui_layout_metadata)
+        self._ui_layout_main.addLayout(layout_metadata_options)
 
         self.setLayout(self._ui_layout_main)
+
+        self.setMinimumSize(600, 600)
 
         self.show_mesh()
 
@@ -91,7 +97,7 @@ class Widget3DViewer(QWidget):
             wireframe.color((0, 0, 255))
             to_show.append(wireframe)
 
-        self._ui_vedo_plotter.show(to_show)
+        self._ui_vedo_plotter.show(to_show, axes=1)
 
         for widget in self._ui_widgets_metadata:
             self._ui_layout_metadata.removeWidget(widget)
@@ -135,7 +141,7 @@ class Widget3DViewer(QWidget):
         return [
             QLabel("Class: " + str(self._mesh.get_class())),
             QLabel("Name: " + str(self._mesh.name)),
-            QLabel("\nVertices: " + str(self._mesh.get_vertices())),
+            QLabel("\nVertices: " + str(self._mesh.get_no_vertices())),
             QLabel("Cells: " + str(self._mesh.get_cells())),
             QLabel("Triangles: " + str(self._mesh.get_no_triangles())),
             QLabel("Quads: " + str(self._mesh.get_no_quads()))
@@ -164,3 +170,7 @@ class Widget3DViewer(QWidget):
             self._flag_bbox = False
 
         self.show_mesh()
+
+    @property
+    def mesh(self):
+        return self._mesh

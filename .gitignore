@@ -169,5 +169,9 @@ Reporting (+notes)/.obsidian/app.json
 
 .DS_Store
 .idea
-/ShapeDB_sample/
-/remeshed_ShapeDB/
+
+
+# Output
+Output
+ShapeDatabase_INFOMR_preprocessed
+*.obj

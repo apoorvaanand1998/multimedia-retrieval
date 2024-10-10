@@ -2,12 +2,14 @@ import vedo
 
 
 class Mesh:
+    _path: str
     _vedo_mesh: vedo.Mesh
 
     _class: str
     _name: str
 
     def __init__(self, load_path: str):
+        self._path = load_path
         self._vedo_mesh = vedo.load(load_path)
 
         if self._vedo_mesh is None:
@@ -18,11 +20,62 @@ class Mesh:
         self._class = path_tokens[len(path_tokens) - 2]
         self._name = path_tokens[-1]
 
+    def __copy__(self):
+        return Mesh(self._path)
+
+    def translate_to_world_origin(self):
+        # From each vertex, substract the coordinates of the barycenter
+        translated_points = []
+        for point in self._vedo_mesh.vertices:
+            translated_points.append(point - self.get_barycenter())
+        self._vedo_mesh.vertices = translated_points
+
+    def scale_to_unit_volume(self):
+        # Find largest AABB dimension
+        sigma = max(self.get_bounding_box_dimensions())
+
+        # Scale uniformly by dividing
+        scaled_points = []
+        for point in self._vedo_mesh.vertices:
+            scaled_points.append(point / sigma)
+        self._vedo_mesh.vertices = scaled_points
+
+    def get_volume(self) -> float:
+        return self._vedo_mesh.volume()
+
+    def get_bounding_box_dimensions(self) -> list[float]:
+        aabb_bounds = self._vedo_mesh.box().box().bounds()
+        aabb_dimensions = [
+            aabb_bounds[1] - aabb_bounds[0],
+            aabb_bounds[3] - aabb_bounds[2],
+            aabb_bounds[5] - aabb_bounds[4]
+        ]
+
+        return aabb_dimensions
+
+    def subdivide(self, no_iterations: int):
+        vedo_copy = self._vedo_mesh.copy()
+        self._vedo_mesh = vedo_copy.subdivide(no_iterations)
+
+    def decimate(self, no_fraction: float):
+        vedo_copy = self._vedo_mesh.copy()
+        self._vedo_mesh = vedo_copy.decimate(no_fraction)
+
+    def decimate_target(self, target_vertices: int):
+        vedo_copy = self._vedo_mesh.copy()
+        self._vedo_mesh = vedo_copy.decimate(n=target_vertices)
+
+    def get_barycenter(self):
+        return self._vedo_mesh.center_of_mass()
+
     def get_class(self):
         return self._class
 
-    def get_vertices(self):
+    def get_no_vertices(self):
         return self._vedo_mesh.dataset.GetNumberOfPoints()
+
+    def get_vertices(self):
+        return self._vedo_mesh.vertices
 
     def get_cells(self):
         return self._vedo_mesh.dataset.GetNumberOfCells()
@@ -73,3 +126,7 @@ class MeshStats:
     @property
     def no_vertices(self):
         return self._no_vertices
+
+    @property
+    def name(self):
+        return self._name

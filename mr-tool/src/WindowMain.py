@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QTabWidget
 from WindowDatabase import WindowDatabase
 from WindowDatabaseStats import WindowDatabaseStats
+from WindowNormalization import WindowNormalization
 import constants
 
 
@@ -16,6 +17,9 @@ class WindowMain(QMainWindow):
 
         central_widget.addTab(WindowDatabase(), "Database")
         central_widget.addTab(WindowDatabaseStats(), "Statistics")
+        central_widget.addTab(WindowNormalization(), "Normalization")
+
+        self.showMaximized()
 
         self.setCentralWidget(central_widget)
 

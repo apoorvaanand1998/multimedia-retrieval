@@ -52,7 +52,11 @@ class WidgetEmptyStats(QWidget):
                 obj_count += 1
 
                 mesh = Mesh(str(os.path.join(constants.DB_RELATIVE_PATH, self.db_name, obj_class, obj)))
-                obj_stats.append(mesh.get_statistics())
+                relative_path = str(os.path.join(constants.DB_RELATIVE_PATH, self.db_name, mesh._class, mesh.name))
+
+                stats = mesh.get_statistics()
+                stats.insert(0, relative_path)
+                obj_stats.append(stats)
 
                 self._ui_progress_bar.setValue(obj_count)
 
