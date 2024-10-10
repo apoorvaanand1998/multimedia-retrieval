@@ -5,17 +5,16 @@ from resample_open3d import get_file_paths
 import trimesh as tm
 import time
 
-def get_global_descriptors(mesh: o3d.geometry.TriangleMesh, descriptor: str) -> float | None:
-    convex_hull = mesh.compute_convex_hull()[0]
+def get_global_descriptor(mesh: o3d.geometry.TriangleMesh, descriptor: str) -> float | None:
     if descriptor == 'surface_area':
         return mesh.get_surface_area()
     elif descriptor == 'compactness':
-        calculate_compactness(mesh)
+        return calculate_compactness(mesh)
     elif descriptor == 'rectangularity':
-        return
-        #shape_volume = mesh.get_volume()
-        #bounding_box = mesh.get_axis_aligned_bounding_box() # need oriented bounding box
-        #return bounding_box.volume()
+        shape_volume = mesh.get_volume()
+        oriented_bounding_box = mesh.get_oriented_bounding_box()
+        obb_volume = oriented_bounding_box.volume()
+        return shape_volume / obb_volume
     elif descriptor == 'diameter':
         convex_hull = mesh.compute_convex_hull()[0]
         hull_vertices = np.asarray(convex_hull.vertices)
@@ -26,10 +25,23 @@ def get_global_descriptors(mesh: o3d.geometry.TriangleMesh, descriptor: str) -> 
                 if distance > max_distance:
                     max_distance = distance
         return max_distance
+    elif descriptor == 'convexity':
+        shape_volume = mesh.get_volume()
+        convex_hull = mesh.compute_convex_hull()[0]
+        hull_volume = convex_hull.get_volume()
+
+        return shape_volume / hull_volume
+    elif descriptor == 'eccentricity':
+        covar_matrix = np.cov(np.transpose(np.asarray(mesh.vertices)))
+        eigenvalues, _ = np.linalg.eig(covar_matrix)
+        return max(eigenvalues) / min(eigenvalues)
 
 def calculate_compactness(mesh: o3d.geometry.TriangleMesh) -> float:
-    triangles = np.asarray(mesh.triangles)
-    print(triangles)
+    shape_volume = mesh.get_volume()
+    surface_area = mesh.get_surface_area()
+
+    return surface_area ** 3 / shape_volume ** 2
+
 
 if __name__ == "__main__":
     source_directory = "remeshed_ShapeDB"
