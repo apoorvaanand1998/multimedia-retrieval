@@ -8,8 +8,9 @@ def d_one(m: vedo.Mesh, n: int, b: int):
     ri         = np.random.choice(len(vs), size=n, replace=True)
     vr         = vs[ri]
     dists      = np.array(list(map(lambda y : dist(barycenter, y), vr)))
-    res        = np.histogram(dists, bins=b)
-    return res
+    c, b_edges = np.histogram(dists, bins=b)
+    normalized = c / np.sum(c)
+    return normalized, b_edges
 
 def dist(x: np.ndarray, y: np.ndarray) -> np.float64:
     return np.linalg.norm(x - y)

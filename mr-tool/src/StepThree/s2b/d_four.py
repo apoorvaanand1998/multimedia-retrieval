@@ -5,9 +5,11 @@ import d_one as d1
 import a_three as a3
 
 def d4(m: vedo.Mesh, n: int, b: int):
-    ps   = sample4_n(m, n)
-    vols = list(map(volume, ps))
-    return np.histogram(vols, bins=b)
+    ps         = sample4_n(m, n)
+    vols       = list(map(volume, ps))
+    c, b_edges = np.histogram(vols, bins=b)
+    normalized = c / np.sum(c)
+    return normalized, b_edges
 
 def volume(ps: np.ndarray) -> float:
     p, q, r, s = ps[0], ps[1], ps[2], ps[3]

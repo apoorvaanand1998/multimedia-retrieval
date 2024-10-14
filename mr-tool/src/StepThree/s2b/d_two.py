@@ -4,9 +4,11 @@ from matplotlib import pyplot as plt
 import d_one as d1
 
 def d2(m: vedo.Mesh, n: int, b: int):
-    ps = sample2_n(m, n)
-    ds = list(map(lambda x : d1.dist(x[0], x[1]), ps))
-    return np.histogram(ds, bins=b)
+    ps         = sample2_n(m, n)
+    ds         = list(map(lambda x : d1.dist(x[0], x[1]), ps))
+    c, b_edges = np.histogram(ds, bins=b)
+    normalized = c / np.sum(c)
+    return normalized, b_edges
 
 def sample2_n(m: vedo.Mesh, n: int) -> list[np.ndarray]:
     """Sample 2 points from m, n times"""

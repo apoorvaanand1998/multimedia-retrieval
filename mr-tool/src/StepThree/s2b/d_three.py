@@ -5,9 +5,11 @@ import d_one as d1
 import a_three as a3
 
 def d3(m: vedo.Mesh, n: int, b: int):
-    ps    = a3.sample3_n(m, n)
-    areas = list(map(area, ps))
-    return np.histogram(areas, bins=b)
+    ps         = a3.sample3_n(m, n)
+    areas      = list(map(area, ps))    
+    c, b_edges = np.histogram(areas, bins=b)
+    normalized = c / np.sum(c)
+    return normalized, b_edges
 
 def area(ps: np.ndarray) -> float:
     x, y, z = ps[0], ps[1], ps[2]

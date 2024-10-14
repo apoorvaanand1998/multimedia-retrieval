@@ -3,8 +3,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 def a3(m: vedo.Mesh, n: int, b: int):
-    raw_angles = np.array(angles(sample3_n(m, n)))
-    return np.histogram(raw_angles, bins=b)
+    raw_angles   = np.array(angles(sample3_n(m, n)))
+    c, bin_edges = np.histogram(raw_angles, bins=b)
+    normalized   = c / np.sum(c)
+    return normalized, bin_edges
 
 def angles(ps : list[np.ndarray]) -> list[int]:
     return list(map(angle, ps))
