@@ -298,10 +298,10 @@ def flip():
 
 
 def main():
-    # translation()
-    # scale()
+    translation()
+    scale()
     align_pca()
-    # flip()
+    flip()
 
 
 main()
