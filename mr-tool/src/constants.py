@@ -21,6 +21,7 @@ DATABASES = [
     DB_ORIGINAL_NAME,
     DB_PREPROCESSED_NAME,
     "remeshed_ShapeDB",
-    "ShapeDB_sample_small"
+    "ShapeDB_sample_small",
+    "NonExistent"
 ]
 
