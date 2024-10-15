@@ -1,6 +1,6 @@
 import os
 import csv
-import datetime
+import time
 
 import numpy as np
 import vedo
@@ -36,6 +36,28 @@ def save_array_to_txt(file_path: str, array: list[any]):
         f.write("\n")
     f.close()
 
+def save_vertices_to_txt(file_path: str, vertices):
+    with open(file_path, mode='w') as stat_file:
+        stat_writer = csv.writer(stat_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+        for mesh_vertices in vertices:
+            stat_writer.writerow(mesh_vertices)
+
+    return str(file_path)
+
+def get_vertices_from_txt(file_path: str) -> list[list[float]]:
+    vertices: list[list[float]] = []
+    with open(file_path) as stat_file:
+        stat_reader = csv.reader(stat_file, delimiter=',', quotechar='"')
+
+        for idx, row in enumerate(stat_reader):
+            mesh_vertices: list[float] = []
+            for vertex in row:
+                vertex = vertex.strip("[]").split()
+                mesh_vertices.append([float(v) for v in vertex])
+            vertices.append(mesh_vertices)
+
+    return vertices
 
 def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
     if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name)):
@@ -55,7 +77,7 @@ def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
 
 
 def get_output_stats(db_name: str) -> list[MeshStats]:
-    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, db_name)):
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name)):
         return []
 
     stats_file_path = str(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics",
@@ -112,4 +134,4 @@ def save_to_db(mesh: Mesh, db_name: str):
 
 
 def get_time_from_seconds(seconds: float) -> str:
-    return str(datetime.timedelta(seconds=666))
+    return time.strftime("%H:%M:%S", time.gmtime(seconds))

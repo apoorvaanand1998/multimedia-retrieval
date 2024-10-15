@@ -19,6 +19,8 @@ UI_STATS_BUTTON = "Compute Statistics"
 
 DATABASES = [
     DB_ORIGINAL_NAME,
-    DB_PREPROCESSED_NAME
+    DB_PREPROCESSED_NAME,
+    "remeshed_ShapeDB",
+    "ShapeDB_sample_small"
 ]
 

@@ -6,6 +6,8 @@ from IStepNormalization import IStepNormalization
 from StepResample import StepResample
 from StepTranslate import StepTranslate
 from StepScale import StepScale
+from StepAlignPCA import StepAlignPCA
+from StepFlip import StepFlip
 from Mesh import Mesh
 from Widget3DPlot import Widget3DPlot
 
@@ -23,13 +25,15 @@ class NormalizationWizard:
     _s_resample = StepResample()
     _s_translate = StepTranslate()
     _s_scale = StepScale()
+    _s_align = StepAlignPCA()
+    _s_flip = StepFlip()
 
     def __init__(self, mesh: Mesh, window: QMainWindow):
         if mesh is not None:
             self._original_mesh = mesh
             self._current_mesh = mesh.__copy__()
 
-        self._steps = [self._s_resample, self._s_translate, self._s_scale]
+        self._steps = [self._s_resample, self._s_translate, self._s_scale, self._s_align, self._s_flip]
 
         self._window = window
 
@@ -68,6 +72,12 @@ class NormalizationWizard:
 
         self._window.update_3d_viewer()
 
+    def on_align_pca_apply(self):
+        self.on_apply_btn_clicked(self._s_align)
+
+    def on_flip_apply(self):
+        self.on_apply_btn_clicked(self._s_flip)
+
     def on_scale_apply(self):
         self.on_apply_btn_clicked(self._s_scale)
 
@@ -85,6 +95,39 @@ class NormalizationWizard:
 
         if self._original_mesh is not None:
             for step in self._steps:
+                if isinstance(step, StepAlignPCA):
+                    layout_step = QVBoxLayout()
+                    layout_step.addWidget(QLabel("Align PCA"))
+
+                    button_reset = QPushButton("Reset")
+                    button_reset.pressed.connect(self.on_reset_btn_clicked)
+                    button_apply = QPushButton("Apply")
+                    button_apply.pressed.connect(self.on_align_pca_apply)
+
+                    layout_buttons = QHBoxLayout()
+                    layout_buttons.addWidget(button_reset)
+                    layout_buttons.addWidget(button_apply)
+
+                    layout_step.addLayout(layout_buttons)
+
+                    layout.addLayout(layout_step)
+                if isinstance(step, StepFlip):
+                    layout_step = QVBoxLayout()
+                    layout_step.addWidget(QLabel("Flip according to PCA"))
+
+                    button_reset = QPushButton("Reset")
+                    button_reset.pressed.connect(self.on_reset_btn_clicked)
+                    button_apply = QPushButton("Apply")
+                    button_apply.pressed.connect(self.on_flip_apply)
+
+                    layout_buttons = QHBoxLayout()
+                    layout_buttons.addWidget(button_reset)
+                    layout_buttons.addWidget(button_apply)
+
+                    layout_step.addLayout(layout_buttons)
+
+                    layout.addLayout(layout_step)
+
                 if isinstance(step, StepResample):
                     layout_step = QVBoxLayout()
                     layout_step.addWidget(QLabel("Resampling"))

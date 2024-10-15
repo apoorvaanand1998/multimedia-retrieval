@@ -10,7 +10,7 @@ import utils
 from constants import OUTPUT_DIR_RELATIVE_PATH
 
 statistics_folder = os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics",
-                                 "ShapeDatabase_INFOMR_preprocessed_no_resample")
+                                 "remeshed_ShapeDB_normalized")
 statistics_scale_before_file = "scale_before.txt"
 statistics_scale_after_file = "scale_after.txt"
 
@@ -68,7 +68,7 @@ def histogram(points, title, granularity=False):
     points = points[abs(points - np.mean(points)) < 2 * np.std(points)]
 
     # n_bins = int(math.sqrt(points.shape[0]))
-    bins = np.linspace(0, 4, 30)
+    bins = np.linspace(0, 6, 30)
 
     # ax.hist(points, n_bins, density=True, histtype='bar', stacked=True)
     N, bins, patches = ax.hist(points, bins=bins, log=False)
