@@ -161,3 +161,47 @@ class MeshStats:
     @property
     def name(self):
         return self._name
+
+
+class MeshDescriptors:
+
+    def __init__(self, n: str, cl: str, s: float, c: float, r: float, d: float, co: float, e: float):
+        self._name = n
+        self._class = cl
+        self._surface_area = s
+        self._compactness = c
+        self._3d_rectangularity = r
+        self._diameter = d
+        self._convexity = co
+        self._eccentricity = e
+
+    @property
+    def name(self):
+        return self._name
+
+    def get_class(self):
+        return self._class
+
+    @property
+    def surface_area(self):
+        return self._surface_area
+
+    @property
+    def compactness(self):
+        return self._compactness
+
+    @property
+    def rectangularity(self):
+        return self._3d_rectangularity
+
+    @property
+    def diameter(self):
+        return self._diameter
+
+    @property
+    def convexity(self):
+        return self._convexity
+
+    @property
+    def eccentricity(self):
+        return self._eccentricity

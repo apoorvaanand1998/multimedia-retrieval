@@ -5,8 +5,9 @@ import time
 import numpy as np
 import vedo
 
-from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS, DB_RELATIVE_PATH
-from Mesh import MeshStats, Mesh
+from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS, DB_RELATIVE_PATH, \
+    DESCRIPTORS_FILE_NAME, DESCRIPTORS_FILE_HEADERS
+from Mesh import MeshStats, Mesh, MeshDescriptors
 
 
 ###
@@ -36,6 +37,7 @@ def save_array_to_txt(file_path: str, array: list[any]):
         f.write("\n")
     f.close()
 
+
 def save_vertices_to_txt(file_path: str, vertices):
     with open(file_path, mode='w') as stat_file:
         stat_writer = csv.writer(stat_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -44,6 +46,7 @@ def save_vertices_to_txt(file_path: str, vertices):
             stat_writer.writerow(mesh_vertices)
 
     return str(file_path)
+
 
 def get_vertices_from_txt(file_path: str) -> list[list[float]]:
     vertices: list[list[float]] = []
@@ -58,6 +61,48 @@ def get_vertices_from_txt(file_path: str) -> list[list[float]]:
             vertices.append(mesh_vertices)
 
     return vertices
+
+
+def save_output_descriptors(db_name: str, obj_stats: list[any]) -> str:
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name)):
+        os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name))
+
+    descriptors_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name,
+                                         DESCRIPTORS_FILE_NAME)
+    with open(descriptors_file_path, mode='w') as stat_file:
+        stat_writer = csv.writer(stat_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+        stat_writer.writerow(DESCRIPTORS_FILE_HEADERS.split(","))
+
+        for stat_row in obj_stats:
+            stat_writer.writerow(stat_row)
+
+    return str(descriptors_file_path)
+
+
+def get_output_descriptors(db_name: str) -> list[MeshDescriptors]:
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name)):
+        return []
+
+    descriptors_file_path = str(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors",
+                                             db_name, DESCRIPTORS_FILE_NAME))
+
+    descriptors: list[MeshDescriptors] = []
+    with open(descriptors_file_path) as stat_file:
+        stat_reader = csv.reader(stat_file, delimiter=',', quotechar='"')
+
+        for idx, row in enumerate(stat_reader):
+            if idx == 0:
+                continue  # Skip headers
+
+            mesh_descriptors: MeshDescriptors = MeshDescriptors(row[1], row[2],
+                                                              float(row[3]), float(row[4]),
+                                                              float(row[5]), float(row[6]),
+                                                              float(row[7]), float(row[8]))
+            descriptors.append(mesh_descriptors)
+
+    return descriptors
+
 
 def save_output_stats(db_name: str, obj_stats: list[any]) -> str:
     if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Statistics", db_name)):

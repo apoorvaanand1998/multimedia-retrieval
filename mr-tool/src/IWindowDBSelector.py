@@ -103,12 +103,16 @@ class IWindowDBSelector(QMainWindow):
         self._ui_3d_viewer.set_mesh(mesh)
         self._ui_3d_viewer.show_mesh()
 
+        self.main_widget.selected_object_changed(mesh)
+
     def ui_class_changed(self, list_item):
         self._selected_class = list_item.text()
 
         files = os.listdir(os.path.join(self._db_path, self._selected_class))
         self._ui_object_list.clear()
         self._ui_object_list.addItems(files)
+
+        self.main_widget.selected_object_changed(None)
 
     def ui_create_db_lists(self):
         # List of all classes
