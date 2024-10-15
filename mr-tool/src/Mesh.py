@@ -62,6 +62,9 @@ class Mesh:
     def get_volume(self) -> float:
         return self._vedo_mesh.volume()
 
+    def get_faces(self):
+        return self._vedo_mesh.cells
+
     def get_bounding_box_dimensions(self) -> list[float]:
         aabb_bounds = self._vedo_mesh.box().bounds()
         aabb_dimensions = [
@@ -131,6 +134,10 @@ class Mesh:
         return [n, c, v, f, t, q, bb]
 
     @property
+    def path(self):
+        return self._path
+
+    @property
     def vedo_mesh(self):
         return self._vedo_mesh
 
@@ -165,7 +172,8 @@ class MeshStats:
 
 class MeshDescriptors:
 
-    def __init__(self, n: str, cl: str, s: float, c: float, r: float, d: float, co: float, e: float):
+    def __init__(self, p: str, n: str, cl: str, s: float, c: float, r: float, d: float, co: float, e: float):
+        self._path = p
         self._name = n
         self._class = cl
         self._surface_area = s
@@ -186,22 +194,47 @@ class MeshDescriptors:
     def surface_area(self):
         return self._surface_area
 
+    def set_surface_area(self, s):
+        self._surface_area = s
+
     @property
     def compactness(self):
         return self._compactness
+
+    def set_compactness(self, c):
+        self._compactness = c
 
     @property
     def rectangularity(self):
         return self._3d_rectangularity
 
+    def set_rectangularity(self, r):
+        self._3d_rectangularity = r
+
     @property
     def diameter(self):
         return self._diameter
+
+    def set_diameter(self, d):
+        self._diameter = d
 
     @property
     def convexity(self):
         return self._convexity
 
+    def set_convexity(self, c):
+        self._convexity = c
+
     @property
     def eccentricity(self):
         return self._eccentricity
+
+    def set_eccentricity(self, e):
+        self._eccentricity = e
+
+    @property
+    def path(self):
+        return self._path
+
+    def set_path(self, p):
+        self._path = p

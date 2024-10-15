@@ -63,7 +63,7 @@ def get_vertices_from_txt(file_path: str) -> list[list[float]]:
     return vertices
 
 
-def save_output_descriptors(db_name: str, obj_stats: list[any]) -> str:
+def save_output_descriptors(db_name: str, obj_descriptors: list[MeshDescriptors]) -> str:
     if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name)):
         os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name))
 
@@ -74,14 +74,47 @@ def save_output_descriptors(db_name: str, obj_stats: list[any]) -> str:
 
         stat_writer.writerow(DESCRIPTORS_FILE_HEADERS.split(","))
 
-        for stat_row in obj_stats:
-            stat_writer.writerow(stat_row)
+        # Path,Name,Class,Surface Area,Compactness,3D Rectangularity,Diameter,Convexity,Eccentricity
+        for descriptors_row in obj_descriptors:
+            row = [descriptors_row.path, descriptors_row.name, descriptors_row.get_class(),
+                   descriptors_row.surface_area, descriptors_row.compactness,
+                   descriptors_row.rectangularity, descriptors_row.diameter,
+                   descriptors_row.convexity, descriptors_row.eccentricity]
+            stat_writer.writerow(row)
+
+    return str(descriptors_file_path)
+
+
+def save_output_descriptors_one(db_name: str, descriptors: MeshDescriptors) -> str:
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name)):
+        os.makedirs(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name))
+
+    descriptors_file_path = os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name,
+                                         DESCRIPTORS_FILE_NAME)
+
+    data = get_output_descriptors(db_name)
+    if len(data) == 0:
+        save_output_descriptors(db_name, [descriptors])
+        return str(descriptors_file_path)
+
+    idx = -1
+    for i, desc in enumerate(data):
+        if desc.path == descriptors.path and desc.name == descriptors.name and desc.get_class() == descriptors.get_class():
+            idx = i
+            break
+
+    if idx != -1:
+        data[idx] = descriptors
+    else:
+        data.append(descriptors)
+
+    save_output_descriptors(db_name, data)
 
     return str(descriptors_file_path)
 
 
 def get_output_descriptors(db_name: str) -> list[MeshDescriptors]:
-    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name)):
+    if not os.path.exists(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors", db_name, DESCRIPTORS_FILE_NAME)):
         return []
 
     descriptors_file_path = str(os.path.join(OUTPUT_DIR_RELATIVE_PATH, "Descriptors",
@@ -95,10 +128,13 @@ def get_output_descriptors(db_name: str) -> list[MeshDescriptors]:
             if idx == 0:
                 continue  # Skip headers
 
-            mesh_descriptors: MeshDescriptors = MeshDescriptors(row[1], row[2],
-                                                              float(row[3]), float(row[4]),
-                                                              float(row[5]), float(row[6]),
-                                                              float(row[7]), float(row[8]))
+            mesh_descriptors: MeshDescriptors = MeshDescriptors(row[0], row[1], row[2],
+                                                                float(row[3]) if row[3] != '' else None,
+                                                                float(row[4]) if row[4] != '' else None,
+                                                                float(row[5]) if row[5] != '' else None,
+                                                                float(row[6]) if row[6] != '' else None,
+                                                                float(row[7]) if row[7] != '' else None,
+                                                                float(row[8]) if row[8] != '' else None)
             descriptors.append(mesh_descriptors)
 
     return descriptors
