@@ -1,3 +1,6 @@
+import math
+
+import numpy as np
 import vedo
 
 
@@ -23,6 +26,22 @@ class Mesh:
     def __copy__(self):
         return Mesh(self._path)
 
+    def get_value_of_largest_bbox_dimension(self):
+        dim = self.get_bounding_box_dimensions()
+        for d in dim:
+            if math.isnan(d):
+                print('x')
+                a = self._vedo_mesh.bounds()
+                box = self._vedo_mesh.box()
+                aabb_bounds = self._vedo_mesh.box().box().bounds()
+                aabb_dimensions = [
+                    aabb_bounds[1] - aabb_bounds[0],
+                    aabb_bounds[3] - aabb_bounds[2],
+                    aabb_bounds[5] - aabb_bounds[4]
+                ]
+
+        return np.array(self.get_bounding_box_dimensions()).max()
+
     def translate_to_world_origin(self):
         # From each vertex, substract the coordinates of the barycenter
         translated_points = []
@@ -44,12 +63,24 @@ class Mesh:
         return self._vedo_mesh.volume()
 
     def get_bounding_box_dimensions(self) -> list[float]:
-        aabb_bounds = self._vedo_mesh.box().box().bounds()
+        aabb_bounds = self._vedo_mesh.box().bounds()
         aabb_dimensions = [
             aabb_bounds[1] - aabb_bounds[0],
             aabb_bounds[3] - aabb_bounds[2],
             aabb_bounds[5] - aabb_bounds[4]
         ]
+
+        for d in aabb_dimensions:
+            if math.isnan(d):
+                print('x')
+                a = self._vedo_mesh.bounds()
+                box = self._vedo_mesh.box()
+                aabb_bounds = self._vedo_mesh.box().box().bounds()
+                aabb_dimensions = [
+                    aabb_bounds[1] - aabb_bounds[0],
+                    aabb_bounds[3] - aabb_bounds[2],
+                    aabb_bounds[5] - aabb_bounds[4]
+                ]
 
         return aabb_dimensions
 
@@ -77,7 +108,7 @@ class Mesh:
     def get_vertices(self):
         return self._vedo_mesh.vertices
 
-    def get_cells(self):
+    def get_no_cells(self):
         return self._vedo_mesh.dataset.GetNumberOfCells()
 
     def get_no_triangles(self):
@@ -91,8 +122,8 @@ class Mesh:
     def get_statistics(self):
         n = self._name
         c = self._class
-        v = self.get_vertices()
-        f = self.get_cells()
+        v = self.get_no_vertices()
+        f = self.get_no_cells()
         t = self.get_no_triangles()
         q = self.get_no_quads()
         bb = self._vedo_mesh.box().bounds().tolist()
