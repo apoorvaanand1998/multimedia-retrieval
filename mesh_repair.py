@@ -28,13 +28,13 @@ def export_mesh(mesh, file_path: str):
 
 
 if __name__ == "__main__":
-    source_directory = "remeshed_ShapeDB"
+    source_directory = "remeshed_ShapeDB_normalized_all"
     destination_directory = "remeshed_normailzed_filled_ShapeDB"
 
     files, destination_files = get_file_paths(source_directory, destination_directory)
 
     filled_shape_count = 0
-    for file_index, file in enumerate(files[:50]):
+    for file_index, file in enumerate(files):
         current_mesh = vd.load(file)
         logging.info(f'Loaded: {file}')
         fixed_mesh, is_filled = fix(current_mesh)
