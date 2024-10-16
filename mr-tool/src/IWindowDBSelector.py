@@ -50,6 +50,7 @@ class IWindowDBSelector(QMainWindow):
         self._scroll = QScrollArea()
         self._scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
 
+        w = QWidget(self.central_widget)
         layout = QVBoxLayout()
 
         if os.path.exists(self._db_path):
@@ -57,14 +58,16 @@ class IWindowDBSelector(QMainWindow):
                 layout.addLayout(self.db_ui_setup())
 
             db_map, db_count = utils.get_database_map(self._db_path)
-            self.main_widget = self.main_widget_class(db_map, db_name)
+            self.main_widget = self.main_widget_class(db_map, db_name, db_count)
         else:
             self.main_widget = WidgetNoDb(db_name)
 
         layout.addWidget(self.main_widget)
-        self._scroll.setLayout(layout)
+        w.setLayout(layout)
+        self._scroll.setWidget(w)
 
         self._ui_layout_main.addWidget(self._scroll)
+
 
     def db_ui_setup(self):
         layout_db_all = QHBoxLayout()

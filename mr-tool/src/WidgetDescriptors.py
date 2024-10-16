@@ -1,19 +1,25 @@
+import math
+import os
+import time
+
 from PyQt5.QtCore import Qt
 
 import utils
 import global_descriptors
+import constants
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QHBoxLayout, QTableWidget, QHeaderView, QTableWidgetItem, \
-    QPushButton
+    QPushButton, QListWidget, QProgressBar, QApplication
 from Mesh import Mesh, MeshDescriptors
 
 
 class WidgetDescriptors(QWidget):
 
-    def __init__(self, db_map, db_name):
+    def __init__(self, db_map, db_name, db_count):
         super().__init__()
         self._db_map = db_map
         self._db_name = db_name
+        self._db_count = db_count
 
         self._mesh = None
         self._mesh_descriptors = None
@@ -23,6 +29,9 @@ class WidgetDescriptors(QWidget):
 
         self._ui_w_descriptors = self.setup()
         self._ui_layout_main.addWidget(self._ui_w_descriptors)
+
+        self._ui_w_all = self.setup_all()
+        self._ui_layout_main.addWidget(self._ui_w_all)
 
         self.setLayout(self._ui_layout_main)
 
@@ -107,6 +116,115 @@ class WidgetDescriptors(QWidget):
 
         return widget
 
+    def setup_all(self):
+        widget = QWidget()
+
+        layout = QVBoxLayout(widget)
+
+        button = QPushButton("Calculate descriptors for all items in the database")
+        button.clicked.connect(self.calculate_for_all_objects)
+        layout.addWidget(button)
+
+        self._ui_progress_label = QLabel("")
+        layout.addWidget(self._ui_progress_label)
+
+        self._ui_progress_bar = QProgressBar()
+        self._ui_progress_bar.setRange(0, self._db_count)
+        layout.addWidget(self._ui_progress_bar)
+
+        self._ui_log_box = QListWidget()
+        self._ui_log_box.setMinimumHeight(750)
+        layout.addWidget(self._ui_log_box)
+
+        widget.setLayout(layout)
+        return widget
+
+    def calculate_for_all_objects(self):
+        count = 0
+        all_meshes_descriptors: list[MeshDescriptors] = []
+        total_time = 0
+        for key in self._db_map:
+            for mesh_name in self._db_map[key]:
+                start_time = time.time()
+                path = str(os.path.join(constants.DB_RELATIVE_PATH, self._db_name, key, mesh_name))
+                self._ui_progress_label.setText(str(count + 1) + "/" + str(
+                    self._db_count) + " | " + path + " | Total time: " + utils.get_time_from_seconds(total_time))
+
+                mesh = Mesh(path)
+                mesh_descriptors = MeshDescriptors(path, mesh.name, mesh.get_class(), None, None, None, None, None,
+                                                   None)
+
+                self._ui_log_box.addItem("\nCalculating descriptors for " + path)
+
+                # Surfacea Area #
+                try:
+                    sa = global_descriptors.calculate_surface_area(mesh)
+                    mesh_descriptors.set_surface_area(sa)
+                    self._ui_log_box.addItem("\t* Surface Area: " + str(sa))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* Surface Area Error: " + str(e))
+
+                # Compactness #
+                try:
+                    co = global_descriptors.calculate_compactness(mesh)
+                    mesh_descriptors.set_compactness(co)
+                    self._ui_log_box.addItem("\t* Compactness: " + str(co))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* Compactness Error: " + str(e))
+
+                # Rectangularity #
+                try:
+                    re = global_descriptors.calculate_rectangularity(mesh)
+                    mesh_descriptors.set_rectangularity(re)
+                    self._ui_log_box.addItem("\t* 3D Rectangularity: " + str(re))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* 3D Rectangularity Error: " + str(e))
+
+                # Diameter #
+                try:
+                    di = global_descriptors.calculate_diameter(mesh)
+                    mesh_descriptors.set_diameter(di)
+                    self._ui_log_box.addItem("\t* Diameter: " + str(di))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* Diameter Error: " + str(e))
+
+                # Convexity #
+                try:
+                    conv = global_descriptors.calculate_convexity(mesh)
+                    mesh_descriptors.set_convexity(conv)
+                    self._ui_log_box.addItem("\t* Convexity: " + str(conv))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* Convexity Error: " + str(e))
+
+                # Eccentricity #
+                try:
+                    ec = global_descriptors.calculate_eccentricity(mesh)
+                    mesh_descriptors.set_eccentricity(ec)
+                    self._ui_log_box.addItem("\t* Eccentricity: " + str(ec))
+                except Exception as e:
+                    self._ui_log_box.addItem("\t* Eccentricity Error: " + str(e))
+
+                end_time = time.time()
+
+                self._ui_log_box.addItem(
+                    "\t Finished computing mesh descriptors for " + mesh.get_class() + "/" + mesh.name + " | Time it took: " + str(
+                        round((end_time - start_time), 2)) + " s")
+                total_time += end_time - start_time
+
+                all_meshes_descriptors.append(mesh_descriptors)
+                count += 1
+
+                self._ui_progress_bar.setValue(count)
+                self._ui_log_box.scrollToBottom()
+                QApplication.processEvents()
+
+        output_file = utils.save_output_descriptors(self._db_name, all_meshes_descriptors)
+
+        self._ui_log_box.addItem("Finished calculating descriptors for all objects.")
+        self._ui_log_box.addItem("Total time: " + str(total_time))
+
+        self._ui_log_box.addItem("Output file: " + output_file)
+
     def calculate_surface_area(self):
         self._mesh_descriptors.set_surface_area(global_descriptors.calculate_surface_area(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
@@ -156,6 +274,12 @@ class WidgetDescriptors(QWidget):
         self._ui_layout_main.removeWidget(self._ui_w_descriptors)
         self._ui_w_descriptors = self.setup()
         self._ui_layout_main.addWidget(self._ui_w_descriptors)
+
+        # Pointless to remove this as well and also may prove buggy but
+        # for now it's fine
+        self._ui_layout_main.removeWidget(self._ui_w_all)
+        self._ui_w_all = self.setup_all()
+        self._ui_layout_main.addWidget(self._ui_w_all)
 
     # Used by IWndowDBSelector
     def selected_object_changed(self, mesh: Mesh):
