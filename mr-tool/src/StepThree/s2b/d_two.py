@@ -2,24 +2,25 @@ import vedo
 import numpy as np
 from matplotlib import pyplot as plt
 import d_one as d1
+import math
 
-def d2(m: vedo.Mesh, n: int, b: int):
-    ps         = sample2_n(m, n)
-    ds         = list(map(lambda x : d1.dist(x[0], x[1]), ps))
-    c, b_edges = np.histogram(ds, bins=b)
-    normalized = c / np.sum(c)
-    return normalized, b_edges
+def d2(m: vedo.Mesh,
+       n: int = 100000,
+       b: int = int(math.sqrt(100000)),
+       show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
+    ps         = sample_2_n(m, n)
+    dist2      = lambda x : d1.dist(x[0], x[1])
+    ds         = d1.remove_nans(np.array([dist2(p) for p in ps]))
+    norm_ds    = ds / np.max(ds)
+    c, bs, _   = plt.hist(norm_ds, bins=b, density=True, histtype='step')
+    if show_hist: plt.show()
+    return c, bs
 
-def sample2_n(m: vedo.Mesh, n: int) -> list[np.ndarray]:
-    """Sample 2 points from m, n times"""
-    r3s = []
-    for i in range(n):
-        rs = sample2(m)
-        r3s.append(rs)
-    return r3s
-
-def sample2(m: vedo.Mesh) -> np.ndarray:
+def sample_2_n(m: vedo.Mesh, n: int) -> np.ndarray:
     vs = m.vertices
-    ri = np.random.choice(len(vs), size=2, replace=False)
-    rs = vs[ri]
-    return rs
+    rs = np.random.choice(len(vs), size=(n, 2), replace=True)
+    return np.array([vs[r] for r in rs])
+
+if __name__ == "__main__":
+    m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
+    d2(m, show_hist=True)

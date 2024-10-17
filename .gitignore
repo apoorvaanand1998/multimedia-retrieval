@@ -3,6 +3,7 @@
 remeshed_ShapeDB.zip
 remeshed_ShapeDB/
 *.xopp
+*remeshed_normalized_filled*
 
 __pycache__/
 *.py[cod]

@@ -4,12 +4,16 @@ from matplotlib import pyplot as plt
 import d_one as d1
 import a_three as a3
 
-def d4(m: vedo.Mesh, n: int, b: int):
-    ps         = sample4_n(m, n)
-    vols       = list(map(volume, ps))
-    c, b_edges = np.histogram(vols, bins=b)
-    normalized = c / np.sum(c)
-    return normalized, b_edges
+def d4(m: vedo.Mesh,
+       n: int = int(100**3),
+       b: int = int(100**1.5),
+       show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
+    ps         = sample_4_n(m, n)
+    vols       = d1.remove_nans(np.array([volume(p) for p in ps]))
+    norm_vols  = vols / np.max(vols)
+    c, bs, _   = plt.hist(norm_vols, bins=b, density=True, histtype='step')
+    if show_hist: plt.show()
+    return c, bs
 
 def volume(ps: np.ndarray) -> float:
     p, q, r, s = ps[0], ps[1], ps[2], ps[3]
@@ -17,15 +21,11 @@ def volume(ps: np.ndarray) -> float:
     vol        = np.abs(np.dot(a, np.cross(b, c))) / 6.0
     return vol
 
-def sample4_n(m: vedo.Mesh, n: int) -> list[np.ndarray]:
-    r3s = []
-    for i in range(n):
-        rs = sample4(m)
-        r3s.append(rs)
-    return r3s
-
-def sample4(m: vedo.Mesh) -> np.ndarray:
+def sample_4_n(m: vedo.Mesh, n: int) -> np.ndarray:
     vs = m.vertices
-    ri = np.random.choice(len(vs), size=4, replace=False)
-    rs = vs[ri]
-    return rs
+    rs = np.random.choice(len(vs), size=(n, 4), replace=True)
+    return np.array([vs[r] for r in rs])
+
+if __name__ == "__main__":
+    m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
+    d4(m, show_hist=True)

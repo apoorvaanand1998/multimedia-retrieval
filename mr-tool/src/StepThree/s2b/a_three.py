@@ -2,14 +2,19 @@ import vedo
 import numpy as np
 from matplotlib import pyplot as plt
 
-def a3(m: vedo.Mesh, n: int, b: int):
-    raw_angles   = np.array(angles(sample3_n(m, n)))
-    c, bin_edges = np.histogram(raw_angles, bins=b)
-    normalized   = c / np.sum(c)
-    return normalized, bin_edges
-
-def angles(ps : list[np.ndarray]) -> list[int]:
-    return list(map(angle, ps))
+def a3(m: vedo.Mesh,
+       n: int = int(100**3),
+       b: int = int(100**1.5),
+       show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
+    raw_angles = np.array(angles(sample_3_n(m, n)))
+    norm_angs  = raw_angles / np.max(raw_angles)
+    c, bs, _   = plt.hist(norm_angs, bins=b, density=True, histtype='step')
+    if show_hist: plt.show()
+    return c, bs
+    
+def angles(ps : np.ndarray) -> np.ndarray:
+    r = np.array([angle(p) for p in ps])
+    return r[~np.isnan(r)]
 
 def angle(p: np.ndarray) -> int:
     """Pass 3 points A, B, C in array, get angle between AB and BC in degrees"""
@@ -23,21 +28,11 @@ def angle(p: np.ndarray) -> int:
     cos_angle = dot / (mag_ab * mag_bc)
     return np.degrees(np.arccos(cos_angle))
 
-def sample3_n(m: vedo.Mesh, n: int) -> list[np.ndarray]:
-    """Sample 3 points from m, n times"""
-    r3s = []
-    for i in range(n):
-        rs = sample3(m)
-        r3s.append(rs)
-    return r3s
-
-def sample3(m: vedo.Mesh) -> np.ndarray:
+def sample_3_n(m: vedo.Mesh, n: int) -> np.ndarray:
     vs = m.vertices
-    ri = np.random.choice(len(vs), size=3, replace=False)
-    rs = vs[ri]
-    return rs
+    rs = np.random.choice(len(vs), size=(n, 3), replace=True)
+    return np.array([vs[r] for r in rs])
 
 if __name__ == "__main__":
     m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
-    plt.hist(a3(m, 100**2, 100))
-    plt.show()
+    a3(m, show_hist=True)

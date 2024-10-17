@@ -4,12 +4,16 @@ from matplotlib import pyplot as plt
 import d_one as d1
 import a_three as a3
 
-def d3(m: vedo.Mesh, n: int, b: int):
-    ps         = a3.sample3_n(m, n)
-    areas      = list(map(area, ps))    
-    c, b_edges = np.histogram(areas, bins=b)
-    normalized = c / np.sum(c)
-    return normalized, b_edges
+def d3(m: vedo.Mesh,
+       n: int = int(100**3),
+       b: int = int(100**1.5),
+       show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
+    ps         = a3.sample_3_n(m, n)
+    areas      = d1.remove_nans(np.array([area(p) for p in ps]))
+    norm_areas = areas / np.max(areas)
+    c, bs, _   = plt.hist(norm_areas, bins=b, density=True, histtype='step')
+    if show_hist: plt.show()
+    return c, bs
 
 def area(ps: np.ndarray) -> float:
     x, y, z = ps[0], ps[1], ps[2]
@@ -19,5 +23,4 @@ def area(ps: np.ndarray) -> float:
 
 if __name__ == "__main__":
     m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
-    plt.hist(d3, 100**3, int(100**1.5))
-    plt.show()
+    d3(m, show_hist=True)   
