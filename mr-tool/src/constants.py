@@ -24,6 +24,8 @@ DATABASES = [
     DB_PREPROCESSED_NAME,
     "remeshed_ShapeDB",
     "ShapeDB_sample_small",
-    "NonExistent"
+    "NonExistent",
+    "remeshed_ShapeDB_normalized_all",
+    "remeshed_normalized_filled_ShapeDB"
 ]
 
