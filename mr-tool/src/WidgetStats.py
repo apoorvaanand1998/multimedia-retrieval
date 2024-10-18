@@ -1,8 +1,10 @@
 import math
 import os
 
+from PyQt5.QtCore import Qt
+
 from constants import DB_RELATIVE_PATH
-from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout
+from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout, QScrollArea
 from WidgetHistogram import WidgetHistogram
 from WidgetBarChart import WidgetBarChart
 from Widget3DViewer import Widget3DViewer
@@ -49,7 +51,7 @@ class WidgetStats(QWidget):
         w_avg_shape_vertices, w_avg_shape_faces = self.create_3d_views(self.db_avg_vertices, self.db_avg_faces)
 
         # Top Row
-        layout_row_1 = QHBoxLayout()
+        layout_row_1 = QVBoxLayout()
 
         layout_row_1.addWidget(self.create_barchart_classes())
         layout_row_1.addLayout(self.create_db_metadata())
@@ -57,7 +59,7 @@ class WidgetStats(QWidget):
         self._ui_layout_main.addLayout(layout_row_1)
 
         # Middle Row
-        layout_row_2 = QHBoxLayout()
+        layout_row_2 = QVBoxLayout()
 
         layout_row_2.addWidget(self.create_histogram_vertices())
         layout_row_2.addWidget(w_avg_shape_vertices)
@@ -65,7 +67,7 @@ class WidgetStats(QWidget):
         self._ui_layout_main.addLayout(layout_row_2)
 
         # Bottom Row
-        layout_row_3 = QHBoxLayout()
+        layout_row_3 = QVBoxLayout()
 
         layout_row_3.addWidget(self.create_histogram_faces())
         layout_row_3.addWidget(w_avg_shape_faces)
@@ -73,6 +75,7 @@ class WidgetStats(QWidget):
         self._ui_layout_main.addLayout(layout_row_3)
 
         self.setLayout(self._ui_layout_main)
+
 
     def create_3d_views(self, avg_vertices: int, avg_faces: int):
         # 3D Widget for average shape

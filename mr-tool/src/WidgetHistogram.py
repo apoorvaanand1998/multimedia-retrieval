@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QVBoxLayout, QWidget
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+
 class WidgetHistogram(QWidget):
     _ui_layout_main: QVBoxLayout = None
 
@@ -19,7 +20,8 @@ class WidgetHistogram(QWidget):
 
         self.create_histogram(hist_title, log_scale, data, no_bins, min_val, max_val)
 
-    def create_histogram(self, hist_title: str, log_scale: bool, data: list[int], no_bins: int, min_val: int, max_val: int):
+    def create_histogram(self, hist_title: str, log_scale: bool, data: list[int], no_bins: int, min_val: int,
+                         max_val: int):
         ax = self.figure.add_subplot()
 
         # Clear previous plots

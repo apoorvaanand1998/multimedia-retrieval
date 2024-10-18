@@ -56,6 +56,8 @@ class Widget3DViewer(QWidget):
 
         self.setLayout(self._ui_layout_main)
 
+        self.setMinimumSize(600, 600)
+
         self.show_mesh()
 
     def set_mesh(self, mesh: Mesh):
@@ -95,7 +97,7 @@ class Widget3DViewer(QWidget):
             wireframe.color((0, 0, 255))
             to_show.append(wireframe)
 
-        self._ui_vedo_plotter.show(to_show)
+        self._ui_vedo_plotter.show(to_show, axes=1)
 
         for widget in self._ui_widgets_metadata:
             self._ui_layout_metadata.removeWidget(widget)
@@ -139,8 +141,8 @@ class Widget3DViewer(QWidget):
         return [
             QLabel("Class: " + str(self._mesh.get_class())),
             QLabel("Name: " + str(self._mesh.name)),
-            QLabel("\nVertices: " + str(self._mesh.get_vertices())),
-            QLabel("Cells: " + str(self._mesh.get_cells())),
+            QLabel("\nVertices: " + str(self._mesh.get_no_vertices())),
+            QLabel("Cells: " + str(self._mesh.get_no_cells())),
             QLabel("Triangles: " + str(self._mesh.get_no_triangles())),
             QLabel("Quads: " + str(self._mesh.get_no_quads()))
         ]

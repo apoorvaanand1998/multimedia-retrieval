@@ -64,6 +64,8 @@ class WidgetEmptyStats(QWidget):
 
         self._ui_log_box.addItem("\nComputed statistics for " + str(obj_count) + " objects.")
 
+        statistics_folder = str(os.path.join(constants.OUTPUT_DIR_RELATIVE_PATH, "Statistics",
+                                         self.db_name))
         stats_file_path = utils.save_output_stats(self.db_name, obj_stats)
 
         self._ui_log_box.addItem("\nStatistics saved at " + stats_file_path + "")
