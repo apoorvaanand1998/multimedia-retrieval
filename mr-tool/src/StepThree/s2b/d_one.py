@@ -2,7 +2,7 @@ import vedo
 import numpy as np
 from matplotlib import pyplot as plt
 
-def d_one(m: vedo.Mesh,
+def d1(m: vedo.Mesh,
           n: int=10000,
           b: int=100,
           show_hist=False) -> tuple[np.ndarray, np.ndarray]:
@@ -25,4 +25,4 @@ def remove_nans(x: np.ndarray) -> np.ndarray:
 
 if __name__ == "__main__":
     m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
-    d_one(m, show_hist=True)
+    d1(m, show_hist=True)

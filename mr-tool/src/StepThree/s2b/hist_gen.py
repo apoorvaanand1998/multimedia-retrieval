@@ -34,7 +34,8 @@ def write_hists(cls: str, mthd: str, dst: str):
         case _:
             print('Use one of "a3", "d1" etc as arguments')
             res = []
-    plt.title(mthd + 'for' + cls)
+    plt.title(mthd + ' for ' + cls)
+    plt.savefig(dst+mthd+'_'+cls+'.png')
     plt.show()
 
     sob = [(mthd, s) for s in strd_objs]
@@ -44,4 +45,4 @@ def write_hists(cls: str, mthd: str, dst: str):
         _   = [sdw.writerow(r) for r in res]
 
 np.set_printoptions(threshold=np.inf)
-write_hists('AircraftBuoyant', 'a3', '../../Output/ShapePropDesc/')
+write_hists('Biplane', 'd2', '../../Output/ShapePropDesc/')
