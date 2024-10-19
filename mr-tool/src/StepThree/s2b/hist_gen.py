@@ -45,4 +45,5 @@ def write_hists(cls: str, mthd: str, dst: str):
         _   = [sdw.writerow(r) for r in res]
 
 np.set_printoptions(threshold=np.inf)
-write_hists('Biplane', 'd2', '../../Output/ShapePropDesc/')
+for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
+    write_hists('Bird', m, '../../Output/ShapePropDesc/')
