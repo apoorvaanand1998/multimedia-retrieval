@@ -46,4 +46,4 @@ def write_hists(cls: str, mthd: str, dst: str):
 
 np.set_printoptions(threshold=np.inf)
 for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
-    write_hists('Bird', m, '../../Output/ShapePropDesc/')
+    write_hists('Cellphone', m, '../../Output/ShapePropDesc/')
