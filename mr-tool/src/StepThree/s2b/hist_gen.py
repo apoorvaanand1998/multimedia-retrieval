@@ -44,7 +44,10 @@ def write_hists(cls: str, mthd: str, dst: str):
         sdw = csv.writer(sd, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         _   = [sdw.writerow(r) for r in res]
 
+c_nick = ['RoundTable', 'Shelf', 'Ship', 'Sign', 'Skyscraper', 'Spoon', 'Starship', 'SubmachineGun', 'Sword']
+c_vlad = ['Tool', 'Train', 'Tree', 'Truck', 'TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
+
 np.set_printoptions(threshold=np.inf)
-for d in ['Humanoid', 'Insect', 'Jet', 'Knife', 'MilitaryVehicle', 'Monitor', 'Monoplane', 'Motorcycle', 'Mug', 'MultiSeat', 'Musical_Instrument', 'NonWheelChair', 'PianoBoard', 'PlantIndoors', 'PlantWildNonTree', 'Quadruped', 'RectangleTable', 'Rocket']:
+for c in ['Mug', 'MultiSeat', 'Musical_Instrument', 'NonWheelChair', 'PianoBoard', 'PlantIndoors', 'PlantWildNonTree', 'Quadruped', 'RectangleTable', 'Rocket']:
     for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
-        write_hists(d, m, '../../Output/ShapePropDesc/')
+        write_hists(c, m, '../../Output/ShapePropDesc/')
