@@ -36,7 +36,7 @@ def write_hists(cls: str, mthd: str, dst: str):
             res = []
     plt.title(mthd + ' for ' + cls)
     plt.savefig(dst+mthd+'_'+cls+'.png')
-    plt.show()
+    # plt.show()
 
     sob = [(mthd, s) for s in strd_objs]
     res = zip(sob, res)
@@ -45,6 +45,6 @@ def write_hists(cls: str, mthd: str, dst: str):
         _   = [sdw.writerow(r) for r in res]
 
 np.set_printoptions(threshold=np.inf)
-for d in ['HumanHead', 'Humanoid', 'Insect', 'Jet', 'Knife', 'MilitaryVehicle']:
+for d in ['Humanoid', 'Insect', 'Jet', 'Knife', 'MilitaryVehicle', 'Monitor', 'Monoplane', 'Motorcycle', 'Mug', 'MultiSeat', 'Musical_Instrument', 'NonWheelChair', 'PianoBoard', 'PlantIndoors', 'PlantWildNonTree', 'Quadruped', 'RectangleTable', 'Rocket']:
     for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
         write_hists(d, m, '../../Output/ShapePropDesc/')
