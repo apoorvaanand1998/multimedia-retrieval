@@ -13,8 +13,8 @@ def write_hists(cls: str, mthd: str, dst: str):
     """ Write histogram data from class cls,
         using mthd descriptor,
         into destination dst """
-    
-    from_path = p.Path('../../remeshed_normalized_filled_ShapeDB/' + cls)
+
+    from_path = p.Path('../../../../remeshed_normalized_filled_ShapeDB/' + cls)
     objs      = [x for x in from_path.iterdir()]
     strd_objs = [str(o) for o in objs]
     loaded    = [vedo.load(o) for o in strd_objs]
@@ -48,6 +48,6 @@ c_nick = ['RoundTable', 'Shelf', 'Ship', 'Sign', 'Skyscraper', 'Spoon', 'Starshi
 c_vlad = ['Tool', 'Train', 'Tree', 'Truck', 'TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
 
 np.set_printoptions(threshold=np.inf)
-for c in ['Mug', 'MultiSeat', 'Musical_Instrument', 'NonWheelChair', 'PianoBoard', 'PlantIndoors', 'PlantWildNonTree', 'Quadruped', 'RectangleTable', 'Rocket']:
+for c in c_vlad:
     for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
-        write_hists(c, m, '../../Output/ShapePropDesc/')
+        write_hists(c, m, r'C:\Users\nick_\Documents\multimedia-retrieval\Output')
