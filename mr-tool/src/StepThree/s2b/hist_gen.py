@@ -36,7 +36,7 @@ def write_hists(cls: str, mthd: str, dst: str):
             res = []
     plt.title(mthd + ' for ' + cls)
     plt.savefig(dst+mthd+'_'+cls+'.png')
-    # plt.show()
+    plt.show()
 
     sob = [(mthd, s) for s in strd_objs]
     res = zip(sob, res)
@@ -44,8 +44,7 @@ def write_hists(cls: str, mthd: str, dst: str):
         sdw = csv.writer(sd, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         _   = [sdw.writerow(r) for r in res]
 
-c_nick = ['RoundTable', 'Shelf', 'Ship', 'Sign', 'Skyscraper', 'Spoon', 'Starship', 'SubmachineGun', 'Sword']
-c_vlad = ['Tool', 'Train', 'Tree', 'Truck', 'TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
+c_vlad = ['Truck', 'TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
 
 np.set_printoptions(threshold=np.inf)
 for c in c_vlad:
