@@ -2,7 +2,7 @@ import open3d as o3d
 import numpy as np
 import vedo
 
-from Mesh import Mesh
+from Mesh import Mesh, MeshDescriptors
 
 
 def calculate_volume(vertices: np.ndarray, triangles: np.ndarray):
@@ -122,6 +122,17 @@ def calculate_eccentricity(mesh: Mesh) -> float:
     covar_matrix = np.cov(np.transpose(np.asarray(mesh3D.vertices)))
     eigenvalues, _ = np.linalg.eig(covar_matrix)
     return max(eigenvalues) / min(eigenvalues)
+
+
+def calculate_descriptors(mesh: Mesh) -> MeshDescriptors:
+    m = MeshDescriptors(mesh.path, mesh.name, mesh.get_class(), None, None, None, None, None, None)
+    m.set_surface_area(calculate_surface_area(mesh))
+    m.set_compactness(calculate_compactness(mesh))
+    m.set_diameter(calculate_diameter(mesh))
+    m.set_convexity(calculate_convexity(mesh))
+    m.set_rectangularity(calculate_rectangularity(mesh))
+    m.set_eccentricity(calculate_eccentricity(mesh))
+    return m
 
 
 ################### END OPEN3D to our Mesh object adapter functions ##################
