@@ -14,7 +14,7 @@ def write_hists(cls: str, mthd: str, dst: str):
         using mthd descriptor,
         into destination dst """
 
-    from_path = p.Path('../../../../remeshed_normalized_filled_ShapeDB/' + cls)
+    from_path = p.Path('../../remeshed_normalized_filled_ShapeDB/' + cls)
     objs      = [x for x in from_path.iterdir()]
     strd_objs = [str(o) for o in objs]
     loaded    = [vedo.load(o) for o in strd_objs]
@@ -49,4 +49,4 @@ c_vlad = ['TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
 np.set_printoptions(threshold=np.inf)
 for c in c_vlad:
     for m in ['a3', 'd1', 'd2', 'd3', 'd4']:
-        write_hists(c, m, r'C:\Users\nick_\Documents\multimedia-retrieval\Output')
+        write_hists(c, m, '../../Output/ShapePropDesc/')
