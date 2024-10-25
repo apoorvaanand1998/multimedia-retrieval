@@ -44,7 +44,7 @@ def write_hists(cls: str, mthd: str, dst: str):
         sdw = csv.writer(sd, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         _   = [sdw.writerow(r) for r in res]
 
-c_vlad = ['TruckNonContainer', 'Vase', 'Violin', 'Wheel', 'WheelChair']
+c_vlad = ['Wheel', 'WheelChair']
 
 np.set_printoptions(threshold=np.inf)
 for c in c_vlad:
