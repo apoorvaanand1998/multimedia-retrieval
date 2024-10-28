@@ -26,6 +26,8 @@ DATABASES = [
     "ShapeDB_sample_small",
     "NonExistent",
     "remeshed_ShapeDB_normalized_all",
-    "remeshed_normalized_filled_ShapeDB"
+    "remeshed_normalized_filled_ShapeDB",
+    "FINAL_remeshed_repaired_ShapeDB",
+    "FINAL_remeshed_repaired_normalized_ShapeDB"
 ]
 
