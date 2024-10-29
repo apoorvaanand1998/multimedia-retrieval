@@ -6,7 +6,7 @@ import math
 
 def d2(m: vedo.Mesh,
        n: int = 100000,
-       b: int = int(math.sqrt(100000)),
+       b: int = 300,
        show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
     ps         = sample_2_n(m, n)
     dist2      = lambda x : d1.dist(x[0], x[1])

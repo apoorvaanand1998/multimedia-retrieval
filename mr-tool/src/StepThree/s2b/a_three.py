@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 def a3(m: vedo.Mesh,
        n: int = int(100**3),
-       b: int = int(100**1.5),
+       b: int = int(300),
        show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
     raw_angles = np.array(angles(sample_3_n(m, n)))
     norm_angs  = raw_angles / np.max(raw_angles)

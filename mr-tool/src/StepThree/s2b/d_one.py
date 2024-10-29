@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 def d1(m: vedo.Mesh,
-          n: int=10000,
+          n: int=5000,
           b: int=100,
           show_hist=False) -> tuple[np.ndarray, np.ndarray]:
     barycenter = m.center_of_mass()

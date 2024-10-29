@@ -6,7 +6,7 @@ import a_three as a3
 
 def d3(m: vedo.Mesh,
        n: int = int(100**3),
-       b: int = int(100**1.5),
+       b: int = int(300),
        show_hist: bool = False) -> tuple[np.ndarray, np.ndarray]:
     ps         = a3.sample_3_n(m, n)
     areas      = d1.remove_nans(np.array([area(p) for p in ps]))
