@@ -5,6 +5,7 @@ remeshed_ShapeDB/
 *.xopp
 *remeshed_normalized_filled*
 *~*
+FINAL_remeshed_repaired_normalized_ShapeDB*
 
 __pycache__/
 *.py[cod]
