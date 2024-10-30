@@ -9,7 +9,7 @@ import pathlib as p
 import csv
 import numpy as np
 
-shape_db_path = '../../FINAL_remeshed_repaired_normalized_ShapeDB'
+shape_db_path = '../../FINAL_remeshed_repaired_normalized_ShapeDB/'
 
 def write_hists(cls: str, mthd: str, dst: str):
     """ Write histogram data from class cls,
@@ -18,7 +18,7 @@ def write_hists(cls: str, mthd: str, dst: str):
 
     from_path = p.Path(shape_db_path + cls)
     objs      = [x for x in from_path.iterdir()]
-    strd_objs = [str(o) for o in objs]
+    strd_objs = sorted([str(o) for o in objs])
     loaded    = [vedo.load(o) for o in strd_objs]
     run_mthd  = lambda x : [x(l) for l in loaded]
     
@@ -47,7 +47,7 @@ def write_hists(cls: str, mthd: str, dst: str):
         _   = [sdw.writerow(r) for r in res]
 
 cs = p.Path(shape_db_path)
-cs = [c.name for c in cs.iterdir()]
+cs = sorted([c.name for c in cs.iterdir()])
 np.set_printoptions(threshold=np.inf)
 for c in cs:
     for m in ['a3', 'd1', 'd2', 'd3', 'd4']:

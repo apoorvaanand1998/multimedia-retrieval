@@ -24,5 +24,5 @@ def remove_nans(x: np.ndarray) -> np.ndarray:
     return x[~np.isnan(x)]
 
 if __name__ == "__main__":
-    m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
+    m = vedo.load('../../remeshed_ShapeDB/Bus/D00151.obj')
     d1(m, show_hist=True)

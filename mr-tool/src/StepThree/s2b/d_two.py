@@ -22,5 +22,5 @@ def sample_2_n(m: vedo.Mesh, n: int) -> np.ndarray:
     return np.array([vs[r] for r in rs])
 
 if __name__ == "__main__":
-    m = vedo.load('../../remeshed_ShapeDB/AircraftBuoyant/m1337.obj')
+    m = vedo.load('../../remeshed_ShapeDB/Bus/D00151.obj')
     d2(m, show_hist=True)
