@@ -38,7 +38,7 @@ def write_hists(cls: str, mthd: str, dst: str):
             res = []
     plt.title(mthd + ' for ' + cls)
     plt.savefig(dst+mthd+'_'+cls+'.png')
-    ##plt.show()
+    plt.show()
 
     sob = [(mthd, s) for s in strd_objs]
     res = zip(sob, res)
