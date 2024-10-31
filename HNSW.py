@@ -3,6 +3,9 @@ import numpy as np
 
 
 def build_hnsw_graph(feature_vectors: np.ndarray) -> hnswlib.Index:
+
+    assert feature_vectors.dtype == 'f'
+
     dim = feature_vectors.shape[1]
     hnsw_index = hnswlib.Index(space='l2', dim=dim)
 
@@ -23,6 +26,7 @@ def query_hnsw(index: hnswlib.Index, query_vector: np.ndarray, k: int) -> tuple[
 
 if __name__ == '__main__':
     toy_data = np.random.random((100, 1000)).astype('float32')
+    # make sure input data doesnt contain the paths!
     hnsw = build_hnsw_graph(toy_data)
 
     toy_query = np.random.random((1, 1000)).astype('float32')
@@ -34,7 +38,7 @@ if __name__ == '__main__':
     resulting_shape_paths = resulting_shapes[:, 0]
 
     path_and_distances_dict = {path: distance for path, distance in zip(resulting_shape_paths, distances)}
-
+    print(path_and_distances_dict)
 
 
 
