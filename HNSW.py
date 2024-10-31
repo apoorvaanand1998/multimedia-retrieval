@@ -16,8 +16,10 @@ def query_hnsw(index: hnswlib.Index, query_vector: np.ndarray, k: int) -> tuple[
     assert query_vector.shape[1] == index.dim
 
     indices, dist = index.knn_query(query_vector, k=k)
+    unpacked_indices, unpacked_dist = indices[0], dist[0]
 
-    return indices, dist
+    return unpacked_indices, unpacked_dist
+
 
 if __name__ == '__main__':
     toy_data = np.random.random((100, 1000)).astype('float32')
@@ -28,4 +30,11 @@ if __name__ == '__main__':
 
     resulting_shapes = toy_data[neighbor_indices] # still index to path of shape
 
-    print(resulting_shapes)
+    index_for_shape_paths = 0 # assuming first column vector is the paths
+    resulting_shape_paths = resulting_shapes[:, 0]
+
+    path_and_distances_dict = {path: distance for path, distance in zip(resulting_shape_paths, distances)}
+
+
+
+
