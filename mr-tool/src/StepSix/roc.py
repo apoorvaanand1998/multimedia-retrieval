@@ -10,6 +10,7 @@ def roc(f: Callable[[M.Mesh, int], list[M.Mesh]],
     #     curr   = sn_sp(inp, f(inp, i))
     #     sn_sps.append(curr)
     # sn_sps = sorted(sn_sps, lambda x : x[0])
+    pass
 
 def sn_sp(inp: M.Mesh, res: list[M.Mesh]) -> tuple[float, float]:
     '''(Sensitivity, Specificity)'''
