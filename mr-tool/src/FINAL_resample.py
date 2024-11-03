@@ -6,7 +6,7 @@ import numpy as np
 import vedo
 
 from Mesh import Mesh
-from global_descriptors import fromVedoToOpen3DMesh
+from FINAL_global_descriptors import fromVedoToOpen3DMesh
 
 logging.basicConfig(filename='remesh.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')

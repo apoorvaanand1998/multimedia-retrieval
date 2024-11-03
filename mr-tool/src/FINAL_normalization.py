@@ -2,7 +2,6 @@ from Mesh import Mesh, MeshStats
 import numpy as np
 
 
-# TODO: Implement
 def full_normalization(mesh: Mesh):
     translated_mesh = translate_to_origin(mesh)
     scaled_mesh = scale_to_unit_size(translated_mesh)
@@ -11,7 +10,6 @@ def full_normalization(mesh: Mesh):
 
     return flipped_mesh
 
-# TODO: Implement
 def translate_to_origin(mesh: Mesh) -> Mesh:
     processed_mesh: Mesh = mesh.__copy__()
 
@@ -24,7 +22,6 @@ def translate_to_origin(mesh: Mesh) -> Mesh:
     return processed_mesh
 
 
-# TODO: Implement
 def scale_to_unit_size(mesh: Mesh) -> Mesh:
     processed_mesh: Mesh = mesh.__copy__()
 
@@ -39,7 +36,6 @@ def scale_to_unit_size(mesh: Mesh) -> Mesh:
 
     return processed_mesh
 
-# TODO: Implement
 def align_principal_axes(mesh: Mesh) -> Mesh:
     processed_mesh: Mesh = mesh.__copy__()
 

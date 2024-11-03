@@ -12,7 +12,7 @@ OUTPUT_DIR_RELATIVE_PATH = os.path.join("..", "..", "Output")
 STATS_FILE_NAME = "stats.csv"
 STATS_FILE_HEADERS = "Path,Name,Class,Vertices,Faces(Cells),Triangles,Quads,BBox"
 DESCRIPTORS_FILE_NAME = "descriptors.csv"
-DESCRIPTORS_FILE_HEADERS = "Path,Name,Class,Surface Area,Compactness,3D Rectangularity,Diameter,Convexity,Eccentricity"
+DESCRIPTORS_FILE_HEADERS = "Path,Name,Class,Surface Area,Compactness,3D Rectangularity,Diameter,Convexity,Eccentricity,A3,D1,D2,D3,D4"
 
 UI_MAIN_APP_TITLE = "Multimedia Retrieval Assignment"
 UI_NO_ITEM_SELECTED_PLACEHOLDER = "Choose an item from the database"

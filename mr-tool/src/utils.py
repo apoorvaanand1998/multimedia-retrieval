@@ -5,6 +5,8 @@ import time
 import numpy as np
 import vedo
 
+import anand
+
 from constants import OUTPUT_DIR_RELATIVE_PATH, STATS_FILE_NAME, STATS_FILE_HEADERS, DB_RELATIVE_PATH, \
     DESCRIPTORS_FILE_NAME, DESCRIPTORS_FILE_HEADERS
 from Mesh import MeshStats, Mesh, MeshDescriptors
@@ -74,12 +76,15 @@ def save_output_descriptors(db_name: str, obj_descriptors: list[MeshDescriptors]
 
         stat_writer.writerow(DESCRIPTORS_FILE_HEADERS.split(","))
 
-        # Path,Name,Class,Surface Area,Compactness,3D Rectangularity,Diameter,Convexity,Eccentricity
+        # Path,Name,Class,Surface Area,Compactness,3D Rectangularity,Diameter,Convexity,Eccentricity, A3, D1, D2, D3, D4
         for descriptors_row in obj_descriptors:
             row = [descriptors_row.path, descriptors_row.name, descriptors_row.get_class(),
                    descriptors_row.surface_area, descriptors_row.compactness,
                    descriptors_row.rectangularity, descriptors_row.diameter,
-                   descriptors_row.convexity, descriptors_row.eccentricity]
+                   descriptors_row.convexity, descriptors_row.eccentricity,
+                   descriptors_row.a3, descriptors_row.d1,
+                   descriptors_row.d2, descriptors_row.d3,
+                   descriptors_row.d4]
             stat_writer.writerow(row)
 
     return str(descriptors_file_path)
@@ -135,6 +140,27 @@ def get_output_descriptors(db_name: str) -> list[MeshDescriptors]:
                                                                 float(row[6]) if row[6] != '' else None,
                                                                 float(row[7]) if row[7] != '' else None,
                                                                 float(row[8]) if row[8] != '' else None)
+            # shape desc
+            a3_str = row[9].replace("[", "").replace("]", "").replace("\n", " ").split()
+            a3 = np.array(a3_str, dtype=float)
+            mesh_descriptors.set_a3(a3)
+
+            d1_str = row[10].replace("[", "").replace("]", "").replace("\n", " ").split()
+            d1 = np.array(d1_str, dtype=float)
+            mesh_descriptors.set_d1(d1)
+
+            d2_str = row[11].replace("[", "").replace("]", "").replace("\n", " ").split()
+            d2 = np.array(d2_str, dtype=float)
+            mesh_descriptors.set_d2(d2)
+
+            d3_str = row[12].replace("[", "").replace("]", "").replace("\n", " ").split()
+            d3 = np.array(d3_str, dtype=float)
+            mesh_descriptors.set_d3(d3)
+
+            d4_str = row[13].replace("[", "").replace("]", "").replace("\n", " ").split()
+            d4 = np.array(d4_str, dtype=float)
+            mesh_descriptors.set_d4(d4)
+
             descriptors.append(mesh_descriptors)
 
     return descriptors
