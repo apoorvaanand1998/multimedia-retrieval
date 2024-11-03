@@ -60,6 +60,7 @@ class WindowDatabaseStats(QMainWindow):
 
         scroll = QScrollArea()
         scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        scroll.setWidgetResizable(True)
         scroll.setWidget(self._ui_db_widget)
 
         self._ui_layout_main.addWidget(scroll)

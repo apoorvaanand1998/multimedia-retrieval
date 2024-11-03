@@ -140,26 +140,28 @@ def get_output_descriptors(db_name: str) -> list[MeshDescriptors]:
                                                                 float(row[6]) if row[6] != '' else None,
                                                                 float(row[7]) if row[7] != '' else None,
                                                                 float(row[8]) if row[8] != '' else None)
-            # shape desc
-            a3_str = row[9].replace("[", "").replace("]", "").replace("\n", " ").split()
-            a3 = np.array(a3_str, dtype=float)
-            mesh_descriptors.set_a3(a3)
 
-            d1_str = row[10].replace("[", "").replace("]", "").replace("\n", " ").split()
-            d1 = np.array(d1_str, dtype=float)
-            mesh_descriptors.set_d1(d1)
+            if len(row) > 9:
+                # shape desc
+                a3_str = row[9].replace("[", "").replace("]", "").replace("\n", " ").split()
+                a3 = np.array(a3_str, dtype=float)
+                mesh_descriptors.set_a3(a3)
 
-            d2_str = row[11].replace("[", "").replace("]", "").replace("\n", " ").split()
-            d2 = np.array(d2_str, dtype=float)
-            mesh_descriptors.set_d2(d2)
+                d1_str = row[10].replace("[", "").replace("]", "").replace("\n", " ").split()
+                d1 = np.array(d1_str, dtype=float)
+                mesh_descriptors.set_d1(d1)
 
-            d3_str = row[12].replace("[", "").replace("]", "").replace("\n", " ").split()
-            d3 = np.array(d3_str, dtype=float)
-            mesh_descriptors.set_d3(d3)
+                d2_str = row[11].replace("[", "").replace("]", "").replace("\n", " ").split()
+                d2 = np.array(d2_str, dtype=float)
+                mesh_descriptors.set_d2(d2)
 
-            d4_str = row[13].replace("[", "").replace("]", "").replace("\n", " ").split()
-            d4 = np.array(d4_str, dtype=float)
-            mesh_descriptors.set_d4(d4)
+                d3_str = row[12].replace("[", "").replace("]", "").replace("\n", " ").split()
+                d3 = np.array(d3_str, dtype=float)
+                mesh_descriptors.set_d3(d3)
+
+                d4_str = row[13].replace("[", "").replace("]", "").replace("\n", " ").split()
+                d4 = np.array(d4_str, dtype=float)
+                mesh_descriptors.set_d4(d4)
 
             descriptors.append(mesh_descriptors)
 
