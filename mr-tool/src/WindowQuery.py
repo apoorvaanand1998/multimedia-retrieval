@@ -40,13 +40,13 @@ class WorkerThread(QThread):
 
         # Step 2 - Remeshing
         self.progress_signal.emit("Remeshing... Target value: 5000", step_progress * 1, False)
-        resampled_mesh = FINAL_resample.resample_mesh(self.mesh.__copy__())
+        resampled_mesh = FINAL_resample.resample_mesh(Mesh(self.mesh.path, self.mesh.vedo_mesh))
         if resampled_mesh is None:
-            self.mesh_normalized = self.mesh.__copy__()
+            self.mesh_normalized = Mesh(self.mesh.path, self.mesh.vedo_mesh)
             self.progress_signal.emit("Remeshing Failed ... Continuing", step_progress * 2, False)
             time.sleep(2)
         else:
-            self.mesh_normalized = resampled_mesh
+            self.mesh_normalized = Mesh(resampled_mesh.path, resampled_mesh.vedo_mesh)
 
         # Step 2.5 - Filling Holes
         self.progress_signal.emit("Filling Holes", step_progress * 1, False)
@@ -58,6 +58,8 @@ class WorkerThread(QThread):
         self.progress_signal.emit("Normalising mesh... Translation", step_progress * 3, False)
         translated_mesh = FINAL_normalization.translate_to_origin(self.mesh_normalized)
         time.sleep(0.5)
+
+        a = translated_mesh.get_no_vertices()
 
         # Step 4 - Scaling
         self.progress_signal.emit("Normalising mesh... Scaling", step_progress * 4, False)
@@ -82,28 +84,48 @@ class WorkerThread(QThread):
 
         # Step 7- Surface Area
         self.progress_signal.emit("Computing Global Descriptors... Surface Area", step_progress * 7, False)
-        self.mesh_descriptors.set_surface_area(FINAL_global_descriptors.calculate_surface_area(self.mesh_normalized))
+        try:
+            self.mesh_descriptors.set_surface_area(FINAL_global_descriptors.calculate_surface_area(self.mesh_normalized))
+        except Exception as e:
+            print('Cannot calculate surface area. Putting None')
+            print(e)
         time.sleep(0.5)
 
         # Step 8 - Compactness
         self.progress_signal.emit("Computing Global Descriptors... Compactness", step_progress * 8, False)
-        self.mesh_descriptors.set_compactness(FINAL_global_descriptors.calculate_compactness(self.mesh_normalized))
+        try:
+            self.mesh_descriptors.set_compactness(FINAL_global_descriptors.calculate_compactness(self.mesh_normalized))
+        except Exception as e:
+            print('Cannot calculate Compactness. Putting None')
+            print(e)
         time.sleep(0.5)
 
         # Step 9 - Diameter
         self.progress_signal.emit("Computing Global Descriptors... Diameter", step_progress * 9, False)
-        self.mesh_descriptors.set_diameter(FINAL_global_descriptors.calculate_diameter(self.mesh_normalized))
+        try:
+            self.mesh_descriptors.set_diameter(FINAL_global_descriptors.calculate_diameter(self.mesh_normalized))
+        except Exception as e:
+            print('Cannot calculate diameter. Putting None')
+            print(e)
         time.sleep(0.5)
 
         # Step 10 - Convexity
         self.progress_signal.emit("Computing Global Descriptors... Convexity", step_progress * 10, False)
-        self.mesh_descriptors.set_convexity(FINAL_global_descriptors.calculate_convexity(self.mesh_normalized))
+        try:
+            self.mesh_descriptors.set_convexity(FINAL_global_descriptors.calculate_convexity(self.mesh_normalized))
+        except Exception as e:
+            print("Cannot calculate convexity. Putting None")
+            print(e)
         time.sleep(0.5)
 
         # Step 11 - Rectangularity
         self.progress_signal.emit("Computing Global Descriptors... Rectangularity", step_progress * 11, False)
-        self.mesh_descriptors.set_rectangularity(
-            FINAL_global_descriptors.calculate_rectangularity(self.mesh_normalized))
+        try:
+            self.mesh_descriptors.set_rectangularity(
+                FINAL_global_descriptors.calculate_rectangularity(self.mesh_normalized))
+        except Exception as e:
+            print("Cannot calculate rectangularity. Putting None")
+            print(e)
         time.sleep(0.5)
 
         # Step 12 - Compactness
@@ -339,21 +361,21 @@ class WindowQuery(QMainWindow):
         self._ui_layout_main.addWidget(self._widget_query_results)
 
     def setup_descriptors(self):
-        descriptors: MeshDescriptors = FINAL_global_descriptors.calculate_descriptors(self._query_mesh_normalized)
+        if self._query_mesh_descriptors is not None:
+            descriptors = self._query_mesh_descriptors
+            w = QWidget()
+            layout = QVBoxLayout()
 
-        w = QWidget()
-        layout = QVBoxLayout()
+            layout.addWidget(QLabel("Global Descriptors"))
+            list = QListWidget()
+            list.addItem("Surfacea Area  : " + str(descriptors.surface_area))
+            list.addItem("Compactness    : " + str(descriptors.compactness))
+            list.addItem("Rectangularity : " + str(descriptors.rectangularity))
+            list.addItem("Convexity      : " + str(descriptors.convexity))
+            list.addItem("Diameter       : " + str(descriptors.diameter))
+            list.addItem("Eccentricity   : " + str(descriptors.eccentricity))
 
-        layout.addWidget(QLabel("Global Descriptors"))
-        list = QListWidget()
-        list.addItem("Surfacea Area  : " + str(descriptors.surface_area))
-        list.addItem("Compactness    : " + str(descriptors.compactness))
-        list.addItem("Rectangularity : " + str(descriptors.rectangularity))
-        list.addItem("Convexity      : " + str(descriptors.convexity))
-        list.addItem("Diameter       : " + str(descriptors.diameter))
-        list.addItem("Eccentricity   : " + str(descriptors.eccentricity))
-
-        layout.addWidget(list)
+            layout.addWidget(list)
 
         shape_descriptors_layout_0 = QHBoxLayout()
         a3 = WidgetSimpleHist(self._query_mesh_descriptors.a3[0], self._query_mesh_descriptors.a3[1], "A3")

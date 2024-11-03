@@ -11,10 +11,13 @@ class Mesh:
     _class: str
     _name: str
 
-    def __init__(self, load_path: str):
+    def __init__(self, load_path: str, vedo_mesh: vedo.Mesh = None):
         self._path = load_path
 
-        self._vedo_mesh = vedo.load(load_path)
+        if vedo_mesh is None:
+            self._vedo_mesh = vedo.load(load_path)
+        else:
+            self._vedo_mesh = vedo_mesh.__copy__()
 
         if self._vedo_mesh is None:
             print("Could not load " + load_path)

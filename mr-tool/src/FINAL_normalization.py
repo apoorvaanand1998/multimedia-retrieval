@@ -11,7 +11,10 @@ def full_normalization(mesh: Mesh):
     return flipped_mesh
 
 def translate_to_origin(mesh: Mesh) -> Mesh:
-    processed_mesh: Mesh = mesh.__copy__()
+    processed_mesh: Mesh = Mesh(mesh.path, mesh.vedo_mesh)
+
+    a = mesh.get_no_vertices()
+    b = processed_mesh.get_no_vertices()
 
     # From each vertex, substract the coordinates of the barycenter
     translated_points = []
@@ -23,7 +26,7 @@ def translate_to_origin(mesh: Mesh) -> Mesh:
 
 
 def scale_to_unit_size(mesh: Mesh) -> Mesh:
-    processed_mesh: Mesh = mesh.__copy__()
+    processed_mesh: Mesh = Mesh(mesh.path, mesh.vedo_mesh)
 
     # Find largest AABB dimension
     sigma = max(mesh.get_bounding_box_dimensions())
@@ -37,7 +40,7 @@ def scale_to_unit_size(mesh: Mesh) -> Mesh:
     return processed_mesh
 
 def align_principal_axes(mesh: Mesh) -> Mesh:
-    processed_mesh: Mesh = mesh.__copy__()
+    processed_mesh: Mesh = Mesh(mesh.path, mesh.vedo_mesh)
 
     cov = np.cov(mesh.vedo_mesh.vertices.T)  # 3x3 matrix
     eigenvalues, eigenvectors = np.linalg.eig(cov)
@@ -63,7 +66,7 @@ def align_principal_axes(mesh: Mesh) -> Mesh:
 # Flipping along principal axes
 # Must be done after PCA (align_principal_axes) normalization step
 def flip_along_axes(mesh: Mesh) -> Mesh:
-    processed_mesh: Mesh = mesh.__copy__()
+    processed_mesh: Mesh = Mesh(mesh.path, mesh.vedo_mesh)
 
     # Step 1: Compute the mean of each axis (the first moment)
     x_mean = np.mean(mesh.get_vertices()[:, 0])
