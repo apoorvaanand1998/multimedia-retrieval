@@ -40,7 +40,7 @@ class WorkerThread(QThread):
 
         # Step 2 - Remeshing
         self.progress_signal.emit("Remeshing... Target value: 5000", step_progress * 1, False)
-        resampled_mesh = FINAL_resample.resample_mesh(self.mesh)
+        resampled_mesh = FINAL_resample.resample_mesh(self.mesh.__copy__())
         if resampled_mesh is None:
             self.mesh_normalized = self.mesh.__copy__()
             self.progress_signal.emit("Remeshing Failed ... Continuing", step_progress * 2, False)
@@ -242,8 +242,8 @@ class WindowQuery(QMainWindow):
 
         if self._query_mesh is not None:
             # Original Mesh
-            self._ui_query_mesh_3d_viewer = Widget3DViewer(self._query_mesh, title="Original Mesh", with_options=False,
-                                                           with_description=False)
+            self._ui_query_mesh_3d_viewer = Widget3DViewer(self._query_mesh, title="Original Mesh", with_options=True,
+                                                           with_description=True)
             self._ui_query_mesh_3d_viewer._flag_shaded_wireframe = True
             self._ui_query_mesh_3d_viewer.show_mesh()
 
@@ -251,8 +251,8 @@ class WindowQuery(QMainWindow):
 
             # Normalised Mesh
             self._ui_query_mesh_normalized_3d_viewer = Widget3DViewer(self._query_mesh_normalized,
-                                                                      title="Normalized Mesh", with_options=False,
-                                                                      with_description=False)
+                                                                      title="Normalized Mesh", with_options=True,
+                                                                      with_description=True)
             self._ui_query_mesh_normalized_3d_viewer._flag_shaded_wireframe = True
             self._ui_query_mesh_normalized_3d_viewer.show_mesh()
 
@@ -329,7 +329,7 @@ class WindowQuery(QMainWindow):
 
                 mesh: Mesh = Mesh(query_result.mesh_descriptors.path)
                 title = mesh.get_class() + "/" + mesh.name + "\nDist: " + str(query_result.dist)
-                w_result = Widget3DViewer(mesh, title=title, with_options=False, with_description=False)
+                w_result = Widget3DViewer(mesh, title=title, with_options=True, with_description=True)
                 layout_results.addWidget(w_result)
 
             if showed != len(self._query_results):

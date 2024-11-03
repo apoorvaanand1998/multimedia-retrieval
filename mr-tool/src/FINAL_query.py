@@ -1,4 +1,5 @@
 import numpy as np
+import zscore
 
 import heapq
 
@@ -47,16 +48,18 @@ def get_feature_vector_tuple(mesh_descriptors: MeshDescriptors) -> np.ndarray:
 
 def query(mesh_descriptors: MeshDescriptors, no_results: int = 5, mode: QueryMode = QueryMode.EUCLIDEAN) -> (
         tuple)[list[QueryResult], int, int]:
-    query_mesh_fv = get_feature_vector_tuple(mesh_descriptors)  # Query Mesh feature vector
+    query_mesh_fv = get_feature_vector_tuple(zscore.normalize_one(mesh_descriptors))  # Query Mesh feature vector
 
     results: list[QueryResult] = []
     no_skipped = 0
     for shape in ALL_SHAPES:
-        shape_fv = get_feature_vector(shape)
+        shape_fv = get_feature_vector(zscore.normalize_one(shape))
 
         if mode == QueryMode.EUCLIDEAN:
             try:
                 dist = np.linalg.norm(query_mesh_fv - shape_fv)
+                if dist is None:
+                    print('x')
                 results.append(QueryResult(shape, dist))
             except TypeError:
                 print('Skipping comparison with shape [None values]' + shape.path)
