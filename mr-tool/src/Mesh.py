@@ -11,10 +11,13 @@ class Mesh:
     _class: str
     _name: str
 
-    def __init__(self, load_path: str):
+    def __init__(self, load_path: str, vedo_mesh: vedo.Mesh = None):
         self._path = load_path
 
-        self._vedo_mesh = vedo.load(load_path)
+        if vedo_mesh is None:
+            self._vedo_mesh = vedo.load(load_path)
+        else:
+            self._vedo_mesh = vedo_mesh.__copy__()
 
         if self._vedo_mesh is None:
             print("Could not load " + load_path)
@@ -26,6 +29,9 @@ class Mesh:
 
     def __copy__(self):
         return Mesh(self._path)
+
+    def set_vedo_mesh(self, vedo_mesh: vedo.Mesh):
+        self._vedo_mesh = vedo_mesh
 
     def get_value_of_largest_bbox_dimension(self):
         dim = self.get_bounding_box_dimensions()
@@ -184,6 +190,12 @@ class MeshDescriptors:
         self._convexity = co
         self._eccentricity = e
 
+        self._a3 = None
+        self._d1 = None
+        self._d2 = None
+        self._d3 = None
+        self._d4 = None
+
     @property
     def name(self):
         return self._name
@@ -239,3 +251,38 @@ class MeshDescriptors:
 
     def set_path(self, p):
         self._path = p
+
+    @property
+    def a3(self):
+        return self._a3
+
+    def set_a3(self, a3):
+        self._a3 = a3
+
+    @property
+    def d1(self):
+        return self._d1
+
+    def set_d1(self, d1):
+        self._d1 = d1
+
+    @property
+    def d2(self):
+        return self._d2
+
+    def set_d2(self, d2):
+        self._d2 = d2
+
+    @property
+    def d3(self):
+        return self._d3
+
+    def set_d3(self, d3):
+        self._d3 = d3
+
+    @property
+    def d4(self):
+        return self._d4
+
+    def set_d4(self, d4):
+        self._d4 = d4

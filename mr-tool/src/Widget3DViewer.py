@@ -20,10 +20,14 @@ class Widget3DViewer(QWidget):
     _flag_wireframe: bool = False
     _flag_shaded_wireframe: bool = False
 
-    def __init__(self, mesh: Mesh = None, with_options: bool = True):
+    _title: str = None
+
+    def __init__(self, mesh: Mesh = None, with_options: bool = True,
+                 with_description: bool = True, title: str = None):
         super().__init__()
 
         self._mesh = mesh
+        self._title = title
 
         self._ui_layout_main = QVBoxLayout()
 
@@ -47,7 +51,8 @@ class Widget3DViewer(QWidget):
         for option in w_options:
             layout_options.addWidget(option)
 
-        layout_metadata_options.addLayout(self._ui_layout_metadata)
+        if with_description:
+            layout_metadata_options.addLayout(self._ui_layout_metadata)
 
         if with_options:
             layout_metadata_options.addLayout(layout_options)
@@ -97,7 +102,7 @@ class Widget3DViewer(QWidget):
             wireframe.color((0, 0, 255))
             to_show.append(wireframe)
 
-        self._ui_vedo_plotter.show(to_show, axes=1)
+        self._ui_vedo_plotter.show(to_show, self._title, axes=1, interactive=False)
 
         for widget in self._ui_widgets_metadata:
             self._ui_layout_metadata.removeWidget(widget)

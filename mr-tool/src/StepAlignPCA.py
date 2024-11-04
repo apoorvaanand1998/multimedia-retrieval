@@ -1,6 +1,6 @@
 from Mesh import Mesh
 from IStepNormalization import IStepNormalization
-from normalization import align_principal_axes
+from FINAL_normalization import align_principal_axes
 
 
 class StepAlignPCA(IStepNormalization):

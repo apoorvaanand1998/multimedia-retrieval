@@ -5,7 +5,7 @@ import time
 from PyQt5.QtCore import Qt
 
 import utils
-import global_descriptors
+import FINAL_global_descriptors
 import constants
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QHBoxLayout, QTableWidget, QHeaderView, QTableWidgetItem, \
