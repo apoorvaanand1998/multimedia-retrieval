@@ -38,5 +38,6 @@ def row_to_hb(row: str) -> tuple[np.ndarray, np.ndarray]:
     h1 = np.array(ast.literal_eval(h1))
     return h0, h1
 
-print(get_vec('d4', 'Truck/D00241'))
-print(get_vec('d3', 'Spoon/D00517'))
+if __name__ == "__main__":
+    print(get_vec('d4', 'Truck/D00241'))
+    print(get_vec('d3', 'Spoon/D00517'))
