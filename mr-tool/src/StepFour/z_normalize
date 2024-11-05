@@ -1,7 +1,0 @@
-import pandas as pd
-
-def sort_global_des():
-    '''Use this if you want to sort descriptors.csv'''
-    df = pd.read_csv("../../Output/descriptors.csv")
-    df.sort_values("Path", inplace=True, na_position='first')
-    df.to_csv("../../Output/global_des_sorted.csv")

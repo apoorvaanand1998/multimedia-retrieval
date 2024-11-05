@@ -26,7 +26,7 @@ def pick_row(d: str, c_mesh: str) -> str:
         r = next(itertools.islice(spd_read, calc_idx, None))
         return r
 
-def row_to_hb(row: str) -> tuple[np.ndarray, np.ndarray]:
+def row_to_hb(row: str) -> np.ndarray: #tuple[np.ndarray, np.ndarray]:
     h = row[1]
     h = h.replace("\n", "")
     h = h.replace(" ", "")
@@ -36,7 +36,7 @@ def row_to_hb(row: str) -> tuple[np.ndarray, np.ndarray]:
     h1 = h[1][:-2]
     h0 = np.array(ast.literal_eval(h0))
     h1 = np.array(ast.literal_eval(h1))
-    return h0, h1
+    return h0 ##, h1
 
 if __name__ == "__main__":
     print(get_vec('d4', 'Truck/D00241'))
