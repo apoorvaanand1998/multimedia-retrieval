@@ -13,22 +13,17 @@ def pick_row(d: str, c_mesh: str) -> str:
     c, m = c_mesh.split('/')
 
     ## the paths here (ctrl + f 'path') might need to be changed for windows
-    csv_path = '../../Output/ShapePropDesc/' + c + '.csv' # path1
-    nicks = ['RoundTable', 'Shelf', 'Ship', 'Sign', 'Skyscraper', 'Spoon', 'Starship', 'SubmachineGun', 'Sword', 'Tool', 'Train', 'Tree', 'Truck']
-    if c in nicks:
-        csv_path = '../../Output/output_nick_untiltruck/Output' + c + '.csv' # path2
-    
+    csv_path = '../../Output/ShapePropDesc2/' + c + '.csv' # path1
     from_path = p.Path('../../remeshed_normalized_filled_ShapeDB/' + c) # path3
     names     = [f.with_suffix('').name for f in from_path.iterdir()]
     n         = len(names)
     i         = names.index(m)
     ms        = ['a3', 'd1', 'd2', 'd3', 'd4']
     calc_idx  = i + ms.index(d) * n
-    weird_mul = 2 if c in nicks else 1
 
     with open(csv_path, mode='r') as spd_file:
         spd_read = csv.reader(spd_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-        r = next(itertools.islice(spd_read, calc_idx*weird_mul, None))
+        r = next(itertools.islice(spd_read, calc_idx, None))
         return r
 
 def row_to_hb(row: str) -> tuple[np.ndarray, np.ndarray]:
@@ -43,5 +38,5 @@ def row_to_hb(row: str) -> tuple[np.ndarray, np.ndarray]:
     h1 = np.array(ast.literal_eval(h1))
     return h0, h1
 
-#print(get_vec('d3', 'Bed/D00110'))
-#print(get_vec('d3', 'Spoon/D00517'))
+print(get_vec('d4', 'Truck/D00241'))
+print(get_vec('d3', 'Spoon/D00517'))
