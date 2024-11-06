@@ -225,7 +225,13 @@ def align_pca():
     # y_variance = []
     # z_variance = []
     variances_per_axis_per_object_before = []
+    for_hist_before = []
     for mesh_vertices in align_pca_before:
+        cov = np.cov(np.array(mesh_vertices).T)
+        eigenvalues, eigenvectors = np.linalg.eig(cov)
+        idx = np.argmax(eigenvalues)
+        for_hist_before.append(np.dot(eigenvectors[idx], (1, 0, 0)))
+
         mesh_vertices = np.array(mesh_vertices)
         x_coords.append(mesh_vertices[:, 0])
         y_coords.append(mesh_vertices[:, 1])
@@ -241,6 +247,7 @@ def align_pca():
     # variances_per_axes_before = [x_variance, y_variance, z_variance]
     v_per_axes_before = [x_coords, y_coords, z_coords]
 
+
     align_pca_after = get_vertices_from_txt(os.path.join(statistics_folder, statistics_align_pca_after_file))
     align_pca_after = [sublist for sublist in align_pca_after if sublist]  # last element is empty. I m lazy
     x_coords = []
@@ -250,7 +257,14 @@ def align_pca():
     y_variance = []
     z_variance = []
     variances_per_axis_per_object_after = []
+
+    for_hist_after = []
     for mesh_vertices in align_pca_after:
+        cov = np.cov(np.array(mesh_vertices).T)
+        eigenvalues, eigenvectors = np.linalg.eig(cov)
+        idx = np.argmax(eigenvalues)
+        for_hist_after.append(np.dot(eigenvectors[idx], (1, 0, 0)))
+
         mesh_vertices = np.array(mesh_vertices)
         x_coords.append(mesh_vertices[:, 0])
         y_coords.append(mesh_vertices[:, 1])
@@ -270,10 +284,17 @@ def align_pca():
     # plot_histograms_align_pca(v_per_axes_after, "Distribution of Vertices per Axes AFTER")
     # plot_histograms_align_pca_variance(variances_per_axes_before, "Variance of Vertices per Axes BEFORE")
     # plot_histograms_align_pca_variance(variances_per_axes_after, "Variance of Vertices per Axes AFTER")
-    plot_variance_heatmap(variances_per_axis_per_object_before, "Variance Heatmap Across Principal Components BEFORE")
-    plot_variance_heatmap(variances_per_axis_per_object_after, "Variance Heatmap Across Principal Components AFTER")
+    # plot_variance_heatmap(variances_per_axis_per_object_before, "Variance Heatmap Across Principal Components BEFORE")
+    # plot_variance_heatmap(variances_per_axis_per_object_after, "Variance Heatmap Across Principal Components AFTER")
     # print(variances_per_axes_before)
     # print(variances_per_axes_after)
+
+    # Plot histograms for each coordinate axis
+    histogram_translation(for_hist_before, "BEFORE Projection of largest eigenvector on the unit x")
+    histogram_translation(for_hist_after, "AFTER Projection of largest eigenvector on the unit x")
+
+
+
 
 
 def flip():
@@ -298,10 +319,10 @@ def flip():
 
 
 def main():
-    translation()
-    scale()
+    # translation()
+    # scale()
     align_pca()
-    flip()
+    # flip()
 
 
 main()

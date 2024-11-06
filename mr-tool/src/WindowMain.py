@@ -4,6 +4,7 @@ from WindowDatabaseStats import WindowDatabaseStats
 from WindowNormalization import WindowNormalization
 from WindowDescriptors import WindowDescriptors
 from WindowQuery import WindowQuery
+from WindowQueryV2 import WindowQueryV2
 import constants
 
 
@@ -22,6 +23,7 @@ class WindowMain(QMainWindow):
         central_widget.addTab(WindowNormalization(), "Normalization")
         central_widget.addTab(WindowDescriptors(), "Descriptors Extraction")
         central_widget.addTab(WindowQuery(), "Query")
+        central_widget.addTab(WindowQueryV2(), "QueryDemo")
 
         self.showMaximized()
 
