@@ -16,3 +16,12 @@ def get_basic_metrics(inp_mesh: M.Mesh, res_meshes: list[M.Mesh]) -> tuple[int, 
     tn = 2483 - (tp + fp + fn) ## 2483 is the total number of meshes
     
     return tp, fp, tn, fn
+
+def in_it(c_mesh, res: list[M.Mesh]):
+    c, _ = c_mesh.split('/')
+    actuals = gt_meshes(P.Path(str(ground_truth_path) + '/' + c))
+    res     = list(map(lambda x : x._name, res))
+    f       = lambda x : 1 if x in map(lambda x : x + '.obj', actuals) else 0
+    return list(map(f, res))
+
+#print(in_it('Bed/D00121', [M.Mesh('../../FINAL_remeshed_repaired_normalized_ShapeDB/Bed/D00121.obj')]))

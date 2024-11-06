@@ -38,8 +38,8 @@ def g():
 def df(input_c_mesh, g : hnswlib.Index):
     rows, dists              = query_hnsw(g, toy_query(input_c_mesh), 2483)
     df                       = pd.read_csv('../../Output/matrix.csv')
-    df.loc[rows, 'distance'] = dists
-    df.sort_values('distance', inplace=True, na_position='first')
+    df.loc[rows, 'dist'] = dists
+    df.sort_values('dist', inplace=True, na_position='first')
     return df
 
 if __name__ == '__main__':
