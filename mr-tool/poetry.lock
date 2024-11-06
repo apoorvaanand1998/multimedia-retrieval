@@ -458,6 +458,19 @@ unicode = ["unicodedata2 (>=15.1.0)"]
 woff = ["brotli (>=1.0.1)", "brotlicffi (>=0.8.0)", "zopfli (>=0.1.4)"]
 
 [[package]]
+name = "hnswlib"
+version = "0.8.0"
+description = "hnswlib"
+optional = false
+python-versions = "*"
+files = [
+    {file = "hnswlib-0.8.0.tar.gz", hash = "sha256:cb6d037eedebb34a7134e7dc78966441dfd04c9cf5ee93911be911ced951c44c"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "idna"
 version = "3.10"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -1881,4 +1894,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "8ccff4e289a75375d7ba83a98154bab323458ad681f2bc71ef77f983172dd5cb"
+content-hash = "c2f40771cc56bac203e3f7fe35f740292b143fd31a1bf53176b15ac20c7b837b"

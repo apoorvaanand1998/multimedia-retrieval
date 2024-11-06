@@ -13,7 +13,6 @@ def find_dist(input_mesh):
     r  = r.drop(r.columns[[0, 1]], axis=1)
     df = df.transpose()
     r  = r.transpose()
-    #r  = r.drop(r.columns[[0]], axis=1)
     r  = r.to_numpy().flatten()
 
     dist_r         = lambda x : SD.euclidean(r, x.to_numpy())
