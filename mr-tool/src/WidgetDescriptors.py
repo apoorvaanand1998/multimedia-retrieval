@@ -5,7 +5,7 @@ import time
 from PyQt5.QtCore import Qt
 
 import utils
-import global_descriptors
+import FINAL_global_descriptors
 import constants
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QHBoxLayout, QTableWidget, QHeaderView, QTableWidgetItem, \
@@ -158,7 +158,7 @@ class WidgetDescriptors(QWidget):
 
                 # Surfacea Area #
                 try:
-                    sa = global_descriptors.calculate_surface_area(mesh)
+                    sa = FINAL_global_descriptors.calculate_surface_area(mesh)
                     mesh_descriptors.set_surface_area(sa)
                     self._ui_log_box.addItem("\t* Surface Area: " + str(sa))
                 except Exception as e:
@@ -166,7 +166,7 @@ class WidgetDescriptors(QWidget):
 
                 # Compactness #
                 try:
-                    co = global_descriptors.calculate_compactness(mesh)
+                    co = FINAL_global_descriptors.calculate_compactness(mesh)
                     mesh_descriptors.set_compactness(co)
                     self._ui_log_box.addItem("\t* Compactness: " + str(co))
                 except Exception as e:
@@ -174,7 +174,7 @@ class WidgetDescriptors(QWidget):
 
                 # Rectangularity #
                 try:
-                    re = global_descriptors.calculate_rectangularity(mesh)
+                    re = FINAL_global_descriptors.calculate_rectangularity(mesh)
                     mesh_descriptors.set_rectangularity(re)
                     self._ui_log_box.addItem("\t* 3D Rectangularity: " + str(re))
                 except Exception as e:
@@ -182,7 +182,7 @@ class WidgetDescriptors(QWidget):
 
                 # Diameter #
                 try:
-                    di = global_descriptors.calculate_diameter(mesh)
+                    di = FINAL_global_descriptors.calculate_diameter(mesh)
                     mesh_descriptors.set_diameter(di)
                     self._ui_log_box.addItem("\t* Diameter: " + str(di))
                 except Exception as e:
@@ -190,7 +190,7 @@ class WidgetDescriptors(QWidget):
 
                 # Convexity #
                 try:
-                    conv = global_descriptors.calculate_convexity(mesh)
+                    conv = FINAL_global_descriptors.calculate_convexity(mesh)
                     mesh_descriptors.set_convexity(conv)
                     self._ui_log_box.addItem("\t* Convexity: " + str(conv))
                 except Exception as e:
@@ -198,7 +198,7 @@ class WidgetDescriptors(QWidget):
 
                 # Eccentricity #
                 try:
-                    ec = global_descriptors.calculate_eccentricity(mesh)
+                    ec = FINAL_global_descriptors.calculate_eccentricity(mesh)
                     mesh_descriptors.set_eccentricity(ec)
                     self._ui_log_box.addItem("\t* Eccentricity: " + str(ec))
                 except Exception as e:
@@ -226,32 +226,32 @@ class WidgetDescriptors(QWidget):
         self._ui_log_box.addItem("Output file: " + output_file)
 
     def calculate_surface_area(self):
-        self._mesh_descriptors.set_surface_area(global_descriptors.calculate_surface_area(self._mesh))
+        self._mesh_descriptors.set_surface_area(FINAL_global_descriptors.calculate_surface_area(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 
     def calculate_compactness(self):
-        self._mesh_descriptors.set_compactness(global_descriptors.calculate_compactness(self._mesh))
+        self._mesh_descriptors.set_compactness(FINAL_global_descriptors.calculate_compactness(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 
     def calculate_rectangularity(self):
-        self._mesh_descriptors.set_rectangularity(global_descriptors.calculate_rectangularity(self._mesh))
+        self._mesh_descriptors.set_rectangularity(FINAL_global_descriptors.calculate_rectangularity(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 
     def calculate_diameter(self):
-        self._mesh_descriptors.set_diameter(global_descriptors.calculate_diameter(self._mesh))
+        self._mesh_descriptors.set_diameter(FINAL_global_descriptors.calculate_diameter(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 
     def calculate_convexity(self):
-        self._mesh_descriptors.set_convexity(global_descriptors.calculate_convexity(self._mesh))
+        self._mesh_descriptors.set_convexity(FINAL_global_descriptors.calculate_convexity(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 
     def calculate_eccentricity(self):
-        self._mesh_descriptors.set_eccentricity(global_descriptors.calculate_eccentricity(self._mesh))
+        self._mesh_descriptors.set_eccentricity(FINAL_global_descriptors.calculate_eccentricity(self._mesh))
         utils.save_output_descriptors_one(self._db_name, self._mesh_descriptors)
         self.reload()
 

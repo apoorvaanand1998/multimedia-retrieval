@@ -1,6 +1,6 @@
 from Mesh import Mesh
 from IStepNormalization import IStepNormalization
-from normalization import flip_along_axes
+from FINAL_normalization import flip_along_axes
 
 class StepFlip(IStepNormalization):
 

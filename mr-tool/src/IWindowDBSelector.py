@@ -19,6 +19,8 @@ class IWindowDBSelector(QMainWindow):
         self._ui_layout_main = QVBoxLayout()
         self._scroll = QScrollArea()
 
+        self._scroll.setWidgetResizable(True)
+
         self.with_db_browser = with_db_browser
 
         self.main_widget = None
@@ -49,6 +51,7 @@ class IWindowDBSelector(QMainWindow):
 
         self._scroll = QScrollArea()
         self._scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self._scroll.setWidgetResizable(True)
 
         w = QWidget(self.central_widget)
         layout = QVBoxLayout()
