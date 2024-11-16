@@ -239,7 +239,7 @@ class WindowQuery(QMainWindow):
         self._ui_layout_main = QVBoxLayout()
 
         button = QPushButton("Browse Mesh")
-        button.setMinimumSize(self.width(), self.height() / 4)
+        button.setMinimumSize(int(self.width()), int(self.height() / 4))
         button.clicked.connect(self.browse_file)
 
         self._ui_layout_main.addWidget(button)
