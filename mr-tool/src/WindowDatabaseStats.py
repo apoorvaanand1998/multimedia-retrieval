@@ -46,7 +46,8 @@ class WindowDatabaseStats(QMainWindow):
 
         if os.path.exists(db_path):
             db_map, db_count = utils.get_database_map(db_path)
-            stats_file_path = str(os.path.join(constants.OUTPUT_DIR_RELATIVE_PATH, db_name, constants.STATS_FILE_NAME))
+            stats_file_path = str(os.path.join(constants.OUTPUT_DIR_RELATIVE_PATH, "Statistics",
+                                               db_name, constants.STATS_FILE_NAME))
             if os.path.exists(stats_file_path):
                 db_stats = utils.get_output_stats(db_name)
                 self._ui_db_widget = WidgetStats(db_map, db_count, db_name, db_stats)
@@ -59,6 +60,7 @@ class WindowDatabaseStats(QMainWindow):
 
         scroll = QScrollArea()
         scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        # scroll.setWidgetResizable(True)
         scroll.setWidget(self._ui_db_widget)
 
         self._ui_layout_main.addWidget(scroll)

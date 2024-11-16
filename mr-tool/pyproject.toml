@@ -3,7 +3,7 @@ name = "mr-tool"
 version = "0.1.0"
 description = ""
 authors = ["Apoorva Anand <apoorvaanand.work@gmail.com>",
-           "Nick", "Vlad <vlad.cpuscaru@gmail.com>"] # fill in emails
+           "Nick" <"n.dijkhuizen@students.uu.nl">, "Vlad <vlad.cpuscaru@gmail.com>"] # fill in emails
 readme = "README.md"
 
 [tool.poetry.dependencies]

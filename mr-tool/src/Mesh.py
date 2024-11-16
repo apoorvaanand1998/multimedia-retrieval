@@ -1,3 +1,6 @@
+import math
+
+import numpy as np
 import vedo
 
 
@@ -8,13 +11,17 @@ class Mesh:
     _class: str
     _name: str
 
-    def __init__(self, load_path: str):
+    def __init__(self, load_path: str, vedo_mesh: vedo.Mesh = None):
         self._path = load_path
-        self._vedo_mesh = vedo.load(load_path)
+
+        if vedo_mesh is None:
+            self._vedo_mesh = vedo.load(load_path)
+        else:
+            self._vedo_mesh = vedo_mesh.__copy__()
 
         if self._vedo_mesh is None:
             print("Could not load " + load_path)
-            exit(-1)
+            raise(Exception("Could not load " + load_path))
 
         path_tokens = load_path.split('/')
         self._class = path_tokens[len(path_tokens) - 2]
@@ -22,6 +29,25 @@ class Mesh:
 
     def __copy__(self):
         return Mesh(self._path)
+
+    def set_vedo_mesh(self, vedo_mesh: vedo.Mesh):
+        self._vedo_mesh = vedo_mesh
+
+    def get_value_of_largest_bbox_dimension(self):
+        dim = self.get_bounding_box_dimensions()
+        for d in dim:
+            if math.isnan(d):
+                print('x')
+                a = self._vedo_mesh.bounds()
+                box = self._vedo_mesh.box()
+                aabb_bounds = self._vedo_mesh.box().box().bounds()
+                aabb_dimensions = [
+                    aabb_bounds[1] - aabb_bounds[0],
+                    aabb_bounds[3] - aabb_bounds[2],
+                    aabb_bounds[5] - aabb_bounds[4]
+                ]
+
+        return np.array(self.get_bounding_box_dimensions()).max()
 
     def translate_to_world_origin(self):
         # From each vertex, substract the coordinates of the barycenter
@@ -43,13 +69,28 @@ class Mesh:
     def get_volume(self) -> float:
         return self._vedo_mesh.volume()
 
+    def get_faces(self):
+        return self._vedo_mesh.cells
+
     def get_bounding_box_dimensions(self) -> list[float]:
-        aabb_bounds = self._vedo_mesh.box().box().bounds()
+        aabb_bounds = self._vedo_mesh.box().bounds()
         aabb_dimensions = [
             aabb_bounds[1] - aabb_bounds[0],
             aabb_bounds[3] - aabb_bounds[2],
             aabb_bounds[5] - aabb_bounds[4]
         ]
+
+        for d in aabb_dimensions:
+            if math.isnan(d):
+                print('x')
+                a = self._vedo_mesh.bounds()
+                box = self._vedo_mesh.box()
+                aabb_bounds = self._vedo_mesh.box().box().bounds()
+                aabb_dimensions = [
+                    aabb_bounds[1] - aabb_bounds[0],
+                    aabb_bounds[3] - aabb_bounds[2],
+                    aabb_bounds[5] - aabb_bounds[4]
+                ]
 
         return aabb_dimensions
 
@@ -77,7 +118,7 @@ class Mesh:
     def get_vertices(self):
         return self._vedo_mesh.vertices
 
-    def get_cells(self):
+    def get_no_cells(self):
         return self._vedo_mesh.dataset.GetNumberOfCells()
 
     def get_no_triangles(self):
@@ -91,13 +132,17 @@ class Mesh:
     def get_statistics(self):
         n = self._name
         c = self._class
-        v = self.get_vertices()
-        f = self.get_cells()
+        v = self.get_no_vertices()
+        f = self.get_no_cells()
         t = self.get_no_triangles()
         q = self.get_no_quads()
         bb = self._vedo_mesh.box().bounds().tolist()
 
         return [n, c, v, f, t, q, bb]
+
+    @property
+    def path(self):
+        return self._path
 
     @property
     def vedo_mesh(self):
@@ -130,3 +175,114 @@ class MeshStats:
     @property
     def name(self):
         return self._name
+
+
+class MeshDescriptors:
+
+    def __init__(self, p: str, n: str, cl: str, s: float, c: float, r: float, d: float, co: float, e: float):
+        self._path = p
+        self._name = n
+        self._class = cl
+        self._surface_area = s
+        self._compactness = c
+        self._3d_rectangularity = r
+        self._diameter = d
+        self._convexity = co
+        self._eccentricity = e
+
+        self._a3 = None
+        self._d1 = None
+        self._d2 = None
+        self._d3 = None
+        self._d4 = None
+
+    @property
+    def name(self):
+        return self._name
+
+    def get_class(self):
+        return self._class
+
+    @property
+    def surface_area(self):
+        return self._surface_area
+
+    def set_surface_area(self, s):
+        self._surface_area = s
+
+    @property
+    def compactness(self):
+        return self._compactness
+
+    def set_compactness(self, c):
+        self._compactness = c
+
+    @property
+    def rectangularity(self):
+        return self._3d_rectangularity
+
+    def set_rectangularity(self, r):
+        self._3d_rectangularity = r
+
+    @property
+    def diameter(self):
+        return self._diameter
+
+    def set_diameter(self, d):
+        self._diameter = d
+
+    @property
+    def convexity(self):
+        return self._convexity
+
+    def set_convexity(self, c):
+        self._convexity = c
+
+    @property
+    def eccentricity(self):
+        return self._eccentricity
+
+    def set_eccentricity(self, e):
+        self._eccentricity = e
+
+    @property
+    def path(self):
+        return self._path
+
+    def set_path(self, p):
+        self._path = p
+
+    @property
+    def a3(self):
+        return self._a3
+
+    def set_a3(self, a3):
+        self._a3 = a3
+
+    @property
+    def d1(self):
+        return self._d1
+
+    def set_d1(self, d1):
+        self._d1 = d1
+
+    @property
+    def d2(self):
+        return self._d2
+
+    def set_d2(self, d2):
+        self._d2 = d2
+
+    @property
+    def d3(self):
+        return self._d3
+
+    def set_d3(self, d3):
+        self._d3 = d3
+
+    @property
+    def d4(self):
+        return self._d4
+
+    def set_d4(self, d4):
+        self._d4 = d4
