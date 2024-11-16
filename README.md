@@ -10,3 +10,7 @@ To run
 1. `cd mr-tool`
 2. Run `poetry shell` and `cd ..`
 3. Run `python mr-tool/src/__init__.py <filename>` (eg. `python mr-tool/src/__init__.py "Tree/D00096.obj"`)
+
+## How the Code Works
+
+The `StepTwo` directory contains work involving Step 1 and 2. We display the meshes, analyse them and find their stats.
