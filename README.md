@@ -10,3 +10,7 @@ To run
 1. `cd mr-tool`
 2. Run `poetry shell` and `cd ..`
 3. Run `python mr-tool/src/__init__.py <filename>` (eg. `python mr-tool/src/__init__.py "Tree/D00096.obj"`)
+
+## How the Code Works
+
+While this branch is called StepThree, this only concerns the generation of Shape Property Descriptors. Each SPD gets it's own `.py` file and the Histogram generation happens at `hist_gen.py`. This file assumes that we have the `FINAL_remeshed_repaired_normalized_ShapeDB` preprocessed mesh directory. It outputs a bunch of csvs to `Output/ShapePropDesc2`, a CSV for every class. Within the CSV, the ordering goes `(A3, mesh1), (A3, mesh2)...(A3, meshn), (D1, mesh1), ...(D4, meshn)`
