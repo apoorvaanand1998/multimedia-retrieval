@@ -10,3 +10,5 @@ To run
 1. `cd mr-tool`
 2. Run `poetry shell` and `cd ..`
 3. Run `python mr-tool/src/__init__.py <filename>` (eg. `python mr-tool/src/__init__.py "Tree/D00096.obj"`)
+
+The code for the different steps are split-up into different branches. Specifically, check out the readmes of each branch to see what is going on, and how one can run the code.
