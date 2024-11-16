@@ -1,6 +1,6 @@
 import open3d as o3d
 import numpy as np
-from resample_open3d import get_file_paths
+from resample_scripts.resample_open3d import get_file_paths
 import pickle as pkl
 
 def calculate_volume(vertices: np.ndarray, triangles: np.ndarray):

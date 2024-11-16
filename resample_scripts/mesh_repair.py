@@ -1,4 +1,4 @@
-from resample_open3d import get_file_paths
+from resample_scripts.resample_open3d import get_file_paths
 import vedo as vd
 import logging
 
